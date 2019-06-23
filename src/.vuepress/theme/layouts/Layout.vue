@@ -1,5 +1,6 @@
 <template>
   <div :class="theme">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
     <div
       class="theme-container bg-background-primary text-primary"
       :class="pageClasses"
