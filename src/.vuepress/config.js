@@ -49,8 +49,8 @@ module.exports = {
       require("autoprefixer"),
       require('@fullhuman/postcss-purgecss')({
         content: [
-            `${cwd}/.vuepress/theme/**/*.*`,
-            `${cwd}/!(node_modules)/**/*.md`,
+            `./.vuepress/theme/**/*.*`,
+            `./!(node_modules)/**/*.md`,
             './src/**/*.vue',
     './src/**/*.js',    
     './src/**/*.html',    
