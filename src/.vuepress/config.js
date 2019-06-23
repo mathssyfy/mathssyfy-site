@@ -46,16 +46,19 @@ module.exports = {
     sidebar: sideBar(),
   },
   plugins: [
-    '@vuepress/pwa',
-    ["@silvanite/tailwind", {
-      config: "./tailwind.config.js"
-  }]
+    '@vuepress/pwa'
   ],
   markdown: {
     lineNumbers: false,
     extendMarkdown: md => {
       md.use(require('markdown-it-katex-newcommand'))
     }
+  },
+  postcss: {
+    plugins: [
+      require("tailwindcss")("./tailwind.config.js"),
+      require("autoprefixer")
+    ]
   }
 }
 
