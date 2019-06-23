@@ -2,18 +2,6 @@ const { sideBar } = require("./sidebar");
 
 module.exports = {
   lang: 'fr-FR',
-  head: [
-    ['meta', {
-      name: "google-site-verification",
-      content: "6ziOTKgv0QzimoescRoCDp4PI3MJIh3MbOMs05K5Q8c"
-    }],
-    ['link', {
-      rel: "stylesheet",
-      href: "https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css",
-      integrity: "sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y",
-      crossorigin: "anonymous"
-    }],
-  ],
   locales: {
     // The key is the path for the locale to be nested under.
     // As a special case, the default locale can use '/' as its path.
