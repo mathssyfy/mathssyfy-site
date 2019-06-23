@@ -1,0 +1,658 @@
+### S-Antilles-Guyane juin 2016-Exo 2
+
+::: tip Exercice 2 [S-Antilles-Guyane juin 2016-Exo 2][3]
+On munit  le plan complexe d'un repère orthonormé direct (O; $\vec{u}$, $\vec{v}$).
+
+On note $\mathcal{C}$ l'ensemble des points $M$ du plan d'affixe $z$ tels que $\left\vert z-2\right\vert=1$.
+
+1.  Justifier que $\mathcal{C}$ est un cercle, dont on précisera le centre et le rayon.
+
+<ClientOnly><Solution>
+Soit $B(2)$ alors $\left\vert z - 2\right\vert = 1 \Longleftrightarrow BM = 1$
+
+$\mathcal{C}$ est donc le cercle de centre $B(2)$ et de rayon 1.
+</Solution>
+
+1.  Soit $a$ un nombre réel. On appelle $\mathcal{D}$ la droite d'équation $y=ax$.
+
+Déterminer le nombre de points d'intersection entre $\mathcal{C}$ et $\mathcal{D}$ en fonction des valeurs du réel $a$.
+
+<ClientOnly><Solution>
+Soit $z=x+\text{i}y$
+
+
++ $M(z) \in \mathcal{C} M(z) \in \mathcal{D}$
++ $\Longleftrightarrow$
++ $\left\vert z-2\right\vert=1 z=x+\text{i}ax$
++ $\Longleftrightarrow$
++ $\left\vert (x-2)+\text{i}ax\right\vert=1 z=x+iax$
+
+
+$\left\vert (x-2)+\text{i}ax\right\vert=1 \Longleftrightarrow (x-2)^2+(ax)^2=1 \Longleftrightarrow x^2(1+a^2)-4x+3=0$
+
+$\Delta=16-12(1+a^2)=4-12a^2$
+
+$\Delta >0 \Longleftrightarrow a^2 <\dfrac{1}{3} \Longleftrightarrow -\dfrac{\sqrt{3}}{3} < a < \dfrac{\sqrt{3}}{3}$
+
+On en déduit que :
+
+1.  si $a \in \left]-\infty;-\dfrac{\sqrt{3}}{3} \right[\cup \left]\dfrac{\sqrt{3}}{3};+\infty \right[$ alors $\mathcal{C}$ et $\mathcal{D}$ n'ont aucun point commun
+
+2.   si $a =-\dfrac{\sqrt{3}}{3}$ ou si $a =\dfrac{\sqrt{3}}{3}$ alors $\mathcal{C}$ et $\mathcal{D}$ ont un seul point d'intersection. Les deux droites $\mathcal{D}$ sont les tangentes à $\mathcal{C}$ passant par O
+
+3.   si $a \in \left]-\dfrac{\sqrt{3}}{3}; \dfrac{\sqrt{3}}{3}\right[$ alors $\mathcal{C}$ et $\mathcal{D}$ ont deux points communs distincts
+
+</Solution>
+
+:::
+
+### S-Amérique du Nord juin 2016-Exo 3
+
+
+
+::: tip Exercice 3 [S-Amérique du Nord juin 2016-Exo 3][3]
+
+
+Le plan complexe est rapporté à un repère orthonormé direct (O; $\vec{u}$, $\vec{v}$).
+
+On considère le point A d'affixe 4, le point B d'affixe 4i et les points C et D tels que ABCD
+est un carré de centre O.
+
+Pour tout entier naturel non nul $n$, on appelle $M_n$ le point d'affixe $z_n = (1 + \text{i})^n$.
+
+
+1.  Écrire le nombre $1 + \text{i}$ sous forme exponentielle.
+
+<ClientOnly><Solution>
+$1 + \text{i}=\sqrt{2}\left(\dfrac{\sqrt{2}}{2}+\text{i}\dfrac{\sqrt{2}}{2} \right)$
+$=\sqrt{2}\text{e}^{^{\text{i}\frac{\pi}{4}}}$
+</Solution>
+
+2.  Montrer qu'il existe un entier naturel $n_0$, que l'on précisera, tel que, pour tout entier
+
+$n \geqslant n_0$, le point $M_n$ est à l'extérieur du carré ABCD.
+
+<ClientOnly><Solution>
+
+
+La distance maximale entre O et un point quelconque  d'un côté du carré est 4.
+
+Un point $M_n$ sort du carré si $OM_n > 4$
+
+or $OM_n=\left|z_n \right|=\left( \sqrt{2}\right) ^n$
+
+$OM_n > 4 \Longleftrightarrow \left( \sqrt{2}\right) ^n>4$
+
+$\hphantom{OM_n>4} \Longleftrightarrow \left( \sqrt{2}\right) ^n>\left( \sqrt{2}\right) ^4$
+
+$\hphantom{OM_n>4}\Longleftrightarrow n>4$
+
+Donc pour $n_0=5$, pour tout entier
+
+$n \geqslant n_0$, le point $M_n$ est à l'extérieur du carré ABCD
+
+
+
+![Image](./figure4.svg)
+
+</Solution>
+
+:::
+
+### S-Pondichery avril 2017-Exo 2
+
+
+
+::: tip Exercice 4 [S-Pondichery avril 2017-Exo 2][3]
+**Commun  à tous les candidats**
+
+On munit le plan complexe d'un repère orthonormé direct (O; $\vec{u}$, $\vec{v}$).
+
+1.  On considère l'équation 
+
+ $$ (E) :\qquad  z^2 - 6z + c = 0 $$ 
+
+où $c$ est un réel strictement supérieur à 9.
+
+a)  Justifier que (E) admet deux solutions complexes non réelles.
+<ClientOnly><Solution>
+$\Delta = b^2-4ac=36-4c<0$ car $c>9$ donc (E) admet deux solutions complexes non réelles.
+</Solution>
+
+b)  Justifier que les solutions de (E) sont $z_{\text{A}} = 3 + \text{i}\sqrt{c - 9}$  et $z_{\text{B}} = 3 - \text{i}\sqrt{c - 9}$.
+<ClientOnly><Solution>
+Les solutions de (E) sont conjuguées de la forme $z_1=\dfrac{-b+\text{i}\sqrt{-\Delta}}{2a}$ et $z_2=\overline{z_1}$.
+$z_1=\dfrac{6+\text{i}\sqrt{4c-36}}{2}=\dfrac{6+2\text{i}\sqrt{c-9}}{2}=3+\text{i}\sqrt{c-9}=z_{\text A}$ et  $z_2=\overline{z_1}=\overline{z_{\text A}}=z_{\text B}$
+</Solution>
+
+1.  On note A et B les points d'affixes respectives $z_{\text{A}}$ et $z_{\text{B}}$. 
+
+Justifier que le triangle OAB est isocèle en O.
+<ClientOnly><Solution>
+$\text{OB}=\left|z_{\text B} \right|=\left|\overline{z_{\text A}} \right|=\left|z_{\text A} \right|=\text{OA} $.
+OAB est donc bien isocèle en O
+</Solution>
+
+3.  Démontrer qu'il existe une valeur du réel $c$ pour laquelle le triangle OAB est rectangle et déterminer cette valeur.
+<ClientOnly><Solution>
+OAB est rectangle en O si et seulement si $\text{AB}^2=2\text{OA}^2$ car on sait qu'il est isocèle en O
+
+$\text{AB}^2=\left|z_{\text B}-z_{\text A} \right| ^2=\left|2\text{i}\sqrt{c-9} \right| ^2=4(c-9)$ et $2\text{OA}^2=2\left|z_{\text A} \right|^2=2\times (9+c-9)=2c$
+
+$\text{AB}^2=2\text{OA}^2 \iff 4(c-9)=2c \iff c=18$
+
+OAB est donc rectangle si et seulement si $c=18$
+</Solution>
+
+:::
+
+### S-Centres étrangers juin 2017-Exo 4
+
+::: tip Exercice 5 [TS-Centres étrangers juin 2017-Exo 4][5]
+Le plan est muni d'un repère orthonormé (O; $\vec{u}$, $\vec{v}$).
+
+Pour tout entier $n \geqslant 4$, on considère $P_n$ un polygone régulier à $n$ côtés, de centre O et dont l'aire est égale à  1. On admet qu'un tel polygone est constitué de $n$ triangles superposables à un  triangle OA$_n$B$_n$ donné, isocèle en O.
+
+On note $r_n = \text{OA}_n$ la distance entre le centre O et le sommet A$_n$ d'un tel polygone.
+
+**Partie A : étude du cas particulier $n = 6$\unboldmath
+
+=On a représenté ci-contre un polygone $P_6$
+
+![Image](./figure5.svg)
+
+**
+
+1.  Justifier le fait que le triangle OA$_6$B$_6$ est équilatéral,
+et que son aire est égale à $\dfrac{1}{6}$.
+<ClientOnly><Solution>
+Pour $n=6$, l'angle $\left(\overrightarrow{OA_6};\overrightarrow{OB_6}\right)=\dfrac{2\pi}{6}=\dfrac{\pi}{3}$.
+Le triangle OA$_6$B$_6$ est isocèle et a un angle principal de $\dfrac{\pi}{3}$ : il est **équilatéral**.
+Son aire vaut $\dfrac{1}{6}$ car le polygone est formé de six triangles identiques et son aire vaut 1. 
+</Solution>
+
+2.  Exprimer en fonction de $r_6$ la hauteur du triangle OA$_6$B$_6$ issue du sommet B$_6$.
+<ClientOnly><Solution>
+$OA_6=0B_6=r_6$ ; la hauteur $h_6$ du triangle OA$_6$B$_6$ vaut $\boxed{r_6\sin\dfrac{\pi}{3}=r_6\dfrac{\sqrt{3}{2}}}$.
+</Solution>
+
+3.  En déduire que $r_6 = \sqrt{\dfrac{2}{3\sqrt{3}}}$.
+<ClientOnly><Solution>
+L'aire du triangle vaut $\mathcal{A}_6=\dfrac{r_6\times h_6}{2}=\dfrac{1}{6}$ donc $\dfrac{r_6^2\sqrt{3}}{4}=\dfrac{1}{6}$.
+On en déduit : $r_6^2=\dfrac{2}{3\sqrt{3}}$ d'où $\boxed{r_6=\sqrt{\dfrac{2}{3\sqrt{3}}}}$
+</Solution>
+
+**Partie B : cas général avec** $n \geqslant 4$ 
+
+Dans cette partie, on considère le polygone $P_n$ avec $n \geqslant 4$, construit de telle sorte que le  point A$_n$ soit situé sur l'axe réel, et ait pour affixe $r_n$.
+
+On note alors $r_n \mathrm{e}^{\text{i}\theta_n**$ l'affixe de B$_n$ où $\theta_n$ est un réel de l'intervalle $\left]0;\dfrac{\pi}{2}\right]$.} 
+![Image](./figure6.svg)
+
+1.  Exprimer en fonction de $r_n$ et $\theta_n$ la hauteur issue de B$_n$ dans le triangle OA$_n$B$_n$ puis établir que l'aire de ce triangle est égale à $\dfrac{r_n^2}{2} \sin \left(\theta_n \right)$.
+<ClientOnly><Solution>
+La hauteur $h_n$ du triangle OA$_n$B$_n$ est $h_n=OB_n\sin\theta_n=\boxed{r_n\sin\theta_n}$.
+L'aire de ce triangle est alors : $\mathcal{A}_n=\dfrac{r_n\times h_n}{2}=\dfrac{r_n^2\sin\theta_n}{2}=\boxed{\dfrac{r_n^2}{2}\sin\theta_n}$.
+</Solution>
+
+2.  On rappelle que l'aire du polygone $P_n$ est égale à 1.
+
+Donner, en fonction de $n$, une mesure de l'angle $\left(\overrightarrow{\text{OA}_n},\overrightarrow{\text{OB}_n}\right)$, puis démontrer que :
+
+ $$ r_n = \sqrt{\dfrac{2}{n \sin \left(\dfrac{2\pi}{n}\right)}}. $$ 
+<ClientOnly><Solution>
+Puisque l'on a $n$ triangles identiques superposables, on a $n\theta_n=2\pi$ donc $\boxed{\theta_n=\dfrac{2\pi}{n}}$
+L'aire de chaque triangle vaut $\dfrac{1}{n}$ donc $\dfrac{r_n^2}{2}\sin\left(\dfrac{2\pi}{n}\right)=\dfrac{1}{n}$ d'où
+$r_n^2=\dfrac{2}{n\sin\left(\dfrac{2\pi}{n}\right)}$ et donc $\boxed{r_n=\sqrt{\dfrac{2}{n\sin\left(\dfrac{2\pi}{n}\right)}}}$
+</Solution>
+
+**Partie C : étude de la suite** $\left(r_n\right)$
+
+On considère la fonction $f$ définie pour tout réel $x$ de l'intervalle $]0;\pi[$ par
+
+ $$ f(x) = \dfrac{x}{\sin x}. $$ 
+
+Ainsi, le nombre $r_n$, défini dans la partie B pour $n \geqslant 4$, s'exprime à l'aide de la fonction $f$ par :
+
+ $$ r_n=\sqrt{\dfrac{1}{\pi}f\left(\dfrac{2\pi}{n}\right). $$ 
+
+On admet que la fonction $f$ est strictement croissante sur l'intervalle $]0;\pi[$.
+
+1.  Montrer que la suite $\left(r_n\right)$ est décroissante. On pourra pour cela commencer par démontrer que pour tout $n \geqslant 4$, on a : $0 < \dfrac{2\pi}{n+1} < \dfrac{2\pi}{n} < \pi$.
+<ClientOnly><Solution>
+Pour tout $n\geqslant 4$, $0 < 3 < n < n + 1\Rightarrow 0 < \dfrac{1}{n+1}< \dfrac{1}{n} <\dfrac{1}{3}\Rightarrow 0 < \dfrac{2\pi}{n+1}<\dfrac{2\pi}{n}<\dfrac{2\pi}{3} < \pi$.
+Comme la fonction $f$ est croissante sur $]0;\pi[$, on en déduit :
+$0 < f\left(\dfrac{2\pi}{n+1}\right) < f\left(\dfrac{2\pi}{n}\right) \Rightarrow 0 <\dfrac{1}{\pi}f\left(\dfrac{2\pi}{n+1}\right) < \dfrac{1}{\pi}f\left(\dfrac{2\pi}{n}\right)$ $\Rightarrow 0 < \sqrt{\dfrac{1}{\pi}f\left(\dfrac{2\pi}{n+1}\right)} < \sqrt{\dfrac{1}{\pi}f\left(\dfrac{2\pi}{n}\right)}\Rightarrow $
+$0<r_{n+1}<r_n$.
+La suite $\left(r_n\right)$ est bien **décroissante** pour $n \geqslant 4$.
+</Solution>
+
+1.  En déduire que la suite $\left(r_n\right)$ converge. On ne demande pas de déterminer sa limite $L$, et on admet dans la suite de l'exercice que $L = \dfrac{1}{\sqrt{\pi}}$.
+<ClientOnly><Solution>
+La suite $\left(r_n\right)$ est décroissante et minorée par 0, donc **convergente** vers un réel $L\geqslant 0$.
+</Solution>
+1.  On considère l'algorithme suivant.
+
+
+VARIABLES:		 $n$ est un nombre entier
+
+TRAITEMENT :	$n$ prend la valeur 4 
+
+Tant que  $\sqrt{\dfrac{2}{n \sin \left(\dfrac{2\pi}{n}\right)}}> 0,58$ faire
+
+ $n$ prend la valeur $n + 1$
+
+ Fin Tant que
+SORTIE : 		Afficher $n$
+
+
+
+Quelle valeur numérique de $n$ va afficher en sortie cet algorithme ? 
+<ClientOnly><Solution>
+À la calculatrice, on obtient :
++  $r_{10}\approx 0,5833 > 0,58$
++  $r_{11} \approx 0,5799 < 0,58$
+L'algorithme va donc afficher $n = 11$.
+</Solution>
+
+:::
+
+### S-Polynésie septembre 2017-Exo 3
+
+::: tip Exercice 6 [S-Polynésie septembre 2017-Exo 3][3]
+On rappelle que pour tout réel $a$ et tout réel $b$, 
+
+ $$ \cos(a - b) = \cos(a) \cos(b) + \sin(a) \sin(b). $$ 
+
+Le plan est rapporté à un repère orthonormé direct (O; $\vec{u}$, $\vec{v}$).
+
+On considère la droite $\mathcal{D}$ d'équation $y = - x + 2$.
+
+1.  Montrer que si le réel $\theta$ appartient à l'intervalle $\left]- \dfrac{\pi}{4}; \dfrac{3\pi}{4}\right[$, alors
+
+$\cos \left(\theta - \dfrac{\pi}{4}\right) > 0$.
+<ClientOnly><Solution>
+Si le réel $\theta$ appartient à l'intervalle $\left] - \dfrac{\pi}{4}; \dfrac{3\pi}{4}\right[$, alors:
+$$ - \dfrac{\pi}{4} < \theta <  \dfrac{3\pi}{4}
+\iff
+- \dfrac{\pi}{4} - \dfrac{\pi}{4} < \theta - \dfrac{\pi}{4} <  \dfrac{3\pi}{4} - \dfrac{\pi}{4}
+\iff
+- \dfrac{\pi}{2} < \theta - \dfrac{\pi}{4} <  \dfrac{\pi}{2}$$
+et donc $\cos \left(\theta - \dfrac{\pi}{4}\right) > 0$.
+</Solution>
+
+1.  Soit $M$ un point du plan complexe d'affixe $z$ non nulle. On note $\rho = |z|$ le module de $z$ et $\theta = \text{arg}(z)$ un argument de $z$ ; les nombres $\rho$ et $\theta$ sont appelés coordonnées polaires du point $M$.
+
+Montrer que le point $M$ appartient à la droite $\mathcal{D}$ si et seulement si ses coordonnées polaires sont liées par la relation :
+
+ $$ \rho = \dfrac{\sqrt{2}}{\cos \left(\theta - \dfrac{\pi}{4}\right)}, \:\text{avec }\:\theta \in \left]- \dfrac{\pi}{4}; \dfrac{3\pi}{4}\right[ \:\text{et}\: \rho > 0. $$ 
+<ClientOnly><Solution>
+On pose $z=\rho\left ( \cos(\theta) + i \sin(\theta) \rule{0pt}{10pt} \right )$ avec $\theta \in \left] - \dfrac{\pi}{4}; \dfrac{3\pi}{4}\right[$.
+Le nombre $z$ a donc pour partie réelle $x=\rho \cos(\theta)$ et pour partie imaginaire $y=\rho\sin(\theta)$.
+D'après la formule $\cos(a - b) = \cos(a) \cos(b) + \sin(a) \sin(b)$, on a:
+$$\cos \left (\theta - \dfrac{\pi}{4} \right )
+= \cos(\theta) \cos\left ( \dfrac{\pi}{4}\right ) + \sin(\theta) \sin \left ( \dfrac{\pi}{4}\right )
+=  \cos(\theta)  \times \dfrac{\sqrt{2}}{2} + \sin(\theta)  \times \dfrac{\sqrt{2}}{2}
+=  \dfrac{\sqrt{2}}{2} \left ( \cos(\theta)  + \sin(\theta) \rule{0pt}{10pt} \right )$$
++  Si le point $M(z)$ appartient à la droite $\mathcal{D}$, alors $y=-x +2$; on en déduit que $x+y=2$ ce qui équivaut à
+$\rho\cos(\theta)  + \rho\sin(\theta) =2$ ou encore
+$\rho  \left (\cos(\theta)  + \sin(\theta)\rule{0pt}{10pt} \right ) = 2$
+Or $\cos \left (\theta - \dfrac{\pi}{4} \right ) =  \dfrac{\sqrt{2}}{2\rule[-4pt]{0pt}{0pt}} \left ( \cos(\theta)  + \sin(\theta) \rule{0pt}{10pt} \right )$ donc $\rho \cos \left (\theta - \dfrac{\pi}{4} \right ) =  \dfrac{\sqrt{2}}{2} \times \rho \left ( \cos(\theta)  + \sin(\theta) \rule{0pt}{10pt} \right )$
+donc
+$\rho \cos \left (\theta - \dfrac{\pi}{4} \right ) =  \dfrac{\sqrt{2}}{2} \times 2$
+et donc
+$\rho \cos \left (\theta - \dfrac{\pi}{4} \right ) =  \sqrt{2}$.
+On en déduit que $\rho=\dfrac{\sqrt{2}}{\cos \left (\theta - \dfrac{\pi}{4} \right )}$.
++  Réciproquement, on suppose que $\rho=\dfrac{\sqrt{2}}{\cos \left (\theta - \dfrac{\pi}{4} \right )}$.
+Comme $\cos \left (\theta - \dfrac{\pi}{4} \right ) =  \dfrac{\sqrt{2}}{2} \left ( \cos(\theta)  + \sin(\theta) \rule{0pt}{10pt} \right )$, on en déduit que
+$\rho=\dfrac{\sqrt{2}}{\dfrac{\sqrt{2}}{2} \left ( \cos(\theta)  + \sin(\theta) \rule{0pt}{10pt} \right )}$
+ce qui équivaut à
+$\rho \left ( \cos(\theta)  + \sin(\theta) \rule{0pt}{10pt} \right ) = 2$
+ou
+$x+y=2$ ou encore $y = -x+2$.
+On en conclut que le point $M(z)$ appartient à la droite $\mathcal{D}$ d'équation $y=-x+2$.
+On a donc démontré  que le point $M$ appartient à la droite $\mathcal{D}$ si et seulement si ses coordonnées polaires sont liées par la relation :
+$\rho = \dfrac{\sqrt{2}}{\cos \left(\theta - \dfrac{\pi}{4}\right)}$, avec $\theta \in \left] - \dfrac{\pi}{4}; \dfrac{3\pi}{4}\right[$ et $\rho > 0$.
+</Solution>
+
+1.  Déterminer les coordonnées du point de la droite $\mathcal{D}$ le plus proche de l'origine O du repère.
+<ClientOnly><Solution>
+Un point $M$ de coordonnées $(x;y)$ appartient à la droite $\mathcal{D}$ si et seulement si $y=-x+2$.
+La distance O$M$ est minimale si et seulement si le nombre O$M^2$ est minimum.
+O$M^2 = x^2+y^2 = x^2+(-x+2)^2 = x^2 +x^2-4x+4=2x^2-4x+4$
+$2x^2-4x+4$ est un polynôme de degré 2 de la forme $ax^2+bx+c$ avec $a=2>0$; ce polynôme admet donc un minimum pour $x=-\dfrac{b}{2a} = -\dfrac{-4}{2\times 2}=1$.
+De plus $y = - x + 2 = - 1 + 2 = 1$.
+Le point H de la droite $\mathcal{D}$ le plus proche de l'origine a pour coordonnées $(1;1)$.
+![Image](./figure7.svg)
+**Remarque:** il y a plusieurs autres façons de déterminer les coordonnées du point de la droite $\mathcal{D}$ le plus proche de O.
++  D'après la question précédente, on sait que $\rho = \dfrac{\sqrt{2}}{\cos \left(\theta - \dfrac{\pi}{4}\right)}$ donc $\rho$ sera minimum si $\cos \left(\theta - \dfrac{\pi}{4}\right)$ est maximum. Comme  $\theta - \dfrac{\pi}{4} \in \left] - \dfrac{\pi}{2}; \dfrac{\pi}{2}\right[$, le maximum de $\cos \left(\theta - \dfrac{\pi}{4}\right)$ se produit quand il vaut 1 et donc quand  $\theta - \dfrac{\pi}{4}=0$, c'est-à-dire pour $\theta=\dfrac{\pi}{4}$.
+On déduit alors que le point réalisant le minimum a pour coordonnées $(1;1)$.
++  Il y a une solution géométrique très élémentaire.
+On appelle A\,$(2;0)$ et B\,$(0;2)$ les points d'intersection de la droite $\mathcal{D}$ avec les axes du repère.
+La distance minimale entre O et la droite $\mathcal{D}$ est OH où H est le pied de la hauteur issue de O dans le triangle OAB isocèle rectangle en O.
+Ce point H est donc aussi le milieu de \cd AB\cg. On en déduit les coordonnées du point H
+</Solution>
+
+:::
+
+### S-Antilles-Guyane septembre 2017-Exo 2
+
+::: tip Exercice 7 [S-Antilles-Guyane septembre 2017-Exo 2][3]
+Soit la suite de nombres complexes $\left(z_n\right)$ définie par
+
+ $$ \left\{\begin{array}{l c l}
+z_0& =& 100\\
+z_{n+1}& =&\dfrac{\text{i}}{3}z_n\quad \text{ pour tout entier naturel }\:n.
+\end{array}\right. $$ 
+
+Le plan est muni d'un repère orthonormé direct (O; $\vec{u}$, $\vec{v}$).
+
+Pour tout entier naturel $n$, on note $M_n$ le point d'affixe $z_n$.
+
+1.  Démontrer que, pour tout entier naturel $n$, les points O, $M_n$ et $M_{n+2}$ sont alignés.
+<ClientOnly><Solution>
+Les points $M_n$ et $M_{n+2}$ ont pour affixes  $z_n$ et $z_{n+2}$.
+$z_{n+2} = \dfrac{i}{3} z_{n+1} = \dfrac{i}{3} \left ( \dfrac{i}{3} z_n\right ) = \dfrac{i^2}{9} z_n = -\dfrac{1}{9} z_n$
+Le vecteur $\overrightarrow{\text{O}M_{n+2}}$ a pour affixe $z_{n+2}$ et le vecteur $\overrightarrow{\text{O}M_{n}}$ a pour affixe $z_n$; or $z_{n+2} = -\dfrac{1}{9} z_n$ donc $\overrightarrow{\text{O}M_{n+2}} = -\dfrac{1}{9} \overrightarrow{\text{O}M_{n}}$. Les vecteurs $\overrightarrow{\text{O}M_{n+2}}$ et $\overrightarrow{\text{O}M_{n}}$ sont colinéaires donc les points O, $M_n$ et $M_{n+2}$ sont alignés quel que soit $n$.
+</Solution>
+
+2.  On rappelle qu'un disque de centre A et de rayon $r$, où $r$ est un nombre réel positif, est l'ensemble des points $M$ du plan tels que $\text{A}M \leqslant r$.
+
+Démontrer que, à partir d'un certain rang, tous les points $M_n$ appartiennent au disque
+de centre O et de rayon 1.
+<ClientOnly><Solution>
+Le point $M_n$ appartient au disque de centre O et de rayon 1 si $\text{O}M_n \pp 1$.
+On sait que $\text{O}M_n = |z_n|$.
+Soit $(d_n)$ la suite définie pour tout $n$ par $d_n=|z_n|$.
+On sait que $z_{n+1} = \dfrac{i}{3} z_n$ donc $\left |  z_{n+1} \right | = \left |  \dfrac{i}{3} z_n\right | = \left | \dfrac{i}{3} \right | \times \left |z_n\right | = \dfrac{1}{3} \left |z_n\right |$; donc, pour tout $n$, $d_{n+1}=\dfrac{1}{3} d_n$.
+De plus, $d_0=\left |z_0\right | = 100$.
+La suite $(d_n)$ est définie par $d_0=100$ et $d_{n+1} = \dfrac{1}{3} d_n$, pour tout $n$.
+Donc la suite $(d_n)$ est  une suite géométrique de premier terme $d_0=100$ et de raison $q=\dfrac{1}{3}$.
++  $-1 < q < 1$ donc la suite $(d_n)$ est convergente et a pour limite 0.
+D'après la définition de la limite d'une suite, on peut déduire que l'intervalle $\cd 0;1\cd$ contient tous les termes de la suite à partir d'un certain rang, ce qui répond à la question.
++  On peut également déterminer le rang $n$ à partir duquel tous les points sont situés dans le disque (_mais ce n'était pas explicitement demandé dans l'exercice_).
+On cherche $n$ tel que $d_n<1$. La suite $(d_n)$ est géométrique de premier terme $d_0=100$ et de raison $q=\dfrac{1}{3}$ donc, pour tout $n$, $d_n=d_0\times q^n$ donc $d_n=100 \left ( \dfrac{1}{3}\right )^n$.
+On résout l'inéquation:
+$$d_n<1 \iff 100 \left ( \dfrac{1}{3}\right )^n < 1 \iff \left ( \dfrac{1}{3}\right )^n < 0,01
+\iff \ln\left (\left ( \dfrac{1}{3}\right )^n \right )< \ln(0,01)
+\iff n\times \ln\left ( \dfrac{1}{3}\right )< \ln(0,01)
+\phantom{d_n<1}
+\iff n > \dfrac{\ln(0,01)}{\ln\left ( \frac{1}{3}\right )}$$
+Or $\dfrac{\ln(0,01)}{\ln\left ( \frac{1}{3}\right )} \approx 4,2$ donc les points $M_n$ appartiennent au disque de centre O et de rayon 1 à partir de $n=5$.
+</Solution>
+
+:::
+
+### S-Métropole septembre 2017 - Exo 2
+
+::: tip Exercice 8 [S-Métropole septembre 2017 - Exo 2][4]
+Le plan complexe est rapporté à un repère orthonormé (O; $\vec{u}$, $\vec{v}$). À tout point $M$ d'affixe $z$, on associe le point $M'$ d'affixe 
+
+ $$ z' = - z^2 + 2z. $$ 
+
+Le point $M'$ est appelé image du point $M$.
+
+1.  Résoudre dans l'ensemble $\C$ des nombres complexes l'équation :
+
+ $$ - z^2 + 2z - 2 = 0. $$ 
+
+En déduire les affixes des points dont l'image est le point d'affixe 2.
+<ClientOnly><Solution>
+On résout dans l'ensemble $\C$, $- z^2 + 2z - 2 = 0 \iff z^2 - -2z + 2 = 0 \iff$
+$$(z - 1)^2 - 1 + 2 = 0 \iff (z - 1)^2 + 1 = 0 \iff (z - 1)^2 = \text{i}^2 \iff \left\{\begin{array}{l c l}
+z - 1&=&\text{i}\\
+\text{ou}&&\\
+z - 1&=&- \text{i} \end{array}\right.\iff \left\{\begin{array}{l c l}
+z &=&1 + \text{i}\\
+\text{ou}&&\\
+z &=&1 - \text{i} \end{array}\right.$$
+L'ensemble des solutions complexes est donc $\left\{1 + i;1 -  i \rule{0pt}{10pt}\right\}$.
+Les points dont les images ont pour affixe $2$, vérifient :
+$z' = 2 \iff - z^2 + 2z = 2 \iff  - z^2 + 2z - 2 = 0$ : ce sont donc les points dont les affixes sont les solutions de l'équation ci-dessus.
+Les points d'affixe $1 + \text{i}$ et $1 - \text{i}$ ont pour image le point d'affixe réelle 2.
+</Solution>
+
+2.  Soit $M$ un point d'affixe $z$ et $M'$ son image d'affixe $z'$.
+
+On note $N$ le point d'affixe $z_N = z^2$.
+
+Montrer que $M$ est le milieu du segment $[NM']$.
+<ClientOnly><Solution>
+On a donc $M(z)$,\, $M'\left(z' = - z^2 + 2z\right)$ et $N\left(z^2\right)$.
+Or $\dfrac{z_N + z_{M'}}{2} = \dfrac{- z^2 + 2z + z^2}{2} = \dfrac{2z}{2} = z$, ce qui montre que $M$ est le milieu du segment $\cd NM'\cg$.
+</Solution>
+
+3.  Dans cette question, on suppose que le point $M$ ayant pour affixe $z$, appartient au cercle $\mathcal{C}$ de centre O et de rayon 1. On note $\theta$ un argument de $z$.
+
+a)  Déterminer le module de chacun des nombres complexes $z$ et $z_N$, ainsi qu'un argument de $z_N$ en fonction de $\theta$.
+<ClientOnly><Solution>
+Puisque $\text{O}M  = 1$ et que l'un de ses arguments est $\theta$, on sait que $z = e^{\text{i}  \theta}$. Donc $|z| = 1$.
+Donc $\left|z_N \right| = \left|z^2\right| = |z|^2 = 1^2 = 1$.
+D'autre part on a arg$\left(z_N\right) = \arg\left(z^2 \right) = 2\text{arg}(z) = 2\theta$.
+</Solution>
+
+b)  Sur la figure donnée en annexe page 7, on a représenté un point $M$ sur le cercle $\mathcal{C}$.
+
+Construire sur cette figure les points $N$ et $M'$ en utilisant une règle et un compas (on laissera les traits de construction apparents).
+<ClientOnly><Solution>
+$N$ appartient au cercle $\mathcal{C}$ ; on le construit avec le compas de telle sorte que $\wideparen{M\text{A}} = \wideparen{MN}$, A étant le point d'affixe 1.
+Il suffit ensuite de construire le symétrique de $N$ par rapport à $M$.
+![Image](./figure8.svg)
+</Solution>
+
+c)  Soit A le point d'affixe 1. Quelle est la nature du triangle A$MM'$ ?
+<ClientOnly><Solution>
+On a vu que $MN = M\text{A} = MM'$.
+En particulier $M\text{A} = MM'$ montre que le triangle A$MM'$ est isocèle en $M$.
+</Solution>
+
+**La dernière page contenant l'annexe est à rendre avec la copie**
+
+** ANNEXE À RENDRE AVEC LA COPIE**
+
+** Exercice 2 **
+
+![Image](./figure9.svg)
+
+:::
+
+### S-Amérique du Sud novembre 2017 - Exo 4
+
+::: tip Exercice 9 [S-Amérique du Sud novembre 2017 - Exo 4][3]
+Dans le plan complexe muni d'un repère orthonormé direct (O; $\vec{u}$, $\vec{v}$),
+on considère les points A et B d'affixes respectives $z_{\text{A}} = 2\text{e\,}^{\text{i}\frac{\pi}{4}}$ et $z_{\text{B}} = 2\text{e\,}^{\text{i}\frac{3\pi}{4}}$
+
+![Image](./figure10.svg)
+
+1.  Montrer que OAB est un triangle rectangle isocèle.
+<ClientOnly><Solution>
+1. **Méthode 1**
++  On a $\text{OA} = \left|z_{\text{A}}\right| = 2$ ; de même
++  $\text{OB} = \left|z_{\text{B}}\right| = 2$. OA = OB : le triangle est isocèle en O.
++  On a $\text{AOB} = \text{arg} z_{\text{B}} - \text{arg}z_{\text{A}} = \dfrac{3\pi}{4} - \dfrac{\pi}{4} =  \dfrac{2\pi}{4} =  \dfrac{\pi}{2}$ : le triangle est rectangle en O.
+Conclusion : le triangle OAB est rectangle isocèle en O.
+2. **Méthode 2**
++  On a $\text{OA} = \left|z_{\text{A}}\right| = 2$ ;
++  $\text{OB} = \left|z_{\text{B}}\right| = 2$ ; on a donc OA = OB = 2 : le triangle OAB est isocèle en O ;
++  $\text{AB} = \left|z_{\text{B}} - z_{\text{A}} \right| = \left|2\text{e\,}^{\text{i}\frac{3\pi}{4}} - 2\text{e\,}^{\text{i}\frac{\pi}{4}} \right| = \left|2\left(\text{e\,}^{\text{i}\frac{3\pi}{4}}  - \text{e\,}^{\text{i}\frac{\pi}{4}}\right)  \right| = 2 \left| \text{e\,}^{\text{i}\frac{3\pi}{4}} - \text{e\,}^{\text{i}\frac{\pi}{4}} \right| =$
+$2\left| \text{e\,}^{\text{i}\frac{\pi}{4}}\left(\text{e\,}^{\text{i}\frac{\pi}{2}} - 1 \right)\right|$.
+Or $\text{e\,}^{\text{i}\frac{\pi}{2}} = \text{i}$, donc puisque $\left|\text{e\,}^{\text{i}\frac{\pi}{4}} \right| = 1$ :
+$\text{OA} = 2 |\text{i} - 1| = 2\sqrt{1^2 + 1^2} = 2\sqrt{2}$.
+On a donc :
+$\text{OA}^2 + \text{OB}^2 = 2^2 + 2^2 = 8$ et
+$\text{AB}^2 = \left( 2\sqrt{2}\right)^2 = 2^2 \times 2 = 8$.
+Donc $\text{OA}^2 + \text{OB}^2 = \text{AB}^2 = 8$ : d'après la réciproque du théorème de Pythagore, le triangle OAB est rectangle en O.
+3.**Méthode 3**
+On a $z_{\text{B}}  = 2\text{e\,}^{\text{i}\frac{3\pi}{4}} = 2\text{e\,}^{\text{i}\left(\frac{2\pi}{4}+\frac{3\pi}{4}\right)} = 2\text{e\,}^{\text{i}\left(\frac{\pi}{2}+\frac{3\pi}{4}\right)} = 2\text{e\,}^{\text{i}\frac{\pi}{2}} \times \text{e\,}^{\text{i}\frac{\pi}{4}}$.
+Donc $z_{\text{B}}  = \text{i}z_{\text{A}}$ ; en exploitant cette égalité en termes de modules et d'arguments :
++  $\left|z_{\text{B}}\right|  = \left|\text{i}z_{\text{A}}\right| = |\text{i} \times \left|z_{\text{A}}\right|$, donc $\left|z_{\text{B}}\right|  = \left|z_{\text{A}}\right|$, soit OB = OA ;
++  arg$z_{\text{B}} = \text{arg} \text{i} + \text{arg} z_{\text{A}}$, soit
+arg$z_{\text{B}} = \dfrac{\pi}{2} + \text{arg} z_{\text{A}}$, ce qui signifie que
+$\left(\overrightarrow{\text{OA}}; \overrightarrow{\text{OB}}\right)  = \dfrac{\pi}{2}$. Le triangle OAB est rectangle en O.
+
+</Solution>
+1.   On considère l'équation
+
+ $$ (E) \::\: z^2 - \sqrt{6}\,z + 2 = 0. $$ 
+
+Montrer qu'une des solutions de $(E)$ est l'affixe d'un point situé sur le cercle circonscrit au triangle OAB.
+<ClientOnly><Solution>
+D'après la question précédente le triangle AOB est inscrit dans le cercle centré au milieu de [AB], soit en C d'affixe $\dfrac{z_{\text{A}} + z_{\text{B}}}{2} = \dfrac{2\text{e\,}^{\text{i}\frac{\pi}{4}} + 2\text{e\,}^{\text{i}\frac{3\pi}{4}}}{2} = \text{e\,}^{\text{i}\frac{\pi}{4}} + \text{e\,}^{\text{i}\frac{3\pi}{4}}$.
+
+On sait que $\text{e\,}^{\text{i}\frac{\pi}{4}} = \cos \frac{\pi}{4} + \text{i}\sin \frac{\pi}{4} = \dfrac{\sqrt{2}}{2} + \text{i}\dfrac{\sqrt{2}}{2}$ et
+
+$\text{e\,}^{\text{i}\frac{3\pi}{4}} = \cos \frac{3\pi}{4} + \text{i}\sin \frac{3\pi}{4} = - \dfrac{\sqrt{2}}{2} + \text{i}\dfrac{\sqrt{2}}{2}$, donc
+
+$z_{\text{C}} = \dfrac{\sqrt{2}}{2} + \text{i}\dfrac{\sqrt{2}}{2} - \dfrac{\sqrt{2}}{2} +  \text{i}\dfrac{\sqrt{2}}{2} = \text{i}\sqrt{2}$.
+
+_Rem._ On pouvait aussi calculer :
+
+$\text{e\,}^{\text{i}\frac{\pi}{4}} + \text{e\,}^{\text{i}\frac{3\pi}{4}} = \text{e\,}^{\text{i}\frac{\pi}{4}}\left(1 + \text{e\,}^{\text{i}\frac{\pi}{2}} \right) = \text{e\,}^{\text{i}\frac{\pi}{4}}\left(1 + \text{i} \right) = \left(\frac{\sqrt{2}}{2} + \text{i}\frac{\sqrt{2}}{2} \right)(1 + \text{i}) = \frac{\sqrt{2}}{2} + \text{i}\frac{\sqrt{2}}{2} + \text{i}\frac{\sqrt{2}}{2} - \frac{\sqrt{2}}{2} = \text{i}\sqrt{2}$.
+
+On a donc $\text{CO} = \left|\text{CO} \right| = \sqrt{2}$.
+
+Le cercle circonscrit au triangle OAB et donc centré en C et a pour rayon $\sqrt{2}$.
+
+Équation $(E)$ : on a $\Delta = 6 - 8 = - 2 = \left(\text{i}\sqrt{2}\right)^2$.
+
+Cette équation a donc deux solutions complexes conjuguées $z_1$ et $z_2$ affixes des points $M_1$ et $M_2$ :
+
+$\bullet$$z_1 = \dfrac{\sqrt{6} - \text{i}\sqrt{2}}{2}$.
+
+Le carré de la  distance du point $M_1$ d'affixe $z_1$ au point C est :
+
+$\left|z_1 - z_{\text{C}}\right|^2 = \left|\dfrac{\sqrt{6} - \text{i}\sqrt{2}}{2} - \text{i}\sqrt{2} \right|^2 = \left|\dfrac{\sqrt{6} - \text{i}3\sqrt{2}}{2}  \right|^2 = \dfrac{6}{4} + \left(\dfrac{3\sqrt{2}}{2} \right)^2 = \dfrac{3}{2}   + \dfrac{9}{2}  = 6$. Donc C$M_1 = \sqrt{6} \neq \sqrt{2}$.
+
+On pouvait éviter le calcul en remarquant qu'un point de partie imaginaire négative ne peut appartenir au cercle.
+
+$\bullet$$z_2 = \dfrac{\sqrt{6} + \text{i}\sqrt{2}}{2}$.
+
+Le carré de la  distance du point $M_2$ d'affixe $z_2$ au point C est :
+
+$\left|z_2 - z_{\text{C}}\right|^2 = \left|\dfrac{\sqrt{6} + \text{i}\sqrt{2}}{2} - \text{i}\sqrt{2} \right|^2 = \left|\dfrac{\sqrt{6} - \text{i}\sqrt{2}}{2} \right|^2 = \dfrac{6}{4} + \dfrac{2}{4} = \dfrac{8}{4} = 2$. Donc C$M_2 = \sqrt{2}$, donc le point $M_2$ appartient au cercle circonscrit au triangle AOB
+</Solution>
+
+:::
+
+### S-Nvelle Calédonie novembre 2017 - Exo 4
+
+::: tip Exercice 10 [S-Nvelle Calédonie novembre 2017 - Exo 4][3]
+**Les questions 1. et  2. de cet exercice pourront être traitées de manière indépendante.**
+
+On considère la suite des nombres complexes $\left(z_n\right)$ définie pour tout entier naturel $n$ par
+
+ $$ z_n = \dfrac{1 + \text{i}}{(1-\text{i})^n}. $$ 
+
+On se place dans le plan complexe d'origine O.
+
+1.  Pour tout entier naturel $n$, on note $A_n$ le point d'affixe $z_n$.
+
+a)  Démontrer que, pour tout entier naturel $n$, $\dfrac{z_{n+4}}{z_n}$ est réel.
+<ClientOnly><Solution>
+$\dfrac{z_{n+4}}{z_n}= \dfrac{\dfrac{1+i}{(1-i)^{n+4}}}{\dfrac{1+i}{(1-i)^{n}}}
+= \dfrac{1+i}{(1-i)^{n+4}} \times \dfrac{(1-i)^{n}}{1+i}
+= \dfrac{1}{(1-i)^{4}}$
+
+$(1-i)^{4} = \left ( (1-i)^{2}\right )^{2} = \left ( 1-2i + i^{2}\right )^{2} = \left (-2i\right )^{2} = 4i^{2} = -4$.
+Donc $\dfrac{z_{n+4}}{z_n} = -\dfrac{1}{4} \in \R$.
+
+</Solution>
+
+b)  Démontrer alors que, pour tout entier naturel $n$, les points O, $A_n$ et $A_{n+4}$ sont alignés.
+<ClientOnly><Solution>
+$\dfrac{z_{n+4}}{z_n} = -\dfrac{1}{4} \iff z_{n+4} = -\dfrac{1}{4}\,z_n$ qui entraîne
+$\overrightarrow{\text OA_{n+4}} = -\dfrac{1}{4}\overrightarrow{\text OA_{n}}$ et on en déduit que les vecteurs
+$\overrightarrow{\text OA_{n+4}}$ et $\overrightarrow{\text OA_{n}}$ sont colinéaires, ce qui signifie que les points O, $A_n$ et $A_{n+4}$ sont alignés.
+</Solution>
+
+2.  Pour quelles valeurs de $n$ le nombre $z_n$ est-il réel ?
+<ClientOnly><Solution>
+On sait que pour deux nombres complexes $z_1$ et $z_2$ non nuls, $\arg\left ( \dfrac{z_1}{z_2}\right ) = \arg(z_1)-\arg(z_2) [2\pi]$.
+
+$\arg (1+i) = \dfrac{\pi}{4} [2\pi]$ et
+$\arg (1-i) = -\dfrac{\pi}{4} [2\pi]$ donc $\arg (1-i)^{n} = -\dfrac{n\pi}{4} [2\pi] $
+
+On a alors: $\arg\left ( \dfrac{1+i}{(1-i)^{n}}\right ) = \arg(1+i) - \arg\left ( (1-i)^{n}\right ) [2\pi] = \left (\dfrac{\pi}{4} \right ) - \left ( -\dfrac{n\pi}{4}\right ) [2\pi] = \dfrac{(n+1)\pi}{4} [2\pi]$
+
+Le nombre $z_n$ est réel si et seulement si son argument est égal à $k\pi$ avec $k\in\Z$:
+$\dfrac{(n+1)\pi}{4} = k\pi \iff n+1=4k \iff n=4k-1$ avec $k\in \Z$.
+
+Le nombre $z_n$ est réel si et seulement si $n=4k-1$ avec $k\in\Z$.
+</Solution>
+
+:::
+
+### S-Liban mai 2016 - Exo 5
+
+::: tip Exercice 11 [S-Liban mai 2016 - Exo 5][3]
+On considère la suite $\left(z_n\right)$ de nombres complexes définie pour tout entier naturel $n$ par :
+
+ $$ \left\{\begin{array}{l c l}
+z_0		& =& 0\\
+z_{n+ 1}& =& \dfrac{1}{2} \text{i} \times z_n + 5
+\end{array}\right. $$ 
+
+Dans le plan rapporté à un repère orthonormé, on note $M_n$ le point d'affixe $z_n$.
+
+On considère le nombre complexe $z_{\text{A}} = 4 + 2\text{i}$ et A le point du plan d'affixe $z_{\text{A}}$.
+
+1.  Soit $\left(u_n\right)$ la suite définie pour tout entier naturel $n$ par $u_n = z_n - z_{\text{A}}$.
+
+a)  Montrer que, pour tout entier naturel $n,\: u_{n+1} = \dfrac{1}{2} \text{i} \times u_n$.
+<ClientOnly><Solution>
+Montrons que, pour tout entier naturel $n,\: u_{n+1} = \dfrac{1}{2} \text{i} \times u_n$.
+
+Pour tout entier naturel $n$, $u_{n+1}=z_{n+1} - z_{\text{A}}=\dfrac{1}{2} \text{i} \times z_n + 5-(4 + 2\text{i})=\dfrac{1}{2} \text{i} \times z_n+1-2\text{i}$.
+
+Pour tout entier naturel $n$,	$\dfrac{1}{2} \text{i} \times u_n=\dfrac{1}{2} \text{i}\left(z_n - z_{\text{A}}\right)=\dfrac{1}{2} \text{i}\left(z_n - 4-2\text{i}\right)= \dfrac{1}{2} \text{i} \times z_n+1-2\text{i}$.
+
+Et pour tout entier naturel $n$, $u_{n+1} = \dfrac{1}{2} \text{i} \times u_n$.
+</Solution>
+
+b)  Démontrer que, pour tout entier naturel $n$ :
+
+ $$ u_n = \left(\dfrac{1}{2} \text{i}\right)^n (- 4 - 2\text{i}). $$ 
+<ClientOnly><Solution>
+On va démontrer par récurrence que, pour tout $n$, la propriété $\mathcal P_n$: $\left(\dfrac{1}{2} \text{i}\right)^n (- 4 - 2\text{i})$ est vraie.
+
+
+
++  _Initialisation_ : $u_0 = z_0 - z_A = - z_A = - 4 -2\text{i}$;
+pour $n=0$, $\left(\dfrac{1}{2} \text{i}\right)^n (- 4 - 2\text{i}) = \left(\dfrac{1}{2} \text{i}\right)^0 (- 4 - 2\text{i})= - 4 - 2\text{i}$
+
+Donc la propriété est vraie pour $n=0$.
+
+d+  _Hérédité_ : on suppose la propriété vraie au rang  quelconque $p\leqslant 0$, c'est-à-dire $\left(\dfrac{1}{2} \text{i}\right)^p (- 4 - 2\text{i})$; on va la démontrer au rang $p+1$.
+
+$u_{p+1} = \dfrac{1}{2}\text{i} u_n= \dfrac{1}{2}\text{i} \times \left(\dfrac{1}{2} \text{i}\right)^p (- 4 - 2\text{i}) = \left(\dfrac{1}{2} \text{i}\right)^{p+1} (- 4 - 2\text{i})$
+
+Donc la propriété est vraie au rang $p+1$.
++  La propriété est vraie au rang 0, elle est héréditaire, donc, d'après le principe de récurrence,  elle est vraie pour tout entier naturel $n$.
+
+
+
+Pour tout entier naturel $n$,
+$u_n = \left(\dfrac{1}{2} \text{i}\right)^n (- 4 - 2\text{i})$
+</Solution>
+
+1.  Démontrer que, pour tout entier naturel $n$, les points A, $M_n$ et $M_{n+4}$ sont alignés.
+<ClientOnly><Solution>
+Démontrons que, pour tout entier naturel $n$, les points A, $M_n$ et $M_{n+4}$ sont alignés.
+
+Le vecteur $\overrightarrow{\text AM_n}$ a pour affixe $u_n=z_n-z_{\text A}$,
+et le vecteur $\overrightarrow{\text AM_{n+4}}$ a pour affixe $u_{n+4}=z_{n+4}-z_{\text A}$.
+
+Mais d'après la question précédente, pour tout entier naturel $n$,
+$u_{n+4} = \left(\dfrac{1}{2} \text{i}\right)^{n+4} (- 4 - 2\text{i})$ et $u_{n} = \left(\dfrac{1}{2} \text{i}\right)^{n} (- 4 - 2\text{i})$.
+
+On en déduit que pour tout entier naturel $n$, $u_{n+4} = \left(\dfrac{1}{2} \text{i}\right)^{4} u_n$.
+
+Mais $\left(\dfrac{1}{2} \text{i}\right)^{4}=\dfrac{1}{16}$
+
+On en déduit que pour tout entier naturel $n$, $u_{n+4} =\dfrac{1}{16}u_n$ et $\overrightarrow{\text AM_{n+4}}=\dfrac{1}{16}\overrightarrow{\text AM_n}$
+
+Ce qui prouve que, pour tout entier naturel $n$, les vecteurs sont colinéaires et par conséquent les points A, $M_n$ et $M_{n+4}$ sont alignés.
+</Solution>
+
+:::
+

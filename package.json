@@ -10,6 +10,7 @@
     "build": "vuepress build src"
   },
   "dependencies": {
+    "markdown-it-katex-newcommand": "^1.0.7",
     "vuepress": "^1.0.0-rc.1"
   },
   "devDependencies": {
