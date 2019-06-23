@@ -47,7 +47,10 @@ module.exports = {
   },
   plugins: ['@vuepress/pwa'],
   markdown: {
-    lineNumbers: false
+    lineNumbers: false,
+    extendMarkdown: md => {
+      md.use(require('markdown-it-katex-newcommand'))
+    }
   },
   postcss: {
     plugins: [
