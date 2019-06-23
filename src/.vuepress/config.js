@@ -1,4 +1,4 @@
-const { sideBar } = require("./sideBar");
+const { sideBar } = require("./sidebar");
 
 module.exports = {
   lang: 'fr-FR',
