@@ -1,11 +1,7 @@
 ---
-title: Démarrer en HTML Partie 1 🎉
-date: 2019-05-24
-author: [davidcouronne]
-tags: ['HTML', 'Tutoriel']
-canonical_url: false
-description: "Comprendre les bases du HTML et commencer à batir un site"
-cover: ./covers/birds.jpg
+title: "Démarrer en HTML Partie 1 \U0001F389"
+date: 2019-05-24T00:00:00.000Z
+post: true
 ---
 > *Prérequis* : [Visual Studio Code](/visual-studio-code) est installé sur votre poste
 
