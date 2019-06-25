@@ -2,7 +2,6 @@ const { sideBar } = require("./sidebar");
 
 module.exports = {
   lang: 'fr-FR',
-  evergreen: true,
   locales: {
     // The key is the path for the locale to be nested under.
     // As a special case, the default locale can use '/' as its path.
@@ -31,18 +30,21 @@ module.exports = {
       { text: 'Maths', link: '/maths/' },
       { text: 'Developpement', link: '/development/' },
       { text: 'SNT', link: '/snt/' },
+      { text: 'Blog', link: '/blog/'}
     ],
     sidebar: sideBar(),
   },
   plugins: [
-    '@vuepress/pwa'
+    '@vuepress/pwa',
+    'vuepress-plugin-reading-time',
   ],
   markdown: {
     lineNumbers: false,
-    extendMarkdown: md => {
+    /* extendMarkdown: md => {
       md.use(require('markdown-it-katex-newcommand'))
-    }
+    } */
   },
+  evergreen: true,
   postcss: {
     plugins: [
       require("tailwindcss")("./tailwind.config.js"),

@@ -1,6 +1,5 @@
 <template>
   <div :class="theme">
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
     <div
       class="theme-container bg-background-primary text-primary"
       :class="pageClasses"
@@ -22,6 +21,7 @@
       </Sidebar>
 
       <Home v-if="$page.frontmatter.home"/>
+      <BlogPage v-else-if="$page.frontmatter.blogpage"/>
 
       <Page v-else :sidebar-items="sidebarItems">
         <slot name="page-top" slot="top"/>
@@ -33,19 +33,19 @@
 
 <script>
 import Home from "@theme/components/Home.vue";
+import BlogPage from "@theme/components/BlogPage.vue";
 import Navbar from "@theme/components/Navbar.vue";
 import Page from "@theme/components/Page.vue";
 import Sidebar from "@theme/components/Sidebar.vue";
 import { resolveSidebarItems } from "../util";
 
 export default {
-  components: { Home, Page, Sidebar, Navbar },
+  components: { Home, BlogPage, Page, Sidebar, Navbar },
 
   data() {
     return {
       isSidebarOpen: false,
-      theme: "theme-light",
-      themeDark: "false"
+      theme: ""
     };
   },
 
@@ -68,6 +68,8 @@ export default {
     shouldShowSidebar() {
       const { frontmatter } = this.$page;
       return (
+        !frontmatter.post &&
+        !frontmatter.blogpage &&
         !frontmatter.home &&
         frontmatter.sidebar !== false &&
         this.sidebarItems.length
@@ -97,6 +99,7 @@ export default {
   },
 
   mounted() {
+    this.theme = localStorage.getItem("theme") || "theme-light";
     this.$router.afterEach(() => {
       this.isSidebarOpen = false;
     });
@@ -133,3 +136,6 @@ export default {
 </script>
 
 <style src="prismjs/themes/prism-tomorrow.css"></style>
+
+
+
