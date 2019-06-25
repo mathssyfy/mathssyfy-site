@@ -1,12 +1,7 @@
 ---
-title: Démarrer en HTML Partie 2 🎉
-date: 2019-05-25
-author: [davidcouronne]
-tags: ['HTML', 'Tutoriel']
-canonical_url: false
-description: "Insérer des images et des liens"
-cover: ./covers/toucan.jpg
-
+title: "Démarrer en HTML Partie 2 \U0001F389"
+date: 2019-05-25T00:00:00.000Z
+post: true
 ---
 > *Prérequis* : Avoir lu la [partie 1](/demarrer-en-html-partie-1)
 
