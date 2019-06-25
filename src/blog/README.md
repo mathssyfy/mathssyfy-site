@@ -1,5 +1,7 @@
 ---
+blogpage: true
 title: Blog Start Page
-date: 2019-06-01T18:49:46.915Z
+description: Go to blog list
+blog_index: true
+date: 2000-02-06
 ---
-\# Derniers posts
