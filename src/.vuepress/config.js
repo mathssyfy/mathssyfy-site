@@ -40,9 +40,9 @@ module.exports = {
   ],
   markdown: {
     lineNumbers: false,
-    /* extendMarkdown: md => {
+     extendMarkdown: md => {
       md.use(require('markdown-it-katex-newcommand'))
-    } */
+    } 
   },
   evergreen: true,
   postcss: {

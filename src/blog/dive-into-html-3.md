@@ -6,7 +6,7 @@ tags: ['HTML', 'CSS', 'Tutoriel']
 canonical_url: false
 description: "Ajouter un peu de CSS"
 cover: ./covers/koala.jpg
-
+post: true
 ---
 
 > *Prérequis* : Avoir lu la [partie 2](/demarrer-en-html-partie-2)
