@@ -10,6 +10,15 @@ media_library:
     cloud_name: dpw19qolx
     api_key: 431889228911483
 collections:
+  - name: "sidebar"
+    label: "Sidebar"
+    folder: "scr/.vuepress/sidebar"
+    create: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    fields: 
+      -label: "Title", name: "title", widget: "string"
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "src/blog" # The path to the folder where the documents are stored
