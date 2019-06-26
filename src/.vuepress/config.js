@@ -48,15 +48,10 @@ module.exports = {
   },
   markdown: {
     lineNumbers: false,
-    config: md => {
-      const mymacroskatex = {
-        "\\vect": "\\overrightarrow{#1}"
-      };
+    extendMarkdown: md  => {
       const mkn = require('markdown-it-katex-newcommand');
       const mf = require('markdown-it-footnote');
-      md.use(mkn, {
-        "macros": mymacroskatex
-      });
+      md.use(mkn);
       md.use(mf);
     }
   },
