@@ -14,7 +14,8 @@
     "katex": "^0.10.2",
     "markdown-it-footnote": "^3.0.1",
     "markdown-it-katex-newcommand": "^1.1.0",
-    "vuepress": "^1.0.2"
+    "vuepress": "^1.0.2",
+    "yaml": "^1.6.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",

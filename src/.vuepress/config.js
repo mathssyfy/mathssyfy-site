@@ -1,4 +1,8 @@
-const config = require('./test.yml');
+const fs = require('fs')
+const YAML = require('yaml')
+const file = fs.readFileSync('./meta.yml', 'utf8')
+
+const meta = YAML.parse(fs.readFileSync('./meta.yml', 'utf8'));
 
 const { sideBar } = require("./sidebar");
 
@@ -9,11 +13,11 @@ module.exports = {
     // As a special case, the default locale can use '/' as its path.
     '/': {
       lang: 'fr-FR', // this will be set as the lang attribute on <html>
-      title: config.title,
+      title: meta.title,
       description: 'Mathématiques, Vuepress, Markdown, Python, Github, NodeJS, SNT, HTML, CSS'
     }
   },
-  title: config.title,
+  title: meta.title,
   description: 'Mathématiques et Informatique',
   ga: 'UA-131298008-1',
   head: [
@@ -56,6 +60,7 @@ module.exports = {
   plugins: [
     ['@vuepress/pwa', {
       serviceWorker: true,
+      popupComponent: 'MySWUpdatePopup',
       updatePopup: true
     }],
     '@vuepress/medium-zoom',
