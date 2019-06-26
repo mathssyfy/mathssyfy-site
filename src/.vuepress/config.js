@@ -1,3 +1,5 @@
+const config = require('./test.yml');
+
 const { sideBar } = require("./sidebar");
 
 module.exports = {
@@ -11,7 +13,7 @@ module.exports = {
       description: 'Mathématiques, Vuepress, Markdown, Python, Github, NodeJS, SNT, HTML, CSS'
     }
   },
-  title: 'MathsSyfy',
+  title: config.title,
   description: 'Mathématiques et Informatique',
   ga: 'UA-131298008-1',
   head: [
