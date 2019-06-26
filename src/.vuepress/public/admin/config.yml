@@ -12,7 +12,7 @@ media_library:
 collections:
   - name: "sidebar"
     label: "Sidebar"
-    folder: "scr/.vuepress/sidebar"
+    folder: "src/.vuepress/sidebar"
     create: true
     slug: "{{slug}}"
     extension: "json"
@@ -20,7 +20,7 @@ collections:
     fields: 
       - label: "Title"
         name: "title"
-        widget: "string"
+        widget: "string" 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "src/blog" # The path to the folder where the documents are stored
