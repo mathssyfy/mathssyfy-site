@@ -1,8 +1,8 @@
-const fs = require('fs')
-const YAML = require('yaml')
-const file = fs.readFileSync('./meta.yml', 'utf8')
 
-const meta = YAML.parse(fs.readFileSync('./meta.yml', 'utf8'));
+const YAML = require('yaml')
+
+
+const meta = YAML.parse(require('./meta.yml'));
 
 const { sideBar } = require("./sidebar");
 
