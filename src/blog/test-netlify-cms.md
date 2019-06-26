@@ -17,4 +17,4 @@ Cloudinary
 
 
 
-![Image from cloudinary](https://res.cloudinary.com/dpw19qolx/image/upload/c_fill,e_grayscale,f_auto,q_auto,w_300/v1549200634/astrology-astronomy-atmosphere.ae069b6f.jpg "Wow")
+![Image from cloudinary](https://res.cloudinary.com/dpw19qolx/image/upload/c_fill,f_auto,q_auto,w_300/v1549200634/astrology-astronomy-atmosphere.ae069b6f.jpg "Wow")

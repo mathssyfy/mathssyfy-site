@@ -13,4 +13,4 @@ image: >-
 
 
 
-![Image frome Cloudinary](https://res.cloudinary.com/dpw19qolx/image/upload/c_fill,e_grayscale,f_auto,q_auto,w_300/v1549194467/sample.jpg "Quelques fleurs")
+![Image frome Cloudinary](https://res.cloudinary.com/dpw19qolx/image/upload/q_auto,w_300/v1549194467/sample.jpg "Quelques fleurs")
