@@ -44,7 +44,6 @@ module.exports = {
       md.use(require('markdown-it-katex-newcommand'))
     } 
   },
-  evergreen: true,
   postcss: {
     plugins: [
       require("tailwindcss")("./tailwind.config.js"),
