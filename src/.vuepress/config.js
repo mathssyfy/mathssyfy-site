@@ -9,7 +9,7 @@ module.exports = {
     // As a special case, the default locale can use '/' as its path.
     '/': {
       lang: 'fr-FR', // this will be set as the lang attribute on <html>
-      title: 'MathsSyfy',
+      title: config.title,
       description: 'Mathématiques, Vuepress, Markdown, Python, Github, NodeJS, SNT, HTML, CSS'
     }
   },
