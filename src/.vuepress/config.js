@@ -25,6 +25,11 @@ module.exports = {
       integrity: "sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j",
       crossorigin: "anonymous"
     }],
+    ['link', {
+      rel: 'manifest',
+      href: '/manifest.json',
+    }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
     repo: 'mathssyfy/mathssyfy-site',
