@@ -46,11 +46,11 @@ module.exports = {
     ],
     sidebar: sideBar(),
   },
-  markdown: {
+  /* markdown: {
     extendMarkdown: md => {      
       md.use(require('markdown-it-katex-newcommand'))      
     }
-  },
+  }, */
   plugins: [
     ['@vuepress/pwa', {
       serviceWorker: true,

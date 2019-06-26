@@ -18,7 +18,9 @@ collections:
     extension: "json"
     format: "json"
     fields: 
-      -label: "Title", name: "title", widget: "string"
+      - label: "Title"
+        name: "title"
+        widget: "string"
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "src/blog" # The path to the folder where the documents are stored
