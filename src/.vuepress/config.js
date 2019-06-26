@@ -56,6 +56,9 @@ module.exports = {
       serviceWorker: true,
       updatePopup: true
     }],
+    ['sitemap', {
+      hostname: 'https://mathssyfy.netlify.com/'
+    },],
     '@vuepress/medium-zoom',
     'vuepress-plugin-reading-time',
   ],
