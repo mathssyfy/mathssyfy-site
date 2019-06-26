@@ -6,7 +6,6 @@ tags: ['HTML', 'Tutoriel']
 canonical_url: false
 description: "Comprendre les bases du HTML et commencer à batir un site"
 cover: ./covers/birds.jpg
-sidebar: auto
 ---
 # Batir un site Web
 

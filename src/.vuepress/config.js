@@ -54,7 +54,6 @@ module.exports = {
   plugins: [
     ['@vuepress/pwa', {
       serviceWorker: true,
-      popupComponent: 'MySWUpdatePopup',
       updatePopup: true
     }],
     '@vuepress/medium-zoom',
