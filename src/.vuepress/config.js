@@ -27,7 +27,7 @@ module.exports = {
     }],
   ],
   themeConfig: {
-    repo: 'mathssyfy/mathssyfy-vuepress-site',
+    repo: 'mathssyfy/mathssyfy-site',
     docsDir: 'src',
     editLinks: true,
     editLinkText: 'Edit this page on GitHub',
