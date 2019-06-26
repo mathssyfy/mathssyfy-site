@@ -14,6 +14,18 @@ module.exports = {
   title: 'MathsSyfy',
   description: 'Mathématiques et Informatique',
   ga: 'UA-131298008-1',
+  head: [
+    ['meta', {
+      name: "google-site-verification",
+      content: "6ziOTKgv0QzimoescRoCDp4PI3MJIh3MbOMs05K5Q8c"
+    }],
+    ['link', {
+      rel: "stylesheet",
+      href: "https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css",
+      integrity: "sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j",
+      crossorigin: "anonymous"
+    }],
+  ],
   themeConfig: {
     repo: 'mathssyfy/mathssyfy-vuepress-site',
     docsDir: 'src',
@@ -38,12 +50,12 @@ module.exports = {
     '@vuepress/pwa',
     'vuepress-plugin-reading-time',
   ],
-  /* markdown: {
+   markdown: {
     lineNumbers: false,
      extendMarkdown: md => {
       md.use(require('markdown-it-katex-newcommand'))
     } 
-  }, */
+  },
   postcss: {
     plugins: [
       require("tailwindcss")("./tailwind.config.js"),
