@@ -47,13 +47,16 @@ module.exports = {
     sidebar: sideBar(),
   },
   markdown: {
-    lineNumbers: true,
     extendMarkdown: md => {      
       md.use(require('markdown-it-katex-newcommand'))      
     }
   },
   plugins: [
-    '@vuepress/pwa',
+    ['@vuepress/pwa', {
+      serviceWorker: true,
+      updatePopup: true
+    }],
+    '@vuepress/medium-zoom',
     'vuepress-plugin-reading-time',
   ],
   postcss: {
