@@ -1,9 +1,3 @@
-
-const YAML = require('yaml')
-
-
-const meta = YAML.parse(require('./meta.yml'));
-
 const { sideBar } = require("./sidebar");
 
 module.exports = {
@@ -13,11 +7,11 @@ module.exports = {
     // As a special case, the default locale can use '/' as its path.
     '/': {
       lang: 'fr-FR', // this will be set as the lang attribute on <html>
-      title: meta.title,
+      title: 'MathsSyfy',
       description: 'Mathématiques, Vuepress, Markdown, Python, Github, NodeJS, SNT, HTML, CSS'
     }
   },
-  title: meta.title,
+  title: 'MathsSyfy',
   description: 'Mathématiques et Informatique',
   ga: 'UA-131298008-1',
   head: [

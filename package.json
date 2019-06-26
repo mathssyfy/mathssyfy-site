@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-tailwind",
-  "version": "0.0.1",
-  "description": "vuepress tailwind css",
+  "name": "mathssyfy",
+  "version": "0.1.0",
+  "description": "mathssyfy site",
   "main": "index.js",
   "author": "David Couronné",
   "license": "MIT",
@@ -10,16 +10,11 @@
     "build": "vuepress build src"
   },
   "dependencies": {
-    "@iktakahiro/markdown-it-katex": "^3.1.0",
     "katex": "^0.10.2",
-    "markdown-it-footnote": "^3.0.1",
     "markdown-it-katex-newcommand": "^1.1.0",
-    "vuepress": "^1.0.2",
-    "yaml": "^1.6.0"
+    "vuepress": "^1.0.2"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^1.2.0",
-    "@silvanite/vuepress-plugin-tailwind": "^1.1.0",
     "@vuepress/plugin-google-analytics": "^1.0.2",
     "@vuepress/plugin-medium-zoom": "^1.0.0-rc.1",
     "@vuepress/plugin-pwa": "^1.0.2",
