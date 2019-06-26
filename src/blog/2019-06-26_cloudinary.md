@@ -11,12 +11,21 @@ tags:
 image: >-
   https://res.cloudinary.com/dpw19qolx/image/upload/c_fill,e_grayscale,f_auto,q_auto,w_300/v1561523331/code-1839406_960_720.jpg
 ---
-![](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561523337/1234813930_024849c641_b.jpg)
+![](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561523334/St_Michael_27s_Mount_II5302_x_2982.jpg)
 
-Cloudinary
+# Cloudinary
 
-Importer des images
+## Importer des images
+
+
+L'image ci-dessus est importée avec:
+
+```md
+![](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561523334/St_Michael_27s_Mount_II5302_x_2982.jpg)
+```
 
 
 
-![](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/c_fill,f_auto,q_auto,w_300/v1561523331/code-1839406_960_720.jpg)
+
+
+
