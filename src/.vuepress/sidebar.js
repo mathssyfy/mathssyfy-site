@@ -22,7 +22,8 @@ function sideBar() {
       'sidebar',
       'exercice',
       'katex',
-      'deploy'
+      'deploy',
+      '2019-06-26-vuepress-pwa'
     ],
     '/development/HowTo/': [''],
     '/development/': [
