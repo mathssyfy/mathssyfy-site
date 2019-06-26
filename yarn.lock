@@ -4469,6 +4469,11 @@ markdown-it-emoji@^1.4.0:
   resolved "https://registry.yarnpkg.com/markdown-it-emoji/-/markdown-it-emoji-1.4.0.tgz#9bee0e9a990a963ba96df6980c4fddb05dfb4dcc"
   integrity sha1-m+4OmpkKljupbfaYDE/dsF37Tcw=
 
+markdown-it-footnote@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.1.tgz#7f3730747cacc86e2fe0bf8a17a710f34791517a"
+  integrity sha1-fzcwdHysyG4v4L+KF6cQ80eRUXo=
+
 markdown-it-katex-newcommand@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/markdown-it-katex-newcommand/-/markdown-it-katex-newcommand-1.1.0.tgz#6c584f845d5b765d10e13276360dddc8276c38ac"

@@ -46,16 +46,24 @@ module.exports = {
     ],
     sidebar: sideBar(),
   },
+  markdown: {
+    lineNumbers: false,
+    config: md => {
+      const mymacroskatex = {
+        "\\vect": "\\overrightarrow{#1}"
+      };
+      const mkn = require('markdown-it-katex-newcommand');
+      const mf = require('markdown-it-footnote');
+      md.use(mkn, {
+        "macros": mymacroskatex
+      });
+      md.use(mf);
+    }
+  },
   plugins: [
     '@vuepress/pwa',
     'vuepress-plugin-reading-time',
   ],
-   markdown: {
-    lineNumbers: false,
-     extendMarkdown: md => {
-      md.use(require('markdown-it-katex-newcommand'))
-    } 
-  },
   postcss: {
     plugins: [
       require("tailwindcss")("./tailwind.config.js"),

@@ -12,6 +12,7 @@
   "dependencies": {
     "@iktakahiro/markdown-it-katex": "^3.1.0",
     "katex": "^0.10.2",
+    "markdown-it-footnote": "^3.0.1",
     "markdown-it-katex-newcommand": "^1.1.0",
     "vuepress": "^1.0.2"
   },
