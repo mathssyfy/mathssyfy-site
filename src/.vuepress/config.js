@@ -47,12 +47,9 @@ module.exports = {
     sidebar: sideBar(),
   },
   markdown: {
-    lineNumbers: false,
-    extendMarkdown: md  => {
-      const mkn = require('markdown-it-katex-newcommand');
-      const mf = require('markdown-it-footnote');
-      md.use(mkn);
-      md.use(mf);
+    lineNumbers: true,
+    extendMarkdown: md => {      
+      md.use(require('markdown-it-katex-newcommand'))      
     }
   },
   plugins: [
