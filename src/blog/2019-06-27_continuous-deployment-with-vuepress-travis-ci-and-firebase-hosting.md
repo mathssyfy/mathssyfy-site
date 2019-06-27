@@ -1,6 +1,6 @@
 ---
 title: 'Continuous Deployment with Vuepress, Travis CI and Firebase Hosting'
-description: Déployment en continue d'un site avec Travis CI et hébergement chez Firebase
+description: Déploiement continu d'un site avec Travis CI et hébergement chez Firebase
 author: David Couronné
 date: 2019-06-27T05:51:37.479Z
 post: true
