@@ -13,6 +13,7 @@ module.exports = {
   },
   title: 'MathsSyfy',
   description: 'Mathématiques et Informatique',
+  logo: '/images/icons/favicon-32x32.png',
   ga: 'UA-131298008-1',
   head: [
     ['meta', {
@@ -51,11 +52,11 @@ module.exports = {
     ],
     sidebar: sideBar(),
   },
-   /* markdown: {
+    markdown: {
     extendMarkdown: md => {      
       md.use(require('markdown-it-katex-newcommand'))      
     }
-  },  */
+  },  
   plugins: [
     ['@vuepress/pwa', {
       serviceWorker: true,
