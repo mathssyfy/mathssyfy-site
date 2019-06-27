@@ -5,7 +5,7 @@
     <router-link :to="$localePath" class="home-link">
       <img
         class="logo"
-        src="./images/icons/favicon-16x16.png"
+        :src="$withBase('images/icons/favicon-16x16.png')"
         :alt="$siteTitle"
       >
       <span
