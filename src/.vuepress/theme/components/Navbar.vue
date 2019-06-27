@@ -5,8 +5,7 @@
     <router-link :to="$localePath" class="home-link">
       <img
         class="logo"
-        v-if="$site.themeConfig.logo"
-        :src="$withBase($site.themeConfig.logo)"
+        src="./images/icons/favicon-16x16.png"
         :alt="$siteTitle"
       >
       <span
