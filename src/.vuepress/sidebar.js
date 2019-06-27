@@ -3,7 +3,7 @@ function sideBar() {
 
     // maths
     '/maths/sujets/2018-nvellecaledonie/': ['', 'corrige'],
-    '/maths/espace/': [
+    '/maths/cours/TS-Obli/espace/': [
       '',
       'parallelisme',
       'orthogonalite',
