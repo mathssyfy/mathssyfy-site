@@ -38,7 +38,7 @@ La documentation officielle: [yarn](https://yarnpkg.com/fr/)
 
 Le plus simple est de l'installer en ligne de commande, avec privilèges administrateur:
 
-``` bash{4}
+``` bash
 choco install yarn
 ```
 
@@ -52,7 +52,7 @@ Site officiel: [Visual Studio Code](https://code.visualstudio.com/)
 En ligne de commande:
 
 ``` sh
-yarn global add vuepress
+yarn global add vuepress@next
 ```
 
 
