@@ -8,7 +8,7 @@ features:
   - title: Mathématiques
     details: Cours, exercices, devoirs surveillés, sujets de Bac...
   - title: SNT
-    details: Sciences numériques et technologie
+    details: Sciences numériques et technologie en classe de Seconde
   - title: Dévelopement
     details: Python, Web, Vue, Gridsome, Vuepress...
 footer: MIT Licensed | Copyright © 2019-present David Couronné
