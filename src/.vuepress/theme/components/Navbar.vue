@@ -3,11 +3,6 @@
     <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
 
     <router-link :to="$localePath" class="home-link">
-      <img
-        class="logo"
-        :src="$withBase('images/icons/android-chrome-192x192.png')"
-        :alt="$siteTitle"
-      >
       <span
         ref="siteName"
         class="site-name"

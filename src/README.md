@@ -1,5 +1,6 @@
 ---
 home: true
+heroIame: /android-chrome-192x192.png
 heroText: MathsSyfy
 tagline: Mathématiques, SNT et dévelopement
 actionText: C'est parti ! →

@@ -13,7 +13,6 @@ module.exports = {
   },
   title: 'MathsSyfy',
   description: 'Mathématiques et Informatique',
-  logo: '/images/icons/favicon-32x32.png',
   ga: 'UA-131298008-1',
   head: [
     ['meta', {
