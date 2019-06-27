@@ -1,6 +1,6 @@
 ---
-title: vuepress et pwa
-description: Configurer vuepress comme pwa
+title: Vuepress et PWA
+description: Configurer Vuepress comme Progressive Web App
 date: 2019-06-26
 ---
 
