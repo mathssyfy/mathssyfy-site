@@ -36,10 +36,9 @@ Ouvrir un terminal dans le dossier du projet
 ``` bash
 firebase init
 ```
-``` bash
+``` bash{6}
 ? Are you ready to proceed? Yes
-? Which Firebase CLI features do you want to setup for this folder? Press Space to select features, then Enter to confi
-rm your choices.
+? Which Firebase CLI features do you want to setup for this folder? Press Space to select features, then Enter to confirm your choices.
  ( ) Database: Deploy Firebase Realtime Database Rules
  ( ) Firestore: Deploy rules and create indexes for Firestore
  ( ) Functions: Configure and deploy Cloud Functions
@@ -47,7 +46,7 @@ rm your choices.
  ( ) Storage: Deploy Cloud Storage security rules
  ```
  Bien choisir `hosting`pour l'hébergement.
-```bash
+```bash{3}
  ? Select a default Firebase project for this directory:
   [don't setup a default project]
 > [le-nom-de-votre-projet]
