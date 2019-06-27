@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/mathssyfy/mathssyfy-site.svg?branch=master)](https://travis-ci.org/mathssyfy/mathssyfy-site)
 
-[![Known Vulnerabilities](https://snyk.io//test/github/mathssyfy/mathssyfy-site/badge.svg?targetFile=package.json)](https://snyk.io//test/github/mathssyfy/mathssyfy-site?targetFile=package.json)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
