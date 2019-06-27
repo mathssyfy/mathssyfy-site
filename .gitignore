@@ -64,6 +64,6 @@ typings/
 src/.vuepress/dist
 
 # firebase
-firebase.json
-.firebaserc
-.firebase
+# firebase.json
+# .firebaserc
+# .firebase
