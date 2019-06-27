@@ -11,6 +11,8 @@ tags:
 
 ## Travis CI
 
+Prérequis: avoir un compte Travis CI 
+
 Cette installation demande un peu de temps:
 
 1. Installer Ruby: [Ruby](https://rubyinstaller.org/downloads/). Prendre l'installateur recommandé.
@@ -25,5 +27,19 @@ gem install travis -v 1.8.10 --no-rdoc --no-ri
 4. Vérifier l'installation:
 ```bash
 travis version
+```
+
+## Firebase CLI
+
+Prérequis: avoir un compte Firebase !
+
+```bash
+npm install -g firebase-tools
+```
+
+Puis
+
+```bash
+firebase login
 ```
  
