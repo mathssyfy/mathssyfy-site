@@ -34,7 +34,7 @@ pip install pipenv
 + Material Icon Theme
 + Markdown All in One
 + Vetur
-+ Bracket Pair Colorizer (1.0.61)
++ Bracket Pair Colorizer
 + Live Server
 + Prettier - Code formatteur
 
