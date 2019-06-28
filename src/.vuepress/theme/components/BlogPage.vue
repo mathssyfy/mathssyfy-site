@@ -2,7 +2,7 @@
   <main class="home" aria-labelledby="main-title">
     <header class="hero text-primary bg-background-primary">
       <h1 id="main-title">Blog</h1>
-
+<img src="https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561523334/St_Michael_27s_Mount_II5302_x_2982.jpg" alt="">
       <p class="description opacity-75">{{ data.tagline || $description || 'Welcome To My Blogs' }}</p>
     </header>
 

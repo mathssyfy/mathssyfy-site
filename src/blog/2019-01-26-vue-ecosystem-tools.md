@@ -1,6 +1,6 @@
 ---
 author: David Couronné
-date: 2019-01-26 23:00:00 +0000
+date: 2019-01-26
 post: true
 title: Vue ecosystem Tools
 description: Tools for Vue, Vuepress, Nuxt, Gridsome
