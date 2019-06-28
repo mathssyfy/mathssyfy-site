@@ -1,9 +1,5 @@
 <template>
   <div :class="theme">
-    <!-- Google Tag Manager (noscript) -->
-<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWKZQV7"
-height="0" width="0" style="display:none;visibility:hidden"></iframe>
-<!-- End Google Tag Manager (noscript) -->
     <div
       class="theme-container bg-background-primary text-primary"
       :class="pageClasses"
@@ -36,6 +32,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </template>
 
 <script>
+import 'katex/dist/katex.min.css';
 import Home from "@theme/components/Home.vue";
 import BlogPage from "@theme/components/BlogPage.vue";
 import Navbar from "@theme/components/Navbar.vue";

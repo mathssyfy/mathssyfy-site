@@ -1,6 +1,5 @@
 ---
 home: true
-heroImage: /android-chrome-192x192.png
 heroText: MathsSyfy
 tagline: Mathématiques, SNT et dévelopement
 actionText: C'est parti ! →
@@ -16,5 +15,9 @@ footer: MIT Licensed | Copyright © 2019-present David Couronné
 sidebarDepth: 3
 sidebar: auto
 ---
+
+![android-chrome-192x192.png] MathsSyfy main site
+
+> Installable sur votre mobile ou votre ordinateur :
 
 Les articles mathématiques utilisent un convertisseur LaTeX vers Markdown: [latexconvertmd](https://loving-booth-d9d454.netlify.com/)

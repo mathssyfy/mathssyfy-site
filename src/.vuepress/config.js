@@ -15,17 +15,16 @@ module.exports = {
   description: 'Mathématiques et Informatique',
   ga: 'UA-131298008-1',
   head: [
-    "script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KWKZQV7');</script",
     ['meta', {
       name: "google-site-verification",
       content: "6ziOTKgv0QzimoescRoCDp4PI3MJIh3MbOMs05K5Q8c"
     }],
-    ['link', {
+    /* ['link', {
       rel: "stylesheet",
       href: "https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css",
       integrity: "sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j",
       crossorigin: "anonymous"
-    }],
+    }], */
     ['link', {
       rel: 'manifest',
       href: '/manifest.json',
