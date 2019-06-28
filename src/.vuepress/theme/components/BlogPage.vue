@@ -11,6 +11,7 @@
     <div>
       <div class="flex-grow">
         <div v-for="post in posts" class="mb-12 bg-background-content p-4 rounded-lg shadow-lg">
+          <img v-if="post.frontmatter.image" :src="post.frontmatter.image" alt="Cover Image">
           <span class="text-3xl font-bold">
             <router-link :to="post.path" class="text-primary pb-1">{{ post.title}}</router-link>
           </span>
