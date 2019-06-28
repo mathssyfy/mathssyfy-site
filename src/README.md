@@ -16,8 +16,10 @@ sidebarDepth: 3
 sidebar: auto
 ---
 
-![android-chrome-192x192.png] MathsSyfy main site
+![Image](android-chrome-192x192.png) MathsSyfy main site
 
-> Installable sur votre mobile ou votre ordinateur :
+> Installable sur votre mobile ou votre ordinateur !
 
-Les articles mathématiques utilisent un convertisseur LaTeX vers Markdown: [latexconvertmd](https://loving-booth-d9d454.netlify.com/)
+:::tip
+Les articles mathématiques utilisent un convertisseur LaTeX vers Markdown: [latexconvertmd](https://latexconvertmd.netlify.com/)
+:::
