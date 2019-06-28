@@ -38,3 +38,5 @@ fields:
 - type: file
   name: image
   label: image
+pages:
+- src/blog/vue-ecosystem-tools.md
