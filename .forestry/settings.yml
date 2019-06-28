@@ -11,7 +11,7 @@ sections:
   match: "**/*"
   exclude: README.md
 upload_dir: mathssyfy
-public_path: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image
+public_path: https://res.cloudinary.com/dpw19qolx/image/upload/q_auto,f_auto,g_auto,w_auto,dpr_auto
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
