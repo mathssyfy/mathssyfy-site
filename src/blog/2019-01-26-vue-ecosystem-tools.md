@@ -10,10 +10,9 @@ tags:
 - vuepress
 - vue
 image: ''
+sidebar: auto
 
 ---
-[[toc]]
-
 ## Cli
 
 ### Vue CLI 3
