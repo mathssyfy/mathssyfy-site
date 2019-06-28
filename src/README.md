@@ -16,7 +16,7 @@ sidebarDepth: 3
 sidebar: auto
 ---
 
-![Image](./android-chrome-192x192.png) MathsSyfy main site
+
 
 > Installable sur votre mobile ou votre ordinateur !
 
