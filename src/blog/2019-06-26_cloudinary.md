@@ -41,4 +41,7 @@ Paramètres:
 
 ![](https://res.cloudinary.com/dpw19qolx/image/upload/q_auto,f_auto,g_auto,w_auto,dpr_auto/v1561523341/422869114_7590398831_b.jpg)
 
+* Simuler la visibilité des daltoniens:
 
+
+![](https://res.cloudinary.com/dpw19qolx/image/upload/bo_5px_solid_rgb:000000,c_fill,e_simulate_colorblind,g_auto,q_auto:good,r_30/sample.jpg)
