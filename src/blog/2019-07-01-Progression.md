@@ -17,12 +17,24 @@ image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v15615233
 
 ## Chapitre 1 : SECOND DEGRE
 
-- Fonction polynôme du second degré donnée sous forme factorisée. Racines, signe, expression de la somme et du produit des racines.−Forme canonique d’une fonction polynôme du second degré. Discriminant. Factorisation éventuelle. Résolution d’une équation du second degré. Signe.
+- **Durée**: 3 semaines
+- **Contenus**:
+    - Fonction polynôme du second degré donnée sous forme factorisée. Racines, signe, expression de la somme et du produit des racines.
+    - Forme canonique d’une fonction polynôme du second degré. Discriminant. Factorisation éventuelle. Résolution d’une équation du second degré. Signe.
 - **Capacités attendues**: 
-    - Étudier le signe d’une fonction polynôme du second degré donnée sous forme factorisée.−Déterminer les fonctions polynômes du second degré s’annulant en deux nombres réels distincts.−Factoriser une fonction polynôme du second degré, en diversifiant les stratégies: racine évidente, détection des racines par leur somme et leur produit, identité remarquable, application des formules générales.−Choisir une forme adaptée (développée réduite, canonique, factorisée) d’une fonction polynôme du second degré dans le cadre de la résolution d’un problème (équation, inéquation, optimisation, variations).Démonstration−Résolution de l’équation du second degré.
-    - Déterminer l’axe de symétrie et le sommet d’une parabole d’équation $y=ax^2+bx+c$
-    - Les élèves doivent savoir qu’une fonction polynôme du second degré admet une forme canonique, et être capables de la déterminer **dans des cas simples** à l’aide de l’identité $x^2+2ax=(x+a)^2-a^2$ (méthode de complétion du carré). Le calcul effectif de la forme canonique dans le cas général n’est pas un attendu du programme. Les élèves sont entraînés à reconnaître et pratiquer la factorisation directe dans les cas qui s’y prêtent: racines apparentes, coefficient de x nul, racines entières détectées par calcul mental à partir de leur somme et de leur produit.
+    - Étudier le signe d’une fonction polynôme du second degré donnée sous forme factorisée.
+    - Déterminer les fonctions polynômes du second degré s’annulant en deux nombres réels distincts.
+    - Factoriser une fonction polynôme du second degré, en diversifiant les stratégies: racine évidente, détection des racines par leur somme et leur produit, identité remarquable, application des formules générales.−Choisir une forme adaptée (développée réduite, canonique, factorisée) d’une fonction polynôme du second degré dans le cadre de la résolution d’un problème (équation, inéquation, optimisation, variations).
+- **Démonstrations**
     - Résolution de l’équation du second degré.
+    - Déterminer l’axe de symétrie et le sommet d’une parabole d’équation $y=ax^2+bx+c$
+
+:::warning Remarques
+Les élèves doivent savoir qu’une fonction polynôme du second degré admet une forme canonique, et être capables de la déterminer **dans des cas simples** à l’aide de l’identité $x^2+2ax=(x+a)^2-a^2$ (méthode de complétion du carré). Le calcul effectif de la forme canonique dans le cas général n’est pas un attendu du programme. Les élèves sont entraînés à reconnaître et pratiquer la factorisation directe dans les cas qui s’y prêtent: racines apparentes, coefficient de x nul, racines entières détectées par calcul mental à partir de leur somme et de leur produit.
+:::
+
+- **Algorithme**:
+    - Résolution de l’équation du second degré. (Calculatrice + Python)
 - **Histoire**: On trouve chez Diophante, puis chez Al-Khwârizmî, des méthodes de résolutions d’équations du second degré. Le travail novateur d’Al-Khwârizmî reste en partie tributaire de la tradition (utilisation de considérations géométriques équivalentes à la forme canonique) et de l'état alors embryonnaire de la notation algébrique, ainsi que de l’absence des nombres négatifs. Les méthodes actuelles sont un aboutissement de ce long cheminement vers un formalisme efficace et concis
 
 <table>
