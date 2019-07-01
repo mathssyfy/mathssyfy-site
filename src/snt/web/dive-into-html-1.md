@@ -9,7 +9,9 @@ cover: ./covers/birds.jpg
 ---
 # Batir un site Web
 
-> *Prérequis* : Visual Studio Code est installé sur votre poste
+:::tip Prérequis
+Visual Studio Code est installé sur votre poste
+:::
 
 Nous allons construire un site assez simple: un *Portfolio*. Un portfolio est une sorte de CV en ligne, qui nous présente, décrit nos centres d'intérets, etc...
 
@@ -17,7 +19,9 @@ Nous allons construire un site assez simple: un *Portfolio*. Un portfolio est un
 
 Dans un endroit futé, créez un dossier, par exemple `mon-portfolio`.
 
-> **Important**: Pour les noms de dossiers et de fichiers, ne pas utiliser d'espaces, de caractères spéciaux, des accents, et en HTML les noms de fichiers et de sous-dossiers sont en minuscule. Voir [Naming HTML Conventions](http://thenewcode.com/30/HTML-Naming-Conventions-and-File-Management)
+:::warning Important
+Pour les noms de dossiers et de fichiers, ne pas utiliser d'espaces, de caractères spéciaux, des accents, et en HTML les noms de fichiers et de sous-dossiers sont en minuscule. Voir [Naming HTML Conventions](http://thenewcode.com/30/HTML-Naming-Conventions-and-File-Management)
+:::
 
 Ensuite, créez un nouveau fichier: `index.html`.
 
@@ -89,7 +93,9 @@ Un exemple général serait celui-ci, l'encodage:
 
 Ce jeu de caractères ajoute le codage de caractères à notre code et garantit donc que le contenu, ainsi que les lettres, les chiffres et les symboles, peuvent être correctement affichés sur notre site Web.
 
-> [UTF-8](https://www.w3schools.com/charsets/ref_html_utf8.asp) est un jeu de caractères très courant, donc l'ajout à notre code n'est pas la pire des idées.
+:::tip Information
+[UTF-8](https://www.w3schools.com/charsets/ref_html_utf8.asp) est un jeu de caractères très courant, donc l'ajout à notre code n'est pas la pire des idées.
+:::
 
 En plus de l'élément `<meta>`, nous pourrions également ajouter un élément `<title>` à notre `<head>` et y ajouter du contenu, par exemple «Mon Portfolio»:
 
@@ -135,7 +141,9 @@ Quelques exemples:
 + *Sémantiques* : p, h1, head, body, footer, ...
 + *Non sémantiques* : div, span, ...
 
-> Assurez-vous de consulter le [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) pour en savoir plus sur les différents éléments disponibles en HTML.
+:::tip Information
+Assurez-vous de consulter le [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) pour en savoir plus sur les différents éléments disponibles en HTML.
+:::
 
 ## Créer notre premier site Web
 
@@ -156,8 +164,9 @@ Commençons par le `<header>` . Comme expliqué dans la dernière section de cet
 </html>
 ```
 
-> **Important:**
+:::warning Important
 Bien que l'élément `<h1>` soit livré avec un style par défaut et spécial (taille de police en caractères gras et plus gros), le style de notre site Web ne doit pas être basé sur des éléments HTML. Pour ce faire, nous utiliserons CSS (Cascading Style Sheets).
+:::
 
 Pour nous, l'élément `<h1>` nous aide simplement à identifier rapidement le titre actuel de notre code comme `<h1>`, `<h2>`,…, `<h6>` sont généralement utilisés pour indiquer les différents [titres](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements) d'un site Web.
 
