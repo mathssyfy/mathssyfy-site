@@ -8,7 +8,7 @@ tags:
 - pwa
 - django
 - python
-image: ''
+image: https://res.cloudinary.com/dpw19qolx/image/upload/q_auto,f_auto,g_auto,w_auto,dpr_auto/v1561883470/greg-rakozy-oMpAz-DN-9I-unsplash.jpg
 
 ---
 ## Installer les outils
