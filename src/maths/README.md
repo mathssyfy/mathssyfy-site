@@ -2,7 +2,7 @@
 title: Mathématiques
 ---
 
-**Page d'acceuil des mathématiques**
+**Page d'accueil des mathématiques**
 
 ## TS Spécialité
 

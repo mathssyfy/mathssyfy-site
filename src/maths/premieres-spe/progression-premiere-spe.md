@@ -24,7 +24,7 @@ image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v15619840
     - Déterminer l’axe de symétrie et le sommet d’une parabole d’équation $y=ax^2+bx+c$
 
 :::warning Remarques
-Les élèves doivent savoir qu’une fonction polynôme du second degré admet une forme canonique, et être capables de la déterminer **dans des cas simples** à l’aide de l’identité $x^2+2ax=(x+a)^2-a^2$ (méthode de complétion du carré). Le calcul effectif de la forme canonique dans le cas général n’est pas un attendu du programme. Les élèves sont entraînés à reconnaître et pratiquer la factorisation directe dans les cas qui s’y prêtent: racines apparentes, coefficient de x nul, racines entières détectées par calcul mental à partir de leur somme et de leur produit.
+Les élèves doivent savoir qu’une fonction polynôme du second degré admet une forme canonique, et être capables de la déterminer **dans des cas simples** à l’aide de l’identité $x^2+2ax=(x+a)^2-a^2$ (méthode de complétion du carré). Le calcul effectif de la forme canonique dans le cas général n’est pas un attendu du programme. Les élèves sont entraînés à reconnaître et pratiquer la factorisation directe dans les cas qui s’y prêtent: racines apparentes, coefficient de $x$ nul, racines entières détectées par calcul mental à partir de leur somme et de leur produit.
 :::
 
 - **Algorithmes**:
