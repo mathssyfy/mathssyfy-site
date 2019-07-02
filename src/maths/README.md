@@ -4,6 +4,8 @@ title: Mathématiques
 
 **Page d'accueil des mathématiques**
 
+![Cover Image](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1562052506/geometry-1044090_1920.jpg)
+
 ## TS Spécialité
 
 + [Chapitre 2: Matrices](./cours/TS-Spe/C2-Matrices/)
