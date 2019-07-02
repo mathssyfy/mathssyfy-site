@@ -40,4 +40,5 @@ fields:
   name: image
   label: image
 pages:
+- src/blog/python-django-pwa.md
 - src/blog/test-template.md
