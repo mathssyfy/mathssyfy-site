@@ -131,7 +131,7 @@ Il est temps d'écrire un peu de HTML ! Commençons par la mise en page du site,
 			{% endblock %}
 		</div>
 		<div class="footer bg-dark">
-			<p>&copy Feeds 2018</p>
+			<p>&copy Feeds 2019</p>
 			<a class="alink" href="#">Privacy policy</a>&nbsp
 			<a class="alink" href="#">Contact us</a>
 		</div>
