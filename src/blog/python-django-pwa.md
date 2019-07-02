@@ -184,3 +184,20 @@ def base_layout(request):
 	template='posts/base.html'
 	return render(request,template)
 ```
+
+:::tip Information
+La fonction `index()` est chargée de servir la page d'accueil du site Web lorsque l'utilisateur est en ligne. Les résultats récupèrent tous les flux et sont envoyés au client en utilisant `context` `dict`. La fonction `base_layout ()` est utilisée pour rendre `base.html` qui sera mis en cache ultérieurement par le `service worker` pour la prise en charge hors ligne (nous en verrons plus à ce sujet plus tard).
+:::
+
+Dans le fichier `models.py`:
+
+```python
+from django.db import models
+
+# Create your models here.
+class feed(models.Model):
+	id=models.IntegerField(primary_key=True)
+	author=models.CharField(max_length=50)
+	title=models.CharField(max_length=100)
+	body=models.TextField()
+```
