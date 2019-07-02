@@ -1,8 +1,8 @@
 ---
-sidebar: auto
+title: Mathématiques
 ---
 
-# Cours de mathématiques
+**Page d'acceuil des mathématiques**
 
 ## TS Spécialité
 
@@ -16,3 +16,8 @@ sidebar: auto
 + [Chapitre 7: Exercices Complexes partie 2](./cours/TS-Obli/C7-Exos/)
 + [Chapitre 9: Intégrales](./cours/TS-Obli/C9-Integrales)
 + [Chapitre 10: Espace](./cours/TS-Obli/espace/)
+
+## Premières spécialité
+
+- [Accueil premières](./premieres-spe/)
+- [Progression premières](./premieres-spe/progression-premiere-spe)

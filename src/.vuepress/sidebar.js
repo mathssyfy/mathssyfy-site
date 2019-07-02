@@ -11,6 +11,14 @@ function sideBar() {
       'reperage',
       'representation'
     ],
+    '/maths/premieres-spe': [
+      '',
+      'progression-premiere-spe'
+    ],
+    '/maths/': [
+      '',
+      '/premiere-spe/'
+    ],
 
 
     // development
