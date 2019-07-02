@@ -1,5 +1,6 @@
 ---
 title: Mathématiques
+sidebar: auto
 ---
 ![Cover Image](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1562052506/geometry-1044090_1920.jpg)
 

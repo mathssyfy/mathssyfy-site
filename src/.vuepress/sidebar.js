@@ -15,10 +15,6 @@ function sideBar() {
       '',
       'progression-premiere-spe'
     ],
-    '/maths/': [
-      '',
-      '/maths/premieres-spe/'
-    ],
  
 
     // development
