@@ -140,3 +140,47 @@ Il est temps d'écrire un peu de HTML ! Commençons par la mise en page du site,
 </html>
 ```
 
+Puis dans `index.html`:
+
+```html
+{% extends 'posts/base.html' %}
+{% block content %}
+{% load static %}
+<br><br><br>
+<div class="feeds">
+	{% for result in results %}
+		<h3>{{result.title}}</h3>
+		<br>
+		Name:{{result.author}}
+		<br>
+		<p id="{{result.id}}">
+			{{result.body}}
+		</p>
+		<hr>
+	{% endfor %}
+</div>
+{% endblock %}
+```
+
+## Ajouter les fonctionnalités
+
+Dans le dossier `djangopwa/posts/` il y a un fichier `views.py`où nous allons mettre:
+
+```python
+from django.shortcuts import render
+from django.core import serializers
+from . models import feed
+import json
+# Create your views here.
+def index(request):
+	template='posts/index.html'
+	results=feed.objects.all()
+	context={
+		'results':results,
+	}
+	return render(request,template,context)
+
+def base_layout(request):
+	template='posts/base.html'
+	return render(request,template)
+```
