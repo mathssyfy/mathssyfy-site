@@ -17,7 +17,7 @@ function sideBar() {
     ],
     '/maths/': [
       '',
-      '/maths/premiere-spe/'
+      '/maths/premieres-spe/'
     ],
 
 
