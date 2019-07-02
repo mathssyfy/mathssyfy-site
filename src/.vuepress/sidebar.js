@@ -11,7 +11,7 @@ function sideBar() {
       'reperage',
       'representation'
     ],
-    '/maths/premieres-spe': [
+    '/maths/premieres-spe/': [
       '',
       'progression-premiere-spe'
     ],
@@ -19,7 +19,7 @@ function sideBar() {
       '',
       '/maths/premieres-spe/'
     ],
-
+ 
 
     // development
     '/development/Vuepress/': [
