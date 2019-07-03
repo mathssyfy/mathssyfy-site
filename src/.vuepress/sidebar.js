@@ -13,7 +13,7 @@ function sideBar() {
     ],
     '/maths/premieres-spe/': [
       '',
-      'progression-premiere-spe'
+      'progression-premiere'
     ],
  
 
