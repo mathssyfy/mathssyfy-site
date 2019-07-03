@@ -20,4 +20,4 @@ sidebar: auto
 ## Premières spécialité
 
 - [Accueil premières](./premieres-spe/)
-- [Progression premières](./premieres-spe/progression-premiere-spe)
+- [Progression premières](./premieres-spe/progression-premiere)
