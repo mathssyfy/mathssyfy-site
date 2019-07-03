@@ -15,6 +15,13 @@ function sideBar() {
       '',
       'progression-premiere'
     ],
+    '/maths/':[
+      '',
+      '/maths/premieres/',
+      '/maths/cours/',
+      '/maths/TS-Obli/',
+      '/maths/TS-Spe/'
+    ],
  
 
     // development

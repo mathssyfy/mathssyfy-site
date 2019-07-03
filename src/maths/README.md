@@ -19,5 +19,5 @@ sidebar: auto
 
 ## Premières spécialité
 
-- [Accueil premières](./premieres-spe/)
-- [Progression premières](./premieres-spe/progression-premiere)
+- [Accueil premières](./premieres/)
+- [Progression premières](./premieres/progression-premiere)
