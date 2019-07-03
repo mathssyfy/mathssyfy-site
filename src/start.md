@@ -15,6 +15,11 @@ Ce site est en construction !
 - Pour les sujets de Bac S: [Sujet](/maths/sujets/README.md)
 - Pour les cours de mathématiques: [Cours](/maths/cours/README.md)
 
+### Premières Spécialité
+
+- La page d'accueil des premières: [Accueil](/maths/premieres/)
+- La progression indicative: [Progression](/maths/premieres/progression-premiere.md)
+
 ## Développement
 
 ### Vuepress

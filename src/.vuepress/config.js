@@ -19,12 +19,6 @@ module.exports = {
       name: "google-site-verification",
       content: "6ziOTKgv0QzimoescRoCDp4PI3MJIh3MbOMs05K5Q8c"
     }],
-    /* ['link', {
-      rel: "stylesheet",
-      href: "https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css",
-      integrity: "sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j",
-      crossorigin: "anonymous"
-    }], */
     ['link', {
       rel: 'manifest',
       href: '/manifest.json',
@@ -40,7 +34,7 @@ module.exports = {
       '/': {
         label: 'Français',
         selectText: 'Languages',
-        lastUpdated: 'Last Updated'
+        lastUpdated: 'Dernière mise à jour:'
       }
     },
     nav: [
@@ -51,11 +45,11 @@ module.exports = {
     ],
     sidebar: sideBar(),
   },
-    markdown: {
+     markdown: {
     extendMarkdown: md => {      
       md.use(require('markdown-it-katex-newcommand'))      
     }
-  },  
+  },   
   plugins: [
     ['@vuepress/pwa', {
       serviceWorker: true,

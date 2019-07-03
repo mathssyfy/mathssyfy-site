@@ -5,4 +5,4 @@ title: Premières Spécialités
 
 ## Progression
 
-- [Progression première spécialité](./progression-premiere-spe)
+- [Progression première spécialité](./progression-premiere)
