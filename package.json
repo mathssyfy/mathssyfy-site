@@ -7,13 +7,16 @@
   "license": "MIT",
   "scripts": {
     "develop": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "katex": "^0.10.2",
     "markdown-it-katex-newcommand": "^1.1.0",
     "vuepress": "^1.0.2",
-    "vuepress-plugin-sitemap": "^2.1.2"
+    "vuepress-plugin-sitemap": "^2.1.2",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.0.2",
@@ -22,5 +25,6 @@
     "moment": "^2.24.0",
     "tailwindcss": "^1.0.4",
     "vuepress-plugin-reading-time": "^0.1.1"
-  }
+  },
+  "snyk": true
 }
