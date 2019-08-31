@@ -4,6 +4,17 @@ description: Thèmes
 ---
 ![Cover Image](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1562052876/nebulae-1199180_1920.jpg)
 
+::tip Programme officiel
+L'enseignement de sciences numériques et technologie en classe de seconde a pour objet de 
+permettre d'appréhender les principaux concepts des sciences numériques, mais également de permettre
+aux élèves, à partir d'un objet technologique, de comprendre le poids croissant
+du numérique et les enjeux qui en découlent.
+La numérisation généralisée des données, les nouvelles modalités de traitement ou de stockage et le développement récent
+d'algorithmes permettant de traiter de très grands volumes de données numériques constituent une réelle rupture dans la diffusion
+des technologies de l'information et de la communication. Cette révolution multiplie les impacts sur les
+pratiques humaines.
+:::
+
 ## Internet
 
 :::tip Programme officiel
