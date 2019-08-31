@@ -48,6 +48,11 @@ Tous les objets connectés à Internet (tablettes, smartphones, etc...) peuvent 
 
 A chaque appareil est associé un numéro d'indentification. c'est **l'adresse IP**.
 
+C'est une adresse unique attribuée à chaque appareil connecté sur internet: c'est-à-dire qu'il n'existe pas sur internet deux ordinateurs ayant la même adresse IP. Elle se présente le plus souvent sous forme de quatre nombres (entre 0 et 255), séparés par des points.
+
+Par exemple: 204.35.129.3
+
+Pour connaitre votre address IP: [mon-ip](http://www.mon-ip.com/)
 
 
 
