@@ -11,11 +11,16 @@ son,
  vidéo) reliées par des liens hytpertextes et accessibles sur le réseau internet.
 + Sur le Web, les contenus sont exprimés et assemblés dans divers formats normalisés par le consorstium mondial [W3C](https://www.w3.org/) (*World Wild Web Consortium*) qui permet une circulation standartisée de ces informations.
 
-    Le Web n'est qu'une application d'internet comme le courier électronique, la messagerie instantanée, le partage de fichiers, les jeux en ligne, etc...
+    Le Web n'est qu'une application d'Internet comme le courier électronique, la messagerie instantanée, le partage de fichiers, les jeux en ligne, etc...
 
 + Quand on parle du Web, on pense généralement à la partie visible, indexée par les moteurs de recherche. Pourtant, il existe une partie invisible, que l'on appelle **Deep Web** (*Web profond*). Il comprend toutes les pages qui ne sont pas accessibles par les moteurs de recherches classiques. Elles peuvent être de tout les types, mais ce sont le plus souvent des bases de données, des bibliothèques en ligne ou encore des sites protégées par un mot de passe.
 
     Le **Dark Web** est une partie du Deep Web
+    
+:::warning Info
+Le Web invisible est difficilement quantifiable, mais on estime qu'il est plusieurs centaines de fois
+plus grand que le Web indexé.
+:::
 
 ## Les pages Web HTML
 
