@@ -27,7 +27,6 @@ Données statistiques:
 
 Vidéo qui date de 2017, mais est toujours dans l'ensemble d'actualité: [Câbles sous-marins, la guerre invisible](https://www.youtube.com/watch?v=Cb7ibgRivwU)
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Cb7ibgRivwU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 :::warning Info
@@ -50,11 +49,26 @@ Tous les objets connectés à Internet (tablettes, smartphones, etc...) peuvent 
 
 A chaque appareil est associé un numéro d'indentification. c'est **l'adresse IP**.
 
-C'est une adresse unique attribuée à chaque appareil connecté sur internet: c'est-à-dire qu'il n'existe pas sur internet deux ordinateurs ayant la même adresse IP. Elle se présente le plus souvent sous forme de quatre nombres (entre 0 et 255), séparés par des points.
+C'est une adresse unique attribuée à chaque appareil connecté sur internet: c'est-à-dire qu'il n'existe pas sur internet deux ordinateurs ayant la même adresse IP. 
+
++ Les adresses **IPv4**  se présentent le plus souvent sous forme de quatre nombres (entre 0 et 255), séparés par des points.
 
 Par exemple: 204.35.129.3
 
++ Les adresses **IPv6** sont codées en hexadécimal sur 16 octects (8 parties telles que chaque partie est sur 2 octets).
+
+Par exemple: 3ac4:0567:0000:34b6:0000:0000:c6d4:43000
+
+
 Pour connaitre votre address IP: [mon-ip](http://www.mon-ip.com/)
+
+:::tip A retenir
+Le **protocole IP** (Internet protocol) donne une adresse à toutes les machines du réseau. 
+Ses principales fonctions sont:
++ de définir le format des données (datagramme)
++ d'assurer l'adressage et le routage de ces datagrammes jusqu'à leur adresse de destination
++ de fragmenter et réassembler les datagrammes si nécessaire.
+:::
 
 
 
