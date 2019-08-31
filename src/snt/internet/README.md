@@ -25,7 +25,9 @@ Données statistiques:
 
 <a href="https://fr.statista.com/infographie/15784/possession-de-cables-sous-marins-par-les-gafam/" title="Infographie: Les GAFAM et la bataille des câbles sous-marins | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_15784_possession_de_cables_sous_marins_par_les_gafam_n.jpg" alt="Infographie: Les GAFAM et la bataille des câbles sous-marins | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> Vous trouverez plus d'infographie sur <a href="https://fr.statista.com/graphique-du-jour/">Statista</a>
 
+:::tip Vidéo
 Vidéo qui date de 2017, mais est toujours dans l'ensemble d'actualité: [Câbles sous-marins, la guerre invisible](https://www.youtube.com/watch?v=Cb7ibgRivwU)
+:::
 
 
 
@@ -60,15 +62,28 @@ Par exemple: 204.35.129.3
 Par exemple: 3ac4:0567:0000:34b6:0000:0000:c6d4:43000
 
 
-Pour connaitre votre address IP: [mon-ip](http://www.mon-ip.com/)
++ Pour connaitre votre address IP: [my-ip-finder](https://www.my-ip-finder.fr/)
++ Ce site permet aussi de trouver l'adresse IP d'un domaine quelconque.
+
 
 :::tip A retenir
-Le **protocole IP** (Internet protocol) donne une adresse à toutes les machines du réseau. 
+Le **protocole IP** (Internet Protocol) donne une adresse à toutes les machines du réseau. 
 Ses principales fonctions sont:
 + de définir le format des données (datagramme)
 + d'assurer l'adressage et le routage de ces datagrammes jusqu'à leur adresse de destination
 + de fragmenter et réassembler les datagrammes si nécessaire.
 :::
+
+### Le protocole TCP
+
+**TCP** (*Transmission Control Protocol): littéralement "le procotole de contrôle de transmission".
+
+Il régit les échanges de paquets de données (datagrammes) entre des machines connectées sur Internet.
++ Il vérifie que le destinataire est prêt à recevoir les données dans les bonnes conditions.
++ Il prépare les envois de paquets de données.L'émetteur découpe les gros paquets de données en paquets plus petits.
++ Il vérifie que chaque paquet est bien arrivé. Au besoin, le TCP du destinataire remande les paquets manquants et les réassemble avant de les livrer dans la machine.
+
+TCP ne garantit pas un delai précis. La durée d'envoie d'un paquet dépend des débits disponibles à l'instant du transfert.
 
 
 
