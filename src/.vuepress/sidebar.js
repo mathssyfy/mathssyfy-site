@@ -43,6 +43,9 @@ function sideBar() {
       '/development/HowTo/'],
 
     // snt
+    '/snt/internet/': [
+      ''
+    ],
     '/snt/web/': [
       '',
       'dive-into-html-1',
@@ -52,6 +55,7 @@ function sideBar() {
     ],
     '/snt/': [
       '',
+      '/snt/internet/',
       '/snt/web/'
     ],
 
