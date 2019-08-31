@@ -1,5 +1,5 @@
 ---
-title: Web
+title: Le Web
 description: Généralités sur le Web
 ---
 ![Cover Image](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561731158/shahadat-shemul-gnyA8vd3Otc-unsplash.jpg)
