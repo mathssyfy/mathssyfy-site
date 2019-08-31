@@ -3,13 +3,13 @@ title: Internet
 description: Généralités sur le Internet
 ---
 
-## Internet et les réseaux physiques
+# Internet et les réseaux physiques
 
 Internet est un réseau logiciel mondial qui repose en réalité sur une grande variété d'infrastures
 physiques (câbles, antennes et relais, satellites, fibres) par le biais
 desquelles les données transitent.
 
-### Les câbles sous-marins d'Internet
+## Les câbles sous-marins d'Internet
 
 D'un seul câble transatlantique en 1858 et d'une vingtaine en 2015, on passe à plus de 
 450 câbles sous-marins aujourd'hui qui s'étendent sur plur de 1,2 millions de kilomètres,
@@ -36,16 +36,16 @@ L'ennemi numéro un des câbles sous-marins ne sont pas les avalanches sous-mari
 ni même les morsures de requins, mais d'abord et de loin les ancres de bateaux.
 :::
 
-### Distribution du trafic Internet mondial en 2019
+## Distribution du trafic Internet mondial en 2019
 
 <a href="https://fr.statista.com/infographie/15717/repartition-trafic-internet-descendant-mondial-par-application/" title="Infographie: Les principaux générateurs de trafic internet dans le monde | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_15717_repartition_trafic_internet_descendant_mondial_par_application_n.jpg" alt="Infographie: Les principaux générateurs de trafic internet dans le monde | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> Vous trouverez plus d'infographie sur <a href="https://fr.statista.com/graphique-du-jour/">Statista</a>
 
-## Le protocole TCP/IP
+# Le protocole TCP/IP
 
 Grâce à son universalité, Internet est devenu le moyen de communication principal entre les hommes et les machines.
 Pour communiquer, tous les appareils connectés utilisent des règles communes constituant un protocole de communication.
 
-### Le protocole IP
+## Le protocole IP
 
 Tous les objets connectés à Internet (tablettes, smartphones, etc...) peuvent échanger entre eux des informations respectant un certain protocole. C'est le **protocole IP** (*Internet Protocol*)
 
@@ -74,7 +74,7 @@ Ses principales fonctions sont:
 + de fragmenter et réassembler les datagrammes si nécessaire.
 :::
 
-### Le protocole TCP
+## Le protocole TCP
 
 **TCP** (*Transmission Control Protocol): littéralement "le procotole de contrôle de transmission".
 
