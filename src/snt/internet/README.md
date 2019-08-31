@@ -18,7 +18,7 @@ reposant au fond des océeans.
 Ces liaisons à fibres optiques supportent plus de 99 % du trafic internet mondial.
 Leur nombre augmente chaque année pour faire face à l'augmentation considérable du flux de données.
 
-![Câbles](cables.jpg)
+![Câbles](./cables.jpg)
 [Carte interactive](https://www.submarinecablemap.com/)
 
 Données statistiques:
