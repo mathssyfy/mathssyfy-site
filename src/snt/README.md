@@ -20,6 +20,15 @@ Aller aux articles: [Web](/snt/web/)
 
 <a href="https://fr.statista.com/infographie/19063/nombre-de-sites-web-internet-dans-le-monde/" title="Infographie: Combien y a-t-il de sites Internet ? | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_19063_nombre_de_sites_web_internet_dans_le_monde_n.jpg" alt="Infographie: Combien y a-t-il de sites Internet ? | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> Vous trouverez plus d'infographie sur <a href="https://fr.statista.com/graphique-du-jour/">Statista</a>
 
+
+## Les réseaux sociaux
+
+Les réseaux sociaux sont des applications basées sur les technologies du Web qui offrent un service 
+de mise en relation d'internautes pour ainsi développer des communautés d'intérêts.
+
+<a href="https://fr.statista.com/infographie/18995/temps-moyen-passe-sur-les-reseaux-sociaux-par-pays/" title="Infographie: Où passe-t-on le plus de temps sur les réseaux sociaux ? | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_18995_temps_moyen_passe_sur_les_reseaux_sociaux_par_pays_n.jpg" alt="Infographie: Où passe-t-on le plus de temps sur les réseaux sociaux ? | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> Vous trouverez plus d'infographie sur <a href="https://fr.statista.com/graphique-du-jour/">Statista</a>
+
+
 ## Les données structurées et leur traitement
 
 Les données constituent la matière première de toute activité numérique. Afin de permettre leur réutilisation,
