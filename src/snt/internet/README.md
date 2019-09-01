@@ -97,7 +97,7 @@ Ses principales fonctions sont:
 
 ### Le protocole TCP
 
-**TCP** (*Transmission Control Protocol): littéralement "le procotole de contrôle de transmission".
+**TCP** (*Transmission Control Protocol*): littéralement "le procotole de contrôle de transmission".
 
 Il régit les échanges de paquets de données entre des machines connectées sur Internet.
 + Il vérifie que le destinataire est prêt à recevoir les données dans les bonnes conditions.
@@ -118,4 +118,40 @@ TCP ne garantit pas un delai précis. La durée d'envoie d'un paquet dépend des
 source: [wikipedia.fr](https://fr.m.wikipedia.org/wiki/Fichier:Internetprotocolsecurity-fr.svg)
 
   
+## Le serveur DNS
+
+### Une adresse sur le réseau Internet
+
+Toutes les machines (ordinateurs, serveurs, routeurs, smartphones, voitures (!)...) connectées à Internet possèdent une adresse IP. C'est cette adresse IP qui permet aux machines de communiquer entre elles.
+
+Mais bien sûr, nous avons beau être des êtres humains avec une bonne mémoire, notre cerveau n'est pas fait pour retenir des séries de chiffres comme 104.20.55.240. On aimerait mieux avoir à retenir des noms comme fr.wikipedia.org, voire même n'avoir rien à retenir du tout (mais c'est un autre débat...).
+
+Il ne s'agit donc pas d'un problème technique, Internet fonctionne très bien avec des adresses IP, mais d'un problème de nommage pour permettre un accès simplifié à Internet pou‌r nous tous, pauvres êtres humains. Ce système de nommage est le **Domain Name System (DNS)**.
+
+Le **DNS** est un protocole indispensable au fonctionnement d'Internet. Non pas d'un point de vue technique, mais d'un point de vue de son utilisation. Il est inconcevable aujourd'hui d'utiliser des adresses IP en lieu et place des noms des sites web pour naviguer sur Internet. Se souvenir de 58.250.12.36 est déjà compliqué, mais quand vous surfez sur 40 sites différents par jour, cela fait quelques adresses à retenir. Et ça, on ne sait pas faire...
+
+:::warning A retenir
+Le système **DNS** se charge de convertir (on parle de **résolution**) le nom du site web demandé en adresse IP.
+:::
+
+### Principes de fonctionnement du DNS
+
+Un nom de domaine se décompose en plusieurs parties. Prenons l'exemple suivant : **www.google.fr**
+
+Chaque partie est séparée par un point.
+
++ On trouve l'extension en premier (en premier, **mais en partant de la droite**) ; on parle de **Top Level Domain (TLD)**. Il existe des TLD nationaux (fr, it, de, es, etc.) et les TLD génériques (com, org, net, biz, etc.).
+
++ Il existe une infinité de possibilités pour la deuxième partie. Cela correspond à tous les sites qui existent : google.fr, ovh.net, twitter.com, etc...
+
+Comme vous le voyez, google.fr est un sous-domaine de fr. Le domaine fr englobe tous les sous-domaines finissant par fr.
+
++ La troisième partie est exactement comme la seconde. On y retrouve généralement le fameux "www", ce qui nous donne des noms de domaine comme www.google.fr. www peut soit être un sous-domaine de google.fr, mais dans ce cas il pourrait y avoir encore des machines ou des sous-domaines à ce domaine, soit être directement le nom d'une machine.
+
+Ici, www est le nom d'une machine dans le domaine google.fr.
+
+On peut bien entendu ajouter autant de troisièmes parties que nécessaire.
+
+![dns](./dns.png)
+
 
