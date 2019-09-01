@@ -29,8 +29,8 @@ desquelles les données transitent.
 ### Les câbles sous-marins d'Internet
 
 D'un seul câble transatlantique en 1858 et d'une vingtaine en 2015, on passe à plus de 
-450 câbles sous-marins aujourd'hui qui s'étendent sur plur de 1,2 millions de kilomètres,
-reposant au fond des océeans.
+450 câbles sous-marins aujourd'hui qui s'étendent sur plus de 1,2 millions de kilomètres,
+reposants au fond des océeans.
 
 Ces liaisons à fibres optiques supportent plus de 99 % du trafic internet mondial.
 Leur nombre augmente chaque année pour faire face à l'augmentation considérable du flux de données.
@@ -70,7 +70,7 @@ Pour communiquer, tous les appareils connectés utilisent des règles communes c
 
 Tous les objets connectés à Internet (tablettes, smartphones, etc...) peuvent échanger entre eux des informations respectant un certain protocole. C'est le **protocole IP** (*Internet Protocol*)
 
-A chaque appareil est associé un numéro d'indentification. c'est **l'adresse IP**.
+A chaque appareil est associé un numéro d'identification. c'est **l'adresse IP**.
 
 C'est une adresse unique attribuée à chaque appareil connecté sur internet: c'est-à-dire qu'il n'existe pas sur internet deux ordinateurs ayant la même adresse IP. 
 
@@ -83,7 +83,7 @@ Par exemple: 204.35.129.3
 Par exemple: 3ac4:0567:0000:34b6:0000:0000:c6d4:43000
 
 
-+ Pour connaitre votre address IP: [my-ip-finder](https://www.my-ip-finder.fr/)
++ Pour connaitre votre addresse IP: [my-ip-finder](https://www.my-ip-finder.fr/)
 + Ce site permet aussi de trouver l'adresse IP d'un domaine quelconque.
 
 
@@ -138,6 +138,7 @@ Le système **DNS** se charge de convertir (on parle de **résolution**) le nom 
 
 Un nom de domaine se décompose en plusieurs parties. Prenons l'exemple suivant : **www.google.fr**
 
+
 Chaque partie est séparée par un point.
 
 + On trouve l'extension en premier (en premier, **mais en partant de la droite**) ; on parle de **Top Level Domain (TLD)**. Il existe des TLD nationaux (fr, it, de, es, etc.) et les TLD génériques (com, org, net, biz, etc.).
@@ -154,4 +155,10 @@ On peut bien entendu ajouter autant de troisièmes parties que nécessaire.
 
 ![dns](./dns.png)
 
+
+### Gestion internationnale des DNS
+
+Même si le système DNS n'est pas indispensable au fonctionnement d'Internet, il en est un élément incontournable. 
+
+Le système de noms de domaine est géré par un organisme américain appelé l'[ICANN](https://www.icann.org/fr). Celui-ci dépend directement du Département du Commerce des États-Unis. L'ICANN est responsable de la gestion des 13 serveurs DNS qui gèrent la racine du DNS. Ces 13 serveurs connaissent les adresses IP des serveurs DNS gérant les TLD (les .fr, .com; org, etc.)
 
