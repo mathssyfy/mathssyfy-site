@@ -89,21 +89,28 @@ Par exemple: 3ac4:0567:0000:34b6:0000:0000:c6d4:43000
 :::tip A retenir
 Le **protocole IP** (Internet Protocol) donne une adresse à toutes les machines du réseau. 
 Ses principales fonctions sont:
-+ de définir le format des données (datagramme)
-+ d'assurer l'adressage et le routage de ces datagrammes jusqu'à leur adresse de destination
-+ de fragmenter et réassembler les datagrammes si nécessaire.
++ de définir le format des données 
++ d'assurer l'adressage et le routage de ces paquets jusqu'à leur adresse de destination
++ de fragmenter et réassembler les paquets si nécessaire.
 :::
 
 ### Le protocole TCP
 
 **TCP** (*Transmission Control Protocol): littéralement "le procotole de contrôle de transmission".
 
-Il régit les échanges de paquets de données (datagrammes) entre des machines connectées sur Internet.
+Il régit les échanges de paquets de données entre des machines connectées sur Internet.
 + Il vérifie que le destinataire est prêt à recevoir les données dans les bonnes conditions.
 + Il prépare les envois de paquets de données.L'émetteur découpe les gros paquets de données en paquets plus petits.
 + Il vérifie que chaque paquet est bien arrivé. Au besoin, le TCP du destinataire remande les paquets manquants et les réassemble avant de les livrer dans la machine.
 
 TCP ne garantit pas un delai précis. La durée d'envoie d'un paquet dépend des débits disponibles à l'instant du transfert.
+
+### TCP/IP, le modèle en couches
+
++ COUCHE APPLICATION: Englobe les applications standard du réseau (le logiciels présents sur une machine connectée) et l'indication du protocole de transport utilisé.
++ COUCHE TRANSPORT (TCP): Fragmente les messages en paquets de données afin de pouvoir les acheminer sur la couche Internet d'une machine à une autre adresse IP et établit la communication entre les deux adresses.
++ COUCHE INTERNET (IP): Détermine les chemins possibles à travers le réseau en précisant notament les adresses IP de l'expéditeur et du destinaire.
++ COUCHE ACCES RESEAU: Spécifie la forme sous laquelle les données doivent être acheminées quel que soit le type de réseau utilisé.
 
 
 
