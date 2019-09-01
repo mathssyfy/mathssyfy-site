@@ -1,7 +1,6 @@
 ---
 title: Internet
 description: Généralités sur le Internet
-sidebar: auto
 ---
 
 # Repères historiques
