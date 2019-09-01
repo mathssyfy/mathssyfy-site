@@ -60,9 +60,21 @@ Cependant, les données non structurées euvent aussi être exploitées, par exe
 
 ## Localisation, cartographie et mobilité
 
+:::tip Programme officiel
+La cartographie est essentielle pour beaucoup d'activités: agriculture, urbanisme, transports, loisirs, etc... Elle a été revolutionnée par l'arrivée des cartes numériques accessibles depuis les ordinateurs, tablettes et téléphones, bien plus souples à l'usage que les cartes papier.
+:::
+
 ## Informatique embarquée et objets connectés
 
+:::tip Programme officiel
+Embarquer l'informatique dans les objets a beaucoup d'avantages: simplifier leur fonctionnement, leur donner plus de possibilités d'usage et de sûreté, et leur permettre d'intégrer de nouvelles possibilités à matériel constant par simple modification de leur logiciel.
+:::
+
 ## La photographie numérique
+
+:::tip Programme officiel
+Les technologies de la photographie argentique ont eu une évolution très lente, liée aux progrès en optique, mécanique et chimie. Ce n'est plus du tout le cas de l'évolution actuelle, davantage due aux algorithmes qu'à la physique: algorithmes de développement et d'amélioration de l'image brute, algortihmes d'aide à la prise de vue...
+:::
 
 
 
