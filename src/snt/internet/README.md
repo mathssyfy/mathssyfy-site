@@ -112,7 +112,9 @@ TCP ne garantit pas un delai précis. La durée d'envoie d'un paquet dépend des
 + COUCHE INTERNET (IP): Détermine les chemins possibles à travers le réseau en précisant notament les adresses IP de l'expéditeur et du destinaire.
 + COUCHE ACCES RESEAU: Spécifie la forme sous laquelle les données doivent être acheminées quel que soit le type de réseau utilisé.
 
+![Couches TCP/IP](./Internetprotocolsecurity-fr.svg.png)
 
+source: [wikipedia.fr](https://fr.m.wikipedia.org/wiki/Fichier:Internetprotocolsecurity-fr.svg)
 
   
 
