@@ -61,7 +61,7 @@ ni même les morsures de requins, mais d'abord et de loin les ancres de bateaux.
 
 
 
-# Le protocole TCP/IP
+# Le protocole TCP IP
 
 Grâce à son universalité, Internet est devenu le moyen de communication principal entre les hommes et les machines.
 Pour communiquer, tous les appareils connectés utilisent des règles communes constituant un protocole de communication.
@@ -106,7 +106,7 @@ Il régit les échanges de paquets de données entre des machines connectées su
 
 TCP ne garantit pas un delai précis. La durée d'envoie d'un paquet dépend des débits disponibles à l'instant du transfert.
 
-## TCP/IP, le modèle en couches
+## TCP IP, le modèle en couches
 
 + COUCHE APPLICATION: Englobe les applications standard du réseau (le logiciels présents sur une machine connectée) et l'indication du protocole de transport utilisé.
 + COUCHE TRANSPORT (TCP): Fragmente les messages en paquets de données afin de pouvoir les acheminer sur la couche Internet d'une machine à une autre adresse IP et établit la communication entre les deux adresses.
