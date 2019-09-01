@@ -1,6 +1,6 @@
 ---
 title: Internet
-description: Généralités sur le Internet
+description: Généralités sur Internet
 sidebarDepth: 2
 ---
 
