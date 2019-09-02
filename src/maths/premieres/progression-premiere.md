@@ -30,7 +30,7 @@ Les élèves doivent savoir qu’une fonction polynôme du second degré admet u
 
 - **Durée**: 2 semaines
 - **Contenus**:
-    - Exemples de modes de génération d’une suite: explicite $u_n=ƒ(n)$, par une relation de récurrence $u_{n+1}=ƒ(u_n)$, par un algorithme, par des motifs géométriques. Notations: $u(n)$, $u_n$, $(u(n))$, $(u_n)$.
+    - Exemples de modes de génération d’une suite: explicite $u_n=f(n)$, par une relation de récurrence $u_{n+1}=f(u_n)$, par un algorithme, par des motifs géométriques. Notations: $u(n)$, $u_n$, $(u(n))$, $(u_n)$.
     - Sur des exemples, introduction intuitive de la notion de limite, finie ou infinie, d’une suite.
 - **Capacités attendues**:
     - Dans le cadre de l’étude d’une suite, utiliser le registre de la langue naturelle, le registre algébrique, le registre graphique, et passer de l’un à l’autre.
@@ -72,7 +72,7 @@ Les élèves doivent savoir qu’une fonction polynôme du second degré admet u
     - Point de vue local:
         - Taux de variation. Sécantes à la courbe représentative d’une fonction en un point donné.
         - Nombre dérivé d’une fonction en un point, comme limite du taux de variation. Notation $f'(a)$.
-        - Tangente à la courbe représentative d’une fonction en un point, comme «limite des sécantes». Pente. Équation :la tangente à la courbe représentative de ƒ au point d’abscisse a est la droite d’équation $y=f(a)+f'(a)(x-a)$.
+        - Tangente à la courbe représentative d’une fonction en un point, comme «limite des sécantes». Pente. Équation :la tangente à la courbe représentative de f au point d’abscisse a est la droite d’équation $y=f(a)+f'(a)(x-a)$.
     - Point de vue global:
         - uniquement les polynômes ici (fin chap 6)
         - fonction dérivable sur un intervalle. Fonction dérivée.

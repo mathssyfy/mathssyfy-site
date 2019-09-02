@@ -8,7 +8,7 @@ module.exports = {
     '/': {
       lang: 'fr-FR', // this will be set as the lang attribute on <html>
       title: 'MathsSyfy',
-      description: 'Mathématiques, Vuepress, Markdown, Python, Github, NodeJS, SNT, HTML, CSS'
+      description: 'Mathématiques, Vuepress, Markdown, Python, Github, NodeJS, SNT, HTML, CSS, Secondes'
     }
   },
   title: 'MathsSyfy',

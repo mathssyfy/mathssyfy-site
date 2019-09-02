@@ -42,7 +42,7 @@ Les élèves doivent savoir qu’une fonction polynôme du second degré admet u
 
 - **Durée**: 2 semaines
 - **Contenus**:
-    - Exemples de modes de génération d’une suite: explicite $u_n=ƒ(n)$, par une relation de récurrence $u_{n+1}=ƒ(u_n)$, par un algorithme, par des motifs géométriques. Notations: $u(n)$, $u_n$, $(u(n))$, $(u_n)$.
+    - Exemples de modes de génération d’une suite: explicite $u_n=f(n)$, par une relation de récurrence $u_{n+1}=f(u_n)$, par un algorithme, par des motifs géométriques. Notations: $u(n)$, $u_n$, $(u(n))$, $(u_n)$.
     - Sur des exemples, introduction intuitive de la notion de limite, finie ou infinie, d’une suite.
 - **Capacités attendues**:
     - Dans le cadre de l’étude d’une suite, utiliser le registre de la langue naturelle, le registre algébrique, le registre graphique, et passer de l’un à l’autre.
@@ -102,7 +102,7 @@ Les élèves doivent savoir qu’une fonction polynôme du second degré admet u
 <tr class="even">
 <td><p><strong>Chapitre 2 : SUITES NUMERIQUES GENERALITES</strong></p>
 <p><strong>Contenus−</strong></p>
-<p>Exemples de modes de génération d’une suite: explicite u<sub>n</sub>=ƒ(n), par une relation de récurrence u<sub>n+1</sub>=ƒ(u<sub>n</sub>), par un algorithme, par des motifs géométriques. Notations: u(n), u<sub>n</sub>, (u(n)), (u<sub>n</sub>).</p>
+<p>Exemples de modes de génération d’une suite: explicite u<sub>n</sub>=f(n), par une relation de récurrence u<sub>n+1</sub>=f(u<sub>n</sub>), par un algorithme, par des motifs géométriques. Notations: u(n), u<sub>n</sub>, (u(n)), (u<sub>n</sub>).</p>
 <p>−Sur des exemples, introduction intuitive de la notion de limite, finie ou infinie, d’une suite.</p>
 <p><strong>Capacités attendues−</strong></p>
 <p>Dans le cadre de l’étude d’une suite, utiliser le registre de la langue naturelle, le registre algébrique, le registre graphique, et passer de l’un à l’autre.−Proposer, modéliser une situation permettant de générer une suite de nombres. Déterminer une relation explicite ou une relation de récurrence pour une suite définie par un motif géométrique, par une question de dénombrement.−Calculer des termes d’une suite définie explicitement, par récurrence ou par un algorithme.</p></td>
@@ -127,7 +127,7 @@ Les élèves doivent savoir qu’une fonction polynôme du second degré admet u
 <td><p><strong>Chapitre 4 : DERIVATION partie 1 local - global</strong></p>
 <p><strong>Contenus</strong></p>
 <p><strong>Point de vue local−</strong></p>
-<p>Taux de variation. Sécantes à la courbe représentative d’une fonction en un point donné.−Nombre dérivé d’une fonction en un point, comme limite du taux de variation. Notation ƒ’(a).−Tangente à la courbe représentative d’une fonction en un point, comme «limite des sécantes». Pente. Équation :la tangente à la courbe représentative de ƒ au point d’abscisse a est la droite d’équation y=ƒ(a)+ƒ’(a)(x-a).</p>
+<p>Taux de variation. Sécantes à la courbe représentative d’une fonction en un point donné.−Nombre dérivé d’une fonction en un point, comme limite du taux de variation. Notation f’(a).−Tangente à la courbe représentative d’une fonction en un point, comme «limite des sécantes». Pente. Équation :la tangente à la courbe représentative de f au point d’abscisse a est la droite d’équation y=f(a)+f’(a)(x-a).</p>
 <p><strong>Point de vue global− uniquement les polynômes ici (fin chap 6)</strong></p>
 <p>Fonction dérivable sur un intervalle. Fonction dérivée.−Fonction dérivée des fonctions carré, cube, inverse, racine carrée.−Opérations sur les fonctions dérivables: somme, ku.</p>
 <p><strong>Capacités attendues−</strong></p>
@@ -231,7 +231,7 @@ Les élèves doivent savoir qu’une fonction polynôme du second degré admet u
 <tr class="odd">
 <td><p><strong>Chapitre 13 LA FONCTION EXPONENTIELLE</strong></p>
 <p><strong>Contenus−</strong></p>
-<p>Définition de la fonction exponentielle, comme unique fonction dérivable sur ℝ vérifiant ƒ’=ƒ et ƒ(0)=1. L’existence et l’unicité sont admises. Notation exp(x).−Pour tous réels x et y, exp(x+y)=exp(x)exp(y) et exp(x)exp(-x)=1. Nombre e. Notation ex.−Pour tout réel a, la suite(e<sup>na</sup>)est une suite géométrique.−Signe, sens de variation et courbe représentative de la fonction exponentielle.</p>
+<p>Définition de la fonction exponentielle, comme unique fonction dérivable sur ℝ vérifiant f’=f et f(0)=1. L’existence et l’unicité sont admises. Notation exp(x).−Pour tous réels x et y, exp(x+y)=exp(x)exp(y) et exp(x)exp(-x)=1. Nombre e. Notation ex.−Pour tout réel a, la suite(e<sup>na</sup>)est une suite géométrique.−Signe, sens de variation et courbe représentative de la fonction exponentielle.</p>
 <p><strong>Capacités attendues−</strong></p>
 <p>Transformer une expression en utilisant les propriétés algébriques de la fonction exponentielle.−Pour une valeur numérique strictement positive de k, représenter graphiquement les fonctions t↦e<sup>-kt</sup> et t↦e<sup>kt</sup>.−Modéliser une situation par une croissance, une décroissance exponentielle (par exemple évolution d’un capital à taux fixe, décroissance radioactive).</p></td>
 <td><strong>2</strong></td>
