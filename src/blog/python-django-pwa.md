@@ -1,6 +1,6 @@
 ---
 author: David Couronné
-date: 2019-07-02 11:40:44 +0000
+date: 2019-07-02
 post: true
 title: Python Django PWA
 description: Comment créer une PWA avec Django
