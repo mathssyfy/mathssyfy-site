@@ -2,7 +2,7 @@
 author: David Couronné
 date: 2019-10-04 15:37:50 +0000
 post: true
-title: 30 astuces Python rapides à apprendre
+title: Astuces Python rapides à apprendre
 description: Python est l’un des langages les plus utilisés par de nombreuses personnes
   dans les domaines de la science des données, de l’apprentissage automatique, du
   développement Web, des scripts, de l’automatisation, etc. Une partie de la raison
