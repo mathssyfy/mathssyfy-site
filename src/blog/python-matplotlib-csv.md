@@ -143,5 +143,31 @@ Ca doit donner:
 On pourrait vouloir un graphique avec les données du mois de juin, uniquement sur les 30 dernières années.
 
 ```python
+import csv
+import matplotlib.pyplot as plt
 
+x=[]
+y=[]
+
+with open('GLB.Ts+dSST.csv') as csv_file:
+    csv_reader = csv.DictReader(csv_file)
+    line_count = 0
+    for row in csv_reader:
+        if line_count == 0:
+            print(f'Column names are {", ".join(row)}')
+            line_count += 1
+        else:
+            x.append(int(row['Year']))
+            y.append(float(row['Jun']))
+            line_count += 1
+    print(f'Processed {line_count} lines.')
+
+plt.plot(x[-30:],y[-30:], marker='o')
+plt.title('Data from NASA: Global-mean monthly, seasonal, and annual means')
+plt.xlabel('Années')
+plt.ylabel('Mois de Juin')
+
+plt.show()  
 ```
+
+![Figure 2](./python-matplotlib-csv-fig-2.png)
