@@ -40,5 +40,5 @@ fields:
   name: image
   label: image
 pages:
+- src/blog/30-astuces-python-rapides-à-apprendre.md
 - src/blog/python-django-pwa.md
-- src/blog/test-template.md
