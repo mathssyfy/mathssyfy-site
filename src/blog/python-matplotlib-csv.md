@@ -23,7 +23,7 @@ pip install matplotlib
 ```
 - On va utiliser [Visual Studio Code](https://code.visualstudio.com/)
 
-## Parser des csv avec Python
+## Récupérer un fichier .csv
 
 Le format `csv`est utilisé pour le data. Il peut être obtenu par export d'un fichier Excel, ou récupéré sur des sites Internet. Pour en savoir plus: [https://fr.wikipedia.org/wiki/Comma-separated_values](https://fr.wikipedia.org/wiki/Comma-separated_values)
 
@@ -40,3 +40,65 @@ Si tout va bien, vous récupérez le fichier `GLB.Ts+dSST.csv`
 + Créer un dossier de travail. Par exemple `matplotlib_csv`
 + Copier le fichier `GLB.Ts+dSST.csv`
 + Ouvrir le dossier avec `Visual Studio Code`
++ Ouvrir le fichier `GLB.Ts+dSST.csv`
+
+Vous devez obtenir quelque chose qui ressemble à ça:
+
+```bash
+Land-Ocean: Global Means
+Year,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec,J-D,D-N,DJF,MAM,JJA,SON
+1880,-.18,-.24,-.09,-.16,-.10,-.21,-.18,-.10,-.15,-.24,-.22,-.18,-.17,***,***,-.12,-.16,-.20
+... 
+```
+
+Il faut supprimer la ligne de titre (ne pas laisser la ligne vide, vraiment la supprimer !), puis enregistrer (`CTRL+S`)
+
+```bash
+Year,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec,J-D,D-N,DJF,MAM,JJA,SON
+1880,-.18,-.24,-.09,-.16,-.10,-.21,-.18,-.10,-.15,-.24,-.22,-.18,-.17,***,***,-.12,-.16,-.20
+... 
+```
+
+:::tip Remarque
+On pourrait bien sûr automatiser la suppression de la ligne de titre avec Python, mais on va faire simple dans cet article...
+:::
+
+## Parser des .csv avec Python
+
+Dans le dossier, créer un fichier Python, par exemple `matplotlib_csv.py`
+
+Dans ce fichier, copier-coller le code suivant:
+
+```python
+import csv
+
+with open('GLB.Ts+dSST.csv') as csv_file:
+    csv_reader = csv.DictReader(csv_file)
+    line_count = 0
+    for row in csv_reader:
+        if line_count == 0:
+            print(f'Noms de colonnes: {", ".join(row)}')
+            line_count += 1
+        else:
+            print(row['Year'], row['DJF'])
+            line_count += 1
+    print(f'Processed {line_count} lines.')
+```
+
+En gros: le fichier csv est converti en dictionnaire, dont les clés sont les en-têtes de colonnes.
+
+On accède à une donnée dans une ligne avec `row['nom de la colonne']`
+
+:::tip Remarque
+Sur le site de la NASA, on peut lire:
+
+```bash
+GLOBAL Land-Ocean Temperature Index in 0.01 degrees Celsius   base period: 1951-1980
+
+                    sources:  GHCN-v4 1880-08/2019 + SST: ERSST v5 1880-08/2019
+                    using elimination of outliers and homogeneity adjustment
+                    Notes: 1950 DJF = Dec 1949 - Feb 1950 ;  ***** = missing
+```
+:::
+
+
