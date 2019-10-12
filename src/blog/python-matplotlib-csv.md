@@ -87,7 +87,9 @@ with open('GLB.Ts+dSST.csv') as csv_file:
 
 En gros: le fichier csv est converti en dictionnaire, dont les clés sont les en-têtes de colonnes.
 
-On accède à une donnée dans une ligne avec `row['nom de la colonne']`
+On accède à une donnée dans une ligne avec `row['nom de la colonne']`.
+
+Par exemple pour le mois de janvier: `row['Jan']`
 
 :::tip Remarque
 Sur le site de la NASA, on peut lire:
@@ -101,4 +103,35 @@ GLOBAL Land-Ocean Temperature Index in 0.01 degrees Celsius   base period: 1951-
 ```
 :::
 
+## Graphique avec matplotlib
 
+Si on veut visualiser les données, voici le code à entrer:
+
+```python
+import csv
+import matplotlib.pyplot as plt
+
+x=[]
+y=[]
+
+with open('GLB.Ts+dSST.csv') as csv_file:
+    csv_reader = csv.DictReader(csv_file)
+    line_count = 0
+    for row in csv_reader:
+        if line_count == 0:
+            print(f'Column names are {", ".join(row)}')
+            line_count += 1
+        else:
+            x.append(int(row['Year']))
+            y.append(float(row['DJF']))
+            line_count += 1
+    print(f'Processed {line_count} lines.')
+plt.plot(x,y, marker='o')
+plt.show()    
+```
+
+On remarquera la transformation en `int` des années, et en `float` dans variations. En effet, les données parsées sont des `str` à la base, qu'il faut donc convertir en nombres pour les afficher !
+
+Ca doit donner:
+
+![Figure 1](python-matplotlib-csv-fig-1.png)
