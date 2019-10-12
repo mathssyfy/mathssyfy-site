@@ -174,7 +174,7 @@ plt.show()
 
 ## Un peu de fun dans matplotlib
 
-En regardant la pae d'exemples de matplotlib, on peut trouver des trucs sympas:
+En regardant la page d'exemples de matplotlib, on peut trouver des trucs sympas:
 
 [https://matplotlib.org/3.1.1/tutorials/introductory/sample_plots.html](https://matplotlib.org/3.1.1/tutorials/introductory/sample_plots.html)
 
