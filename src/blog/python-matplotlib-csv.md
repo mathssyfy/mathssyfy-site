@@ -135,4 +135,4 @@ On remarquera la transformation en `int` des années, et en `float` dans variati
 
 Ca doit donner:
 
-![Figure 1](python-matplotlib-csv-fig-1.png)
+![Figure 1](./python-matplotlib-csv-fig-1.png)
