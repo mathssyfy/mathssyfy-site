@@ -95,11 +95,12 @@ Par exemple pour le mois de janvier: `row['Jan']`
 Sur le site de la NASA, on peut lire:
 
 ```bash
-GLOBAL Land-Ocean Temperature Index in 0.01 degrees Celsius   base period: 1951-1980
+GLOBAL Land-Ocean Temperature Index in 0.01 degrees Celsius   
+base period: 1951-1980
 
-                    sources:  GHCN-v4 1880-08/2019 + SST: ERSST v5 1880-08/2019
-                    using elimination of outliers and homogeneity adjustment
-                    Notes: 1950 DJF = Dec 1949 - Feb 1950 ;  ***** = missing
+    sources:  GHCN-v4 1880-08/2019 + SST: ERSST v5 1880-08/2019
+    using elimination of outliers and homogeneity adjustment
+    Notes: 1950 DJF = Dec 1949 - Feb 1950 ;  ***** = missing
 ```
 :::
 
