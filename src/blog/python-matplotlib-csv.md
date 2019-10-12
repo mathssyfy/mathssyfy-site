@@ -128,6 +128,9 @@ with open('GLB.Ts+dSST.csv') as csv_file:
             line_count += 1
     print(f'Processed {line_count} lines.')
 plt.plot(x,y, marker='o')
+plt.title('Data from NASA: Global-mean monthly, seasonal, and annual means')
+plt.xlabel('Années')
+plt.ylabel('DJF')
 plt.show()    
 ```
 
