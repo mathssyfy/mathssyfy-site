@@ -8,9 +8,11 @@ tags:
 - python
 - matplotlib
 - tutorial
-image: https://res.cloudinary.com/dpw19qolx/image/upload/q_auto,f_auto,g_auto,w_auto,dpr_auto/v1561883470/greg-rakozy-oMpAz-DN-9I-unsplash.jpg
+image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1570878570/tamara-gore-cmsv5KUP2Ew-unsplash.jpg
 
 ---
+
+![Python](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1570878570/tamara-gore-cmsv5KUP2Ew-unsplash.jpg)
 
 ## Environnement de travail
 
@@ -24,7 +26,7 @@ pip install matplotlib
 
 Le format `csv`est utilisé pour le data. Il peut être obtenu par export d'un fichier Excel, ou récupéré sur des sites Internet. Pour en savoir plus: https://fr.wikipedia.org/wiki/Comma-separated_values
 
-Pour l'exemple, nous allons nous servir d'un fichier de tempéatures récupéré sur le site de la NASA (tant qu'à faire !!!)
+Pour l'exemple, nous allons nous servir d'un fichier de températures récupéré sur le site de la NASA (tant qu'à faire !!!)
 
 Lien vers le site: https://data.giss.nasa.gov/gistemp/
 
