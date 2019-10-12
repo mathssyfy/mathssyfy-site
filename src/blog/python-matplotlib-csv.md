@@ -22,7 +22,7 @@ pip install matplotlib
 
 ## Parser des csv avec Python
 
-Le format `csv`est utilisé pour le data. Il peut être obtenu par export d'un fichier Excel, ou récupéré sur des sites Internet.
+Le format `csv`est utilisé pour le data. Il peut être obtenu par export d'un fichier Excel, ou récupéré sur des sites Internet. Pour en savoir plus: https://fr.wikipedia.org/wiki/Comma-separated_values
 
 Pour l'exemple, nous allons nous servir d'un fichier de tempéatures récupéré sur le site de la NASA (tant qu'à faire !!!)
 
