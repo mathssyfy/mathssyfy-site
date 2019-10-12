@@ -16,7 +16,7 @@ image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v15708785
 
 ## Environnement de travail
 
-- Python 3 doit être installé: https://www.python.org/downloads/
+- Python 3 doit être installé: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 - matplotlib doit être installé. Dans une invite `cmd` avec privilèges administrateur:
 ```bash
 pip install matplotlib
