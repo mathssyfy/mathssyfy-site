@@ -139,3 +139,9 @@ On remarquera la transformation en `int` des années, et en `float` dans variati
 Ca doit donner:
 
 ![Figure 1](./python-matplotlib-csv-fig-1.png)
+
+On pourrait vouloir un graphique avec les données du mois de juin, uniquement sur les 30 dernières années.
+
+```python
+
+```
