@@ -171,3 +171,42 @@ plt.show()
 ```
 
 ![Figure 2](./python-matplotlib-csv-fig-2.png)
+
+## Un peu de fun dans matplotlib
+
+En regardant la pae d'exemples de matplotlib, on peut trouver des trucs sympas:
+
+[https://matplotlib.org/3.1.1/tutorials/introductory/sample_plots.html](https://matplotlib.org/3.1.1/tutorials/introductory/sample_plots.html)
+
+```python
+import csv
+import matplotlib.pyplot as plt
+
+x=[]
+y=[]
+
+with open('GLB.Ts+dSST.csv') as csv_file:
+    csv_reader = csv.DictReader(csv_file)
+    line_count = 0
+    for row in csv_reader:
+        if line_count == 0:
+            print(f'Column names are {", ".join(row)}')
+            line_count += 1
+        else:
+            x.append(int(row['Year']))
+            y.append(float(row['Jun']))
+            line_count += 1
+    print(f'Processed {line_count} lines.')
+
+with plt.xkcd():
+    # Based on "Stove Ownership" from XKCD by Randall Munroe
+    # https://xkcd.com/418/
+    plt.plot(x[-30:],y[-30:], marker='o')
+    plt.title('Data from NASA: Global-mean monthly, seasonal, and annual means')
+    plt.xlabel('Années')
+    plt.ylabel('Mois de Juin')
+
+plt.show()  
+```
+
+![igure 3](./python-matplotlib-csv-fig-3.png)
