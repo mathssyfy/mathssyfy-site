@@ -23,3 +23,5 @@ Nous avons ensuite besoin d'[Android Studio](https://developer.android.com/studi
 Si vous voulez développer pour un Iphone, ou un Ipad, c'est possible, même sous Windows 10. La procédure sera détaillée plus tard, mais tant qu'à télécharger et installer des outils, vous pouvez au moins installer la version bureau de Itunes.
 
 Attention: il ne faut pas installer la version "Microsoft Store". Sur la page de téléchargement de [Itunes](https://www.apple.com/fr/itunes/), il faut un peu scroller vers le bas jusqu'à "vous cherchez d'autres versions ?", puis cliquer sur windows, et vous arrivez à "Téléchargez la dernière version pour Windows.".
+
+Ensuite il nous faut Flutter lui-même. Sur la page [Flutter](https://flutter.dev/docs/get-started/install/windows), scroller jusqu'à 'Get the Flutter SDK', puis télécharger.
