@@ -34,7 +34,7 @@ module.exports = {
       '/': {
         label: 'Français',
         selectText: 'Languages',
-        lastUpdated: 'Dernière mise à jour:'
+        lastUpdated: 'Dernière mise à jour'
       }
     },
     nav: [
@@ -47,7 +47,7 @@ module.exports = {
   },
      markdown: {
     extendMarkdown: md => {      
-      md.use(require('markdown-it-katex-newcommand'))      
+      md.use(require('markdown-it-katex'))      
     }
   },   
   plugins: [

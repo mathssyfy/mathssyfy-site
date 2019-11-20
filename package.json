@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "katex": "^0.11.1",
-    "markdown-it-katex-newcommand": "^1.1.0",
+    "markdown-it-katex": "^2.0.3",
     "vuepress": "^1.2.0",
     "vuepress-plugin-sitemap": "^2.3.0"
   },
