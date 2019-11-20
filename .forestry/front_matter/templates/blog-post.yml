@@ -40,5 +40,6 @@ fields:
   name: image
   label: image
 pages:
+- src/blog/flutter-installer-flutter-sur-windows-10.md
 - src/blog/30-astuces-python-rapides-à-apprendre.md
 - src/blog/python-django-pwa.md
