@@ -18,4 +18,8 @@ Nous avons besoin d'un éditeur de code. Nous allons prendre [Visual Studio Code
 
 Pour fonctionner correctement, Flutter a besoin de [Git](https://git-scm.com/downloads). L'installation ne pose pas difficulté.
 
-Nous avons ensuite besoin d'[Android Studio](https://developer.android.com/studio).
+Nous avons ensuite besoin d'[Android Studio](https://developer.android.com/studio). Cette installation va nous permettre d'obtenir les SDK pour le dévéloppement d'applications sur Android, et d'un émulateur de smartphone Android.
+
+Si vous voulez développer pour un Iphone, ou un Ipad, c'est possible, même sous Windows 10. La procédure sera détaillée plus tard, mais tant qu'à télécharger et installer des outils, vous pouvez au moins installer la version bureau de Itunes.
+
+Attention: il ne faut pas installer la version "Microsoft Store". Sur la page de téléchargement de [Itunes](https://www.apple.com/fr/itunes/), il faut un peu scroller vers le bas jusqu'à "vous cherchez d'autres versions ?", puis cliquer sur windows, et vous arrivez à "Téléchargez la dernière version pour Windows.".
