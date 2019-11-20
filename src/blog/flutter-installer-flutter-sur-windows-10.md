@@ -10,13 +10,12 @@ image: https://res.cloudinary.com/dpw19qolx/image/upload/q_auto,f_auto,g_auto,w_
 ---
 # Etapes d'installation de Flutter
 
+Cet article reprend la documentation officielle de Flutter: [https://flutter.dev/docs/get-started/install/windows](https://flutter.dev/docs/get-started/install/windows)
+
 ## Télécharger et installer les outils.
 
 Nous avons besoin d'un éditeur de code. Nous allons prendre [Visual Studio Code](https://code.visualstudio.com/download)
 
-Pour fonctionner correctement, Flutter a besoin de :
+Pour fonctionner correctement, Flutter a besoin de [Git](https://git-scm.com/downloads). L'installation ne pose pas difficulté.
 
-+ [Git](https://git-scm.com/downloads)
-
-L'installation ne pose pas difficulté.
-
+Nous avons ensuite besoin d'[Android Studio](https://developer.android.com/studio).
