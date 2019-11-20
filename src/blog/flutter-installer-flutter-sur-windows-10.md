@@ -22,6 +22,8 @@ Nous allons commencer à télécharger tous les outils dont nous aurons besoin, 
 
 + Nous avons ensuite besoin d'[Android Studio](https://developer.android.com/studio). Cette installation va nous permettre d'obtenir les SDK pour le dévéloppement d'applications sur Android, et d'un émulateur de smartphone Android.
 
++ Nous avons besoin de [HAXM](https://github.com/intel/haxm) pour l'accélération matérielle de l'émulateur Android.
+
 + Optionnel: si vous voulez développer pour un Iphone, ou un Ipad, c'est possible, même sous Windows 10. La procédure sera détaillée plus tard, mais tant qu'à télécharger et installer des outils, vous pouvez au moins installer la version bureau de Itunes. Attention: il ne faut pas installer la version "Microsoft Store". Sur la page de téléchargement de [Itunes](https://www.apple.com/fr/itunes/), il faut un peu scroller vers le bas jusqu'à "vous cherchez d'autres versions ?", puis cliquer sur windows, et vous arrivez à "Téléchargez la dernière version pour Windows.".
 
 + Ensuite il nous faut Flutter lui-même. Sur la page [Flutter](https://flutter.dev/docs/get-started/install/windows), scroller jusqu'à 'Get the Flutter SDK', puis télécharger.
@@ -30,6 +32,7 @@ Nous allons commencer à télécharger tous les outils dont nous aurons besoin, 
 
 1. Visual Studio Code. L'installation ne pose pas de problème.
 2. Git. Aucune difficulté non plus.
+3. Activer l'HAXM... Décompresser le fichier zip, puis lancer l'installateur. 
 3. Android Studio. Il faut choisir "custom" pour pouvoir installer un émulateur Android.
 4. Exécuter Android Studio ! Et oui, c'est au premier lancement que cette application va télécharger et installer les SDK dont nous avons besoin. Ca prend un certain temps (voire même un temps certain !)
 5. Optionnel: si vous voulez faire tourner votre appli sur un Iphone, installer Itunes.
