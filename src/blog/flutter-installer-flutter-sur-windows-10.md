@@ -12,16 +12,25 @@ image: https://res.cloudinary.com/dpw19qolx/image/upload/q_auto,f_auto,g_auto,w_
 
 Cet article reprend la documentation officielle de Flutter: [https://flutter.dev/docs/get-started/install/windows](https://flutter.dev/docs/get-started/install/windows)
 
-## Télécharger et installer les outils.
+## Télécharger les outils.
 
-Nous avons besoin d'un éditeur de code. Nous allons prendre [Visual Studio Code](https://code.visualstudio.com/download)
+Nous allons commencer à télécharger tous les outils dont nous aurons besoin, mais sans les installer à cette étape:
 
-Pour fonctionner correctement, Flutter a besoin de [Git](https://git-scm.com/downloads). L'installation ne pose pas difficulté.
++ Nous avons besoin d'un éditeur de code. Nous allons prendre [Visual Studio Code](https://code.visualstudio.com/download)
 
-Nous avons ensuite besoin d'[Android Studio](https://developer.android.com/studio). Cette installation va nous permettre d'obtenir les SDK pour le dévéloppement d'applications sur Android, et d'un émulateur de smartphone Android.
++ Pour fonctionner correctement, Flutter a besoin de [Git](https://git-scm.com/downloads). L
 
-Si vous voulez développer pour un Iphone, ou un Ipad, c'est possible, même sous Windows 10. La procédure sera détaillée plus tard, mais tant qu'à télécharger et installer des outils, vous pouvez au moins installer la version bureau de Itunes.
++ Nous avons ensuite besoin d'[Android Studio](https://developer.android.com/studio). Cette installation va nous permettre d'obtenir les SDK pour le dévéloppement d'applications sur Android, et d'un émulateur de smartphone Android.
 
-Attention: il ne faut pas installer la version "Microsoft Store". Sur la page de téléchargement de [Itunes](https://www.apple.com/fr/itunes/), il faut un peu scroller vers le bas jusqu'à "vous cherchez d'autres versions ?", puis cliquer sur windows, et vous arrivez à "Téléchargez la dernière version pour Windows.".
++ Optionnel: si vous voulez développer pour un Iphone, ou un Ipad, c'est possible, même sous Windows 10. La procédure sera détaillée plus tard, mais tant qu'à télécharger et installer des outils, vous pouvez au moins installer la version bureau de Itunes. Attention: il ne faut pas installer la version "Microsoft Store". Sur la page de téléchargement de [Itunes](https://www.apple.com/fr/itunes/), il faut un peu scroller vers le bas jusqu'à "vous cherchez d'autres versions ?", puis cliquer sur windows, et vous arrivez à "Téléchargez la dernière version pour Windows.".
 
-Ensuite il nous faut Flutter lui-même. Sur la page [Flutter](https://flutter.dev/docs/get-started/install/windows), scroller jusqu'à 'Get the Flutter SDK', puis télécharger.
++ Ensuite il nous faut Flutter lui-même. Sur la page [Flutter](https://flutter.dev/docs/get-started/install/windows), scroller jusqu'à 'Get the Flutter SDK', puis télécharger.
+
+## Commencer à installer
+
+1. Visual Studio Code. L'installation ne pose pas de problème.
+2. Git. Aucune difficulté non plus.
+3. Android Studio. Il faut choisir "custom" pour pouvoir installer un émulateur Android.
+4. Exécuter Android Studio ! Et oui, c'est au premier lancement que cette application va télécharger et installer les SDK dont nous avons besoin. Ca prend un certain temps (voire même un temps certain !)
+5. Optionnel: si vous voulez faire tourner votre appli sur un Iphone, installer Itunes.
+6. Flutter: ce n'est pas une installation à proprement parler. Il faut décompresser le fichier zip, puis placer tout le contenu dans un endroit futé, par exemple `C:\Workspace\flutter_src\`
