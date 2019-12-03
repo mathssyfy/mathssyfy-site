@@ -22,7 +22,7 @@ L'ensemble des diviseurs communs à $a$ et $b$ est un ensemble fini car c'est l'
 
 De plus, 1 divise $a$ et $b$ donc l'ensemble des diviseurs communs à $a$ et $b$ est non vide.
 
-Or tout ensemble fini non vide dans $\Z$ admet un plus grand et unique élément, donc $d$ existe.
+Or tout ensemble fini non vide dans $\mathbb{Z}$ admet un plus grand et unique élément, donc $d$ existe.
 
 :::
 :::tip Exemples
@@ -90,14 +90,18 @@ divise pas $a$.
 La suite des divisions euclidiennes suivantes finit par
 s'arrêter. Le dernier reste non nul est alors le PGCD de $a$ et de
 $b$.
-$$\begin{aligned}
+
+$$
+\begin{aligned}
 \text{Division de $a$ par $b$}\qquad &a=b\,q_0+r_0 \quad&\text{avec}&\quad b>r_0\geq 0\\
 \text{Division de $b$ par $r_0$}\qquad &b=r_0\,q_1+r_1 \quad&\text{avec}&\quad r_0>r_1\geq 0\\
 \text{Division de $r_0$ par $r_1$}\qquad &r_0=r_1\,q_2+r_2 \quad&\text{avec}&\quad r_1>r_2\geq 0\\
 \vdots \hspace{2cm} & \qquad\qquad\vdots\\
 \text{Division de $r_{n-2}$ par $r_{n-1}$}\qquad &r_{n-2}=r_{n-1}\,q_n+r_n \quad&\text{avec}&\quad r_{n-1}>r_n\geq 0\\
 \text{Division de $r_{n-1}$ par $r_n$}\qquad &r_{n-1}=r_n\,q_{n+1}+0 & \\
-\end{aligned}$$
+\end{aligned}
+$$
+
 On a alors $PGCD(a,b)=r_n$.
 
 :::
