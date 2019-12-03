@@ -96,6 +96,11 @@ $b$.
 $$
 \begin{matrix}
 \text{Division de $a$ par $b$}&a=b\,q_0+r_0 &\text{avec}& b>r_0\geq 0\\
+\text{Division de $b$ par $r_0$}&b=r_0\,q_1+r_1 &\text{avec}& r_0>r_1\geq 0\\
+\text{Division de $r_0$ par $r_1$} &r_0=r_1\,q_2+r_2 &\text{avec}& r_1>r_2\geq 0\\
+\vdots \hspace{2cm} & \vdots\\
+\text{Division de $r_{n-2}$ par $r_{n-1}$} &r_{n-2}=r_{n-1}\,q_n+r_n &\text{avec}& r_{n-1}>r_n\geq 0\\
+\text{Division de $r_{n-1}$ par $r_n$} &r_{n-1}=r_n\,q_{n+1}+0 & \\
 \end{matrix}
 $$
 
