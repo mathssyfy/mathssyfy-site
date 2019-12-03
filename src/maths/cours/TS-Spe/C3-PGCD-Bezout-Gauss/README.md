@@ -91,6 +91,8 @@ La suite des divisions euclidiennes suivantes finit par
 s'arrêter. Le dernier reste non nul est alors le PGCD de $a$ et de
 $b$.
 
+:::
+
 $$
 \begin{matrix}
 \text{Division de $a$ par $b$}\qquad &a=b\,q_0+r_0 \quad&\text{avec}&\quad b>r_0\geq 0\\
@@ -104,7 +106,6 @@ $$
 
 On a alors $PGCD(a,b)=r_n$.
 
-:::
 
 ::: tip Preuve 
 
