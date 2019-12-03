@@ -118,15 +118,15 @@ $d$ divise $b$ et $r_0$ donc $d$ divise $bq_0+r_0=a$, donc $d$ divise $a$ et $b$
 
 On  déduit de ces deux inégalités que $D=d$, d'où $PGCD(a,b)=PGCD(b,r_0)$.
 
-+  La suite des restes : $r_0$, $r_1$, $r_2$, \dots, $r_n$ est une suite strictement décroissante dans $\N$ car :
++  La suite des restes : $r_0$, $r_1$, $r_2$, ..., $r_n$ est une suite strictement décroissante dans $\mathbb{N}$ car :
 
-$r_0>r_1>r_2> \dots >r_n$.
+$r_0>r_1>r_2> ... >r_n$.
 
 D'après le principe de descente infinie, il existe alors $n$ tel que $r_{n+1}=0$.
 
 +  De proche en proche, on en déduit que :
 
-$$PGCD(a,b)=PGCD(b,r_0)=\dots=PGCD(r_{n-2},r_{n-1})=PGCD(r_{n-1},r_n).$$
+$$PGCD(a,b)=PGCD(b,r_0)=...=PGCD(r_{n-2},r_{n-1})=PGCD(r_{n-1},r_n).$$
 
 Or $r_n$ divise $r_{n-1}$, donc $PGCD(r_{n-1},r_n)=r_n$.
 
@@ -153,7 +153,7 @@ Conclusion : $PGCD(4539,1958)=89$.
 :::
 
 ::: tip Remarque 
-Le petit nombre d'étapes de cet exemple montre la performance de cet algorithme à comparer avec la décomposition en facteurs premiers (voir chapitre A3).
+Le petit nombre d'étapes de cet exemple montre la performance de cet algorithme à comparer avec la décomposition en facteurs premiers .
 
 
 :::
