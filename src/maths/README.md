@@ -11,7 +11,7 @@ sidebar: auto
 
 ## TS Obligatoire
 
-
++ [Sujets](./sujets/)
 + [Chapitre 7: Complexes partie 2](./cours/TS-Obli/C7-Complexes-2/)
 + [Chapitre 7: Exercices Complexes partie 2](./cours/TS-Obli/C7-Exos/)
 + [Chapitre 9: Intégrales](./cours/TS-Obli/C9-Integrales)

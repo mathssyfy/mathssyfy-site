@@ -12,6 +12,7 @@ author: David Couronné
 ## Devoirs
 
 - [DS 4 Exponentielle](./DS4-Exponentielle/)
+- [Eval 6 Complexes](./Eval6-Complexes/)
 
 ## Sujets
 

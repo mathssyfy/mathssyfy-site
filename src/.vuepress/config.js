@@ -47,7 +47,7 @@ module.exports = {
   },
      markdown: {
     extendMarkdown: md => {      
-      md.use(require('markdown-it-katex'))      
+      md.use(require('markdown-it-katex-newcommand'))      
     }
   },   
   plugins: [
