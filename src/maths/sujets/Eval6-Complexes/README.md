@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 author: David Couronné
+title: TS Eval 6
 ---
 
 ## Exercice 1
