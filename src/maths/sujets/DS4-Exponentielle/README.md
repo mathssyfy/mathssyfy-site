@@ -1,11 +1,12 @@
 ---
 sidebar: auto
 author: David Couronné
+title: TS DS 4 Fonction Exponentielle
 ---
 
 # Devoir surveillé 4
 
-::: tip Exercice 1 [Fonction exponentielle][12]
+## Exercice 1 Fonction exponentielle 12 points
 **Partie A**
 
 Soit $g$ la fonction définie et dérivable sur $\R$ telle que,
@@ -121,7 +122,7 @@ $0< \left (1+x+x^2+x^3\right )e^{-2x+1} < 4x^3 e^{-2x+1}$ ou autrement dit: $0< 
 c)  On admet que, pour tout entier naturel $n$,\: $\displaystyle\lim_{x \to + \infty} x^n\text{e}^{-x} = 0$.
 
 Vérifier que, pour tout réel $x$,\: $4x^3\text{e}^{-2x + 1} = \dfrac{\text{e}}{2} (2x)^3\text{e}^{-2x}$ puis en déduire :
-$$
+
 
 <ClientOnly><Solution>
 
@@ -132,9 +133,10 @@ e^{-2x+1} = e^{-2x} \times e^{1} = e e^{-2x}\\
 \end{matrix}
 \right\rbrace
 \implies
-4x^3e^{-2x + 1} = \dfrac{e}{2} (2x)^3e^{-2x}$$
+4x^3e^{-2x + 1} = \dfrac{e}{2} (2x)^3e^{-2x}
 $$
 
+$$
 \begin{matrix}
 \displaystyle\lim*{x\to +\infty} 2x = +\infty\\
 \text{On pose } X = 2x\\
@@ -144,7 +146,8 @@ $$
 \implies
 \displaystyle\lim*{x\to +\infty} (2x)^3 e^{-2x} = 0
 \iff
-\displaystyle\lim*{x\to +\infty} 4x^3 e^{-2x+1} = 0\$\$
+\displaystyle\lim*{x\to +\infty} 4x^3 e^{-2x+1} = 0
+$$
 </Solution>
 
 d) On note $\mathcal{C}_f$ la courbe représentative de $f$ dans un repère orthonormé $(O;\vec{i},\vec{j})$.
@@ -184,9 +187,9 @@ Donc:
 
 </Solution>
 
-:::
 
-::: tip Exercice 2 [Probabilités][10]
+
+## Exercice 2 Probabilités 10 points
 
 Les $300$ personnes travaillant dans un immeuble de bureaux de trois niveaux ont répondu aux deux questions suivantes :
 
@@ -218,9 +221,13 @@ Sur 300 personnes, 225 utilisent l'escalier ; $p\left(\overline{E}\right) = \dfr
 $p(\text{E}) = 1 - p\left(\overline{E}\right) = \dfrac{1}{4}$.
 
 Sur les 225 personnes empruntant l'ascenseur la répartition 50, 75, 100 suivant les étages conduit à :
-$$ p_{\overline{E}}\left(N_{1}\right) = \dfrac{50}{225} = \dfrac{2}{9}, \quad p_{\overline{E}}\left(N_{2}\right) = \dfrac{75}{225} = \dfrac{3}{9}, \quad p_{\overline{E}}\left(N_{3}\right) = \dfrac{100}{225} = \dfrac{4}{9} $$
+$$
+p_{\overline{E}}\left(N_{1}\right) = \dfrac{50}{225} = \dfrac{2}{9}, \quad p_{\overline{E}}\left(N_{2}\right) = \dfrac{75}{225} = \dfrac{3}{9}, \quad p_{\overline{E}}\left(N_{3}\right) = \dfrac{100}{225} = \dfrac{4}{9}
+$$
 Sur les 75 personnes empruntant l'escalier, on obtient de même :
-$$ p_{E}\left(N_{1}\right) = \dfrac{1}{3}, \quad p_{E}\left(N_{2}\right) = \dfrac{2}{3}, \quad p_{E}\left(N_{3}\right) = \dfrac{0}{3} $$
+$$
+p_{E}\left(N_{1}\right) = \dfrac{1}{3}, \quad p_{E}\left(N_{2}\right) = \dfrac{2}{3}, \quad p_{E}\left(N_{3}\right) = \dfrac{0}{3}
+$$
 
 ![Image](./figure3.svg)
 
@@ -381,4 +388,4 @@ Eventuellement : L'algo 1 donne la solution:12
 Conclusion : sur 12 personnes, au moins une va au niveau 2 avec une probabilité supérieure ou égale à $0,99$.
 </Solution>
 
-:::
+
