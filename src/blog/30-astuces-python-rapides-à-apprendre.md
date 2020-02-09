@@ -1,6 +1,6 @@
 ---
 author: David Couronné
-date: 2019-10-04 15:37:50 +0000
+date: 2019-10-04
 post: true
 title: Astuces Python rapides à apprendre
 description: Python est l’un des langages les plus utilisés par de nombreuses personnes

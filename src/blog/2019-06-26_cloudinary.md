@@ -2,7 +2,7 @@
 title: Cloudinary
 description: Automate images  imports
 author: David Couronné
-date: 2019-06-26T05:02:57.564+00:00
+date: 2019-06-26
 post: true
 tags:
 - web

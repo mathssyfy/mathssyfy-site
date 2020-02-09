@@ -1,6 +1,6 @@
 ---
 author: David Couronné
-date: 2019-11-20 09:22:39 +0000
+date: 2019-11-20
 post: true
 title: 'Flutter: Installer Flutter sur Windows 10'
 description: Comment installer Flutter sur Windows 10

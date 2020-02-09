@@ -1,6 +1,6 @@
 ---
 title: "Démarrer en HTML Partie 1 \U0001F389"
-date: 2019-05-24T00:00:00.000Z
+date: 2019-05-24
 post: true
 ---
 > *Prérequis* : [Visual Studio Code](/visual-studio-code) est installé sur votre poste

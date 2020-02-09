@@ -1,6 +1,6 @@
 ---
 title: "Démarrer en HTML Partie 2 \U0001F389"
-date: 2019-05-25T00:00:00.000Z
+date: 2019-05-25
 post: true
 ---
 > *Prérequis* : Avoir lu la [partie 1](/demarrer-en-html-partie-1)
