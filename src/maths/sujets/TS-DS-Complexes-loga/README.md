@@ -21,7 +21,7 @@ $$j=-\dfrac{1}{2} + \text{i}\dfrac{\sqrt{3}}{2}$$
 
 1\. a) Donner la forme trigonométrique et la forme exponentielle de j.
 
-:::startsolution
+<ClientOnly><Solution>
 
 $\text{j}=-\dfrac{1}{2} + \text{i}\dfrac{\sqrt{3}}{2}=\cos\left(\dfrac{2\pi}{3}\right) + \text{i}\sin\left(\dfrac{2\pi}{3}\right)=e^{\frac{2\text{i}\pi}{3}}$
 
@@ -31,7 +31,7 @@ $b'= b\text{j}=2\text{j}=-1+\text{i}\sqrt{3}=2e^{\frac{2\text{i}\pi}{3}}$
 
 $c'= c\text{j}=4\text{j}=-2+2\text{i}\sqrt{3}=4e^{\frac{2\text{i}\pi}{3}}$
 
-:::endsolution
+</Solution>
 
 En déduire les formes algébriques et exponentielles de $a'$, $b'$ et
 $c'$.
@@ -41,7 +41,7 @@ rayon 2, 3 et 4 sont représentés sur le graphique ci-dessous.
 
 Placer les points A$'$, B$'$ et C$'$ sur ce graphique.
 
-:::startsolution
+<ClientOnly><Solution>
 
 ![image](./TS-Complexes-Loga-0.jpg)
 
@@ -57,11 +57,11 @@ $|c'|=4$ donc C$'$ est sur le cercle de centre O et de rayon 4 et on a
 $Re\left(c' \right) =-2$ et $Im\left(c' \right)>0$, on peut donc placer
 C$'$
 
-:::endsolution
+</Solution>
 
 2\. Montrer que les points A$'$, B$'$ et C$'$ sont alignés.
 
-:::startsolution
+<ClientOnly><Solution>
 
 $a'=-c'$ donc A$'$ et C$'$ sont symétriques par rapport à O alors O,
 A$'$ et C$'$ sont alignés
@@ -73,14 +73,14 @@ colinéaires d'où O, B$'$ et C$'$ sont alignés.
 
 Finalement O, A$'$, B$'$ et C$'$ sont alignés.
 
-:::endsolution
+</Solution>
 
 3\. On note M le milieu du segment \[A$'$C\], N le milieu du segment
 \[C$'$C\] et P le milieu du segment \[C$'$A\].
 
 Démontrer que le triangle MNP est isocèle.
 
-:::startsolution
+<ClientOnly><Solution>
 
 $z_{\text{M}}=\dfrac{a'+c}{2}=3-\text{i}\sqrt{3}$
 
@@ -98,7 +98,7 @@ PN=$\left|z_{\text{N}}-z_{\text{P}} \right| =\left|4 \right| = 4$
 
 On a MN=NP donc MNP est bien isocèle en N
 
-:::endsolution
+</Solution>
 
 **Graphique à compléter**
 
@@ -134,13 +134,13 @@ $f'$ sa fonction dérivée.
 
 $$f'(x) = \dfrac{- bx + b - 2}{1 - x}.$$
 
-:::startsolution
+<ClientOnly><Solution>
 
 On va utiliser: $\left(\ln (u) \right) ' = \frac{u'}{u}$
 
 $f'(x) = b + 2\times \frac{-1}{1-x} = \cdots = \frac{-bx+x-2}{1-x}$
 
-:::endsolution
+</Solution>
 
 1\. b) Démontrer que fonction $f$ possède un maximum sur l'intervalle
 \[0 ; 1\[ et que,
@@ -148,7 +148,7 @@ $f'(x) = b + 2\times \frac{-1}{1-x} = \cdots = \frac{-bx+x-2}{1-x}$
 le maximum de la fonction $f$ est égal à
 $b - 2 + 2\ln \left(\dfrac{2}{b}\right)$.
 
-:::startsolution
+<ClientOnly><Solution>
 
 Puisque la fonction $f$ est dérivable, et que l'on connaît sa fonction
 dérivée, on va étudier le signe de la fonction dérivée pour connaître
@@ -178,7 +178,7 @@ $f\left(1 - \dfrac{2}{b}\right) = b\times \left(1 - \dfrac{2}{b}\right) + 2\ln\l
 Le maximum de la fonction $f$ s'établit bien à
 $b - 2 + 2 \ln\left(\dfrac{2}{b}\right)$.
 
-:::endsolution
+</Solution>
 
 2\. On cherche à déterminer pour quelles valeurs du paramètre $b$ la
 hauteur maximale du projectile ne dépasse pas $1,6$ mètre.
@@ -192,7 +192,7 @@ $m(b) = b - 2 + 2 \ln\left(\dfrac{2}{b}\right) = b - 2 + \ln(4) - 2\ln(b)$.
 
 2\. a) Etudier les variations de la fonction $m$ pour $b$ supérieur à 2.
 
-:::startsolution
+<ClientOnly><Solution>
 
 La fonction $m$ est dérivable sur son ensemble de définition et on a
 pour tout $b$ supérieur à 2 :
@@ -203,28 +203,28 @@ Comme $b$ est supérieur à 2, on en déduit que $m'(b)$ est positif, et
 même strictement positif pour $b>2$, et donc que la fonction $m$ est
 strictement croissante sur $[2~;~+\infty[$.
 
-:::endsolution
+</Solution>
 
 2\. b) Déterminer: $\lim_{b \to +\infty} m(b)$
 
-:::startsolution
+<ClientOnly><Solution>
 
 TODO
 
-:::endsolution
+</Solution>
 
 2\. c) Dresser le tableau de variation de $m$ sur $[2;+\infty[$
 
-:::startsolution
+<ClientOnly><Solution>
 
 TODO
 
-:::endsolution
+</Solution>
 
 2\. d) Démontrer que l'équation $m(b)=1,6$ admet une unique solution
 $b_0$ dans $[2;10]$. En donner un encadrement à $0,01$ près.
 
-:::startsolution
+<ClientOnly><Solution>
 
 La fonction $m$ étant continue (car dérivable) et strictement croissante
 sur l'intervalle $[2~;~10]$ et 1,6 étant une valeur intermédiaire entre
@@ -236,18 +236,18 @@ celui là.
 
 Un balayage à la calculatrice donne $5,69 < b_0 < 5,70$.
 
-:::endsolution
+</Solution>
 
 2\. e) Conclure.
 
-:::startsolution
+<ClientOnly><Solution>
 
 Les valeurs du paramètre $b$ garantissant une hauteur maximale $m(b)$ ne
 dépassant pas 1,6 mètre sont donc les réels de l'intervalle $[2~;~b_0]$,
 soit, en donnant une valeur approchée (nécessairement par défaut, vu que
 $m$ est croissante) de l'intervalle $[2~;~5,69]$.
 
-:::endsolution
+</Solution>
 
 3\. Dans cette question, on choisit $b = 5,69$.
 
@@ -258,7 +258,7 @@ comme indiqué sur le schéma donné ci-dessus.
 Déterminer une valeur approchée au dixième de degré près de l'angle
 $\theta$.
 
-:::startsolution
+<ClientOnly><Solution>
 
 Si on choisit $b = 5,69$, alors, cela signifie que la tangente tracée en
 pointillés est la droite d'équation :
@@ -274,7 +274,7 @@ $\tan \theta = \dfrac{3,69}{1} = 3,69$.
 À la calculatrice (réglée en mode degrés), on obtient
 $\theta = \arctan(3,69) \approx 74,8$ degrés
 
-:::endsolution
+</Solution>
 
 :::
 
@@ -291,7 +291,7 @@ $$\ln (6 x - 2) + \ln (2x - 1) = \ln (x).$$
 **Affirmation** l'équation admet deux solutions dans l'intervalle
 $\left]\dfrac{1}{2}~;~+ \infty\right[$.
 
-:::startsolution
+<ClientOnly><Solution>
 
 $\bullet$ Soit $I=\left]\frac{1}{2}~;~+ \infty\right[$.
 
@@ -325,7 +325,7 @@ solution dans l'intervalle $I$.
 
 **L'affirmation est fausse.**
 
-:::endsolution
+</Solution>
 
 4\. On considère dans l'équation :
 
@@ -334,7 +334,7 @@ $$\left(4z^2 - 20z + 37\right)(2z -7 + 2\text{i}) = 0.$$
 **Affirmation** les solutions de l'équation sont les affixes de points
 appartenant à un même cercle de centre le point P d'affixe $2$.
 
-:::startsolution
+<ClientOnly><Solution>
 
 $\bullet$ Les solutions de l'équation
 $\left(4z^2 - 20z + 37\right)(2z -7 + 2i) = 0$ sont les solutions des
@@ -370,7 +370,7 @@ centre P d'affixe 2 et de rayon $\dfrac{13}{4}$.
 
 **L'affirmation est vraie.**
 
-:::endsolution
+</Solution>
 
 :::
 
@@ -391,17 +391,17 @@ On note $A_n$ le point du plan d'affixe $z_n$.
 
 $$\dfrac{3 - \text{i}\sqrt{3}}{4} = \dfrac{\sqrt{3}}{2}\text{e}^{- \text{i}\frac{\pi}{6}}.$$
 
-:::startsolution
+<ClientOnly><Solution>
 
 $\dfrac{\sqrt{3}}{2} \text{e}^{-\text{i} \frac{\pi}{6}} = \dfrac{\sqrt{3}}{2} \left( \cos\left(-\dfrac{\pi}{6}\right) + \text{i}\sin\left(-\dfrac{\pi}{6}\right) \right) = \dfrac{\sqrt{3}}{2} \left( \dfrac{\sqrt{3}}{2} - \text{i}\dfrac{1}{2} \right) = \dfrac{3}{4} - \text{i} \dfrac{\sqrt{3}}{4} = \dfrac{3-\text{i}\sqrt{3}}{4}$
 
-:::endsolution
+</Solution>
 
 1\. b) En déduire l'écriture de chacun des nombres complexes $z_1$,
 $z_2$ et $z_3$ sous forme exponentielle et vérifier que $z_3$ est un
 imaginaire pur dont on précisera la partie imaginaire.
 
-:::startsolution
+<ClientOnly><Solution>
 
 $z_1=\dfrac{\sqrt{3}}{2} \text{e}^{-\text{i} \frac{\pi}{6}}z_0=\dfrac{\sqrt{3}}{2} \text{e}^{-\text{i} \frac{\pi}{6}} \times 8$
 donc $\boxed{ z_1=4\sqrt{3} \text{e}^{-\text{i} \frac{\pi}{6}} }$
@@ -417,12 +417,12 @@ partie imaginaire est négative et
 
 $\boxed{ \text{Im}\left(z_3\right) = - 3\sqrt{3} }$
 
-:::endsolution
+</Solution>
 
 1\. c) Représenter graphiquement les points $A_0$ , $A_1$ , $A_2$ et
 $A_3$ ; on prendra pour unité le centimètre.
 
-:::startsolution
+<ClientOnly><Solution>
 
 [Figure représentation des points $A_0$, $A_1$, $A_2$,
 $A_3$]{.smallcaps}
@@ -480,7 +480,7 @@ rouge)
 $A_3$ est le point d'intersection de l'axe des ordonnées avec le
 demi-cercle de diamètre $\left[\text{O}A_2\right]$.
 
-:::endsolution
+</Solution>
 
 2\.
 
@@ -488,7 +488,7 @@ demi-cercle de diamètre $\left[\text{O}A_2\right]$.
 
 $$z_n = 8 \times \left(\dfrac{\sqrt{3}}{2}\right)^n \text{e}^{- \text{i}\frac{n\pi}{6}}.$$
 
-:::startsolution
+<ClientOnly><Solution>
 
 *Initialisation* $z_0 = 8 \times 1 \times 1 = 8$ donc la propriété est
 vraie pour $n=0$.
@@ -516,13 +516,13 @@ $n \geqslant 0$, elle l'est aussi au rang $n + 1$
 Conclusion : d'après le principe de récurrence la propriété est vraie
 pour tout entier naturel $n$.
 
-:::endsolution
+</Solution>
 
 2\. b) Pour tout entier naturel $n$, on pose $u_n = \left|z_n\right|$.
 
 Déterminer la nature et la limite de la suite $\left(u_n\right)$.
 
-:::startsolution
+<ClientOnly><Solution>
 
 On a donc
 $u_n=\left|z_n\right| =8 \times \left( \dfrac{\sqrt{3}}{2} \right)^n$
@@ -534,7 +534,7 @@ $0 < \dfrac{\sqrt{3}}{2} < 1$ donc
 $\displaystyle\lim_{n \to + \infty} \left( \dfrac{\sqrt{3}}{2} \right)^n = 0$
 puis $\boxed{ \displaystyle\lim_{n \to + \infty} u_n = 8 \times 0 = 0 }$
 
-:::endsolution
+</Solution>
 
 3\.
 
@@ -545,7 +545,7 @@ $$\dfrac{z_{k+1} - z_{k}}{z_{k+1}} = - \dfrac{1}{\sqrt{3}}\text{i}.$$
 En déduire que, pour tout entier naturel $k$, on a l'égalité :
 $A_kA_{k+1} = \dfrac{1}{\sqrt{3}} \text{O}A_{k+1}$.
 
-:::startsolution
+<ClientOnly><Solution>
 
 $\dfrac{z_{k+1} - z_k}{z_{k+1} } = \dfrac{ \dfrac{3-\text{i}\sqrt{3}}{4}z_k - z_k}{ \dfrac{3-\text{i}\sqrt{3}}{4}z_k } = \dfrac{ \cancel{z_k} \left( \dfrac{3-\text{i}\sqrt{3}}{4} - 1 \right)}{ \dfrac{3-\text{i}\sqrt{3}}{4}\cancel{z_k} }
 =\dfrac{ \dfrac{3-\text{i}\sqrt{3}}{4} - 1 }{\dfrac{3-\text{i}\sqrt{3}}{4}}
@@ -566,7 +566,7 @@ $\left|\dfrac{z_{k+1} - z_k}{z_{k+1} }\right| = \left|- \dfrac{1}{\sqrt{3}} \tex
 
 $A_kA_{k+1} = \dfrac{1}{\sqrt{3}} OA_{k+1}$.
 
-:::endsolution
+</Solution>
 
 3\. b) Pour tout entier naturel $n$, on appelle $\ell_n$ la longueur de
 la ligne brisée reliant dans cet ordre les points $A_0$, $A_1$, $A_2$,
@@ -577,7 +577,7 @@ On a ainsi : $\ell_n = A_0A_1 + A_1A_2 + \ldots + A_{n-1}A_n$.
 Démontrer que la suite $\left(\ell_n\right)$ est convergente et calculer
 sa limite.
 
-:::startsolution
+<ClientOnly><Solution>
 
 D'après la question précédente, pour tout entier naturel $k$,
 
@@ -595,6 +595,6 @@ $\ell_n=4 \times \dfrac{1 - \left( \dfrac{\sqrt{3}}{2} \right)^{n} }{1-\left( \d
 Pour finir,
 $\displaystyle\lim_{n \to + \infty} \ell_n=\dfrac{8}{2-\sqrt{3}}(1-0) =\dfrac{8}{2-\sqrt{3}} \approx 29,86$
 
-:::endsolution
+</Solution>
 
 :::
