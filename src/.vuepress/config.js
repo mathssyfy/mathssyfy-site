@@ -62,6 +62,13 @@ module.exports = {
     '@vuepress/medium-zoom',
     'vuepress-plugin-reading-time',
     [
+      "vuepress-plugin-container",
+      {
+        type: "exercice",
+        defaultTitle: "Exercice:"
+      }
+    ],
+    [
       "container",
       {
         type: "details",
