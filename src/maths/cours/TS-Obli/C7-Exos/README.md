@@ -2,6 +2,7 @@
 sidebar: auto
 title: Exercices Complexes Partie 2
 author: David Couronné
+description: Exercices sur les nombres complexes
 ---
 
 # Exercices Complexes - Partie 2

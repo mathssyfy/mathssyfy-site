@@ -1,6 +1,8 @@
 ---
 sidebar: auto
 author: David Couronné
+title: Nombres Complexes Module et argument
+description: Cours les nombres complexes en terminale S
 ---
 
 

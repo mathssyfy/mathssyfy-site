@@ -1,6 +1,8 @@
 ---
 sidebar: auto
 author: David Couronné
+title: Intégrales
+description: Cours sur les intégrales en Terminale S
 ---
 
 

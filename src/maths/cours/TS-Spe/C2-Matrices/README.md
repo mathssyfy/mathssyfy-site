@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 title: Matrices
+description: Cours sur les matrices en Terminale S Spécialité Maths
 author: David couronné
 ---
 

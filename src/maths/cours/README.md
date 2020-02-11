@@ -1,5 +1,7 @@
 ---
 sidebar: auto
+title: Cours et sujets de mathématique
+description: Cours et sujets de mathématiques en Terminale S
 ---
 
 # Cours de mathématiques

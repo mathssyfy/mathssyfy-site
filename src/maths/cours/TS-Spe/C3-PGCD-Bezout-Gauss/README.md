@@ -1,6 +1,8 @@
 ---
 sidebar: auto
 author: David Couronné
+title: PDCG-Bezout-Gauss
+description: Cours sur le PGCD, Bezout et Gauss en Terminale S Spécialité Mathématiques
 ---
 
 
