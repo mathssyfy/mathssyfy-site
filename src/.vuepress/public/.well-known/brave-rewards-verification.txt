@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: mathssyfy.netlify.com
+Token: 175d9b7ce703869a8b52be9b2dc77a45b4bd68cc9e8b214d90ccfd4401ee798e
