@@ -77,25 +77,22 @@ représente l'aire du domaine compris entre $\mathcal{C}_f$ et l'axe
 des abscisses, sur $[x\,;x+h]$. $f$ étant croissante, cette aire est
 comprise entre celles des rectangles de largeur $h$ et de hauteurs
 respectives $f(x)$ et $f(x+h)$ :
- $$ 
+
+$$ 
 f(x)h \leqslant F(x+h) - F(x) \leqslant f(x+h)h
-\quad
+
 \iff
-\quad
+
 f(x) \leqslant \dfrac{\Delta F}{\Delta x}(x) \leqslant f(x+h).
- $$ 
+$$
+
 Si $h < 0$ (voir schéma de droite ci-dessous), $F(x) - F(x+h)$
 représente l'aire du domaine compris entre $\mathcal{C}_f$ et l'axe
 des abscisses, sur $[x+h\,;x]$. $f$ étant croissante, cette aire est
 comprise entre celles des rectangles de largeur $-h$ et de hauteurs
 respectives $f(x+h)$ et $f(x)$ :
- $$ 
-f(x+h)(-h) \leqslant F(x) - F(x+h) \leqslant f(x)(-h)
-\quad
-\iff
-\quad
-f(x+h) \leqslant \dfrac{\Delta F}{\Delta x}(x) \leqslant f(x).
- $$ 
+
+$f(x+h)(-h) \leqslant F(x) - F(x+h) \leqslant f(x)(-h) \iff f(x+h) \leqslant \dfrac{\Delta F}{\Delta x}(x) \leqslant f(x).$ 
 
 
 ![Image](./figure5.svg)
