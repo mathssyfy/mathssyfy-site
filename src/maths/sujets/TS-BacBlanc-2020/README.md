@@ -101,12 +101,14 @@ $z' = z \iff x + \text{i}y = ( x - \text{i}y)( 1 - x - \text{i}y) \iff x + \text
 En identifiant les parties réelles et imaginaires on obtient
 respectivement :
 
-$\left\{
+$$
+\left\{
 \begin{array}{l c l}
 x&=&x(1 - x) - y^2\\
 y&=&- xy + y(x - 1)
 \end{array}
-\right.$
+\right.
+$$
 
 La première équation donne $x^2 + y^2 = 0$, équation qui n'est vérifiée
 que par le couple (0 ; 0).
