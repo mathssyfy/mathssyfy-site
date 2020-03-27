@@ -14,7 +14,7 @@ author: David Couronné
 - [TS DS 4 Exponentielle](./DS4-Exponentielle/)
 - [TS Eval 6 Complexes](./Eval6-Complexes/)
 - [TS DS Complexes Loga](./TS-DS-Complexes-loga/)
-- [TSBac Blanc 2020 Obli](./TS-BacBlanc-2020/TS-BacBlanc-2020-Obli)
+- [TS Bac Blanc 2020 Obli](./TS-BacBlanc-2020/)
 
 ## Sujets
 

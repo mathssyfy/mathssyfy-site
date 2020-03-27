@@ -1,3 +1,10 @@
+---
+sidebar: auto
+author: David Couronné
+title: TS Bac Blanc 2020 Obligatoire
+---
+
+
 BACCALAURÉAT BLANC - Lycée de Cornouaille
 
 Mars 2020 - 8h/12h
