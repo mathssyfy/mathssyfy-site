@@ -110,7 +110,13 @@ Loi de probabilité d'une variable aléatoire réelle
 La loi de probabilité d'une variable aléatoire se présente à l'aide d'un
 tableau.
 
-\|\*5c\| ${x_i}$ & ${x_1}$ & ${x_2}$ & ... & ${x_n}$\
+| ${x_i}$                       | ${x_1}$ |   |   |   |
+|-------------------------------|---------|---|---|---|
+| $P\left( {X = {x_i}} \right)$ | ${p_1}$ |   |   |   |
+
+
+
+${x_i}$ & ${x_1}$ & ${x_2}$ & ... & ${x_n}$\
 $P\left( {X = {x_i}} \right)$ & ${p_1}$ & ${p_2}$ & ... & ${p_n}$\
 
 On a $P\left( {X = {x_1}} \right) + P\left( {X = {x_2}} \right) +
