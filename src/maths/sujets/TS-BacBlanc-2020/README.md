@@ -119,3 +119,210 @@ son image est l'origine O. L'affirmation est fausse.
 
 </Solution>
 
+## Exercice 2: Commun à tous les candidats /5 points
+
+**Partie A**
+
+Soit $f$ la fonction définie sur $\R$ par
+
+$$f(x) = x - \ln \left(x^2 + 1\right).$$
+
+**1.** Résoudre dans $R$ l'équation : $f(x) =x$.
+
+<ClientOnly><Solution>
+
+Soit $x\in\R$ :
+
+$\begin{array}[t]{llcl}
+&f(x)&=&x\\
+\iff&x-\ln(x^2+1)&=&x\\
+\iff&\ln(x^2+1)&=&0\\
+\iff&x^2+1&=&e^0\\
+\iff&x^2&=&0\\
+\iff&x&=&0\\
+\end{array}
+$
+
+$$\text{L'équation }f(x)=x\text{ admet 0 pour unique solution}$$
+
+</Solution>
+
+**2.** Justifier tous les éléments du tableau de variations ci-dessous à
+l'exception de la limite de la fonction $f$ en $+ \infty$ que l'on
+admet.
+
+![image](./TS-BacBlanc-2020-Obli-1.jpg)
+
+<ClientOnly><Solution>
+
+$\bullet\;$Montrons que $f$ est strictement croissante sur $\R$ :
+
+La fonction $u : x\mapsto x^2+1$ est une fonction trinôme, donc
+dérivable là où elle est définie, i.e $\R$.
+
+Puisque $u>0$ sur $\R$, alors la fonction $\ln\circ u=\ln u$ est
+dérivable sur $\R$.
+
+Finalement, la fonction $f$ est dérivable sur $\R$ comme différence des
+fonctions $x\mapsto x$ et $x\mapsto -\ln(x^2+1)$, toutes deux dérivables
+sur $\R$. Pour tout nombre réel $x$, on a :
+
+$$f'(x)=1-\dfrac{2x}{x^2+1}=\dfrac{x^2+1-2x}{x^2+1}=\dfrac{(x-1)^2}{x^2+1}$$
+
+La fonction $f$ est dérivable sur $\R$ et sa fonction dérivée est
+strictement positive sur $\R$, *sauf pour $x=1$* : on en déduit que $f$
+est strictement croissante sur $\R$.
+
+$\bullet\;$Montrons $\lim_{x\to -\infty}f(x)=-\infty$ :
+
+De
+$\left\{\begin{array}{l}\lim_{x\to -\infty}x^2+1=+\infty\\ \text{et}\\\lim_{X\to +\infty}\ln X=+\infty \end{array}
+\right.$
+on déduit, par composition : $\lim_{x\to -\infty}\ln(x^2+1)=+\infty$.
+
+Il vient ensuite, par produit :
+$$\lim_{x\to -\infty}-\ln(x^2+1)=-\infty$$
+
+De
+$\left\{\begin{array}{l}\lim_{x\to -\infty}x=-\infty\\ \text{et}\\\lim_{x\to -\infty}-\ln(x^2+1)=-\infty\end{array}
+\right.$
+on déduit, par somme :
+
+$$\lim_{x\to -\infty}f(x)=-\infty$$
+
+</Solution>
+
+**3.** Montrer que, pour tout réel $x$ appartenant à \[0 ; 1\], $f(x)$
+appartient à \[0 ; 1\].
+
+<ClientOnly><Solution>
+
+La fonction $f$ est (strictement) croissante sur $[0,1]$. Par suite :
+
+$$\forall x\in [0,1]\qquad f(0)\leqslant f(x)\leqslant f(1)$$ On a
+$\left\{\begin{array}{l}f(0)=0-\ln(0^2+1)=0\\ \text{et}\\ f(1)=1-\ln(1^2+1)=1-\ln 2\end{array}
+\right.$.
+Puisque $1-\ln 2<1$, alors
+
+$$\forall x\in [0,1]\qquad 0\leqslant f(x)<1$$ On a prouvé :
+
+$$\forall x\in[0,1]\qquad f(x)\in[0,1]$$
+
+</Solution>
+
+**4.** On considère l'algorithme suivant :
+
+  Variables    $N$ et $A$ des entiers naturels ;
+  ------------ --------------------------------------------
+  Entrée       Saisir la valeur de $A$
+  Traitement   $N$ prend la valeur $0$
+               Tant que $N - \ln\left(N^2 + 1\right) < A$
+               $N$ prend la valeur $N + 1$
+               Fin tant que
+  Sortie       Afficher $N$
+
+**4.a)** Que fait cet algorithme ?
+
+<ClientOnly><Solution>
+
+L'algorithme affiche la plus petite valeur de $N$ pour laquelle
+$N-\ln(N^2+1)$ est supérieur ou égal à $N$.
+
+</Solution>
+
+**4.b)** Déterminer la valeur $N$ fournie par l'algorithme lorsque la
+valeur saisie pour $A$ est 100.
+
+<ClientOnly><Solution>
+
+Pour $A=100$, l'algorithme affiche $110$
+
+</Solution>
+
+**Partie B**
+
+Soit $\left(u_n\right)$ la suite définie par $u_0 = 1$ et, pour tout
+entier naturel $n$, $u_{n+1} = u_n -\ln \left(u_n^2 + 1\right)$.
+
+**1.** Montrer par récurrence que, pour tout entier naturel $n$, $u_n$
+appartient à \[0 ; 1\].
+
+<ClientOnly><Solution>
+
+Pour tout entier naturel $n$, notons $\mathcal{P}_n$ la propriété :
+$u_n\in[0,1]$.
+
+$\bullet\;$ Puisque $u_0=1$, $\mathcal{P}_0$ est vraie.
+
+$\bullet\;$Supposons vraie la propriété $\mathcal{P}_n$ pour *un* entier
+naturel $n$ quelconque.
+
+On a alors : $u_n \in [0~;~1]$.
+
+D'après la troisième question de la partie A, on en déduit :
+
+$$f(u_n)\in[0~;~1]$$ soit :
+
+$$u_{n+1}\in[0~;~1]$$ On a prouvé :
+
+$$\forall n\in\N\quad \mathcal{P}_n\text{ est vraie}\Longrightarrow\mathcal{P}_{n+1}\text{ est vraie}$$
+
+$\bullet\;$On a prouvé par récurrence :
+
+$$\forall n\in\N\qquad u_n\in[0~;~1]$$
+
+</Solution>
+
+**2.** Étudier les variations de la suite $\left(u_n\right)$.
+
+<ClientOnly><Solution>
+
+Soit $n\in\N$ :
+
+$u_{n+1}-u_n=-\ln(u_n^2+1)$.
+
+Étudions le signe de $-\ln(u_n^2+1)$ :
+
+Puisque $0\leqslant u_n\leqslant 1$, on en déduit, la fonction carré
+étant croissante sur $[0,1]$ :
+
+$$0^2\leqslant u_n ^2\leqslant 1^2$$ soit :
+
+$$u_n^2\in[0~;~1]$$ Par suite :
+
+$$u_n^2+1\in[1~;~2]$$ La fonction $\ln$ est croissante sur
+$[1~;~+\infty[$ :
+
+De $u_n^2+1\geqslant 1$, on déduit
+$\ln \left(u_n^2+1\right)\geqslant \ln 1$, soit
+$\ln \left(u_n^2+1\right)\geqslant 0$.
+
+Puisque $u_{n+1} -  u_n = -\ln(u_n^2+1)\leqslant 0$, alors
+
+$$\text{La suite $u$ est décroissante }$$
+
+</Solution>
+
+**3.** Montrer que la suite $\left(u_n\right)$ est convergente.
+
+<ClientOnly><Solution>
+
+La suite $u$ est décroissante et minorée par $0$ : elle converge donc,
+en vertu du théorème de la limite monotone, vers un nombre réel $\ell$.
+
+</Solution>
+
+**4.** On note $\ell$ sa limite, et on admet que $\ell$ vérifie
+l'égalité $f(\ell) = \ell$.
+
+En déduire la valeur de $\ell$.
+
+<ClientOnly><Solution>
+
+Puisque l'équation $f(x) = x$ admet $0$ pour unique solution, on en
+déduit :
+
+$$\ell = 0$$
+
+</Solution>
+
