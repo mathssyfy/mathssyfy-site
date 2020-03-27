@@ -222,13 +222,13 @@ $$\forall x\in[0,1]\qquad f(x)\in[0,1]$$
 **4.** On considère l'algorithme suivant :
 
 ```
-  Variables    $N$ et $A$ des entiers naturels ;
-  Entrée       Saisir la valeur de $A$
-  Traitement   $N$ prend la valeur $0$
-               Tant que $N - \ln\left(N^2 + 1\right) < A$
-               $N$ prend la valeur $N + 1$
+  Variables    N et A des entiers naturels ;
+  Entrée       Saisir la valeur de A
+  Traitement   N prend la valeur 0
+               Tant que N - ln(N^2 + 1) < A
+               $ prend la valeur N + 1
                Fin tant que
-  Sortie       Afficher $N$
+  Sortie       Afficher N
 ```
 
 **4.a)** Que fait cet algorithme ?
@@ -749,7 +749,7 @@ de son exécution tous les couples solutions de l'équation pour lesquels
 $1 \leqslant u \leqslant 1000$ et $1 \leqslant v \leqslant 1000$.
 
 ```
-Pour $u$ allant de 1 à ...faire
+Pour u allant de 1 à ...faire
 Pour ... 
 Si ... 
 Afficher u et v
