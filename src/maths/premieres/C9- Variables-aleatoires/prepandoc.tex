@@ -1,0 +1,26 @@
+\documentclass[11pt]{cornouaille}
+
+\newrgbcolor{Rfond}{.995 0.945 .985}
+\newrgbcolor{Rougef}{.8 0.1 .2}
+\newrgbcolor{Rbord}{.6 0.1 .4}
+
+
+\newcommand{\cadreR}[1]{%
+\psframebox[framesep=.8em,linecolor=black,linewidth=0.25pt,framearc=0.2,fillstyle=solid,fillcolor=Rfond]{\begin{minipage}{\linewidth-1.6em}%
+#1\end{minipage}}}
+
+\usepackage{verbatim}
+
+
+\begin{document}
+\thispagestyle{empty}
+\begin{tikzpicture}[overlay]
+\node at (14,0) {\includegraphics[scale=0.4]{dé.png}};
+\end{tikzpicture}
+\newpage\thispagestyle{empty}
+\begin{tikzpicture}[overlay]
+\node at (14,-.5) {\includegraphics[scale=0.7]{arbre.png}};
+\end{tikzpicture}
+\newpage\thispagestyle{empty}
+EMPTY
+\end{document}

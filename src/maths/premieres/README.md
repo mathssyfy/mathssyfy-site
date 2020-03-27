@@ -6,3 +6,7 @@ title: Premières Spécialités
 ## Progression
 
 - [Progression première spécialité](./progression-premiere)
+
+## Cours
+
+- [Progression première spécialité](./C9- Variables-aleatoires/)
