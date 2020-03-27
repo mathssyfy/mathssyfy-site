@@ -135,7 +135,8 @@ $$f(x) = x - \ln \left(x^2 + 1\right).$$
 
 Soit $x\in\R$ :
 
-$\begin{array}[t]{llcl}
+$$
+\begin{array}[t]{llcl}
 &f(x)&=&x\\
 \iff&x-\ln(x^2+1)&=&x\\
 \iff&\ln(x^2+1)&=&0\\
@@ -143,7 +144,7 @@ $\begin{array}[t]{llcl}
 \iff&x^2&=&0\\
 \iff&x&=&0\\
 \end{array}
-$
+$$
 
 $$\text{L'équation }f(x)=x\text{ admet 0 pour unique solution}$$
 
