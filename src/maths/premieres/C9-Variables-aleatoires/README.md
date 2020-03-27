@@ -5,8 +5,8 @@ title: C9 Variables Aléatoires
 ---
 
 
-Activité
-========
+## Activité
+
 
 ![image](./1S-VA-cours-0.jpg)
 
@@ -69,8 +69,8 @@ connaissance de cause.
 
 Dans ce cours, on va formaliser tout ceci :
 
-Notion de variable aléatoire réelle
-===================================
+## Notion de variable aléatoire réelle
+
 
 **Remarque**
 
@@ -108,8 +108,8 @@ L'évènement $(X=2)$ est réalisé lorsque l'on obtient un multiple de 3
 
 L'évènement $(X \leq 0)$ est réalisé lorsque le gain est négatif
 
-Loi de probabilité d'une variable aléatoire réelle
-==================================================
+## Loi de probabilité d'une variable aléatoire réelle
+
 
 **Remarque**
 
@@ -181,15 +181,15 @@ On présente la **loi de probabilité** de $X$ dans un tableau.
 $P\left( {X = {x_i}} \right)$ & $\dfrac{3}{5}$ & $\dfrac{1}{5}$ &
 $\dfrac{1}{5}$\
 
-Espérance, variance et écart-type
-=================================
+## Espérance, variance et écart-type
+
 
 Dans cette partie, $X$ est une variable aléatoire réelle définie sur un
 univers $\Omega$ prenant les valeurs $x_1$​, $x_2$​, \..., $x_r$​ avec
 les probabilités respectives $p_1$​, $p_2$​, \..., $p_r$​.
 
-Espérance d'une variable aléatoire
-----------------------------------
+### Espérance d'une variable aléatoire
+
 
 **Remarque:**
 
@@ -246,8 +246,8 @@ $E(X)=−2 \times 0,2+1 \times 0,5+4 \times 0,3=1,3$
 Sur un très grand nombre de répétitions de cette expérience aléatoire,
 la valeur moyenne de $X$ est $1,3$.
 
-Variance et écart-type d'une variable aléatoire
------------------------------------------------
+### Variance et écart-type d'une variable aléatoire
+
 
 **Remarque:**
 
@@ -299,8 +299,8 @@ $Var(X)​=0,2 \times (−2−1,3)^2+0,5 \times (1−1,3)^2+0,3 \times (4−1,3)
 
 D'où $\sigma(X)=\sqrt{Var(X)}=\sqrt{4,41}=2,1$
 
-Simulation d'une variable aléatoire
-===================================
+## Simulation d'une variable aléatoire
+
 
 Un jeu consiste à lancer $n$ fois deux dés parfaitement équilibrés.
 
