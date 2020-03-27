@@ -9,4 +9,4 @@ title: Premières Spécialités
 
 ## Cours
 
-- [Progression première spécialité](./C9- Variables-aleatoires/)
+- [Progression première spécialité](./C9-Variables-aleatoires/)
