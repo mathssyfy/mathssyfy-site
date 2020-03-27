@@ -42,7 +42,7 @@ un joueur à ce jeu.
 
 **Correction**
 
-![image](corr1.png)
+![image](./corr1.png)
 
 COMMENTAIRES :
 
