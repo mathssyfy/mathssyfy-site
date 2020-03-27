@@ -703,3 +703,13 @@ Le coût a été de 968 millions d'euros, soit presque 1 milliards d'euros
 !
 
 </Solution>
+
+## ANNEXE de l'exercice 3
+
+**Exercice 3, question 1**
+
+![image](./TS-BacBlanc-2020-Obli-5.jpg)
+
+**Exercice 3, question 2**
+
+![image](./TS-BacBlanc-2020-Obli-6.jpg)
