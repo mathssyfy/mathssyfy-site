@@ -11,7 +11,7 @@
         <span class="up-Arrow" v-show="active">&#9650;</span>
       </a>
     </div>
-    <div class="tab__content p-2" v-show="active">
+    <div class="tab__content p-2 bg-background-primary" v-show="active">
       <slot/>
     </div>
   </div>
