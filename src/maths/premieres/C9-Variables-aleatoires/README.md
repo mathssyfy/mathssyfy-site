@@ -36,10 +36,9 @@ un joueur à ce jeu.
 
 3\. b) Recopier et compléter le tableau.
 
-       Événement       $\left( {X = - 2}   $\left( {X = - 1} \right)$   $\left( {X = 1}   $\left( {X = 2} \right)$
-                           \right)$                                        \right)$      
-  ------------------- ------------------- ---------------------------- ----------------- --------------------------
-   Issues favorables                                                                     
+| Événement         | $\left( {X = - 2}\right)$ | $\left( {X = - 1} \right)$ | $\left( {X = 1}\right)$ | $\left( {X = 2} \right)$ |
+|-------------------|---------------------------|----------------------------|-------------------------|--------------------------|
+| Issues favorables |                           |                            |                         |                          |                                                     
 
 3\. c) Calculer la probabilité, notée $P\left( {X
 = - 2} \right)$, que le joueur perde 2 euros.
