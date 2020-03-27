@@ -495,3 +495,211 @@ sécantes.
 
 </Solution>
 
+## Exercice 4: Pour les candidats n'ayant pas suivi
+l'enseignement de spécialité /5 points
+
+*Les parties A et B de cet exercice sont indépendantes.*
+
+Le virus de la grippe atteint chaque année, en période hivernale, une
+partie de la population d'une ville.
+
+La vaccination contre la grippe est possible; elle doit être renouvelée
+chaque année.
+
+**Partie A**
+
+L'efficacité du vaccin contre la grippe peut être diminuée en fonction
+des caractéristiques individuelles des personnes vaccinées, ou en raison
+du vaccin, qui n'est pas toujours totalement adapté aux souches du virus
+qui circulent. Il est donc possible de contracter la grippe tout en
+étant vacciné.
+
+Une étude menée dans la population de la ville à l'issue de la période
+hivernale a permis de constater que :
+
+-   40 % de la population est vaccinée ;
+
+-   8 % des personnes vaccinées ont contracté la grippe ;
+
+-   20 % de la population a contracté la grippe.
+
+On choisit une personne au hasard dans la population de la ville et on
+considère les évènements :
+
+ 
+
+:   $V$ : \<\< la personne est vaccinée contre la grippe \>\> ;
+
+ 
+
+:   $G$ : \<\< la personne a contracté la grippe \>\>.
+
+**1.**
+
+**1.a)** Donner la probabilité de l'évènement $G$.
+
+<ClientOnly><Solution>
+
+$P(G)=0,2$ car 20% de la population a contracté la grippe.
+
+</Solution>
+
+**1.b)** Reproduire l'arbre pondéré ci-dessous et compléter les
+pointillés indiqués sur quatre de ses branches.
+
+<ClientOnly><Solution>
+
+On obtient :
+
+![image](./TS-BacBlanc-2020-Obli-0.jpg)
+
+</Solution>
+
+**2.** Déterminer la probabilité que la personne choisie ait contracté
+la grippe et soit vaccinée.
+
+<ClientOnly><Solution>
+
+On calcule $P(G \cap V) = 0,4 \times 0,08 = 0,032$ soit $3,2\%$ de
+chances que la personne ait contractée la grippe et soit vaccinée.
+
+</Solution>
+
+**3.** La personne choisie n'est pas vaccinée. Montrer que la
+probabilité qu'elle ait contracté la grippe est égale à $0,28$.
+
+<ClientOnly><Solution>
+
+On calcule
+$P_{\overline{V}} (G) =\dfrac{P\left(\overline{V} \cap G\right) }{P\left(\overline{V}\right)}$
+
+D'après la formule des probabilités totales,
+$P(V \cap G) + P\left(\overline{V} \cap G\right) = P\left(G\right)$.
+
+Donc
+$P\left(\overline{V} \cap G\right) = P(G) - P(V \cap G) = 0,2 - 0,032 = 0,168$
+puis $P_{\overline{V}} (G) = \dfrac{0,168}{0,6} =0,28$.
+
+La probabilité qu'une personne non vaccinée ait contracté la grippe est
+égale à 0,28.
+
+</Solution>
+
+**Partie B**
+
+*Dans cette partie, les probabilités demandées seront données à
+$10^{-3}$ près.*
+
+Un laboratoire pharmaceutique mène une étude sur la vaccination contre
+la grippe dans cette ville.
+
+Après la période hivernale, on interroge au hasard $n$ habitants de la
+ville, en admettant que ce choix se ramène à $n$ tirages successifs
+indépendants et avec remise. On suppose que la probabilité qu'une
+personne choisie au hasard dans la ville soit vaccinée contre la grippe
+est égale à $0,4$.
+
+On note $X$ la variable aléatoire égale au nombre de personnes vaccinées
+parmi les $n$ interrogées.
+
+**1.** Quelle est la loi de probabilité suivie par la variable aléatoire
+$X$ ?
+
+<ClientOnly><Solution>
+
+Il s'agit de $n$ expériences aléatoires identiques et indépendantes à 2
+issues (la personne est vaccinée ou non) avec une probabilité de succès
+de $0,4$.
+
+La variable aléatoire $X$ compte le nombre de succès donc $X$ suit la
+loi binomiale $\mathcal{B}(n~;~0,4)$.
+
+</Solution>
+
+**2.** Dans cette question, on suppose que $n = 40$.
+
+**2.a)** Déterminer la probabilité qu'exactement $15$ des $40$ personnes
+interrogées soient vaccinées.
+
+<ClientOnly><Solution>
+
+$P(X=15) \approx 0,123$
+
+</Solution>
+
+**2.b)** Déterminer la probabilité qu'au moins la moitié des personnes
+interrogées soit vaccinée.
+
+<ClientOnly><Solution>
+
+$P(X \geqslant 20) = 1- P(X < 20) =  1- P(X \leqslant 19) \approx 0,130$
+
+</Solution>
+
+**3.** On s'intéresse à l'impact économique de la grippe sur la
+population active (personnes ayant un emploi).
+
+D'après le réseau des GROG (Groupes Régionaux d'Observation de la
+Grippe), le coût direct moyen d'un cas de grippe est de 70 euros
+(médecin + actes de soins + médicaments), auquel il faut ajouter les
+indemnités journalières d'absences ( environ 4,8 jours d'absences en
+moyenne par personne ) soit 50 euros.
+
+Par conséquent on peut estimer qu'un patient atteint de la grippe
+\"coûte\" 120 euros en frais de santé.
+
+D'un autre coté, une vaccination contre la grippe coûte le prix du
+vaccin (7 euros), plus la consultation chez le médecin (23 euros), soit
+30 euros au total.
+
+**3.a)** Quel est le coût en frais de santé d'une personne active qui
+s'est fait vacciner et qui contracte la grippe ?
+
+<ClientOnly><Solution>
+
+$120+30=150$
+
+</Solution>
+
+**3.b)** On note $Z$ la variable aléatoire qui, à chaque personne
+active, associe le cout total de la grippe. Donner sous forme de tableau
+la loi de probabilité de $Z$.
+
+<ClientOnly><Solution>
+
+-   $P(Z=0) = P(\overline{V} \cap \overline{G})= 0,432$
+
+-   $P(Z=30)= P(V \cap \overline{G})=0,368$
+
+-   $P(Z=120)= P(\overline{V} \cap G)=0,168$
+
+-   $P(Z=150)= P(V \cap G)=0,032$
+
+D'où la loi de probabilité de $Z$:
+
+   $z_i$     0      30      120     150
+  ------- ------- ------- ------- -------
+   $p_i$   0,432   0.368   0.168   0.032
+
+</Solution>
+
+**3.c)** Quel est le coût moyen par personne active ?
+
+<ClientOnly><Solution>
+
+$E(Z) = 0.432 \times 0+0.368 \times 30+0.168 \times 120+0.032 \times 150=36$
+
+</Solution>
+
+**3.d)** En 2017, la France comptait environ 26,9 millions d'actifs[^1]
+. Quel a été le coût total de la grippe en 2017 sur la population active
+?
+
+<ClientOnly><Solution>
+
+$26,9 \times 10^6 \times 36=968 \times 10^6$
+
+Le coût a été de 968 millions d'euros, soit presque 1 milliards d'euros
+!
+
+</Solution>
