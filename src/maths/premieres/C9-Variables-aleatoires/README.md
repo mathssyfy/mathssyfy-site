@@ -17,14 +17,14 @@ rouges (R$_{1}$ et R$_{2}$).
 On tire au hasard une boule, puis une deuxième sans avoir remis la
 première.
 
-1\. Recopier et compléter l'arbre ci-contre afin de déterminer toutes\
+**1\.** Recopier et compléter l'arbre ci-contre afin de déterminer toutes\
 les issues possibles.
 
-2\. Quelle est la probabilité de chaque issue ?
+**2\.** Quelle est la probabilité de chaque issue ?
 
 ![image](./1S-VA-cours-1.jpg)
 
-3\. Une boule bleue ne rapporte rien et ne fait rien perdre, une boule
+**3\.** Une boule bleue ne rapporte rien et ne fait rien perdre, une boule
 verte\
 rapporte 2 points et chaque boule rouge fait perdre 1 point.
 
@@ -32,18 +32,18 @@ On s'intéresse au gain algébrique $X$ (positif ou négatif) que peut
 obtenir\
 un joueur à ce jeu.
 
-3\. a) Quelles sont les valeurs possibles pour le gain ?
+**3\. a)** Quelles sont les valeurs possibles pour le gain ?
 
-3\. b) Recopier et compléter le tableau.
+**3\. b)** Recopier et compléter le tableau.
 
 | Événement         | $\left( {X = - 2}\right)$ | $\left( {X = - 1} \right)$ | $\left( {X = 1}\right)$ | $\left( {X = 2} \right)$ |
 |-------------------|---------------------------|----------------------------|-------------------------|--------------------------|
 | Issues favorables |                           |                            |                         |                          |                                                     
 
-3\. c) Calculer la probabilité, notée $P\left( {X
+**3\. c)** Calculer la probabilité, notée $P\left( {X
 = - 2} \right)$, que le joueur perde 2 euros.
 
-3\. d) Calculer de même $P\left( {X = - 1} \right)$, $P\left(
+**3\. d)** Calculer de même $P\left( {X = - 1} \right)$, $P\left(
 {X = 1} \right)$ et $P\left( {X = 2} \right)$.
 
 <ClientOnly><Solution>
@@ -242,11 +242,11 @@ le tableau suivant. Calculer et interpréter $E(X)$.
 
 **Méthode**
 
-1\. On applique la formule du cours en remplaçant les $x_i​$ par les
+**1\.** On applique la formule du cours en remplaçant les $x_i​$ par les
 valeurs prises par la variable aléatoire $X$ et les $p_i$​ par les
 probabilités correspondantes.
 
-2\. On interprète le résultat à l'aide d'une moyenne en se rappelant que
+**2\.** On interprète le résultat à l'aide d'une moyenne en se rappelant que
 cela est valable uniquement pour un très grand nombre d'expériences
 identiques réalisées.
 
@@ -337,16 +337,16 @@ for i in range(n):
 print(G/n)
 ```
 
-1\. On considère l'algorithme ci-dessus.
+**1\.** On considère l'algorithme ci-dessus.
 
-1\. a) Qu'affiche cet algorithme ?
+**1\. a)** Qu'affiche cet algorithme ?
 
-1\. b) Programmer cet algorithme sur une calculatrice ou un logiciel.
+**1\. b)** Programmer cet algorithme sur une calculatrice ou un logiciel.
 
 Effectuer plusieurs simulations pour $n$ = 10 ; $n$ = 50 et $n$ = 100.
 Que constate-t-on ?
 
-2\. Recopier et compléter le tableau à double entrée.
+**2\.** Recopier et compléter le tableau à double entrée.
 
 |   | 1  | 2    | 3 | 4 | 5 | 6 |
 |---|----|------|---|---|---|---|
@@ -357,10 +357,10 @@ Que constate-t-on ?
 | 5 |    |      |   |   |   |   |
 | 6 |    |      |   |   |   |   |
 
-3\. Calculer la probabilité $p$ de perdre 1 euro, puis la probabilité
+**3\.** Calculer la probabilité $p$ de perdre 1 euro, puis la probabilité
 $q$ de gagner 5 euros à ce jeu.
 
-4\. Soit $X$ la variable aléatoire correspondant au gain de ce jeu.
+**4\.** Soit $X$ la variable aléatoire correspondant au gain de ce jeu.
 
 -   Quelles sont les valeurs prises par $X$ ?
 
