@@ -496,8 +496,7 @@ sécantes.
 
 </Solution>
 
-## Exercice 4: Pour les candidats n'ayant pas suivi
-l'enseignement de spécialité /5 points
+## Exercice 4: Pour les candidats n'ayant pas suivi l'enseignement de spécialité /5 points
 
 *Les parties A et B de cet exercice sont indépendantes.*
 
