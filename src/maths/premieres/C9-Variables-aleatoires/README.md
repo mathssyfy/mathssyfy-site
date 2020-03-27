@@ -176,9 +176,9 @@ $P\left( {X = 6} \right) = \dfrac{1}{5}$.
 
 On présente la **loi de probabilité** de $X$ dans un tableau.
 
-\|\*4c\| ${x_i}$ & $- 2$ & 2 & 6\
-$P\left( {X = {x_i}} \right)$ & $\dfrac{3}{5}$ & $\dfrac{1}{5}$ &
-$\dfrac{1}{5}$\
+| ${x_i}$                       | $- 2$          |              2 |              6 |
+| ----------------------------- | -------------- | -------------- | -------------- |
+| $P\left( {X = {x_i}} \right)$ | $\dfrac{3}{5}$ | $\dfrac{1}{5}$ | $\dfrac{1}{5}$ |
 
 ## Espérance, variance et écart-type
 
@@ -308,7 +308,7 @@ Un jeu consiste à lancer $n$ fois deux dés parfaitement équilibrés.
 
 Lorsqu'on obtient un double, on gagne 5 euros, sinon on perd 1 euro.
 
-```python
+```py
 from random import randint
 n=int(input("Quel est le nombre de lancers?"))
 G=0
@@ -333,9 +333,14 @@ Que constate-t-on ?
 
 2\. Recopier et compléter le tableau à double entrée.
 
-| ${x_i}$                       | $-2$          |              1  | 4              |
-|-------------------------------|---------------|-----------------|----------------|
-| $P\left( {X = {x_i}} \right)$ | 0,2           |  0,5            | 0,3            |
+|   | 1  | 2    | 3 | 4 | 5 | 6 |
+|---|----|------|---|---|---|---|
+| 1 | +5 | $-1$ |   |   |   |   |
+| 2 |    |      |   |   |   |   |
+| 3 |    |      |   |   |   |   |
+| 4 |    |      |   |   |   |   |
+| 5 |    |      |   |   |   |   |
+| 6 |    |      |   |   |   |   |
 
 3\. Calculer la probabilité $p$ de perdre 1 euro, puis la probabilité
 $q$ de gagner 5 euros à ce jeu.
@@ -355,7 +360,7 @@ $q$ de gagner 5 euros à ce jeu.
 
 **Correction:**
 
-![image](algo1.png)
+![image](./algo1.png)
 
 $X$ prend les valeurs $5$ ou $-1$.
 
