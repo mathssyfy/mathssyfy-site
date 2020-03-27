@@ -355,3 +355,145 @@ $$\ell = 0$$
 
 </Solution>
 
+## Exercice 3: Commun à tous les candidats /5 points
+
+On considère le cube ABCDEFGH représenté ci-dessous.
+
+On définit les points I et J respectivement par
+$\overrightarrow{\text{HI}} = \dfrac{3}{4} \overrightarrow{\text{HG}}$
+et
+$\overrightarrow{\text{JG}} = \dfrac{1}{4} \overrightarrow{\text{CG}}$.
+
+![image](./TS-BacBlanc-2020-Obli-2.jpg)
+
+**1.** **Sur le document réponse donné en annexe, à rendre avec la
+copie**, tracer, sans justifier, la section du cube par le plan (IJK) où
+K est un point du segment \[BF\].
+
+<ClientOnly><Solution>
+
+On trace la section du cube par le plan (IJK):
+
+![image](./TS-BacBlanc-2020-Obli-3.jpg)
+
+</Solution>
+
+**2.** **Sur le document réponse donné en annexe, à rendre avec la
+copie**, tracer, sans justifier, la section du cube par le plan (IJL) où
+L est un point de la droite (BF).
+
+<ClientOnly><Solution>
+
+On trace la section du cube par le plan (IJL):
+
+![image](./TS-BacBlanc-2020-Obli-4.jpg)
+
+</Solution>
+
+**3.** On se place dans le repère
+$\left(A;\overrightarrow{AB},\overrightarrow{AD},\overrightarrow{AE}\right)$.
+
+**3.a)** Donner, sans justifer, les coordonnées du point $J$.
+
+<ClientOnly><Solution>
+
+$J \left(1,1,\frac{3}{4}\right)$
+
+</Solution>
+
+**3.b)** On admet que $I\left(\frac{3}{4};1;1\right)$ et
+$K\left(1;0;\frac{1}{3}\right)$. Déterminer une représentation
+paramétrique de la droite $(IK)$.
+
+<ClientOnly><Solution>
+
+$M(x,xy,z) \in (IK) \iff \exists t \in \R : \overrightarrow{KM}=t\overrightarrow{IK}$\
+$\iff \left\{
+\begin{array}{l c r}
+x-1 &=& t(1-\frac{3}{4}) \\
+y-0 &= & t(0-1) \\
+z-\frac{1}{3} &=&t (\frac{1}{3}-1
+\end{array}
+
+\right.$ où $t \in \R$ $\iff \left\{
+\begin{array}{l c r}
+x &=& \frac{1}{4}t + 1\\
+y &= &-  t \\
+z &=&-\frac{2}{3}t - \frac{1}{3}
+\end{array}
+
+\right.$ où $t \in \R$
+
+</Solution>
+
+**3.c)** On donne la droite $d$ de représentation paramétrique $\left\{
+\begin{array}{l c r}
+x &=& 2t + 1\\
+y &= &- 2 t + 9\\
+z &=&t - 3
+\end{array}
+\right.$ où $t \in \R$. Le point $L(5~;~5~;~-1)$ appartient-il à $d$ ?
+Justifier.
+
+<ClientOnly><Solution>
+
+On cherche s'il existe un réel t pour que les coordonnées du point $L$
+vérifient le système: $\left\{
+\begin{array}{l c r}
+5 &=& 2t + 1\\
+5 &= &- 2 t + 9\\
+-1 &=&t - 3
+\end{array}
+
+\right.$ soit $\left\{
+\begin{array}{l c r}
+4 &=& 2t \\
+-4 &= &- 2 t \\
+2 &=&t
+\end{array}
+\right.$ d'où $t=2$ et oui le point appartient à la droite
+
+</Solution>
+
+**3.d)** On donne la droite $\Delta$ de représentation paramétrique
+$\left\{
+\begin{array}{l c r}
+x &=& -1-3t\\
+y &= &7+t\\
+z &=&-3-2t
+\end{array}
+\right.$ où $t \in \R$. Les droites $d$ et $\Delta$ sont-elles sécantes
+? Si oui en quel point ?
+
+<ClientOnly><Solution>
+
+On cherche s'il existent deux réels $t$ et $t'$ tels que :\
+$\left\{
+\begin{array}{l c r}
+2t'+1 &=& -1-3t\\
+-2t'+9 &= &7+t\\
+t'-3 &=&-3-2t
+\end{array}
+\right. \iff \left\{
+\begin{array}{l c r}
+2t'+3t &=& -2\\
+-2t'+2 &= &t\\
+t' &=&-2t
+\end{array}
+\right.\iff \left\{
+\begin{array}{l c r}
+-4t+3t &=& -2\\
+-2(2t)+2 &= &t\\
+t' &=&-2t
+\end{array}
+\right.\iff \left\{
+\begin{array}{l c r}
+t &=& 2\\
+t &= &\frac{2}{5}\\
+t' &=&-4
+\end{array}
+\right.$ le système n'admet pas de solution les deux droites ne sont pas
+sécantes.
+
+</Solution>
+
