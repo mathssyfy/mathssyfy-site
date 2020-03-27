@@ -1,7 +1,7 @@
 ---
 sidebar: auto
 author: David Couronné
-title: TS Bac Blanc 2020 Obligatoire
+title: TS Bac Blanc 2020
 ---
 
 ## Exercice 1: Commun à tous les candidats /5 points
