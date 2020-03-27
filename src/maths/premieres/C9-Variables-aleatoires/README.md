@@ -372,9 +372,9 @@ $q$ de gagner 5 euros à ce jeu.
 
 $X$ prend les valeurs $5$ ou $-1$.
 
-$P(X=5)=\frac{cas favorables}{cas possibles}=\frac{6}{36}=\frac{1}{6}$
+$P(X=5)=\frac{\text{cas favorables}}{\text{cas possibles}}=\frac{6}{36}=\frac{1}{6}$
 
-$P(X=-1)=\frac{cas favorables}{cas possibles}=\frac{30}{36}=\frac{5}{6}$
+$P(X=-1)=\frac{\text{cas favorables}}{\text{cas possibles}}=\frac{30}{36}=\frac{5}{6}$
 
 Loi de probabilité :
 
