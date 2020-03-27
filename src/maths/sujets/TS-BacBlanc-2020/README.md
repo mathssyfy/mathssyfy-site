@@ -136,7 +136,7 @@ $$f(x) = x - \ln \left(x^2 + 1\right).$$
 Soit $x\in\R$ :
 
 $$
-\begin{array}[t]{llcl}
+\begin{array}{llcl}
 &f(x)&=&x\\
 \iff&x-\ln(x^2+1)&=&x\\
 \iff&\ln(x^2+1)&=&0\\
