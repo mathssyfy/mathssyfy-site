@@ -209,7 +209,9 @@ $\left\{\begin{array}{l}f(0)=0-\ln(0^2+1)=0\\ \text{et}\\ f(1)=1-\ln(1^2+1)=1-\l
 \right.$.
 Puisque $1-\ln 2<1$, alors
 
-$$\forall x\in [0,1]\qquad 0\leqslant f(x)<1$$
+$$
+\forall x\in [0,1]\qquad 0\leqslant f(x)<1
+$$
 
 On a prouvé :
 
@@ -268,17 +270,25 @@ On a alors : $u_n \in [0~;~1]$.
 
 D'après la troisième question de la partie A, on en déduit :
 
-$$f(u_n)\in[0~;~1]$$
+$$
+f(u_n)\in[0~;~1]
+$$
 soit :
 
-$$u_{n+1}\in[0~;~1]$$
+$$
+u_{n+1}\in[0~;~1]
+$$
 On a prouvé :
 
-$$\forall n\in\N\quad \mathcal{P}_n\text{ est vraie}\Longrightarrow\mathcal{P}_{n+1}\text{ est vraie}$$
+$$
+\forall n\in\N\quad \mathcal{P}_n\text{ est vraie}\Longrightarrow\mathcal{P}_{n+1}\text{ est vraie}
+$$
 
 $\bullet\;$On a prouvé par récurrence :
 
-$$\forall n\in\N\qquad u_n\in[0~;~1]$$
+$$
+\forall n\in\N\qquad u_n\in[0~;~1]
+$$
 
 </Solution>
 
@@ -295,15 +305,21 @@ $u_{n+1}-u_n=-\ln(u_n^2+1)$.
 Puisque $0\leqslant u_n\leqslant 1$, on en déduit, la fonction carré
 étant croissante sur $[0,1]$ :
 
-$$0^2\leqslant u_n ^2\leqslant 1^2$$
+$$
+0^2\leqslant u_n ^2\leqslant 1^2
+$$
 
 soit :
 
-$$u_n^2\in[0~;~1]$$
+$$
+u_n^2\in[0~;~1]
+$$
 
 Par suite :
 
-$$u_n^2+1\in[1~;~2]$$
+$$
+u_n^2+1\in[1~;~2]
+$$
 La fonction $\ln$ est croissante sur $[1~;~+\infty[$ :
 
 De $u_n^2+1\geqslant 1$, on déduit
