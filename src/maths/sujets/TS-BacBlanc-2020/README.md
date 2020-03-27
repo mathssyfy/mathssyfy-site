@@ -868,14 +868,16 @@ Soit $X=
 $ une solution de
 l'équation $(E)$.
 
-$AX=
+$$
+AX=
 \begin{pmatrix} 3&2\\ 4&3 \end{pmatrix}
- \times 
+\times 
 \begin{pmatrix} u\\ v
 \end{pmatrix}
 =
 \begin{pmatrix} 3u+2v\\ 4u+3v\end{pmatrix}
-$.
+$$
+
 
 On a :
 $(4u+3v)^2-2(3u+2v)^2=16u^2+24uv+9v^2-18u^2-24uv-8v^2=v^2-2u^2=1$.
