@@ -202,12 +202,16 @@ appartient à \[0 ; 1\].
 
 La fonction $f$ est (strictement) croissante sur $[0,1]$. Par suite :
 
-$$\forall x\in [0,1]\qquad f(0)\leqslant f(x)\leqslant f(1)$$ On a
+$$\forall x\in [0,1]\qquad f(0)\leqslant f(x)\leqslant f(1)$$
+
+On a
 $\left\{\begin{array}{l}f(0)=0-\ln(0^2+1)=0\\ \text{et}\\ f(1)=1-\ln(1^2+1)=1-\ln 2\end{array}
 \right.$.
 Puisque $1-\ln 2<1$, alors
 
-$$\forall x\in [0,1]\qquad 0\leqslant f(x)<1$$ On a prouvé :
+$$\forall x\in [0,1]\qquad 0\leqslant f(x)<1$$
+
+On a prouvé :
 
 $$\forall x\in[0,1]\qquad f(x)\in[0,1]$$
 
@@ -257,16 +261,18 @@ $u_n\in[0,1]$.
 
 $\bullet\;$ Puisque $u_0=1$, $\mathcal{P}_0$ est vraie.
 
-$\bullet\;$Supposons vraie la propriété $\mathcal{P}_n$ pour *un* entier
+$\bullet\;$ Supposons vraie la propriété $\mathcal{P}_n$ pour *un* entier
 naturel $n$ quelconque.
 
 On a alors : $u_n \in [0~;~1]$.
 
 D'après la troisième question de la partie A, on en déduit :
 
-$$f(u_n)\in[0~;~1]$$ soit :
+$$f(u_n)\in[0~;~1]$$
+soit :
 
-$$u_{n+1}\in[0~;~1]$$ On a prouvé :
+$$u_{n+1}\in[0~;~1]$$
+On a prouvé :
 
 $$\forall n\in\N\quad \mathcal{P}_n\text{ est vraie}\Longrightarrow\mathcal{P}_{n+1}\text{ est vraie}$$
 
