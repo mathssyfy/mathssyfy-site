@@ -46,9 +46,11 @@ un joueur à ce jeu.
 3\. d) Calculer de même $P\left( {X = - 1} \right)$, $P\left(
 {X = 1} \right)$ et $P\left( {X = 2} \right)$.
 
-**Correction**
+<ClientOnly><Solution>
 
 ![image](./corr1.png)
+
+</Solution>
 
 COMMENTAIRES :
 
@@ -150,7 +152,7 @@ Déterminer la loi de probabilité de $X$.
 
 :::
 
-CORRECTION :
+<ClientOnly><Solution>
 
 L'univers est l'ensemble des 5 jetons.
 
@@ -179,6 +181,8 @@ On présente la **loi de probabilité** de $X$ dans un tableau.
 | ${x_i}$                       | $- 2$          |              2 |              6 |
 | ----------------------------- | -------------- | -------------- | -------------- |
 | $P\left( {X = {x_i}} \right)$ | $\dfrac{3}{5}$ | $\dfrac{1}{5}$ | $\dfrac{1}{5}$ |
+
+</Solution>
 
 ## Espérance, variance et écart-type
 
@@ -241,12 +245,14 @@ probabilités correspondantes.
 cela est valable uniquement pour un très grand nombre d'expériences
 identiques réalisées.
 
-**Correction:**
+<ClientOnly><Solution>
 
 $E(X)=−2 \times 0,2+1 \times 0,5+4 \times 0,3=1,3$
 
 Sur un très grand nombre de répétitions de cette expérience aléatoire,
 la valeur moyenne de $X$ est $1,3$.
+
+</Solution>
 
 ### Variance et écart-type d'une variable aléatoire
 
@@ -291,7 +297,7 @@ aléatoire $X$.
 -   L'écart-type s'obtient simplement en calculant la racine carrée de
     la variance
 
-**Correction:**
+<ClientOnly><Solution>
 
 On a vu précédemment que $E(X)=1,3$.
 
@@ -300,6 +306,8 @@ On a alors :
 $Var(X)​=0,2 \times (−2−1,3)^2+0,5 \times (1−1,3)^2+0,3 \times (4−1,3)^2=0,2 \times (−3,3)^2+0,5 \times 0,32+0,3 \times 2,72=0,2 \times 10,89+0,5 \times 0,09+0,3 \times 7,29=2,178+0,045+2,187=4,41​$
 
 D'où $\sigma(X)=\sqrt{Var(X)}=\sqrt{4,41}=2,1$
+
+</Solution>
 
 ## Simulation d'une variable aléatoire
 
@@ -358,7 +366,7 @@ $q$ de gagner 5 euros à ce jeu.
     grand nombre de parties ? Ce jeu favorise-t-il le joueur ou
     l'organisateur ?
 
-**Correction:**
+<ClientOnly><Solution>
 
 ![image](./algo1.png)
 
@@ -380,3 +388,5 @@ $E(X)=5 \times \frac{1}{6}+(-1) \times \frac{5}{6}=0$
 
 L'espérance est nulle, le jeu est donc équitable (le jeu ne favorise ni
 le joueur ni l'organisateur)
+
+</Solution>
