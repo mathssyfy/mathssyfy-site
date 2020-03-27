@@ -4,33 +4,18 @@ author: David Couronné
 title: TS Bac Blanc 2020 Obligatoire
 ---
 
+## Exercice 1: Commun à tous les candidats /5 points
 
-BACCALAURÉAT BLANC - Lycée de Cornouaille
+*Pour chacune des cinq affirmations suivantes, indiquer si elle est vraie ou fausse, en justifiant la réponse.Une réponse non justifiée n'est pas prise en compte.*
 
-Mars 2020 - 8h/12h
+**1.** On considère le nombre complexe $z = 1 + \text{i}\sqrt{3}$.
 
-MATHÉMATIQUES\
-Obligatoire
+**Affirmation 1** : Le nombre complexe $z^2$ est un réel positif.
 
-Série S
+<ClientOnly><Solution>
 
-Durée de l'épreuve: 4 heures\
-Coefficient: 7
+$z^2 = \left(1 + \text{i}\sqrt{3} \right)^2 = 1 - 3 + 2\text{i}\sqrt{3} = - 2 + 2\text{i}\sqrt{3}$
+qui n'est pas un réel.
 
-Les calculatrices sont autorisées,\
-conformément à la réglementation en vigueur.
-
-Le sujet est composé de 4 exercices indépendants.Le candidat doit
-traiter tous les exercices.\
-Dans chaque exercice, le candidat peut admettre un résultat précédemment
-donné dans le texte pour aborder les questions suivantes, à condition de
-l'indiquer clairement sur la copie.\
-Le candidat est invité à faire figurer sur sa copie toute trace de
-recherche, même incomplète ou non fructueuse, qu'il aura développée.\
-Il est rappelé que la qualité de la rédaction, la clarté et la précision
-des raisonnements seront prises en compte dans l'appréciation des
-copies.
-
-
-**La page 7 est une annexe à rendre avec la copie.**
+</Solution>
 
