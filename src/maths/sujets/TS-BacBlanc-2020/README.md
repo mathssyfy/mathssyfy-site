@@ -407,21 +407,20 @@ paramétrique de la droite $(IK)$.
 
 <ClientOnly><Solution>
 
-$M(x,xy,z) \in (IK) \iff \exists t \in \R : \overrightarrow{KM}=t\overrightarrow{IK}$\
+$M(x,xy,z) \in (IK) \iff \exists t \in \R : \overrightarrow{KM}=t\overrightarrow{IK}$
+
 $\iff \left\{
 \begin{array}{l c r}
 x-1 &=& t(1-\frac{3}{4}) \\
 y-0 &= & t(0-1) \\
 z-\frac{1}{3} &=&t (\frac{1}{3}-1
 \end{array}
-
 \right.$ où $t \in \R$ $\iff \left\{
 \begin{array}{l c r}
 x &=& \frac{1}{4}t + 1\\
 y &= &-  t \\
 z &=&-\frac{2}{3}t - \frac{1}{3}
 \end{array}
-
 \right.$ où $t \in \R$
 
 </Solution>
@@ -444,7 +443,6 @@ vérifient le système: $\left\{
 5 &= &- 2 t + 9\\
 -1 &=&t - 3
 \end{array}
-
 \right.$ soit $\left\{
 \begin{array}{l c r}
 4 &=& 2t \\
