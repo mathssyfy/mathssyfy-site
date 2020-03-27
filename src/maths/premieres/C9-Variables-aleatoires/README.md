@@ -116,14 +116,13 @@ L'évènement $(X \leq 0)$ est réalisé lorsque le gain est négatif
 La loi de probabilité d'une variable aléatoire se présente à l'aide d'un
 tableau.
 
-| ${x_i}$                       | ${x_1}$ |   |   |   |
-|-------------------------------|---------|---|---|---|
-| $P\left( {X = {x_i}} \right)$ | ${p_1}$ |   |   |   |
+| ${x_i}$                       | ${x_1}$ |  ${x_2}$  | ...  | ${x_n}$  |
+|-------------------------------|---------|-----------|------|----------|
+| $P\left( {X = {x_i}} \right)$ | ${p_1}$ |  ${p_2}$  | ...  | ${p_n}$  |
 
 
 
-${x_i}$ & ${x_1}$ & ${x_2}$ & ... & ${x_n}$\
-$P\left( {X = {x_i}} \right)$ & ${p_1}$ & ${p_2}$ & ... & ${p_n}$\
+
 
 On a $P\left( {X = {x_1}} \right) + P\left( {X = {x_2}} \right) +
 ... + P\left( {X = {x_n}} \right) = 1$.
