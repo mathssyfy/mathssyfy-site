@@ -289,12 +289,16 @@ $u_{n+1}-u_n=-\ln(u_n^2+1)$.
 Puisque $0\leqslant u_n\leqslant 1$, on en déduit, la fonction carré
 étant croissante sur $[0,1]$ :
 
-$$0^2\leqslant u_n ^2\leqslant 1^2$$ soit :
+$$0^2\leqslant u_n ^2\leqslant 1^2$$
 
-$$u_n^2\in[0~;~1]$$ Par suite :
+soit :
 
-$$u_n^2+1\in[1~;~2]$$ La fonction $\ln$ est croissante sur
-$[1~;~+\infty[$ :
+$$u_n^2\in[0~;~1]$$
+
+Par suite :
+
+$$u_n^2+1\in[1~;~2]$$
+La fonction $\ln$ est croissante sur $[1~;~+\infty[$ :
 
 De $u_n^2+1\geqslant 1$, on déduit
 $\ln \left(u_n^2+1\right)\geqslant \ln 1$, soit
