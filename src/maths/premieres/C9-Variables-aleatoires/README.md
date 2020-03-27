@@ -201,9 +201,11 @@ fois.
 La loi de probabilité d'une variable aléatoire $X$ est donnée ci-dessous
 :
 
-     $x_i$​           $-2$              1                4
-  ------------- ---------------- ---------------- ----------------
-   $P(X=x_i​)$   $\frac{1}{6}$​   $\frac{1}{2}$​   $\frac{1}{3}​$
+| ${x_i}$                       | $-2$          |              1  | 4              |
+|-------------------------------|---------------|-----------------|----------------|
+| $P\left( {X = {x_i}} \right)$ | $\frac{1}{6}$ |  $\frac{1}{2}$  | $\frac{1}{3}​$  |
+
+
 
 On a
 $E(X)=−2 \times \frac{1}{6}​+1 \times \frac{1}{2}​+4 \times \frac{1}{3}​=\frac{3}{2}​$.
@@ -222,9 +224,10 @@ $\frac{3}{2}$​.
 Soit X une variable aléatoire dont on donne la loi de probabilité dans
 le tableau suivant. Calculer et interpréter $E(X)$.
 
-     $x_i$​      $-2$      1       4
-  ------------- ------- ------- -------
-   $P(X=x_i​)$   $0,2$   $0,5$   $0,3$
+| ${x_i}$                       | $-2$          |              1  | 4              |
+|-------------------------------|---------------|-----------------|----------------|
+| $P\left( {X = {x_i}} \right)$ | 0,2           |  0,5            | 0,3            |
+
 
 :::
 
@@ -273,9 +276,9 @@ Soit $X$ une variable aléatoire dont on donne la loi de probabilité dans
 le tableau suivant. Calculer la variance et l'écart-type de la variable
 aléatoire $X$.
 
-     $x_i$​      $-2$      1       4
-  ------------- ------- ------- -------
-   $P(X=x_i​)$   $0,2$   $0,5$   $0,3$
+| ${x_i}$                       | $-2$          |              1  | 4              |
+|-------------------------------|---------------|-----------------|----------------|
+| $P\left( {X = {x_i}} \right)$ | 0,2           |  0,5            | 0,3            |
 
 :::
 
@@ -305,17 +308,19 @@ Un jeu consiste à lancer $n$ fois deux dés parfaitement équilibrés.
 
 Lorsqu'on obtient un double, on gagne 5 euros, sinon on perd 1 euro.
 
-    from random import randint
-    n=int(input("Quel est le nombre de lancers?"))
-    G=0
-    for i in range(n):
+```python
+from random import randint
+n=int(input("Quel est le nombre de lancers?"))
+G=0
+for i in range(n):
     R=randint(1,6)
     S=randint(1,6)
     if R==S:
-    G=G+5
+     G=G+5
     else:
-    G=G-1
-    print(G/n)
+     G=G-1
+print(G/n)
+```
 
 1\. On considère l'algorithme ci-dessus.
 
@@ -328,13 +333,9 @@ Que constate-t-on ?
 
 2\. Recopier et compléter le tableau à double entrée.
 
-\|\*7c\| & 1 & 2 & 3 & 4 & 5 & 6\
-1 & +5 & $-1$ & & & &\
-2 & & & & & &\
-3 & & & & & &\
-4 & & & & & &\
-5 & & & & & &\
-6 & & & & & &\
+| ${x_i}$                       | $-2$          |              1  | 4              |
+|-------------------------------|---------------|-----------------|----------------|
+| $P\left( {X = {x_i}} \right)$ | 0,2           |  0,5            | 0,3            |
 
 3\. Calculer la probabilité $p$ de perdre 1 euro, puis la probabilité
 $q$ de gagner 5 euros à ce jeu.
@@ -364,9 +365,9 @@ $P(X=-1)=\frac{cas favorables}{cas possibles}=\frac{30}{36}=\frac{5}{6}$
 
 Loi de probabilité :
 
-     $x_i$            5             $-1$
-  ------------ --------------- ---------------
-   $P(X=x_i)$   $\frac{1}{6}$   $\frac{5}{6}$
+|   $x_i$     |       5       |      $-1$ |
+| ------------ | --------------- | --------------- |
+|  $P(X=x_i)$ |  $\frac{1}{6}$ |  $\frac{5}{6}$ |
 
 Calcul de l'espérance :
 
