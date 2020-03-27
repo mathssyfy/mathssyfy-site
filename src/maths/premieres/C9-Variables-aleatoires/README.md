@@ -74,11 +74,13 @@ Dans ce cours, on va formaliser tout ceci :
 ## Notion de variable aléatoire réelle
 
 
-**Remarque**
+:::tip Remarque
 
 $x$ est un réel, l'événement \"$X$ prend la valeur $x$\" est noté
 ($X = x$), il est formé de toutes les issues de $\Omega$ ayant pour
 image $x$.
+
+:::
 
 **Application et méthode :**
 
@@ -113,7 +115,7 @@ L'évènement $(X \leq 0)$ est réalisé lorsque le gain est négatif
 ## Loi de probabilité d'une variable aléatoire réelle
 
 
-**Remarque**
+:::tip Remarque
 
 La loi de probabilité d'une variable aléatoire se présente à l'aide d'un
 tableau.
@@ -123,11 +125,10 @@ tableau.
 | $P\left( {X = {x_i}} \right)$ | ${p_1}$ |  ${p_2}$  | ...  | ${p_n}$  |
 
 
-
-
-
 On a $P\left( {X = {x_1}} \right) + P\left( {X = {x_2}} \right) +
 ... + P\left( {X = {x_n}} \right) = 1$.
+
+:::
 
 **METHODE A TRAVAILLER**
 
@@ -194,11 +195,13 @@ les probabilités respectives $p_1$​, $p_2$​, \..., $p_r$​.
 ### Espérance d'une variable aléatoire
 
 
-**Remarque:**
+:::tip Remarque
 
 $E(X)$ peut s'interpréter comme la valeur moyenne des valeurs prises par
 $X$ lorsque l'expérience aléatoire est répétée un très grand nombre de
 fois.
+
+:::
 
 **Exemple:**
 
@@ -217,9 +220,11 @@ $E(X)=−2 \times \frac{1}{6}​+1 \times \frac{1}{2}​+4 \times \frac{1}{3}​
 Sur un très grand nombre d'expériences, en moyenne, la valeur de $X$ est
 $\frac{3}{2}$​.
 
-**Remarque:**
+:::tip Remarque
 
 *Démonstration à faire plus tard*
+
+:::
 
 **METHODE**
 
@@ -257,10 +262,12 @@ la valeur moyenne de $X$ est $1,3$.
 ### Variance et écart-type d'une variable aléatoire
 
 
-**Remarque:**
+:::tip Remarque
 
 L'écart-type de $X$ est la moyenne quadratique des écarts des valeurs
 avec l'espérance.
+
+:::
 
 **Exemple:**
 
