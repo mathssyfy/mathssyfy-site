@@ -1,3 +1,10 @@
+---
+sidebar: auto
+author: Karine Le Moal
+title: C9 Variables Aléatoires
+---
+
+
 Activité
 ========
 
