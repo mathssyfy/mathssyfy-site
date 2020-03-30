@@ -6,7 +6,7 @@
         class="tab__link p-4 block bg-background-content hover:bg-background-primary no-underline text-accent border-b-2 border-accent flex justify-between"
         @click.prevent="active = !active"
       >
-        <strong>{{ title }}</strong>
+        <strong>{{ title }} {{points}}</strong>
         <span class="down-Arrow" v-show="!active">&#9660;</span>
         <span class="up-Arrow" v-show="active">&#9650;</span>
       </a>
@@ -23,6 +23,10 @@ export default {
     "title": {
       type: String,
       default: "Solution"
+    },
+    "points": {
+      type: String,
+      default: ""
     }
   },
   data() {

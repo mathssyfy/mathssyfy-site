@@ -12,7 +12,7 @@ title: TS Bac Blanc 2020
 
 **Affirmation 1** : Le nombre complexe $z^2$ est un réel positif.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/1">
 
 $z^2 = \left(1 + \text{i}\sqrt{3} \right)^2 = 1 - 3 + 2\text{i}\sqrt{3} = - 2 + 2\text{i}\sqrt{3}$
 qui n'est pas un réel.
