@@ -257,7 +257,7 @@ entier naturel $n$, $u_{n+1} = u_n -\ln \left(u_n^2 + 1\right)$.
 **1.** Montrer par récurrence que, pour tout entier naturel $n$, $u_n$
 appartient à \[0 ; 1\].
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/1">
 
 Pour tout entier naturel $n$, notons $\mathcal{P}_n$ la propriété :
 $u_n\in[0,1]$.
@@ -295,7 +295,7 @@ $$
 
 **2.** Étudier les variations de la suite $\left(u_n\right)$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 Soit $n\in\N$ :
 
@@ -335,7 +335,7 @@ $$\text{La suite $u$ est décroissante }$$
 
 **3.** Montrer que la suite $\left(u_n\right)$ est convergente.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.25">
 
 La suite $u$ est décroissante et minorée par $0$ : elle converge donc,
 en vertu du théorème de la limite monotone, vers un nombre réel $\ell$.
@@ -347,7 +347,7 @@ l'égalité $f(\ell) = \ell$.
 
 En déduire la valeur de $\ell$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.25">
 
 Puisque l'équation $f(x) = x$ admet $0$ pour unique solution, on en
 déduit :
@@ -371,7 +371,7 @@ $\overrightarrow{\text{JG}} = \dfrac{1}{4} \overrightarrow{\text{CG}}$.
 copie**, tracer, sans justifier, la section du cube par le plan (IJK) où
 K est un point du segment \[BF\].
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/1">
 
 On trace la section du cube par le plan (IJK):
 
@@ -383,7 +383,7 @@ On trace la section du cube par le plan (IJK):
 copie**, tracer, sans justifier, la section du cube par le plan (IJL) où
 L est un point de la droite (BF).
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/1">
 
 On trace la section du cube par le plan (IJL):
 
@@ -396,7 +396,7 @@ $\left(A;\overrightarrow{AB},\overrightarrow{AD},\overrightarrow{AE}\right)$.
 
 **3.a)** Donner, sans justifer, les coordonnées du point $J$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 $J \left(1,1,\frac{3}{4}\right)$
 
@@ -406,7 +406,7 @@ $J \left(1,1,\frac{3}{4}\right)$
 $K\left(1;0;\frac{1}{3}\right)$. Déterminer une représentation
 paramétrique de la droite $(IK)$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 $M(x,xy,z) \in (IK) \iff \exists t \in \R : \overrightarrow{KM}=t\overrightarrow{IK}$
 
@@ -435,7 +435,7 @@ z &=&t - 3
 \right.$ où $t \in \R$. Le point $L(5~;~5~;~-1)$ appartient-il à $d$ ?
 Justifier.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/1">
 
 On cherche s'il existe un réel t pour que les coordonnées du point $L$
 vérifient le système: $\left\{
@@ -464,7 +464,7 @@ z &=&-3-2t
 \right.$ où $t \in \R$. Les droites $d$ et $\Delta$ sont-elles sécantes
 ? Si oui en quel point ?
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/1">
 
 On cherche s'il existent deux réels $t$ et $t'$ tels que :\
 $\left\{
@@ -538,7 +538,7 @@ considère les évènements :
 
 **1.a)** Donner la probabilité de l'évènement $G$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.25">
 
 $P(G)=0,2$ car 20% de la population a contracté la grippe.
 
@@ -547,7 +547,7 @@ $P(G)=0,2$ car 20% de la population a contracté la grippe.
 **1.b)** Reproduire l'arbre pondéré ci-dessous et compléter les
 pointillés indiqués sur quatre de ses branches.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 On obtient :
 
@@ -558,7 +558,7 @@ On obtient :
 **2.** Déterminer la probabilité que la personne choisie ait contracté
 la grippe et soit vaccinée.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 On calcule $P(G \cap V) = 0,4 \times 0,08 = 0,032$ soit $3,2\%$ de
 chances que la personne ait contractée la grippe et soit vaccinée.
@@ -568,7 +568,7 @@ chances que la personne ait contractée la grippe et soit vaccinée.
 **3.** La personne choisie n'est pas vaccinée. Montrer que la
 probabilité qu'elle ait contracté la grippe est égale à $0,28$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/1">
 
 On calcule
 $P_{\overline{V}} (G) =\dfrac{P\left(\overline{V} \cap G\right) }{P\left(\overline{V}\right)}$
@@ -605,7 +605,7 @@ parmi les $n$ interrogées.
 **1.** Quelle est la loi de probabilité suivie par la variable aléatoire
 $X$ ?
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 Il s'agit de $n$ expériences aléatoires identiques et indépendantes à 2
 issues (la personne est vaccinée ou non) avec une probabilité de succès
@@ -621,7 +621,7 @@ loi binomiale $\mathcal{B}(n~;~0,4)$.
 **2.a)** Déterminer la probabilité qu'exactement $15$ des $40$ personnes
 interrogées soient vaccinées.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.25">
 
 $P(X=15) \approx 0,123$
 
@@ -630,7 +630,7 @@ $P(X=15) \approx 0,123$
 **2.b)** Déterminer la probabilité qu'au moins la moitié des personnes
 interrogées soit vaccinée.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 $P(X \geqslant 20) = 1- P(X < 20) =  1- P(X \leqslant 19) \approx 0,130$
 
@@ -655,7 +655,7 @@ vaccin (7 euros), plus la consultation chez le médecin (23 euros), soit
 **3.a)** Quel est le coût en frais de santé d'une personne active qui
 s'est fait vacciner et qui contracte la grippe ?
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.25">
 
 $120+30=150$
 
@@ -665,7 +665,7 @@ $120+30=150$
 active, associe le cout total de la grippe. Donner sous forme de tableau
 la loi de probabilité de $Z$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 -   $P(Z=0) = P(\overline{V} \cap \overline{G})= 0,432$
 
@@ -685,7 +685,7 @@ D'où la loi de probabilité de $Z$:
 
 **3.c)** Quel est le coût moyen par personne active ?
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.25">
 
 $E(Z) = 0.432 \times 0+0.368 \times 30+0.168 \times 120+0.032 \times 150=36$
 
@@ -695,7 +695,7 @@ $E(Z) = 0.432 \times 0+0.368 \times 30+0.168 \times 120+0.032 \times 150=36$
 . Quel a été le coût total de la grippe en 2017 sur la population active
 ?
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 $26,9 \times 10^6 \times 36=968 \times 10^6$
 
@@ -722,7 +722,7 @@ Démontrer que les solutions du problème sont des solutions de l'équation
 
 $$(E) :\quad  v^2 - 2u^2 = 1\quad  (v \text{ et }\: u \: \text{ étant des entiers naturels non nuls}).$$
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 Dans le triangle rectangle, on applique le théorème de Pythagore :
 $a^2=1^2+1^2=2$.
@@ -758,7 +758,7 @@ Fin Pour
 Fin Pour
 ```
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 Algorithme :
 
@@ -782,7 +782,7 @@ On suppose que le couple $(u,~v)$ est une solution de l'équation $(E)$.
 
 **3.a)** Établir que $u < v$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 Supposons que le couple $(u,v)$ est une solution de l'équation $(E)$ et
 que $u\geqslant v$.
@@ -799,7 +799,7 @@ Conclusion : $u < v$.
 **3.b)** Démontrer que $n$ et $n^2$ ont la même parité pour tout entier
 naturel $n$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 On suppose que $n$ est pair. Il existe alors un entier naturel $k$ tel
 que $n=2k$.
@@ -817,7 +817,7 @@ Conclusion : $n$ et $n^2$ ont la même parité.
 
 **3.c)** Démontrer que $v$ est un nombre impair.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 Soit un couple solution $(u,v)$ du problème. On a :
 
@@ -832,7 +832,7 @@ impair.
 
 En déduire que $u$ est un nombre pair.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 On a : $v^2-2u^2=1 \iff 2u^2=v^2-1 \iff 2u^2=(v-1)(v+1)$.
 
@@ -859,7 +859,7 @@ $.
 **4.a)** Démontrer que si une matrice colonne $X$ est une solution de
 l'équation $(E)$, alors $AX$ est aussi une solution de l'équation $(E)$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 Soit $X=
 \begin{pmatrix}     u\\v        \end{pmatrix}
@@ -888,7 +888,7 @@ Ainsi $AX$ est aussi solution de $(E)$.
 l'équation $(E)$, alors pour tout entier naturel $n$, $A^n X$ est aussi
 une solution de l'équation $(E)$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/1">
 
 Montrons par récurrence que pour tout entier naturel $n$, $A^nX$ est une
 solution de l'équation $(E)$.
@@ -918,7 +918,7 @@ de l'équation $(E)$ tel que
 
 $v > 10000$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 On a : $3^2-2 \times 2^2=9-8=1$ donc le couple $(2;3)$ est solution de
 $(E)$.
