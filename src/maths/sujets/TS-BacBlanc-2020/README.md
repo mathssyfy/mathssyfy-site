@@ -198,7 +198,7 @@ $$\lim_{x\to -\infty}f(x)=-\infty$$
 **3.** Montrer que, pour tout réel $x$ appartenant à \[0 ; 1\], $f(x)$
 appartient à \[0 ; 1\].
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 La fonction $f$ est (strictement) croissante sur $[0,1]$. Par suite :
 
@@ -233,7 +233,7 @@ $$\forall x\in[0,1]\qquad f(x)\in[0,1]$$
 
 **4.a)** Que fait cet algorithme ?
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.25">
 
 L'algorithme affiche la plus petite valeur de $N$ pour laquelle
 $N-\ln(N^2+1)$ est supérieur ou égal à $N$.
@@ -243,7 +243,7 @@ $N-\ln(N^2+1)$ est supérieur ou égal à $N$.
 **4.b)** Déterminer la valeur $N$ fournie par l'algorithme lorsque la
 valeur saisie pour $A$ est 100.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.25">
 
 Pour $A=100$, l'algorithme affiche $110$
 
