@@ -22,7 +22,7 @@ qui n'est pas un réel.
 **Affirmation 2** : L'argument du nombre complexe $z^{2019}$ vaut 0
 modulo $2\pi$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/1">
 
 On a $|z|^2 = 1 + 3 = 4 = 2^2$, d'où $|z| = 2$. On peut en factorisant 2
 écrire :
@@ -48,7 +48,7 @@ $z_{\text{C}} = - 4\text{i}$.
 
 **Affirmation 3** : Les points A, B et C ne sont pas alignés.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/1">
 
 Soit
 $Z=\dfrac{z_A-z_C}{z_B-z_C}=\dfrac{\sqrt{2}+7\text{i}}{1+5\text{i}}=\dfrac{1}{16}\left(\sqrt{2}+7\text{i} \right)\left(1-5\text{i} \right)=\dfrac{1}{16}\left(\vphantom{\dfrac{numerateur}{denominateur}} (\sqrt{2}+35)+(7-5\sqrt{2})\text{i}\right)$
@@ -69,7 +69,7 @@ L'affirmation est VRAIE.
 **Affirmation 4** : Cette équation admet deux solutions dont les images
 sont symétriques par rapport à l'origine du repère.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/1">
 
 On a $\Delta = 9 - 4 \times 2 \times 5 = 9 - 40 = - 31$ : cette équation
 a deux solutions complexes :
@@ -89,7 +89,7 @@ $$z' = \overline{z}(1- z).$$
 **Affirmation 5** : Il existe une infinité de points $M$ confondus avec
 leur point image $M'$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/1">
 
 $M = M' \iff z' = z = \overline{z}(1- z)$.
 
@@ -131,7 +131,7 @@ $$f(x) = x - \ln \left(x^2 + 1\right).$$
 
 **1.** Résoudre dans $R$ l'équation : $f(x) =x$.
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/0.5">
 
 Soit $x\in\R$ :
 
@@ -156,7 +156,7 @@ admet.
 
 ![image](./TS-BacBlanc-2020-Obli-1.jpg)
 
-<ClientOnly><Solution>
+<ClientOnly><Solution points="/1.5">
 
 $\bullet\;$Montrons que $f$ est strictement croissante sur $\R$ :
 
