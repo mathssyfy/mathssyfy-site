@@ -24,7 +24,7 @@ d'un tableau. Dans l'exemple précédent, la variable aléatoire prend une
 infinité de valeurs et toutes ces valeurs sont dans un intervalle de
 $\R$.
 
-:::definition Définition:
+:::warning Définition:
 
 Si une fonction $f$ définie sur un intervalle $I$ est continue et
 positive sur $I$ et si l'aire du domaine compris entre l'axe des
@@ -35,13 +35,14 @@ d'aire) alors on dit que $f$ est une **fonction de densité** (ou une
 :::
 
 On considère la fonction $f$ définie sur $\left[-1\ ;\ 1 \right]$ par
-$f(x)=\left\{
+$$
+f(x)=\left\{
 \begin{array}{l}
 x+1 \textrm{ si } x\in\left[-1\ ;\ 0 \right[ \\
 -x+1 \textrm{ si } x\in\left[0\ ;\ 1 \right]
 \end{array}
-
-\right.$.
+\right.
+$$
 
 ![image](./TS-Variables-0.jpg)
 
@@ -51,7 +52,7 @@ De plus, le domaine entre la courbe de $f$ et l'axe des abscisses sur
 $\left[-1\ ;\ 1 \right]$ est un triangle d'aire $\dfrac{2\times1}{2}=1$
 : la fonction $f$ est donc une fonction de densité.
 
-:::definition Définition:
+:::warning Définition:
 
   
 
@@ -84,7 +85,7 @@ $P(a \leqslant X \leqslant b)=\displaystyle \int_a^b f(t) \, \textrm{d}t$.
 ## Loi uniforme sur $\left[a\ ;\ b \right]$
 
 
-:::definition Définition:
+:::warning Définition:
 
 Une variable aléatoire $X$ suit **la loi uniforme sur
 $\left[a\ ;\ b \right]$** si elle admet pour densité la fonction
@@ -150,7 +151,7 @@ ${P(17\leqslant X \leqslant 17,25)=\displaystyle \int_{17}^{17,25} 1 \, \textrm{
 ## Loi exponentielle de paramètre $\lambda$ ($\lambda>0$)
 
 
-:::definition Définition:
+:::warning Définition:
 
 Une variable aléatoire $X$ suit la **loi exponentielle de paramètre**
 $\lambda$ où $\lambda>0$ si elle admet pour densité la fonction $f$
@@ -314,7 +315,7 @@ conditionnelle) qu'il fonctionne plus de 5 ans.
 ### Loi normale centrée réduite $\mathcal{N}(0\ ;\ 1)$
 
 
-:::definition Définition:
+:::warning Définition:
 
 Une variable aléatoire est centrée lorsque son espérance vaut $0$ et
 elle est réduite lorsque son écart-type vaut $1$.
@@ -332,7 +333,7 @@ Z\leqslant b)=\int_a^b \dfrac{1}{\sqrt{2\pi}}
 
   
 
-:::definition Définition:
+:::warning Définition:
 
 Une variable aléatoire $X$ suit la **loi normale centrée réduite**
 $\mathcal{N}(0\ ;\ 1)$ si elle admet pour densité la fonction $f$ (dont
@@ -520,7 +521,7 @@ $P(-2,58\leqslant X\leqslant 2,58)\approx 0,99$.
 ### Lois normales $\mathcal{N}(\mu\ ;\ \sigma^2)$
 
 
-:::definition Définition:
+:::warning Définition:
 
 Soit $\mu$ et $\sigma$ deux réels avec $\sigma>0$. On dit qu'une
 variable aléatoire $X$ suit la **loi normale
