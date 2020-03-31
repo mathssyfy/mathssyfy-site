@@ -52,10 +52,10 @@ module.exports = {
   },   
   plugins: [
     '@vuepress/back-to-top',
-    ['@vuepress/pwa', {
-      serviceWorker: true,
-      updatePopup: true
-    }],
+    // ['@vuepress/pwa', {
+    //   serviceWorker: true,
+    //   updatePopup: true
+    // }],
     ['sitemap', {
       hostname: 'https://mathssyfy.netlify.com/'
     },],
