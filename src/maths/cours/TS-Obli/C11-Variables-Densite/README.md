@@ -517,8 +517,8 @@ En particulier, $u_{0,05} \approx 1,96$ et $u_{0,01}\approx 2,58$.
 Autrement dit, $P(-1,96\leqslant X\leqslant 1,96)\approx 0,95$ et
 $P(-2,58\leqslant X\leqslant 2,58)\approx 0,99$.
 
-Lois normales $\mathcal{N}(\mu\ ;\ \sigma^2)$
----------------------------------------------
+### Lois normales $\mathcal{N}(\mu\ ;\ \sigma^2)$
+
 
 :::definition Définition:
 
