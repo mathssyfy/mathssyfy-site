@@ -8,6 +8,7 @@ description: Cours sur les variables continues en Terminale S
 
 ## Variables aléatoires à densité
 
+:::tip Exemple:
 
 Dans une bouteille vide de contenance 1,5 litres, on verse une quantité
 au hasard d'eau. On considère la variable aléatoire $X$ égale à ce
@@ -17,12 +18,17 @@ nombre de l'intervalle $\left[0\ ;\ 1,5 \right]$.
 Cela signifie que $X$ prend ses valeurs dans l'intervalle
 $\left[0\ ;\ 1,5 \right]$.
 
+:::
+
+:::tip Remarque:
 Jusqu'à présent on a travaillé avec des variables aléatoires
 **discrètes** qui prennent un nombre fini de valeurs et leur loi est
 soit connue (binomiale ou Bernoulli), soit présentable sous la forme
 d'un tableau. Dans l'exemple précédent, la variable aléatoire prend une
 infinité de valeurs et toutes ces valeurs sont dans un intervalle de
 $\R$.
+
+:::
 
 :::warning Définition:
 
@@ -33,6 +39,9 @@ d'aire) alors on dit que $f$ est une **fonction de densité** (ou une
 **densité de probabilité**).
 
 :::
+
+
+:::tip Exemple:
 
 On considère la fonction $f$ définie sur $\left[-1\ ;\ 1 \right]$ par
 $$
@@ -51,6 +60,8 @@ La fonction $f$ est positive et continue sur $\left[-1\ ;\ 1 \right]$.
 De plus, le domaine entre la courbe de $f$ et l'axe des abscisses sur
 $\left[-1\ ;\ 1 \right]$ est un triangle d'aire $\dfrac{2\times1}{2}=1$
 : la fonction $f$ est donc une fonction de densité.
+
+:::
 
 :::warning Définition:
 
