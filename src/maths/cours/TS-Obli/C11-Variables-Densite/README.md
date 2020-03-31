@@ -82,6 +82,7 @@ $P(a \leqslant X \leqslant b)=\displaystyle \int_a^b f(t) \, \textrm{d}t$.
 
 :::
 
+:::tip Remarques:
 -   On dit alors que $X$ est une **variable aléatoire à densité**.
 
 -   La probabilité qu'une variable aléatoire à densité $X$ prenne une
@@ -92,6 +93,8 @@ $P(a \leqslant X \leqslant b)=\displaystyle \int_a^b f(t) \, \textrm{d}t$.
     remplacées par des inégalités larges dans les calculs de
     probabilités : par exemple
     $P\left(1 < X \leqslant 3\right)=P\left(1 \leqslant X \leqslant 3\right)$.
+
+:::
 
 ## Loi uniforme sur $\left[a\ ;\ b \right]$
 
@@ -107,19 +110,33 @@ $f(x)=\dfrac{1}{b-a}$.
 
 :::
 
+:::tip Remarque
+
 $X$ suit la loi uniforme sur $\left[a\ ;\ b \right]$ s'écrit aussi $X$
 suit la loi $\mathcal{U}\left(\left[a\ ;\ b \right]\right)$ .
+
+:::
+
+:::warning Propriété
 
 Soit $X$ une variable aléatoire suivant la loi uniforme sur
 $\left[a\ ;\ b \right]$ et $\left[c\ ;\ d \right]$ un intervalle inclus
 dans $\left[a\ ;\ b \right]$. Alors on a
 $P\left(X\in\left[c\ ;\ d \right]\right)=\dfrac{d-c}{b-a}$.
 
+:::
+
+:::tip Preuve
+
 $X$ admet pour densité $f:t\mapsto \dfrac{1}{b-a}$ sur
 $\left[a\ ;\ b \right]$.
 
 Donc on a
 $P\left(X\in\left[c\ ;\ d \right]\right)=\displaystyle \int_{c}^{d} f(t) \, \textrm{d}t=\left[\dfrac{1}{b-a}t\right]_{c}^{d}=\dfrac{d-c}{b-a}$.
+
+:::
+
+:::warning Propriété:
 
 On considère une variable aléatoire $X$ suivant la loi uniforme sur
 $\left[a\ ;\ b \right]$ de densité $f$ et on appelle espérance
@@ -128,6 +145,10 @@ $E(X)=\displaystyle \int_{a}^{b} tf(t) \, \textrm{d}t$.
 
 On a alors $E(X)=\dfrac{a+b}{2}$.
 
+:::
+
+:::tip Preuve:
+
 On a
 $E(X)=\displaystyle \int_{a}^{b} tf(t) \, \textrm{d}t=\displaystyle \int_{a}^{b} \dfrac{1}{b-a} t \, \textrm{d}t=\left[\dfrac{t^2}{2(b-a)}\right]_a^b=\dfrac{b^2-a^2}{2(b-a)}$
 
@@ -135,6 +156,12 @@ $=\dfrac{(b-a)(b+a)}{2(b-a)}=\dfrac{a+b}{2}$.
 
 On utilise les différentes formules des propriétés ou on calcule à
 l'aide de la fonction de densité et des intégrales.
+
+:::
+
+**Méthode  : Calculer une probabilité et une espérance pour une loi uniforme**
+
+**Exercice:**
 
 Armand et Lise rentrent de l'école à pied. Leurs parents savent qu'ils
 doivent arriver entre 17h et 18h à la maison. On peut modéliser leur
@@ -154,10 +181,15 @@ $P(17\leqslant X \leqslant 17,25)=\dfrac{17,25-17}{18-17}=0,25$.
 **2.** On a $E(X)=\dfrac{17+18}{2}=17,5$ donc leurs parents peuvent
 espérer les voir arriver à 17h30.
 
+
+:::tip Remarque:
+
 Pour la question 1 de la méthode 1, comme
 ${f:t\mapsto \dfrac{1}{18-17}=1}$ sur $\left[17\ ;\ 18 \right]$ est la
 fonction de densité de $X$, on aurait aussi pu calculer
 ${P(17\leqslant X \leqslant 17,25)=\displaystyle \int_{17}^{17,25} 1 \, \textrm{d}t=\left[t\right]_{17}^{17,25}=17,25-17=0,25}$.
+
+:::
 
 ## Loi exponentielle de paramètre $\lambda$ ($\lambda>0$)
 
