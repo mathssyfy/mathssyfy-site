@@ -173,19 +173,14 @@ positifs. On a alors :
 
 -   ${P\left(c\leqslant X\leqslant d\right)=\textrm{e}^{-\lambda c}-\textrm{e}^{-\lambda d}}$
 
-```{=html}
-<!-- -->
-```
+
 -   $P\left(X \leqslant a \right)=1-\textrm{e}^{-\lambda a}$
 
-```{=html}
-<!-- -->
-```
+
 -   $P\left(X \geqslant a \right)=\textrm{e}^{-\lambda a}$
 
-```{=html}
-<!-- -->
-```
+:::tip Preuve:
+
 -   Pour tous réels $c$ et $d$ positifs, on a
     $P(c\leqslant X \leqslant d)=\displaystyle \int_{c}^{d} \lambda\textrm{e}^{-\lambda t} \, \textrm{d}t=\left[-\textrm{e}^{-\lambda t}\right]_{c}^{d}$
     ${=-\textrm{e}^{-\lambda d}-\left(-\textrm{e}^{-\lambda c}\right)=\textrm{e}^{-\lambda c}-\textrm{e}^{-\lambda d}}$.
@@ -197,12 +192,20 @@ positifs. On a alors :
 -   On a
     $P\left(X \geqslant a \right)=1-P\left(X<a\right)=1-P\left(X\leqslant a\right)=1-\left(1-\textrm{e}^{-\lambda a}\right)=\textrm{e}^{-\lambda a}$.
 
+:::
+
+:::warning Propriété:
+
 On considère une variable aléatoire $X$ suivant la loi exponentielle de
 paramètre $\lambda$ de densité $f$ et on appelle espérance mathématique
 de $X$ le nombre
 $E(X)=\displaystyle \lim_{x \rightarrow +\infty} \int_{0}^{x} tf(t) \, \textrm{d}t$.
 
 On a alors $E(X)=\dfrac{1}{\lambda}$.
+
+:::
+
+:::tip Preuve:
 
 La fonction $f$ est définie sur $\left[0\ ;\ +\infty \right[$ par
 $f(t)=\lambda\textrm{e}^{-\lambda t}$.
@@ -235,6 +238,10 @@ $\displaystyle \lim_{x \rightarrow +\infty} -\lambda x=-\infty$ :
 
 Finalement, on obtient bien
 $E(X) = \displaystyle \lim_{x \rightarrow +\infty} \dfrac{-\lambda x\textrm{e}^{-\lambda x}}{\lambda}-\dfrac{1}{\lambda}\textrm{e}^{-\lambda x}+\dfrac{1}{\lambda}=\dfrac{1}{\lambda}$.
+
+:::
+
+**Méthode**
 
 On considère que le temps d'attente en minutes à un guichet du service
 après-vente d'un magasin peut être modélisé par une variable aléatoire
@@ -269,9 +276,13 @@ donc :
 
 $P(0\leqslant T \leqslant 5)=\displaystyle \int_{0}^{5} 0,2\textrm{e}^{-0,2t} \, \textrm{d}t=\left[-\textrm{e}^{-0,2t}\right]_{0}^{5}=-\textrm{e}^{-0,2\times5}-\left(-\textrm{e}^{-0,2\times0}\right)=1-\textrm{e}^{-1}\approx 0,632$.
 
+:::tip Remarque:
+
 Dans les cas où une information (probabilité ou espérance) peut être
 exploitée, on pose l'équation issue des formules du cours et on résout
 cette équation pour déterminer $\lambda$.
+
+:::
 
 Soit $X$ une variable aléatoire suivant la loi $\mathcal{E}(\lambda)$
 avec $P(X\leqslant 5)=0,2$. Déterminer $\lambda$.
