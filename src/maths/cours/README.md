@@ -18,3 +18,4 @@ description: Cours et sujets de mathématiques en Terminale S
 + [Chapitre 7: Exercices Complexes partie 2](./TS-Obli/C7-Exos/)
 + [Chapitre 9: Intégrales](./TS-Obli/C9-Integrales)
 + [Chapitre 10:Espace](../espace/)
++ [Chapitre 11:Variables à densité](./TS-Obli/C11-Variables-Densite/)
