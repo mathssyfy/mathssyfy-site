@@ -207,8 +207,14 @@ $f(x)=\lambda\textrm{e}^{-\lambda x}$.
 
 :::
 
+:::tip Remarque:
+
 $X$ suit la loi exponentielle de paramètre $\lambda$ s'écrit aussi $X$
 suit la loi $\mathcal{E}\left(\lambda\right)$ .
+
+:::
+
+:::warning Propriété:
 
 Soit $X$ une variable aléatoire suivant la loi
 $\mathcal{E}\left(\lambda\right)$ et $a$, $c$ et $d$ trois réels
@@ -221,6 +227,8 @@ positifs. On a alors :
 
 
 -   $P\left(X \geqslant a \right)=\textrm{e}^{-\lambda a}$
+
+:::
 
 :::tip Preuve:
 
@@ -284,7 +292,9 @@ $E(X) = \displaystyle \lim_{x \rightarrow +\infty} \dfrac{-\lambda x\textrm{e}^{
 
 :::
 
-**Méthode**
+**Méthode: Calculer avec une loi exponentielle**
+
+**Exercice:**
 
 On considère que le temps d'attente en minutes à un guichet du service
 après-vente d'un magasin peut être modélisé par une variable aléatoire
@@ -310,6 +320,8 @@ $P(T \geqslant 10)=\textrm{e}^{-0,2 \times 10}=\textrm{e}^{-2}\approx 0,135$.
 **3.** $E(T)=\dfrac{1}{0,2}=5$ donc le client peut espérer attendre 5
 minutes.
 
+:::tip Remarque:
+
 Dans le cas de la première probabilité, un calcul d'intégrale était
 envisageable : la fonction de densité de $T$ est la fonction définie sur
 $\left[0\ ;\ +\infty \right[$ par $f(t)=0,2\textrm{e}^{-0,2t}$.
@@ -319,13 +331,15 @@ donc :
 
 $P(0\leqslant T \leqslant 5)=\displaystyle \int_{0}^{5} 0,2\textrm{e}^{-0,2t} \, \textrm{d}t=\left[-\textrm{e}^{-0,2t}\right]_{0}^{5}=-\textrm{e}^{-0,2\times5}-\left(-\textrm{e}^{-0,2\times0}\right)=1-\textrm{e}^{-1}\approx 0,632$.
 
-:::tip Remarque:
+:::
+
+**Méthode: Déterminer le paramètre λ d’une loi exponentielle**
 
 Dans les cas où une information (probabilité ou espérance) peut être
 exploitée, on pose l'équation issue des formules du cours et on résout
 cette équation pour déterminer $\lambda$.
 
-:::
+**Exercice:**
 
 Soit $X$ une variable aléatoire suivant la loi $\mathcal{E}(\lambda)$
 avec $P(X\leqslant 5)=0,2$. Déterminer $\lambda$.
@@ -341,6 +355,8 @@ $1-\textrm{e}^{-5\lambda }=0,2 \Leftrightarrow \textrm{e}^{-5\lambda }=0,8 \Left
 $\Leftrightarrow -5\lambda=\ln(0,8)$ donc
 $\lambda = \dfrac{\ln(0,8)}{-5}\approx 0,045$.
 
+:::warning Propriété:
+
 Soit $X$ une variable aléatoire suivant une loi exponentielle de
 paramètre $\lambda>0$ et deux nombres $t>0$ et $h>0$.
 
@@ -350,10 +366,18 @@ la probabilité $P(X>h)$.
 On dit que la loi exponentielle est **sans vieillissement** ou **avec
 absence de mémoire**.
 
+:::
+
+:::tip Preuve
+
 Par définition, on a :
 $P_{(X>t)}(X>t+h)=\dfrac{P((X>t)\cap (X>t+h))}{P(X>t)}$
 
 $=\dfrac{P(X>t+h)}{P(X>t)}=\dfrac{\textrm{e}^{-\lambda(t+h)}}{\textrm{e}^{-\lambda t}}=\dfrac{\textrm{e}^{-\lambda t} \times \textrm{e}^{-\lambda h}}{\textrm{e}^{-\lambda t}}=\textrm{e}^{-\lambda h}=P(X>h)$.
+
+:::
+
+:::tip Exemple:
 
 On considère un appareil dont la durée de vie en années suit la loi
 exponentielle de paramètre 0,05 : d'après la propriété,
@@ -362,6 +386,8 @@ $P_{(X>4)}\left(X>9\right)=P_{(X>4)}\left(X>4+5\right)=P(X>5)$.
 Concrètement, si l'appareil a déjà fonctionné 4 ans, la probabilité
 qu'il fonctionne encore 5 ans de plus est égale à la probabilité (non
 conditionnelle) qu'il fonctionne plus de 5 ans.
+
+:::
 
 ## Lois normales
 
