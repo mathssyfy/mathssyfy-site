@@ -402,6 +402,9 @@ elle est réduite lorsque son écart-type vaut $1$.
 
 :::
 
+
+:::warning Théorème : Théorème de Moivre­Laplace
+
 Soit $X_n$ une variable aléatoire suivant une loi binomiale
 $\mathcal{B}(n\ ;\ p)$ et $Z=\cfrac{X_n-np}{\sqrt{np(1-p)}}$, variable
 aléatoire centrée réduite. Alors pour tous réels $a$ et $b$ tels que
@@ -410,6 +413,8 @@ $a\leqslant b$, on a :
 $$\lim_{n\rightarrow +\infty}P(a\leqslant
 Z\leqslant b)=\int_a^b \dfrac{1}{\sqrt{2\pi}}
 \textrm{e}^{-\dfrac{x^2}{2}} \textrm{d} x.$$
+
+:::
 
   
 
@@ -423,19 +428,27 @@ $$f(x)=\dfrac{1}{\sqrt{2\pi}}\textrm{e}^{-\dfrac{x^2}{2}}.$$
 
 ![image](./TS-Variables-4.jpg)
 
-Autrement dit, pour tous réels $a$ et $b$ tels que $a\leqslant b$, on a
-: $$P(a\leqslant X\leqslant b)=\displaystyle
-\int_a^b \cfrac{1}{\sqrt{2\pi}}\text{ e}^{-\dfrac{x^2}{2}}\textrm{d} x.$$
+Autrement dit, pour tous réels $a$ et $b$ tels que $a\leqslant b$, on a: 
 
-  
+$$
+P(a\leqslant X\leqslant b)=\displaystyle
+\int_a^b \cfrac{1}{\sqrt{2\pi}}\text{ e}^{-\dfrac{x^2}{2}}\textrm{d} x.
+$$
+
 
 :::
+
+:::tip Remarque
 
 Comme on ne peut pas calculer l'intégrale à l'aide d'une primitive (car
 cette fonction de densité n'en admet pas d'explicite), on utilise une
 calculatrice pour calculer des probabilités de la forme
 $P(a\leqslant X\leqslant b)$ ou pour trouver un nombre $x$ tel que
 $P(X\leqslant x)=p$ avec $p$ donné .
+
+:::
+
+:::warning Propriété:
 
 Soit $f$ : $x\mapsto \cfrac{1}{\sqrt{2\pi}}\text{ e}^{-\dfrac{x^2}{2}}$
 la fonction de densité d'une variable aléatoire suivant la loi
@@ -455,7 +468,15 @@ $\mathcal{N}(0\ ;\ 1)$.
 
     ![image](./TS-Variables-5.jpg)
 
+:::
+
+:::tip Remarque:
+
 Pour $u=0$, on a $P(X\leqslant 0)=P(X\geqslant 0)=0,5$.
+
+:::
+
+:::warning Propriété:
 
 Soit $X$ une variable aléatoire suivant la loi normale centrée réduite
 $\mathcal{N}(0\ ;\ 1)$, de fonction de densité $f$. Alors
@@ -464,12 +485,13 @@ $\mathcal{N}(0\ ;\ 1)$, de fonction de densité $f$. Alors
     \int_x^0 tf(t)\textrm{d} t+ \displaystyle \lim_{y
     \rightarrow +\infty} \int_0^y tf(t)\textrm{d} t=0$
 
-    ::: {style="color: DefSquareColor"}
+   
 
-    ------------------------------------------------------------------------
-    :::
+-    $V(X)=1$ et $\sigma(X)=1$.
 
-    $V(X)=1$ et $\sigma(X)=1$.
+:::
+
+**Méthode: Calculer avec la loi centrée réduite**
 
 Soit $X$ une variable aléatoire suivant la loi normale centrée réduite
 $\mathcal{N}(0\ ;\ 1)$.
@@ -559,12 +581,16 @@ On trouve $u\approx 0,253$.
 
   
 
-  
+:::warning Théorème:
 
 Soit $X$ une variable aléatoire suivant la loi normale centrée réduite
 $\mathcal{N}(0\ ;\ 1)$ et $\alpha\in ]0\ ;\ 1[$. Alors il existe un
 unique réel $u_{\alpha}>0$ tel que
 $P(-u_{\alpha}\leqslant X\leqslant u_{\alpha})=1-\alpha$.
+
+:::
+
+:::tip Preuve
 
 Soit $\alpha\in]0\ ;\ 1[$, on a alors $1-\alpha\in]0\ ;\ 1[$.
 
@@ -593,10 +619,16 @@ solution notée $u_{\alpha}$ sur $[0\ ;\ +\infty[$ c'est-à-dire qu'il
 existe un unique réel $u_{\alpha}> 0$ tel que
 $P(-u_{\alpha}\leqslant X\leqslant u_{\alpha})=1-\alpha$.
 
+:::
+
+:::tip Valeurs particulières:
+
 En particulier, $u_{0,05} \approx 1,96$ et $u_{0,01}\approx 2,58$.
 
 Autrement dit, $P(-1,96\leqslant X\leqslant 1,96)\approx 0,95$ et
 $P(-2,58\leqslant X\leqslant 2,58)\approx 0,99$.
+
+:::
 
 ### Lois normales $\mathcal{N}(\mu\ ;\ \sigma^2)$
 
