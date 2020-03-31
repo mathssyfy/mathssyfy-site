@@ -517,14 +517,14 @@ millième de :
 
 **1.a)**
 
-[**Calculatrice TI**]{style="color: H1"}
+[**Calculatrice TI**]
 
 -   On accède au menu **distrib** en appuyant sur la touche **2nd** puis
     la touche **VAR**
 
 -   On choisit `NormalFrep(` et on écrit `NormalFrep(2,3,0,1)`.
 
-[**Calculatrice Casio**]{style="color: H1"}
+[**Calculatrice Casio**]
 
 -   Dans le menu **RUN**, on appuie sur **OPTN** puis **STAT** puis
     **DIST** puis **NORM** puis **Ncd**.
@@ -556,13 +556,13 @@ $\approx 0,079+0,5=0,579$.
 
 **2.a)**
 
-[**Calculatrice TI**]{style="color: H1"}
+[**Calculatrice TI**]
 
 -   Dans le menu **distrib**,
 
     on choisit `FracNormale(` et on écrit `FracNormale(0.25,0,1)`.
 
-[**Calculatrice Casio**]{style="color: H1"}
+[**Calculatrice Casio**]
 
 -   Dans le menu
 
