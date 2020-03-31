@@ -1,5 +1,13 @@
-Variables aléatoires à densité
-==============================
+---
+sidebar: auto
+author: David Couronné
+title: Variables à densité
+description: Cours sur les variables continues en Terminale S
+---
+
+
+## Variables aléatoires à densité
+
 
 Dans une bouteille vide de contenance 1,5 litres, on verse une quantité
 au hasard d'eau. On considère la variable aléatoire $X$ égale à ce
@@ -73,8 +81,8 @@ $P(a \leqslant X \leqslant b)=\displaystyle \int_a^b f(t) \, \textrm{d}t$.
     probabilités : par exemple
     $P\left(1 < X \leqslant 3\right)=P\left(1 \leqslant X \leqslant 3\right)$.
 
-Loi uniforme sur $\left[a\ ;\ b \right]$
-========================================
+## Loi uniforme sur $\left[a\ ;\ b \right]$
+
 
 :::definition Définition:
 
@@ -139,8 +147,8 @@ ${f:t\mapsto \dfrac{1}{18-17}=1}$ sur $\left[17\ ;\ 18 \right]$ est la
 fonction de densité de $X$, on aurait aussi pu calculer
 ${P(17\leqslant X \leqslant 17,25)=\displaystyle \int_{17}^{17,25} 1 \, \textrm{d}t=\left[t\right]_{17}^{17,25}=17,25-17=0,25}$.
 
-Loi exponentielle de paramètre $\lambda$ ($\lambda>0$)
-======================================================
+## Loi exponentielle de paramètre $\lambda$ ($\lambda>0$)
+
 
 :::definition Définition:
 
@@ -300,11 +308,11 @@ Concrètement, si l'appareil a déjà fonctionné 4 ans, la probabilité
 qu'il fonctionne encore 5 ans de plus est égale à la probabilité (non
 conditionnelle) qu'il fonctionne plus de 5 ans.
 
-Lois normales
-=============
+## Lois normales
 
-Loi normale centrée réduite $\mathcal{N}(0\ ;\ 1)$
---------------------------------------------------
+
+### Loi normale centrée réduite $\mathcal{N}(0\ ;\ 1)$
+
 
 :::definition Définition:
 
