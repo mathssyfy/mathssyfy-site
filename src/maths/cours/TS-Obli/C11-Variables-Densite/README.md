@@ -623,7 +623,7 @@ loi normale centrée réduite $\mathcal{N}(0\ ;\ 1)$.
 
     ![image](./TS-Variables-10.jpg)
 
-[\[methode5SP2\]]{#methode5SP2 label="methode5SP2"}
+
 
 **1.** Soit $X$ une variable aléatoire suivant la loi
 $\mathcal{N}(7\ ;\ 2^2)$.
@@ -726,7 +726,7 @@ Centrer et réduire une variable aléatoire suivant une loi normale de
 paramètre(s) inconnu(s) permet de travailler avec la loi connue
 $\mathcal{N}(0\ ;\ 1)$.
 
-[\[methode6SP2\]]{#methode6SP2 label="methode6SP2"} On modélise par une
+On modélise par une
 loi normale d'espérance $\mu$ et d'écart-type $\sigma$ le temps $T$ (en
 secondes) mis par un sportif amateur pour parcourir un 100 mètres.
 
