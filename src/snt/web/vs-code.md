@@ -2,6 +2,7 @@
 title: Visual Studio Code
 date: 2019-05-24T00:00:00.000Z
 ---
+
 ## Télécharger VSCode
 
 [Visual Studio Code](https://code.visualstudio.com/)
@@ -16,9 +17,9 @@ Nous pouvons parcourir et installer des extensions à partir de VS Code. Ouvrons
 
 Quelques extensions à installer:
 
-* Python
-* Material Icon Theme
-* Bracket Pair Colorizer
+- Python
+- Material Icon Theme
+- Bracket Pair Colorizer
 
 ## HTML dans Visual Studio Code
 

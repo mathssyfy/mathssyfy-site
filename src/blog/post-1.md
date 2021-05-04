@@ -1,8 +1,8 @@
 ---
 title: Customise starter blog theme
 date: 2019-06-25
-description: 'How To Customise Blog Landing Page!'
-tags: ['Programming', 'Vuepress', 'Tailwind CSS']
+description: "How To Customise Blog Landing Page!"
+tags: ["Programming", "Vuepress", "Tailwind CSS"]
 post: true
 ---
 
@@ -42,10 +42,10 @@ post: true
             <router-link :to="post.path" class="font-bold uppercase">Read More</router-link>
           </div>
         </div>
-        
+
       </div>
     </div>
-    
+
 
     <footer class="bg-black text-white">
       <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
@@ -159,12 +159,12 @@ export default {
       line-height: 1.3;
     }
 
-    
+
   }
 
-  
 
-  
+
+
 
   .footer {
     padding: 2.5rem;
@@ -198,10 +198,10 @@ export default {
         font-size: 1.2rem;
       }
 
-      
+
     }
 
-    
+
   }
 }
 </style>

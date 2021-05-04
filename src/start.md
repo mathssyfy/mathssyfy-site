@@ -36,7 +36,4 @@ Astuces diverses et variées: [How To...](/development/HowTo/)
 
 ### Le Web
 
- - Pour le thème Web: [Web](/snt/web/)
-
-
-
+- Pour le thème Web: [Web](/snt/web/)

@@ -1,5 +1,4 @@
-Activité
-========
+# Activité
 
 ![image](./1S-VA-cours-0.jpg)
 
@@ -30,9 +29,11 @@ un joueur à ce jeu.
 3\. b) Recopier et compléter le tableau.
 
        Événement       $\left( {X = - 2}   $\left( {X = - 1} \right)$   $\left( {X = 1}   $\left( {X = 2} \right)$
-                           \right)$                                        \right)$      
-  ------------------- ------------------- ---------------------------- ----------------- --------------------------
-   Issues favorables                                                                     
+                           \right)$                                        \right)$
+
+---
+
+Issues favorables
 
 3\. c) Calculer la probabilité, notée $P\left( {X
 = - 2} \right)$, que le joueur perde 2 euros.
@@ -63,8 +64,7 @@ connaissance de cause.
 
 Dans ce cours, on va formaliser tout ceci :
 
-Notion de variable aléatoire réelle
-===================================
+# Notion de variable aléatoire réelle
 
 **Remarque**
 
@@ -102,8 +102,7 @@ L'évènement $(X=2)$ est réalisé lorsque l'on obtient un multiple de 3
 
 L'évènement $(X \leq 0)$ est réalisé lorsque le gain est négatif
 
-Loi de probabilité d'une variable aléatoire réelle
-==================================================
+# Loi de probabilité d'une variable aléatoire réelle
 
 **Remarque**
 
@@ -122,16 +121,15 @@ On a $P\left( {X = {x_1}} \right) + P\left( {X = {x_2}} \right) +
 
 :::exercice Exercice 1:
 
-Une urne contient cinq jetons indiscernables au toucher numérotés de 1 à
-5.
+Une urne contient cinq jetons indiscernables au toucher numérotés de 1 à 5.
 
 Un joueur participe à la loterie en payant 2 €, ce qui lui donne le
 droit de prélever au hasard un jeton dans l'urne.
 
--   Si le numéro est pair, il gagne en euros le double de la valeur
-    indiquée par le jeton.
+- Si le numéro est pair, il gagne en euros le double de la valeur
+  indiquée par le jeton.
 
--   Si le numéro est impair, il perd sa mise.
+- Si le numéro est impair, il perd sa mise.
 
 Soit $X$ la variable aléatoire égale au \"gain algébrique\".
 
@@ -169,15 +167,13 @@ On présente la **loi de probabilité** de $X$ dans un tableau.
 $P\left( {X = {x_i}} \right)$ & $\dfrac{3}{5}$ & $\dfrac{1}{5}$ &
 $\dfrac{1}{5}$\
 
-Espérance, variance et écart-type
-=================================
+# Espérance, variance et écart-type
 
 Dans cette partie, $X$ est une variable aléatoire réelle définie sur un
 univers $\Omega$ prenant les valeurs $x_1$​, $x_2$​, \..., $x_r$​ avec
 les probabilités respectives $p_1$​, $p_2$​, \..., $p_r$​.
 
-Espérance d'une variable aléatoire
-----------------------------------
+## Espérance d'une variable aléatoire
 
 **Remarque:**
 
@@ -191,8 +187,10 @@ La loi de probabilité d'une variable aléatoire $X$ est donnée ci-dessous
 :
 
      $x_i$​           $-2$              1                4
-  ------------- ---------------- ---------------- ----------------
-   $P(X=x_i​)$   $\frac{1}{6}$​   $\frac{1}{2}$​   $\frac{1}{3}​$
+
+---
+
+$P(X=x_i​)$ $\frac{1}{6}$​ $\frac{1}{2}$​ $\frac{1}{3}​$
 
 On a
 $E(X)=−2 \times \frac{1}{6}​+1 \times \frac{1}{2}​+4 \times \frac{1}{3}​=\frac{3}{2}​$.
@@ -202,7 +200,7 @@ $\frac{3}{2}$​.
 
 **Remarque:**
 
-*Démonstration à faire plus tard*
+_Démonstration à faire plus tard_
 
 **METHODE**
 
@@ -212,8 +210,10 @@ Soit X une variable aléatoire dont on donne la loi de probabilité dans
 le tableau suivant. Calculer et interpréter $E(X)$.
 
      $x_i$​      $-2$      1       4
-  ------------- ------- ------- -------
-   $P(X=x_i​)$   $0,2$   $0,5$   $0,3$
+
+---
+
+$P(X=x_i​)$ $0,2$ $0,5$ $0,3$
 
 :::
 
@@ -234,8 +234,7 @@ $E(X)=−2 \times 0,2+1 \times 0,5+4 \times 0,3=1,3$
 Sur un très grand nombre de répétitions de cette expérience aléatoire,
 la valeur moyenne de $X$ est $1,3$.
 
-Variance et écart-type d'une variable aléatoire
------------------------------------------------
+## Variance et écart-type d'une variable aléatoire
 
 **Remarque:**
 
@@ -263,19 +262,21 @@ le tableau suivant. Calculer la variance et l'écart-type de la variable
 aléatoire $X$.
 
      $x_i$​      $-2$      1       4
-  ------------- ------- ------- -------
-   $P(X=x_i​)$   $0,2$   $0,5$   $0,3$
+
+---
+
+$P(X=x_i​)$ $0,2$ $0,5$ $0,3$
 
 :::
 
 **Méthode:**
 
--   On applique la formule du cours en remplaçant les $x_i$​ par les
-    valeurs prises par la variable aléatoire $X$ et les $p_i$​ par les
-    probabilités correspondantes.
+- On applique la formule du cours en remplaçant les $x_i$​ par les
+  valeurs prises par la variable aléatoire $X$ et les $p_i$​ par les
+  probabilités correspondantes.
 
--   L'écart-type s'obtient simplement en calculant la racine carrée de
-    la variance
+- L'écart-type s'obtient simplement en calculant la racine carrée de
+  la variance
 
 **Correction:**
 
@@ -287,13 +288,11 @@ $Var(X)​=0,2 \times (−2−1,3)^2+0,5 \times (1−1,3)^2+0,3 \times (4−1,3)
 
 D'où $\sigma(X)=\sqrt{Var(X)}=\sqrt{4,41}=2,1$
 
-Simulation d'une variable aléatoire
-===================================
+# Simulation d'une variable aléatoire
 
 Un jeu consiste à lancer $n$ fois deux dés parfaitement équilibrés.
 
 Lorsqu'on obtient un double, on gagne 5 euros, sinon on perd 1 euro.
-
 
     from random import randint
     n=int(input("Quel est le nombre de lancers?"))
@@ -331,16 +330,16 @@ $q$ de gagner 5 euros à ce jeu.
 
 4\. Soit $X$ la variable aléatoire correspondant au gain de ce jeu.
 
--   Quelles sont les valeurs prises par $X$ ?
+- Quelles sont les valeurs prises par $X$ ?
 
--   Donner le tableau de loi de la variable aléatoire $X$ (vous pouvez
-    vous aider de la question précédente)
+- Donner le tableau de loi de la variable aléatoire $X$ (vous pouvez
+  vous aider de la question précédente)
 
--   Calculer l'espérance de $X$
+- Calculer l'espérance de $X$
 
--   Que pensez-vous du gain moyen que peut espérer le joueur sur un
-    grand nombre de parties ? Ce jeu favorise-t-il le joueur ou
-    l'organisateur ?
+- Que pensez-vous du gain moyen que peut espérer le joueur sur un
+  grand nombre de parties ? Ce jeu favorise-t-il le joueur ou
+  l'organisateur ?
 
 **Correction:**
 
@@ -355,8 +354,10 @@ $P(X=-1)=\frac{cas favorables}{cas possibles}=\frac{30}{36}=\frac{5}{6}$
 Loi de probabilité :
 
      $x_i$            5             $-1$
-  ------------ --------------- ---------------
-   $P(X=x_i)$   $\frac{1}{6}$   $\frac{5}{6}$
+
+---
+
+$P(X=x_i)$ $\frac{1}{6}$ $\frac{5}{6}$
 
 Calcul de l'espérance :
 

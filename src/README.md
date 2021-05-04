@@ -16,8 +16,6 @@ sidebarDepth: 3
 sidebar: auto
 ---
 
-
-
 > Installable sur votre mobile ou votre ordinateur !
 
 :::tip

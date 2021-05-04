@@ -5,7 +5,6 @@ title: Variables à densité
 description: Cours sur les variables continues en Terminale S
 ---
 
-
 ## Variables aléatoires à densité
 
 :::tip Exemple:
@@ -40,10 +39,10 @@ d'aire) alors on dit que $f$ est une **fonction de densité** (ou une
 
 :::
 
-
 :::tip Exemple:
 
 On considère la fonction $f$ définie sur $\left[-1\ ;\ 1 \right]$ par
+
 $$
 f(x)=\left\{
 \begin{array}{l}
@@ -65,8 +64,6 @@ $\left[-1\ ;\ 1 \right]$ est un triangle d'aire $\dfrac{2\times1}{2}=1$
 
 :::warning Définition:
 
-  
-
 Soit $f$ une fonction de densité sur un intervalle $I$.
 
 Dire que la variable aléatoire $X$ suit la loi de densité $f$ signifie
@@ -83,21 +80,21 @@ $P(a \leqslant X \leqslant b)=\displaystyle \int_a^b f(t) \, \textrm{d}t$.
 :::
 
 :::tip Remarques:
--   On dit alors que $X$ est une **variable aléatoire à densité**.
 
--   La probabilité qu'une variable aléatoire à densité $X$ prenne une
-    valeur $c$ est égale à 0 car
-    $P(X=c)=\displaystyle \int_c^c f(t) \, \textrm{d}t=0$.
+- On dit alors que $X$ est une **variable aléatoire à densité**.
 
-    Par conséquent, les éventuelles inégalités strictes peuvent être
-    remplacées par des inégalités larges dans les calculs de
-    probabilités : par exemple
-    $P\left(1 < X \leqslant 3\right)=P\left(1 \leqslant X \leqslant 3\right)$.
+- La probabilité qu'une variable aléatoire à densité $X$ prenne une
+  valeur $c$ est égale à 0 car
+  $P(X=c)=\displaystyle \int_c^c f(t) \, \textrm{d}t=0$.
+
+  Par conséquent, les éventuelles inégalités strictes peuvent être
+  remplacées par des inégalités larges dans les calculs de
+  probabilités : par exemple
+  $P\left(1 < X \leqslant 3\right)=P\left(1 \leqslant X \leqslant 3\right)$.
 
 :::
 
 ## Loi uniforme sur $\left[a\ ;\ b \right]$
-
 
 :::warning Définition:
 
@@ -159,7 +156,7 @@ l'aide de la fonction de densité et des intégrales.
 
 :::
 
-**Méthode  : Calculer une probabilité et une espérance pour une loi uniforme**
+**Méthode : Calculer une probabilité et une espérance pour une loi uniforme**
 
 **Exercice:**
 
@@ -181,7 +178,6 @@ $P(17\leqslant X \leqslant 17,25)=\dfrac{17,25-17}{18-17}=0,25$.
 **2.** On a $E(X)=\dfrac{17+18}{2}=17,5$ donc leurs parents peuvent
 espérer les voir arriver à 17h30.
 
-
 :::tip Remarque:
 
 Pour la question 1 de la méthode 1, comme
@@ -193,15 +189,12 @@ ${P(17\leqslant X \leqslant 17,25)=\displaystyle \int_{17}^{17,25} 1 \, \textrm{
 
 ## Loi exponentielle de paramètre $\lambda$ ($\lambda>0$)
 
-
 :::warning Définition:
 
 Une variable aléatoire $X$ suit la **loi exponentielle de paramètre**
 $\lambda$ où $\lambda>0$ si elle admet pour densité la fonction $f$
 définie sur $\left[0\ ;\ +\infty \right[$ par
 $f(x)=\lambda\textrm{e}^{-\lambda x}$.
-
-  
 
 ![image](./TS-Variables-3.jpg)
 
@@ -220,28 +213,26 @@ Soit $X$ une variable aléatoire suivant la loi
 $\mathcal{E}\left(\lambda\right)$ et $a$, $c$ et $d$ trois réels
 positifs. On a alors :
 
--   ${P\left(c\leqslant X\leqslant d\right)=\textrm{e}^{-\lambda c}-\textrm{e}^{-\lambda d}}$
+- ${P\left(c\leqslant X\leqslant d\right)=\textrm{e}^{-\lambda c}-\textrm{e}^{-\lambda d}}$
 
+* $P\left(X \leqslant a \right)=1-\textrm{e}^{-\lambda a}$
 
--   $P\left(X \leqslant a \right)=1-\textrm{e}^{-\lambda a}$
-
-
--   $P\left(X \geqslant a \right)=\textrm{e}^{-\lambda a}$
+- $P\left(X \geqslant a \right)=\textrm{e}^{-\lambda a}$
 
 :::
 
 :::tip Preuve:
 
--   Pour tous réels $c$ et $d$ positifs, on a
-    $P(c\leqslant X \leqslant d)=\displaystyle \int_{c}^{d} \lambda\textrm{e}^{-\lambda t} \, \textrm{d}t=\left[-\textrm{e}^{-\lambda t}\right]_{c}^{d}$
-    ${=-\textrm{e}^{-\lambda d}-\left(-\textrm{e}^{-\lambda c}\right)=\textrm{e}^{-\lambda c}-\textrm{e}^{-\lambda d}}$.
+- Pour tous réels $c$ et $d$ positifs, on a
+  $P(c\leqslant X \leqslant d)=\displaystyle \int_{c}^{d} \lambda\textrm{e}^{-\lambda t} \, \textrm{d}t=\left[-\textrm{e}^{-\lambda t}\right]_{c}^{d}$
+  ${=-\textrm{e}^{-\lambda d}-\left(-\textrm{e}^{-\lambda c}\right)=\textrm{e}^{-\lambda c}-\textrm{e}^{-\lambda d}}$.
 
--   En prenant $c=0$ et $d=a$ dans le résultat précédent, on trouve
-    $P\left(X \leqslant a \right)=P\left(0 \leqslant X \leqslant a \right)$
-    ${=\textrm{e}^{-\lambda \times 0}-\textrm{e}^{-\lambda a}=1-\textrm{e}^{-\lambda a}}$.
+- En prenant $c=0$ et $d=a$ dans le résultat précédent, on trouve
+  $P\left(X \leqslant a \right)=P\left(0 \leqslant X \leqslant a \right)$
+  ${=\textrm{e}^{-\lambda \times 0}-\textrm{e}^{-\lambda a}=1-\textrm{e}^{-\lambda a}}$.
 
--   On a
-    $P\left(X \geqslant a \right)=1-P\left(X<a\right)=1-P\left(X\leqslant a\right)=1-\left(1-\textrm{e}^{-\lambda a}\right)=\textrm{e}^{-\lambda a}$.
+- On a
+  $P\left(X \geqslant a \right)=1-P\left(X<a\right)=1-P\left(X\leqslant a\right)=1-\left(1-\textrm{e}^{-\lambda a}\right)=\textrm{e}^{-\lambda a}$.
 
 :::
 
@@ -281,11 +272,11 @@ $E(X) = \displaystyle \lim_{x \rightarrow +\infty} -x\textrm{e}^{-\lambda x}-\df
 Comme $\lambda>0$,
 $\displaystyle \lim_{x \rightarrow +\infty} -\lambda x=-\infty$ :
 
--   par composition, on a
-    $\displaystyle \lim_{x \rightarrow +\infty} \textrm{e}^{-\lambda x}=0$.
+- par composition, on a
+  $\displaystyle \lim_{x \rightarrow +\infty} \textrm{e}^{-\lambda x}=0$.
 
--   par composition et croissance comparée, on a
-    $\displaystyle \lim_{x \rightarrow +\infty} -\lambda x \textrm{e}^{-\lambda x}=0$.
+- par composition et croissance comparée, on a
+  $\displaystyle \lim_{x \rightarrow +\infty} -\lambda x \textrm{e}^{-\lambda x}=0$.
 
 Finalement, on obtient bien
 $E(X) = \displaystyle \lim_{x \rightarrow +\infty} \dfrac{-\lambda x\textrm{e}^{-\lambda x}}{\lambda}-\dfrac{1}{\lambda}\textrm{e}^{-\lambda x}+\dfrac{1}{\lambda}=\dfrac{1}{\lambda}$.
@@ -391,9 +382,7 @@ conditionnelle) qu'il fonctionne plus de 5 ans.
 
 ## Lois normales
 
-
 ### Loi normale centrée réduite $\mathcal{N}(0\ ;\ 1)$
-
 
 :::warning Définition:
 
@@ -402,7 +391,6 @@ elle est réduite lorsque son écart-type vaut $1$.
 
 :::
 
-
 :::warning Théorème : Théorème de Moivre­Laplace
 
 Soit $X_n$ une variable aléatoire suivant une loi binomiale
@@ -410,7 +398,7 @@ $\mathcal{B}(n\ ;\ p)$ et $Z=\cfrac{X_n-np}{\sqrt{np(1-p)}}$, variable
 aléatoire centrée réduite. Alors pour tous réels $a$ et $b$ tels que
 $a\leqslant b$, on a :
 
-$$\lim_{n\rightarrow +\infty}P(a\leqslant
+$$
 Z\leqslant b)=\int_a^b \dfrac{1}{\sqrt{2\pi}}
 \textrm{e}^{-\dfrac{x^2}{2}} \textrm{d} x.$$
 
@@ -423,18 +411,16 @@ Z\leqslant b)=\int_a^b \dfrac{1}{\sqrt{2\pi}}
 Une variable aléatoire $X$ suit la **loi normale centrée réduite**
 $\mathcal{N}(0\ ;\ 1)$ si elle admet pour densité la fonction $f$ (dont
 la courbe est donnée ci-contre) définie sur $\R$ par :
-
-$$f(x)=\dfrac{1}{\sqrt{2\pi}}\textrm{e}^{-\dfrac{x^2}{2}}.$$
+$$
 
 ![image](./TS-Variables-4.jpg)
 
-Autrement dit, pour tous réels $a$ et $b$ tels que $a\leqslant b$, on a: 
+Autrement dit, pour tous réels $a$ et $b$ tels que $a\leqslant b$, on a:
 
 $$
 P(a\leqslant X\leqslant b)=\displaystyle
 \int_a^b \cfrac{1}{\sqrt{2\pi}}\text{ e}^{-\dfrac{x^2}{2}}\textrm{d} x.
 $$
-
 
 :::
 
@@ -454,10 +440,11 @@ Soit $f$ : $x\mapsto \cfrac{1}{\sqrt{2\pi}}\text{ e}^{-\dfrac{x^2}{2}}$
 la fonction de densité d'une variable aléatoire suivant la loi
 $\mathcal{N}(0\ ;\ 1)$.
 
--   L'aire totale entre
-    la courbe représentant la fonction de densité $f$ et l'axe des abscisses est $1$.
+- L'aire totale entre
+  la courbe représentant la fonction de densité $f$ et l'axe des abscisses est $1$.
 
--     
+-
+
 
     $f$ est une fonction paire, donc sa courbe représentative est
     symétrique par rapport à l'axe des ordonnées.
@@ -481,13 +468,11 @@ Pour $u=0$, on a $P(X\leqslant 0)=P(X\geqslant 0)=0,5$.
 Soit $X$ une variable aléatoire suivant la loi normale centrée réduite
 $\mathcal{N}(0\ ;\ 1)$, de fonction de densité $f$. Alors
 
--   $E(X)=\displaystyle \lim_{x \rightarrow -\infty}
+- $E(X)=\displaystyle \lim_{x \rightarrow -\infty}
     \int_x^0 tf(t)\textrm{d} t+ \displaystyle \lim_{y
     \rightarrow +\infty} \int_0^y tf(t)\textrm{d} t=0$
 
-   
-
--    $V(X)=1$ et $\sigma(X)=1$.
+* $V(X)=1$ et $\sigma(X)=1$.
 
 :::
 
@@ -519,21 +504,21 @@ millième de :
 
 [**Calculatrice TI**]
 
--   On accède au menu **distrib** en appuyant sur la touche **2nd** puis
-    la touche **VAR**
+- On accède au menu **distrib** en appuyant sur la touche **2nd** puis
+  la touche **VAR**
 
--   On choisit `NormalFrep(` et on écrit `NormalFrep(2,3,0,1)`.
+- On choisit `NormalFrep(` et on écrit `NormalFrep(2,3,0,1)`.
 
 [**Calculatrice Casio**]
 
--   Dans le menu **RUN**, on appuie sur **OPTN** puis **STAT** puis
-    **DIST** puis **NORM** puis **Ncd**.
+- Dans le menu **RUN**, on appuie sur **OPTN** puis **STAT** puis
+  **DIST** puis **NORM** puis **Ncd**.
 
--   On écrit alors `NormCD(2,3,1,0)`.
+- On écrit alors `NormCD(2,3,1,0)`.
 
 On obtient $P(2\leqslant X\leqslant 3)\approx0,021$.
 
-**1.b)**   
+**1.b)**
 
 La calculatrice donne $P(0\leqslant X\leqslant 0,7)\approx 0,258$ donc
 
@@ -543,7 +528,7 @@ $\approx 0,5+0,258=0,758$.
 
 ![image](./TS-Variables-6.jpg)
 
-**1.c)**   
+**1.c)**
 
 La calculatrice donne $P(-0,2<X<0)\approx 0,079$ donc
 $P(X>-0,2)=P(-0,2<X<0)+P(X\geqslant 0)$
@@ -558,28 +543,26 @@ $\approx 0,079+0,5=0,579$.
 
 [**Calculatrice TI**]
 
--   Dans le menu **distrib**,
+- Dans le menu **distrib**,
 
-    on choisit `FracNormale(` et on écrit `FracNormale(0.25,0,1)`.
+  on choisit `FracNormale(` et on écrit `FracNormale(0.25,0,1)`.
 
 [**Calculatrice Casio**]
 
--   Dans le menu
+- Dans le menu
 
-    **STAT** \> **DIST** \> **NORM**, on choisit **InvN** et on écrit
-    `InvNormCD(0.25,1,0)`.
+  **STAT** \> **DIST** \> **NORM**, on choisit **InvN** et on écrit
+  `InvNormCD(0.25,1,0)`.
 
 On obtient $t\approx -0,674$.
 
-**2.b)**   
+**2.b)**
 
 $P(X>u)=0,4 \Leftrightarrow P(X\leqslant u)=0,6$.
 
 On trouve $u\approx 0,253$.
 
 ![image](./TS-Variables-8.jpg)
-
-  
 
 :::warning Théorème:
 
@@ -605,10 +588,10 @@ est une primitive de
 $t\mapsto \dfrac{1}{\sqrt{2\pi}}\textrm{e}^{-\cfrac{t^2}{2}}$ :
 ![image](./TS-Variables-9.jpg)
 
--   $f=2g$ est dérivable donc **continue** sur $[0\ ;\ +\infty[$ ;
+- $f=2g$ est dérivable donc **continue** sur $[0\ ;\ +\infty[$ ;
 
--   $f'(x)=2g'(x)=\dfrac{2}{\sqrt{2\pi}}\textrm{e}^{-\cfrac{x^2}{2}}>0$
-    donc $f$ est **strictement croissante** sur $[0\ ;\ +\infty[$.
+- $f'(x)=2g'(x)=\dfrac{2}{\sqrt{2\pi}}\textrm{e}^{-\cfrac{x^2}{2}}>0$
+  donc $f$ est **strictement croissante** sur $[0\ ;\ +\infty[$.
 
 De plus, $f(0)=P(-0\leqslant X\leqslant 0)=P(X=0)=0$,
 ${\displaystyle\lim_{x\rightarrow +\infty} f(x)=\lim_{x\rightarrow
@@ -632,7 +615,6 @@ $P(-2,58\leqslant X\leqslant 2,58)\approx 0,99$.
 
 ### Lois normales $\mathcal{N}(\mu\ ;\ \sigma^2)$
 
-
 :::warning Définition:
 
 Soit $\mu$ et $\sigma$ deux réels avec $\sigma>0$. On dit qu'une
@@ -642,20 +624,18 @@ loi normale centrée réduite $\mathcal{N}(0\ ;\ 1)$.
 
 :::
 
--   Il en résulte que si $X$ suit la loi $\mathcal{N}(0\ ;\ 1)$ alors
-    $\mu+\sigma X$ suit la loi $\mathcal{N}(\mu\ ;\ \sigma^2)$.
+- Il en résulte que si $X$ suit la loi $\mathcal{N}(0\ ;\ 1)$ alors
+  $\mu+\sigma X$ suit la loi $\mathcal{N}(\mu\ ;\ \sigma^2)$.
 
--   Si $X$ suit la loi $\mathcal{N}(\mu\ ;\ \sigma^2)$, alors sa densité
-    $f$ est donnée par
-    ${f(x)=\cfrac{1}{\sigma\sqrt{2\pi}}\textrm{ e}^{-\cfrac{(x-\mu)^2}{2\sigma^2}}}$.
+- Si $X$ suit la loi $\mathcal{N}(\mu\ ;\ \sigma^2)$, alors sa densité
+  $f$ est donnée par
+  ${f(x)=\cfrac{1}{\sigma\sqrt{2\pi}}\textrm{ e}^{-\cfrac{(x-\mu)^2}{2\sigma^2}}}$.
 
-    La courbe de $f$ est appelée **gaussienne** et est symétrique par
-    rapport à la droite d'équation $x=\mu$ ce qui permet d'en déduire
-    des probabilités par symétrie autour de $\mu$.
+  La courbe de $f$ est appelée **gaussienne** et est symétrique par
+  rapport à la droite d'équation $x=\mu$ ce qui permet d'en déduire
+  des probabilités par symétrie autour de $\mu$.
 
-    ![image](./TS-Variables-10.jpg)
-
-
+  ![image](./TS-Variables-10.jpg)
 
 **1.** Soit $X$ une variable aléatoire suivant la loi
 $\mathcal{N}(7\ ;\ 2^2)$.
@@ -687,47 +667,45 @@ de :
 modèle de calculatrice et on obtient
 $P(6\leqslant X\leqslant 9)\approx 0,533$.
 
-**1.b)**   
+**1.b)**
 
--   Une calculatrice donne $P(7<X<10)\approx 0,433$ donc
-    $P(X<10)=P(X\leqslant 7)+P(7<X<10)$
+- Une calculatrice donne $P(7<X<10)\approx 0,433$ donc
+  $P(X<10)=P(X\leqslant 7)+P(7<X<10)$
 
-    $\approx 0,5+0,433=0,933$.
+  $\approx 0,5+0,433=0,933$.
 
 ![image](./TS-Variables-11.jpg)
 
--   Pour calculer $P(X<a)$, on peut aussi calculer
-    $P\left(-10^{99}\leqslant X<a \right)$ avec une calculatrice. On
-    obtient alors $P\left(-10^{99}\leqslant X< 10 \right)\approx0,933.$
+- Pour calculer $P(X<a)$, on peut aussi calculer
+  $P\left(-10^{99}\leqslant X<a \right)$ avec une calculatrice. On
+  obtient alors $P\left(-10^{99}\leqslant X< 10 \right)\approx0,933.$
 
-**1.c)**   
+**1.c)**
 
--   La calculatrice donne $P(7\leqslant X<8)\approx 0,191$ donc
-    $P(X\geqslant 8)=P(X\geqslant 7)-P(7\leqslant X < 8)$
+- La calculatrice donne $P(7\leqslant X<8)\approx 0,191$ donc
+  $P(X\geqslant 8)=P(X\geqslant 7)-P(7\leqslant X < 8)$
 
-    $\approx 0,5-0,191=0,309$.
+  $\approx 0,5-0,191=0,309$.
 
 ![image](./TS-Variables-12.jpg)
 
--   Pour calculer $P(X\geqslant a)$, on peut aussi calculer
-    $P\left(a\leqslant X\leqslant 10^{99}\right)$ avec une calculatrice.
-    on obtient alors
-    $P\left(8\leqslant X\leqslant 10^{99} \right)\approx0,309.$
+- Pour calculer $P(X\geqslant a)$, on peut aussi calculer
+  $P\left(a\leqslant X\leqslant 10^{99}\right)$ avec une calculatrice.
+  on obtient alors
+  $P\left(8\leqslant X\leqslant 10^{99} \right)\approx0,309.$
 
 **2.**
 
 **2.a)** On entre `FracNormale(0.95,6,3)` ou `InvNormCD(0.95,3,6)` selon
 le modèle de calculatrice et on obtient $t\approx 10,935$.
 
-**2.b)**   
+**2.b)**
 
 On a $P(X\geqslant u)=0,1 \Leftrightarrow P(X<u)=0,9$.
 
 Une calculatrice donne $u\approx 9,845$.
 
 ![image](./TS-Variables-13.jpg)
-
-  
 
 Ces méthodes utilisant le fait que
 $P(X\leqslant a)\approx P(-10^{99}\leqslant X\leqslant a)$
@@ -744,15 +722,15 @@ $E(X)=\mu$ ;
 
 $V(X)=\sigma^2$ et $\sigma(X)=\sigma$.
 
--   Plus $\sigma$ est petit, plus les valeurs prises par $X$ sont
-    concentrées autour de la moyenne.
+- Plus $\sigma$ est petit, plus les valeurs prises par $X$ sont
+  concentrées autour de la moyenne.
 
-    ![image](./TS-Variables-14.jpg)
+  ![image](./TS-Variables-14.jpg)
 
--   On peut considérer que sous certaines conditions (par exemple
-    ${n\geqslant30}$, ${np\geqslant 5}$ et ${n(1-p)\geqslant5}$), la loi
-    $\mathcal{N}(np\ ;\ \sqrt{np(1-p)}^2)$ approxime convenablement la
-    loi $\mathcal{B}(n\ ;\ p)$.
+- On peut considérer que sous certaines conditions (par exemple
+  ${n\geqslant30}$, ${np\geqslant 5}$ et ${n(1-p)\geqslant5}$), la loi
+  $\mathcal{N}(np\ ;\ \sqrt{np(1-p)}^2)$ approxime convenablement la
+  loi $\mathcal{B}(n\ ;\ p)$.
 
 Centrer et réduire une variable aléatoire suivant une loi normale de
 paramètre(s) inconnu(s) permet de travailler avec la loi connue
@@ -770,36 +748,34 @@ Déterminer les valeurs de $\mu$ et $\sigma$.
 
 **Correction**
 
--   Le temps moyen pour parcourir 100 mètres est de $13$ secondes donc
-    l'espérance $\mu$ vaut $13$.
+- Le temps moyen pour parcourir 100 mètres est de $13$ secondes donc
+  l'espérance $\mu$ vaut $13$.
 
--   On sait de plus que $P(T\leqslant 12 )=0,05$.
+- On sait de plus que $P(T\leqslant 12 )=0,05$.
 
-    Posons $Z=\dfrac{T-13}{\sigma}$, la variable aléatoire $Z$ suit
-    alors la loi normale centrée réduite.
+  Posons $Z=\dfrac{T-13}{\sigma}$, la variable aléatoire $Z$ suit
+  alors la loi normale centrée réduite.
 
-    De plus,
-    $T\leqslant 12 \Leftrightarrow \dfrac{T-13}{\sigma}\leqslant  \dfrac{-1}{\sigma}$
-    d'où
-    $P(T\leqslant 12 )=P\left(Z\leqslant \dfrac{-1}{\sigma}\right)=0,05$.
+  De plus,
+  $T\leqslant 12 \Leftrightarrow \dfrac{T-13}{\sigma}\leqslant  \dfrac{-1}{\sigma}$
+  d'où
+  $P(T\leqslant 12 )=P\left(Z\leqslant \dfrac{-1}{\sigma}\right)=0,05$.
 
-    Or, à l'aide d'une calculatrice, on trouve que le réel $u$ tel que
-    $P(Z\leqslant u)=0,05$ vaut approximativement $-1,645$ donc
-    $\dfrac{-1}{\sigma}\approx-1,645$ et
-    $\sigma\approx\cfrac{1}{1,645}\approx0,608$.
-
-  
+  Or, à l'aide d'une calculatrice, on trouve que le réel $u$ tel que
+  $P(Z\leqslant u)=0,05$ vaut approximativement $-1,645$ donc
+  $\dfrac{-1}{\sigma}\approx-1,645$ et
+  $\sigma\approx\cfrac{1}{1,645}\approx0,608$.
 
 Soit $X$ une variable aléatoire suivant la loi normale
 $\mathcal{N}(\mu\ ;\ \sigma^2)$. On a alors :
 
--   $P(X\in[\mu-\sigma\ ;\ \mu+\sigma])=P(\mu-\sigma\leqslant X\leqslant \mu+\sigma)\approx0,68$
-    ;
+- $P(X\in[\mu-\sigma\ ;\ \mu+\sigma])=P(\mu-\sigma\leqslant X\leqslant \mu+\sigma)\approx0,68$
+  ;
 
--   $P(X\in[\mu-2\sigma\ ;\ \mu+2\sigma])=P(\mu-2\sigma\leqslant X\leqslant \mu+2\sigma)\approx0,954$
-    ;
+- $P(X\in[\mu-2\sigma\ ;\ \mu+2\sigma])=P(\mu-2\sigma\leqslant X\leqslant \mu+2\sigma)\approx0,954$
+  ;
 
--   $P(X\in[\mu-3\sigma\ ;\ \mu+3\sigma])=P(\mu-3\sigma\leqslant X\leqslant \mu+3\sigma)\approx0,997$.
+- $P(X\in[\mu-3\sigma\ ;\ \mu+3\sigma])=P(\mu-3\sigma\leqslant X\leqslant \mu+3\sigma)\approx0,997$.
 
 Graphiquement, on a alors :
 
@@ -808,5 +784,3 @@ Graphiquement, on a alors :
 où l'aire du domaine en bleu est environ 0,68, l'aire du domaine en bleu
 et vert est environ 0,954 et l'aire du domaine en bleu, vert et orange
 (jusqu'à $\mu-3\sigma$ et $\mu+3\sigma$) est environ 0,997.
-
-  

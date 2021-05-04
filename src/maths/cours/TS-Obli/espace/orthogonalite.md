@@ -16,7 +16,7 @@ est fausse.
 
 :::
 
-::: tip Exemple 
+::: tip Exemple
 
 Dans le cube $ABCDEFGH$ ci-contre, $(EF)//(HG)$ et
 $(HG)\perp (GC)$ donc $(EF)$ et $(GC)$ sont orthogonales. On note
@@ -33,7 +33,7 @@ toutes les droites de ce plan.
 
 :::
 
-::: warning Théorème 
+::: warning Théorème
 
 Si une droite est orthogonale à deux droites sécantes d'un plan
 alors elle est orthogonale à ce plan.
@@ -55,4 +55,3 @@ plan $(ABC)$ donc à toutes les droites de ce plan. En particulier,
 on en déduit que $(GC)\perp (BD)$.
 
 :::
-

@@ -5,13 +5,11 @@ post: true
 title: Python Mathplotlib CSV
 description: Comment utiliser matplotlib pour visualiser des .cvs
 tags:
-- python
-- matplotlib
-- tutorial
+  - python
+  - matplotlib
+  - tutorial
 image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1570878570/tamara-gore-cmsv5KUP2Ew-unsplash.jpg
-
----
-![Python](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1570878570/tamara-gore-cmsv5KUP2Ew-unsplash.jpg)
+---![Python](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1570878570/tamara-gore-cmsv5KUP2Ew-unsplash.jpg)
 
 # Python matplotlib et visualisation de datas (.csv)
 
@@ -19,9 +17,11 @@ image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v15708785
 
 - Python 3 doit être installé: [https://www.python.org/downloads/](https://www.python.org/downloads/)
 - matplotlib doit être installé. Dans une invite `cmd` avec privilèges administrateur:
+
 ```bash
 pip install matplotlib
 ```
+
 - On va utiliser [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Récupérer un fichier .csv
@@ -38,10 +38,10 @@ Lien de téléchargement direct: [https://data.giss.nasa.gov/gistemp/tabledata_v
 
 Si tout va bien, vous récupérez le fichier `GLB.Ts+dSST.csv`
 
-+ Créer un dossier de travail. Par exemple `matplotlib_csv`
-+ Copier le fichier `GLB.Ts+dSST.csv`
-+ Ouvrir le dossier avec `Visual Studio Code`
-+ Ouvrir le fichier `GLB.Ts+dSST.csv`
+- Créer un dossier de travail. Par exemple `matplotlib_csv`
+- Copier le fichier `GLB.Ts+dSST.csv`
+- Ouvrir le dossier avec `Visual Studio Code`
+- Ouvrir le fichier `GLB.Ts+dSST.csv`
 
 Vous devez obtenir quelque chose qui ressemble à ça:
 
@@ -49,7 +49,7 @@ Vous devez obtenir quelque chose qui ressemble à ça:
 Land-Ocean: Global Means
 Year,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec,J-D,D-N,DJF,MAM,JJA,SON
 1880,-.18,-.24,-.09,-.16,-.10,-.21,-.18,-.10,-.15,-.24,-.22,-.18,-.17,***,***,-.12,-.16,-.20
-... 
+...
 ```
 
 Il faut supprimer la ligne de titre (ne pas laisser la ligne vide, vraiment la supprimer !), puis enregistrer (`CTRL+S`)
@@ -57,7 +57,7 @@ Il faut supprimer la ligne de titre (ne pas laisser la ligne vide, vraiment la s
 ```bash
 Year,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec,J-D,D-N,DJF,MAM,JJA,SON
 1880,-.18,-.24,-.09,-.16,-.10,-.21,-.18,-.10,-.15,-.24,-.22,-.18,-.17,***,***,-.12,-.16,-.20
-... 
+...
 ```
 
 :::tip Remarque
@@ -96,13 +96,14 @@ Par exemple pour le mois de janvier: `row['Jan']`
 Sur le site de la NASA, on peut lire:
 
 ```bash
-GLOBAL Land-Ocean Temperature Index in 0.01 degrees Celsius   
+GLOBAL Land-Ocean Temperature Index in 0.01 degrees Celsius
 base period: 1951-1980
 
     sources:  GHCN-v4 1880-08/2019 + SST: ERSST v5 1880-08/2019
     using elimination of outliers and homogeneity adjustment
     Notes: 1950 DJF = Dec 1949 - Feb 1950 ;  ***** = missing
 ```
+
 :::
 
 ## Graphique avec matplotlib
@@ -132,7 +133,7 @@ plt.plot(x,y, marker='o')
 plt.title('Data from NASA: Global-mean monthly, seasonal, and annual means')
 plt.xlabel('Années')
 plt.ylabel('DJF')
-plt.show()    
+plt.show()
 ```
 
 On remarquera la transformation en `int` des années, et en `float` dans variations. En effet, les données parsées sont des `str` à la base, qu'il faut donc convertir en nombres pour les afficher !
@@ -168,7 +169,7 @@ plt.title('Data from NASA: Global-mean monthly, seasonal, and annual means')
 plt.xlabel('Années')
 plt.ylabel('Mois de Juin')
 
-plt.show()  
+plt.show()
 ```
 
 ![Figure 2](./python-matplotlib-csv-fig-2.png)
@@ -207,7 +208,7 @@ with plt.xkcd():
     plt.xlabel('Années')
     plt.ylabel('Mois de Juin')
 
-plt.show()  
+plt.show()
 ```
 
 ![igure 3](./python-matplotlib-csv-fig-3.png)

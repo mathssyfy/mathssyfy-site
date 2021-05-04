@@ -1,7 +1,5 @@
 # Rédiger une feuille d'exercices
 
-
-
 L'idée est de générer le fichier suivant:
 
 Exercice 1:
@@ -12,8 +10,7 @@ Exercice 1:
   <Solution>2+3=5</Solution>
 </ClientOnly>
 
-
-2. Calculer 3*4
+2. Calculer 3\*4
 
 <ClientOnly>
 <Solution title='Cherchez un peu avant de regarder la solution !'>3*4=12</Solution>
@@ -35,9 +32,10 @@ Le component que nous allons utiliser est inspiré de celui-ci: [Expansion Panel
 
 Pour commencer, ouvrez un terminal à la racine du projet:
 
-``` bash
+```bash
 yarn add vuetify
 ```
+
 Nous avons besoin des styles CSS^[Cascading Style Sheets]. Pour cela dans le fichier `config.js`, nous devons rajouter:
 
 ```javascript
@@ -53,41 +51,56 @@ Votre fichier devrait ressembler à ça:
 // .vuepress/config.js
 module.exports = {
   head: [
-    ['link', {rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"}],
-    ['link', {rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css"}],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons"
+      }
+    ],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css"
+      }
+    ]
   ],
-    themeConfig: {
-      sidebar: {
-        '//cours/addition/': [
-          'table1.md',
-          'table2.md'
-        ],
-        '/': [''],
-        '/docs/':['']
-        
-      },
-      nav: [
-        { text: 'Accueil', link: '/' },
-        { text: 'Exercices', link: '/docs/exercices/' },
-        { text: 'Cours', 
-          items: [
-            { text: 'Accueil Cours', link: '/docs/cours/' },
-            { text: 'Additions', 
-            items: [
-              { text: 'table de 1',link: '/docs/cours/addition/table1.md' },
-              { text: 'table de 2', link: '/docs/cours/addition/table2.md'}
-            ]},
-            { text: 'Multiplications', link: '/docs/cours/multiplication/tables-multiplication.md'},
-
-      ]}, 
-      ],
+  themeConfig: {
+    sidebar: {
+      "//cours/addition/": ["table1.md", "table2.md"],
+      "/": [""],
+      "/docs/": [""]
     },
-  } 
+    nav: [
+      { text: "Accueil", link: "/" },
+      { text: "Exercices", link: "/docs/exercices/" },
+      {
+        text: "Cours",
+        items: [
+          { text: "Accueil Cours", link: "/docs/cours/" },
+          {
+            text: "Additions",
+            items: [
+              { text: "table de 1", link: "/docs/cours/addition/table1.md" },
+              { text: "table de 2", link: "/docs/cours/addition/table2.md" }
+            ]
+          },
+          {
+            text: "Multiplications",
+            link: "/docs/cours/multiplication/tables-multiplication.md"
+          }
+        ]
+      }
+    ]
+  }
+};
 ```
 
 Puis dans le dossier `.vuepress` vous allez créer un dossier `components`. Dans ce dossier vous allez créer un fichier `Solution.vue` dans lequel vous allez copier-coller le code suivant:
 
-``` vue
+```vue
 // .vuepress/components/Solution.vue
 <template>
   <v-expansion-panel>
@@ -101,39 +114,37 @@ Puis dans le dossier `.vuepress` vous allez créer un dossier `components`. Dans
 </template>
 
 <script>
-import Vue from 'vue'
-import Vuetify from 'vuetify'
+import Vue from "vue";
+import Vuetify from "vuetify";
 
-Vue.use(Vuetify)
+Vue.use(Vuetify);
 export default {
-    props: {
-        title: {
-            default: 'Solution'
-        }
+  props: {
+    title: {
+      default: "Solution"
     }
-}
+  }
+};
 </script>
 
 <style scoped>
-.solution{
-    color: #72cda4;
+.solution {
+  color: #72cda4;
 }
 </style>
-
 ```
 
 L'objectif de ce tuto n'étant pas de vous apprendre à utiliser Vue.js, mais bien Vuepress, je ne vais pas vous expliquer le code ici.
 
 Vous pouvez par contre personnaliser la couleur. J'ai mis la couleur par défaut de Vuepress (le vert bizarre), mais vous pouvez essayer de mettre du rouge !
 
-``` vue
+```vue
 ...
 <style scoped>
-.solution{
-    color: red;
+.solution {
+  color: red;
 }
 </style>
-
 ```
 
 Par défaut le titre est "Solution", mais nous pouvez le changer.
@@ -150,11 +161,10 @@ Notre component ne pourra pas être compilé tel quel, il va falloir l'entourer 
 
 Sans plus tarder, voici le code à mettre dans notre fichier d'exercices:
 
-``` md
-// docs/exercices/README.md
----
-sidebar: auto
----
+```md
+## // docs/exercices/README.md
+
+## sidebar: auto
 
 # Quelques exercices
 
@@ -166,14 +176,11 @@ sidebar: auto
   <Solution>2+3=5</Solution>
 </ClientOnly>
 
-
-2. Calculer 3*4
+2. Calculer 3\*4
 
 <ClientOnly>
 <Solution title='Cherchez un peu !'>3*4=12</Solution>
 </ClientOnly>
 
 etc...
-
 ```
-

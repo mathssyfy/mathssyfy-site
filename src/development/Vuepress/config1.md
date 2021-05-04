@@ -1,7 +1,5 @@
 # Premières configurations
 
-
-
 ::: warning Information importante
 Le fichier `config.js` est un fichier Javascript. Dans cette partie, nous allons faire "comme si" vous n'aviez jamais entendu parler de Javascript, ou en tout cas que vous ne savez pas trop vous en servir. Les explications détaillées viendront plus tard.
 :::
@@ -14,33 +12,30 @@ Si vous avez encore le serveur de développement en route, il faut faire CTRL+C 
 
 Dans le fichier `config.js` vous aller taper, ou copier-coller le code suivant.
 
-``` js
+```js
 // .vuepress/config.js
 module.exports = {
-    themeConfig: {
-      sidebar: [
-        '/',
-        '/docs/',
-      ]
-    }
+  themeConfig: {
+    sidebar: ["/", "/docs/"]
   }
+};
 ```
 
 Puis dans le fichier `docs/README.md` vous allez entrer:
 
-``` md
+```md
 // docs/README.md
+
 # Un premier document
 
 Voici mon premier document
-
 ```
 
 Pour info, mais vous avez du comprendre, la première ligne indique juste le nom du fichier, et ne doit pas être copiée :)
 
 Une fois ces fichiers enregistrés, dans le terminal, nous allons relancer le serveur:
 
-``` bash
+```bash
 vuepress dev
 ```
 

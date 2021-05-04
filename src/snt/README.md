@@ -2,10 +2,11 @@
 title: SNT Sciences Numériques et Technologie
 description: Thèmes
 ---
+
 ![Cover Image](https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1562052876/nebulae-1199180_1920.jpg)
 
 :::tip Programme officiel
-L'enseignement de sciences numériques et technologie en classe de seconde a pour objet de 
+L'enseignement de sciences numériques et technologie en classe de seconde a pour objet de
 permettre d'appréhender les principaux concepts des sciences numériques, mais également de permettre
 aux élèves, à partir d'un objet technologique, de comprendre le poids croissant
 du numérique et les enjeux qui en découlent.
@@ -28,7 +29,7 @@ Consulter le cours: [Internet](/snt/internet/)
 ## Le Web
 
 :::tip Programme officiel
-Le Web (toile ou réseau) désigne un système donnant accès à un ensemble de données (page, image, son, vidéo) réliées par des liens 
+Le Web (toile ou réseau) désigne un système donnant accès à un ensemble de données (page, image, son, vidéo) réliées par des liens
 hypertextes et accessibles sur le réseau Internet.
 :::
 
@@ -36,16 +37,14 @@ Consulter le cours: [Web](/snt/web/)
 
 <a href="https://fr.statista.com/infographie/19063/nombre-de-sites-web-internet-dans-le-monde/" title="Infographie: Combien y a-t-il de sites Internet ? | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_19063_nombre_de_sites_web_internet_dans_le_monde_n.jpg" alt="Infographie: Combien y a-t-il de sites Internet ? | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> Vous trouverez plus d'infographie sur <a href="https://fr.statista.com/graphique-du-jour/">Statista</a>
 
-
 ## Les réseaux sociaux
 
 :::tip Programme officiel
-Les réseaux sociaux sont des applications basées sur les technologies du Web qui offrent un service 
+Les réseaux sociaux sont des applications basées sur les technologies du Web qui offrent un service
 de mise en relation d'internautes pour ainsi développer des communautés d'intérêts.
 :::
 
 <a href="https://fr.statista.com/infographie/18995/temps-moyen-passe-sur-les-reseaux-sociaux-par-pays/" title="Infographie: Où passe-t-on le plus de temps sur les réseaux sociaux ? | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_18995_temps_moyen_passe_sur_les_reseaux_sociaux_par_pays_n.jpg" alt="Infographie: Où passe-t-on le plus de temps sur les réseaux sociaux ? | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> Vous trouverez plus d'infographie sur <a href="https://fr.statista.com/graphique-du-jour/">Statista</a>
-
 
 ## Les données structurées et leur traitement
 
@@ -75,6 +74,3 @@ Embarquer l'informatique dans les objets a beaucoup d'avantages: simplifier leur
 :::tip Programme officiel
 Les technologies de la photographie argentique ont eu une évolution très lente, liée aux progrès en optique, mécanique et chimie. Ce n'est plus du tout le cas de l'évolution actuelle, davantage due aux algorithmes qu'à la physique: algorithmes de développement et d'amélioration de l'image brute, algortihmes d'aide à la prise de vue...
 :::
-
-
-

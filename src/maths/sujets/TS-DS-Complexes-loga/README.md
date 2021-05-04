@@ -4,7 +4,6 @@ author: David Couronné
 title: TS DS Complexes Loga
 ---
 
-
 :::exercice Exercice 1: Les complexes sont nos amis 5.5 points
 
 Le plan est muni d'un repère orthonormé
@@ -463,7 +462,7 @@ encore $\text{O}A_3 = \cos \frac{\pi}{6}\text{O}A_2$.
 
 ![image](./TS-Complexes-Loga-3.jpg)
 
-*Remarque* :
+_Remarque_ :
 
 Puisque que pour tout naturel $n$,
 O$A_{n+1} = \cos \frac{\pi}{6} \text{O}A_n$, le point $A_{n+}$ est la
@@ -490,10 +489,10 @@ $$z_n = 8 \times \left(\dfrac{\sqrt{3}}{2}\right)^n \text{e}^{- \text{i}\frac{n\
 
 <ClientOnly><Solution>
 
-*Initialisation* $z_0 = 8 \times 1 \times 1 = 8$ donc la propriété est
+_Initialisation_ $z_0 = 8 \times 1 \times 1 = 8$ donc la propriété est
 vraie pour $n=0$.
 
-*Hérédité* : On suppose que pour $n \geqslant 0$,
+_Hérédité_ : On suppose que pour $n \geqslant 0$,
 $z_n=8 \times \left( \dfrac{\sqrt{3}}{2} \right)^n \text{e}^{-\text{i} \frac{n\pi}{6}}$
 et on va montrer que
 
@@ -501,12 +500,12 @@ $z_{n+1} = 8 \times \left( \dfrac{\sqrt{3}}{2} \right)^{n+1} \text{e}^{-\text{i}
 
 On a
 $z_{n+1}= \dfrac{\sqrt{3}}{2} z_n= \dfrac{\sqrt{3}}{2}\text{e}^{-\text{i} \frac{\pi}{6}} \times 8\times \left( \dfrac{\sqrt{3}}{2} \right)^n \text{e}^{-\text{i} \frac{n\pi}{6}}$
-*(par hypothèse de récurrence)*.
+_(par hypothèse de récurrence)_.
 
 Donc
 $z_{n+1}=8 \times \left( \dfrac{\sqrt{3}}{2} \right)^{n+1} \text{e}^{-\text{i} \frac{(n+1)\pi}{6}}$
-*(en utilisant la propriété $a^n \times a = a^{n+1}$ pour tout nombre
-réel $a$)* .
+_(en utilisant la propriété $a^n \times a = a^{n+1}$ pour tout nombre
+réel $a$)_ .
 
 Donc la propriété est héréditaire.
 

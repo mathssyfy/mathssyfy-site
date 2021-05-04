@@ -3,7 +3,8 @@ title: "Démarrer en HTML Partie 1 \U0001F389"
 date: 2019-05-24
 post: true
 ---
-> *Prérequis* : [Visual Studio Code](/visual-studio-code) est installé sur votre poste
+
+> _Prérequis_ : [Visual Studio Code](/visual-studio-code) est installé sur votre poste
 
 ## Environnement de travail
 
@@ -32,11 +33,9 @@ Par conséquent, `<!DOCTYPE html>` doit être défini correctement chaque fois q
 
 L'élément suivant requis est l'élément `<html>`:
 
-``` html
+```html
 <!DOCTYPE html>
-<html>
-
-</html>
+<html></html>
 ```
 
 Cet élément est vraiment important, car les balises d'ouverture `<html>` et de fermeture `</html>` enveloppent tout le code dans notre fichier .html. Autrement dit: tout le code HTML que vous écrivez doit être écrit entre ces deux balises.
@@ -48,9 +47,7 @@ Un nouvel élément: `<head>`
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-
-   </head>
+  <head> </head>
 </html>
 ```
 
@@ -63,9 +60,9 @@ Ajoutons un élément `<meta>`:
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta>
-   </head>
+  <head>
+    <meta />
+  </head>
 </html>
 ```
 
@@ -76,9 +73,9 @@ Un exemple général serait celui-ci, l'encodage:
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-   </head>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
 </html>
 ```
 
@@ -91,10 +88,10 @@ En plus de l'élément `<meta>`, nous pourrions également ajouter un élément 
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <title>Notre première page Web</title>
-   </head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Notre première page Web</title>
+  </head>
 </html>
 ```
 
@@ -103,63 +100,61 @@ Il suffit d'ouvrir le fichier index.html dans le navigateur pour voir l'effet !
 C'était facile non? En ajoutant simplement l'élément `<title>`, nous avons ajouté ce texte sous le nom de notre onglet, ce qui est plutôt sympa. Et nous comprenons également pourquoi l'élément est ajouté dans le `<head>` et ne fait pas partie du contenu réel de la page (il ne s'agit que du nom de l'onglet, rien n'est affiché sur notre site Web jusqu'à présent).
 
 Avec cela, nous avons également ajouté des éléments centraux à notre `<head>`. Bien sûr, nous pourrions ajouter des éléments supplémentaires, et nous le ferons également tout au long de ce cours, mais passons maintenant au contenu réel de notre site Web.
-  
+
 ## La balise body
-  
+
 Tout comme `<head>` englobe tous les éléments qui incluent des méta-informations, `<body>` est l’élément enveloppant de tout le contenu de notre fichier .html:
 
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <title>Notre première page Web</title>
-   </head>
-   <body>
-
-   </body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Notre première page Web</title>
+  </head>
+  <body></body>
 </html>
 ```
 
 Alors que nous ajoutons continuellement des éléments à notre code, sans vraiment comprendre ce que sont les éléments et leur fonctionnement, nous devrions plonger dans la théorie avant de continuer.
 
 Généralement, nous pouvons distinguer les éléments **sémantiques** des éléments **non sémantiques** en HTML. Alors que les éléments sémantiques incluent des informations pour le navigateur - par exemple `<p>` indique que nous voulons ajouter un paragraphe à cette position - les éléments non sémantiques n'incluent pas ces informations supplémentaires. Par conséquent, ces derniers sont uniquement destinés à ajouter une structure supplémentaire au code au cas où les éléments sémantiques existants ne seraient pas suffisants.
-  
+
 Quelques exemples:
 
-+ *Sémantiques* : p, h1, head, body, footer, ...
-+ *Non sémantiques* : div, span, ...
+- _Sémantiques_ : p, h1, head, body, footer, ...
+- _Non sémantiques_ : div, span, ...
 
 > Assurez-vous de consulter le [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) pour en savoir plus sur les différents éléments disponibles en HTML.
 
 ## Créer notre premier site Web
 
 Commençons par le `<header>` . Comme expliqué dans la dernière section de cet article, nous allons ajouter cet élément uniquement pour la sémantique. Pour le contenu, nous devons ajouter un autre élément, par exemple `<h1>`:
-  
+
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <title>Notre première page Web</title>
-   </head>
-   <body>
-      <header>
-         <h1>Le monde de Gerflor</h1>
-      </header>
-   </body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Notre première page Web</title>
+  </head>
+  <body>
+    <header>
+      <h1>Le monde de Gerflor</h1>
+    </header>
+  </body>
 </html>
 ```
 
 > **Important:**
-Bien que l'élément `<h1>` soit livré avec un style par défaut et spécial (taille de police en caractères gras et plus gros), le style de notre site Web ne doit pas être basé sur des éléments HTML. Pour ce faire, nous utiliserons CSS (Cascading Style Sheets).
+> Bien que l'élément `<h1>` soit livré avec un style par défaut et spécial (taille de police en caractères gras et plus gros), le style de notre site Web ne doit pas être basé sur des éléments HTML. Pour ce faire, nous utiliserons CSS (Cascading Style Sheets).
 
 Pour nous, l'élément `<h1>` nous aide simplement à identifier rapidement le titre actuel de notre code comme `<h1>`, `<h2>`,…, `<h6>` sont généralement utilisés pour indiquer les différents [titres](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements) d'un site Web.
 
 La prochaine chose dont nous avons besoin est notre barre de navigation. En tant qu’éléments d’emballage, nous utiliserons `<nav>`, les éléments de navigation seront créés par une liste non ordonnée (`<ul>`). Une alternative serait une liste ordonnée (`<ol>`).
 
 L’utilisation de `<ul>` ajoutera des puces à chaque élément, `<ol>` ordonnera les éléments de 1-x, c’est la différence principale.
-  
+
 L'utilisation de listes est assez courante pour créer de telles barres de navigation, nous allons donc suivre cette approche. Assurez-vous de placer chaque élément de la liste entre les balises d'ouverture `<li>` et de fermeture `</li>`.
 
 Du point de vue du code, nous devrions être à l'état suivant maintenant:
@@ -167,50 +162,50 @@ Du point de vue du code, nous devrions être à l'état suivant maintenant:
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <title>Notre première page Web</title>
-   </head>
-   <body>
-      <header>
-         <h1>Le monde de Gerflor</h1>
-      </header>
-     <nav>
-         <ul>
-            <li>Accueil</li>
-            <li>Contact</li>
-         </ul>
-     </nav>
-   </body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Notre première page Web</title>
+  </head>
+  <body>
+    <header>
+      <h1>Le monde de Gerflor</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>Accueil</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </body>
 </html>
 ```
 
 Il est temps de passer à autre chose et de créer la section `<main>`. Suivant notre structure précédemment appliquée, nous utiliserons `<main>` pour indiquer la section principale de notre site Web. Pour le contenu actuel, nous utiliserons quelques paragraphes:
-  
+
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <title>Notre première page Web</title>
-   </head>
-   <body>
-      <header>
-         <h1>Le monde de Gerflor</h1>
-      </header>
-     <nav>
-         <ul>
-            <li>Accueil</li>
-            <li>Contact</li>
-         </ul>
-     </nav>
-     <main>
-         <p>Mon voyage dans la Beauce</p>
-         <p>Le meilleur camping du Havre</p>
-         <p>Une photo d'un chat rigolo</p>
-         <p>La vie des cailloux en milieu aquatique</p>
-     </main>
-   </body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Notre première page Web</title>
+  </head>
+  <body>
+    <header>
+      <h1>Le monde de Gerflor</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>Accueil</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <main>
+      <p>Mon voyage dans la Beauce</p>
+      <p>Le meilleur camping du Havre</p>
+      <p>Une photo d'un chat rigolo</p>
+      <p>La vie des cailloux en milieu aquatique</p>
+    </main>
+  </body>
 </html>
 ```
 
@@ -219,31 +214,31 @@ Ajouter le `<footer>` terminera le contenu réel de notre site Web. Le pied de p
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <title>Notre première page Web</title>
-   </head>
-   <body>
-      <header>
-         <h1>Le monde de Gerflor</h1>
-      </header>
-     <nav>
-         <ul>
-            <li>Accueil</li>
-            <li>Contact</li>
-         </ul>
-     </nav>
-     <main>
-         <p>Mon voyage dans la Beauce</p>
-         <p>Le meilleur camping du Havre</p>
-         <p>Une photo d'un chat rigolo</p>
-         <p>La vie des cailloux en milieu aquatique</p>
-     </main>
-     <footer>
-         <p>Image1 - Quelle belle image !</p>
-         <p>Image2 - Bof...</p>
-      </footer>
-   </body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Notre première page Web</title>
+  </head>
+  <body>
+    <header>
+      <h1>Le monde de Gerflor</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>Accueil</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <main>
+      <p>Mon voyage dans la Beauce</p>
+      <p>Le meilleur camping du Havre</p>
+      <p>Une photo d'un chat rigolo</p>
+      <p>La vie des cailloux en milieu aquatique</p>
+    </main>
+    <footer>
+      <p>Image1 - Quelle belle image !</p>
+      <p>Image2 - Bof...</p>
+    </footer>
+  </body>
 </html>
 ```
 

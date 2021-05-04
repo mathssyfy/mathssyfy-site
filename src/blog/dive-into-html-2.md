@@ -3,7 +3,8 @@ title: "Démarrer en HTML Partie 2 \U0001F389"
 date: 2019-05-25
 post: true
 ---
-> *Prérequis* : Avoir lu la [partie 1](/demarrer-en-html-partie-1)
+
+> _Prérequis_ : Avoir lu la [partie 1](/demarrer-en-html-partie-1)
 
 ## Ajouter une image
 
@@ -20,7 +21,7 @@ Pour l'exemple cherchons une image de chat rigolo. ![Chat rigolo](https://res.cl
 Quand vous trouvez une image qui vous intéresse, il vous suffit de copier l'adresse de l'image avec un clic-droit, puis:
 
 ```html
-<img src="adresse de l'image à coller ici" alt="texte à alternatif">
+<img src="adresse de l'image à coller ici" alt="texte à alternatif" />
 ```
 
 Dans le fichier complet, ça donne:
@@ -28,34 +29,37 @@ Dans le fichier complet, ça donne:
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <title>Notre première page Web</title>
-   </head>
-   <body>
-      <header>
-         <h1>Le monde de Gerflor</h1>
-      </header>
-     <nav>
-         <ul>
-            <li>Accueil</li>
-            <li>Contact</li>
-         </ul>
-     </nav>
-     <main>
-         <p>Mon voyage dans la Beauce</p>
-         <p>Le meilleur camping du Havre</p>
-         <p>Une photo d'un chat rigolo <img
-                                          src="https://res.cloudinary.com/dpw19qolx/image/upload/v1549194479/samples/animals/kitten-playing.gif"
-                                          alt="chat rigolo">
-       </p>
-         <p>La vie des cailloux en milieu aquatique</p>
-     </main>
-     <footer>
-         <p>Image1 - Quelle belle image !</p>
-         <p>Image2 - Bof...</p>
-      </footer>
-   </body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Notre première page Web</title>
+  </head>
+  <body>
+    <header>
+      <h1>Le monde de Gerflor</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>Accueil</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <main>
+      <p>Mon voyage dans la Beauce</p>
+      <p>Le meilleur camping du Havre</p>
+      <p>
+        Une photo d'un chat rigolo
+        <img
+          src="https://res.cloudinary.com/dpw19qolx/image/upload/v1549194479/samples/animals/kitten-playing.gif"
+          alt="chat rigolo"
+        />
+      </p>
+      <p>La vie des cailloux en milieu aquatique</p>
+    </main>
+    <footer>
+      <p>Image1 - Quelle belle image !</p>
+      <p>Image2 - Bof...</p>
+    </footer>
+  </body>
 </html>
 ```
 
@@ -74,15 +78,15 @@ Pour simplifier, nous allons mettre une image dans ce dossier que nous allons re
 Pour l'insérer dans notre site:
 
 ```html
-<img src="./img/image1.jpg" alt="Une image">
+<img src="./img/image1.jpg" alt="Une image" />
 ```
 
 > Pratique: l'auto-complétion des chemins pour insérer une image par exemple:
 
 ![Auto Img](./images/vscode-auto-img.gif)
 
-> `./img/image1.jpg` est un chemin **relatif**. Tous les chemins doivent être relatifs, pas *absolus*.
-Il faut de plus respecter la *casse*, c'est-à-dire les majuscules et les minuscules.
+> `./img/image1.jpg` est un chemin **relatif**. Tous les chemins doivent être relatifs, pas _absolus_.
+> Il faut de plus respecter la _casse_, c'est-à-dire les majuscules et les minuscules.
 
 Vous pouvez mettre cette image à l'endroit que vous souhaitez. Faites plusieurs essais 😸
 
@@ -113,35 +117,39 @@ Notre fichier principal devrait alors ressembler à:
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <title>Notre première page Web</title>
-   </head>
-   <body>
-      <header>
-         <h1>Le monde de Gerflor</h1>
-      </header>
-     <nav>
-         <ul>
-            <li>Accueil</li>
-            <li><a href="contact/index.html">Contact</a></li>
-         </ul>
-     </nav>
-     <main>
-         <p>Mon voyage dans la Beauce</p>
-         <p>Le meilleur camping du Havre</p>
-         <p>Une photo d'un chat rigolo <img
-                                          src="https://res.cloudinary.com/dpw19qolx/image/upload/v1549194479/samples/animals/kitten-playing.gif"
-                                          alt="chat rigolo">
-       </p>
-         <p>La vie des cailloux en milieu aquatique</p> <img src="./img/image1.jpg" alt="Une image">
-     </main>
-     <footer>
-         <p>Image1 - Quelle belle image !</p>
-         <img src="./img/image1.jpg" alt="">
-         <p>Image2 - Bof...</p>
-      </footer>
-   </body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Notre première page Web</title>
+  </head>
+  <body>
+    <header>
+      <h1>Le monde de Gerflor</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>Accueil</li>
+        <li><a href="contact/index.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <p>Mon voyage dans la Beauce</p>
+      <p>Le meilleur camping du Havre</p>
+      <p>
+        Une photo d'un chat rigolo
+        <img
+          src="https://res.cloudinary.com/dpw19qolx/image/upload/v1549194479/samples/animals/kitten-playing.gif"
+          alt="chat rigolo"
+        />
+      </p>
+      <p>La vie des cailloux en milieu aquatique</p>
+      <img src="./img/image1.jpg" alt="Une image" />
+    </main>
+    <footer>
+      <p>Image1 - Quelle belle image !</p>
+      <img src="./img/image1.jpg" alt="" />
+      <p>Image2 - Bof...</p>
+    </footer>
+  </body>
 </html>
 ```
 
@@ -150,21 +158,21 @@ Dans notre page de contact, nous allons faire un lien vers la page principale:
 ```html
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-      <title>Notre page de contact</title>
-   </head>
-   <body>
-      <header>
-         <h1>Le monde de Gerflor</h1>
-      </header>
-     <nav>
-         <ul>
-            <li><a href="../index.html">Accueil</a></li>
-           <li>Contact</li>
-         </ul>
-     </nav>
-   </body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Notre page de contact</title>
+  </head>
+  <body>
+    <header>
+      <h1>Le monde de Gerflor</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Accueil</a></li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </body>
 </html>
 ```
 
@@ -179,7 +187,7 @@ Nous pouvons de la même façon créer des liens vers un site existant, par exem
 Nous avons utilisé:
 
 ```html
-<a href="../index.html">
+<a href="../index.html"></a>
 ```
 
 Dans `../index.html` les deux points du début signifient que l'on remonte dans l'arborescence du site.

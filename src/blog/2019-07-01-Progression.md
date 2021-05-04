@@ -6,59 +6,53 @@ sidebar: auto
 date: 2019-07-01
 post: true
 tags:
-- mathématiques
-- premières spécialité
-- ressources
+  - mathématiques
+  - premières spécialité
+  - ressources
 image: https://res.cloudinary.com/dpw19qolx/image/upload/t_cover-image/v1561984028/evgeny-nelmin-COcfjOZMJIw-unsplash.jpg
-
----
-# PROGRESSION SPECIALITE PREMIERE sans les approfondissements
+---# PROGRESSION SPECIALITE PREMIERE sans les approfondissements
 
 ## Chapitre 1 : SECOND DEGRE
 
 - **Durée**: 3 semaines
 - **Contenus**:
-    - Fonction polynôme du second degré donnée sous forme factorisée. Racines, signe, expression de la somme et du produit des racines.
-    - Forme canonique d’une fonction polynôme du second degré. Discriminant. Factorisation éventuelle. Résolution d’une équation du second degré. Signe.
-- **Capacités attendues**: 
-    - Étudier le signe d’une fonction polynôme du second degré donnée sous forme factorisée.
-    - Déterminer les fonctions polynômes du second degré s’annulant en deux nombres réels distincts.
-    - Factoriser une fonction polynôme du second degré, en diversifiant les stratégies: racine évidente, détection des racines par leur somme et leur produit, identité remarquable, application des formules générales.−Choisir une forme adaptée (développée réduite, canonique, factorisée) d’une fonction polynôme du second degré dans le cadre de la résolution d’un problème (équation, inéquation, optimisation, variations).
+  - Fonction polynôme du second degré donnée sous forme factorisée. Racines, signe, expression de la somme et du produit des racines.
+  - Forme canonique d’une fonction polynôme du second degré. Discriminant. Factorisation éventuelle. Résolution d’une équation du second degré. Signe.
+- **Capacités attendues**:
+  - Étudier le signe d’une fonction polynôme du second degré donnée sous forme factorisée.
+  - Déterminer les fonctions polynômes du second degré s’annulant en deux nombres réels distincts.
+  - Factoriser une fonction polynôme du second degré, en diversifiant les stratégies: racine évidente, détection des racines par leur somme et leur produit, identité remarquable, application des formules générales.−Choisir une forme adaptée (développée réduite, canonique, factorisée) d’une fonction polynôme du second degré dans le cadre de la résolution d’un problème (équation, inéquation, optimisation, variations).
 - **Démonstrations**
-    - Résolution de l’équation du second degré.
-    - Déterminer l’axe de symétrie et le sommet d’une parabole d’équation $y=ax^2+bx+c$
+  - Résolution de l’équation du second degré.
+  - Déterminer l’axe de symétrie et le sommet d’une parabole d’équation $y=ax^2+bx+c$
 
 :::warning Remarques
 Les élèves doivent savoir qu’une fonction polynôme du second degré admet une forme canonique, et être capables de la déterminer **dans des cas simples** à l’aide de l’identité $x^2+2ax=(x+a)^2-a^2$ (méthode de complétion du carré). Le calcul effectif de la forme canonique dans le cas général n’est pas un attendu du programme. Les élèves sont entraînés à reconnaître et pratiquer la factorisation directe dans les cas qui s’y prêtent: racines apparentes, coefficient de x nul, racines entières détectées par calcul mental à partir de leur somme et de leur produit.
 :::
 
 - **Algorithmes**:
-    - Résolution de l’équation du second degré. 
-    - Calculatrice + Python
-- **Histoire**: 
-    - On trouve chez Diophante, puis chez Al-Khwârizmî, des méthodes de résolutions d’équations du second degré. Le travail novateur d’Al-Khwârizmî reste en partie tributaire de la tradition (utilisation de considérations géométriques équivalentes à la forme canonique) et de l'état alors embryonnaire de la notation algébrique, ainsi que de l’absence des nombres négatifs. Les méthodes actuelles sont un aboutissement de ce long cheminement vers un formalisme efficace et concis
+  - Résolution de l’équation du second degré.
+  - Calculatrice + Python
+- **Histoire**:
+  - On trouve chez Diophante, puis chez Al-Khwârizmî, des méthodes de résolutions d’équations du second degré. Le travail novateur d’Al-Khwârizmî reste en partie tributaire de la tradition (utilisation de considérations géométriques équivalentes à la forme canonique) et de l'état alors embryonnaire de la notation algébrique, ainsi que de l’absence des nombres négatifs. Les méthodes actuelles sont un aboutissement de ce long cheminement vers un formalisme efficace et concis
 
-## Chapitre 2 :  SUITES NUMERIQUES GENERALITES
+## Chapitre 2 : SUITES NUMERIQUES GENERALITES
 
 - **Durée**: 2 semaines
 - **Contenus**:
-    - Exemples de modes de génération d’une suite: explicite $u_n=f(n)$, par une relation de récurrence $u_{n+1}=f(u_n)$, par un algorithme, par des motifs géométriques. Notations: $u(n)$, $u_n$, $(u(n))$, $(u_n)$.
-    - Sur des exemples, introduction intuitive de la notion de limite, finie ou infinie, d’une suite.
+  - Exemples de modes de génération d’une suite: explicite $u_n=f(n)$, par une relation de récurrence $u_{n+1}=f(u_n)$, par un algorithme, par des motifs géométriques. Notations: $u(n)$, $u_n$, $(u(n))$, $(u_n)$.
+  - Sur des exemples, introduction intuitive de la notion de limite, finie ou infinie, d’une suite.
 - **Capacités attendues**:
-    - Dans le cadre de l’étude d’une suite, utiliser le registre de la langue naturelle, le registre algébrique, le registre graphique, et passer de l’un à l’autre.
-    - Proposer, modéliser une situation permettant de générer une suite de nombres. Déterminer une relation explicite ou une relation de récurrence pour une suite définie par un motif géométrique, par une question de dénombrement.
-    - Calculer des termes d’une suite définie explicitement, par récurrence ou par un algorithme.
+  - Dans le cadre de l’étude d’une suite, utiliser le registre de la langue naturelle, le registre algébrique, le registre graphique, et passer de l’un à l’autre.
+  - Proposer, modéliser une situation permettant de générer une suite de nombres. Déterminer une relation explicite ou une relation de récurrence pour une suite définie par un motif géométrique, par une question de dénombrement.
+  - Calculer des termes d’une suite définie explicitement, par récurrence ou par un algorithme.
 - **Algorithmes**:
-    - Calcul de termes d’une suite, de sommes de termes, de seuil.
-    - Calcul de factorielle.
-    - Liste des premiers termes d’une suite: suites de Syracuse, suite de Fibonacci.
-    - Calculatrice et listes Python.
+  - Calcul de termes d’une suite, de sommes de termes, de seuil.
+  - Calcul de factorielle.
+  - Liste des premiers termes d’une suite: suites de Syracuse, suite de Fibonacci.
+  - Calculatrice et listes Python.
 - **Histoire**:
-    - Bien avant de faire l’objet d'une étude formalisée, les suites apparaissent dans deux types de situations:approximation de nombres réels (encadrement deπpar Archimède, calcul de la racine carrée chez Héron d'Alexandrie);problèmes de comptage (les lapins de Fibonacci...).Les problèmes décrits dans les livres de Fibonacci, ou chez les savants arabes qui le précèdent, se modélisent avec des suites. Oresme calcule des sommes de termes de suites géométriques au XIVesiècle.
-
-
-
-
+  - Bien avant de faire l’objet d'une étude formalisée, les suites apparaissent dans deux types de situations:approximation de nombres réels (encadrement deπpar Archimède, calcul de la racine carrée chez Héron d'Alexandrie);problèmes de comptage (les lapins de Fibonacci...).Les problèmes décrits dans les livres de Fibonacci, ou chez les savants arabes qui le précèdent, se modélisent avec des suites. Oresme calcule des sommes de termes de suites géométriques au XIVesiècle.
 
 <table>
 <thead>

@@ -1,7 +1,5 @@
 # Utiliser katex
 
-
-
 ::: tip Avertissement
 Nous allons utiliser le plugin markdown-it-katex, basé sur katex, qui permet d'utiliser une syntaxe équivalente à LaTeX dans les fichiers Markdown.
 
@@ -15,20 +13,20 @@ yarn add markdown-it-katex
 ```
 
 Dans le fichier `config.js`, nous avons deux paramètres à ajouter:
+
 ```javascript
 markdown: {
-    config: md => {
-      var mk = require('markdown-it-katex');
-      md.use(mk);
-    }
-  }
-
+  config: md => {
+    var mk = require("markdown-it-katex");
+    md.use(mk);
+  };
+}
 ```
 
 et
 
 ```javascript
-head: [   
+head: [
     ['link', {rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"}],
   ],
 ```
@@ -52,7 +50,7 @@ module.exports = {
         md.use(mk);
       }
     }
-  } 
+  }
 ```
 
 ## LaTeX et katex
@@ -60,12 +58,11 @@ module.exports = {
 ```markdown
 Maths en ligne: $\sqrt{2}$
 
-Maths centrés: 
+Maths centrés:
 $$\lim_{x \to +\infty} \frac{e^x}{x} = +\infty$$
 ```
 
 Maths en ligne: $\sqrt{2}$
 
-Maths centrés: 
+Maths centrés:
 $$\lim_{x \to +\infty} \frac{e^x}{x} = +\infty$$
-

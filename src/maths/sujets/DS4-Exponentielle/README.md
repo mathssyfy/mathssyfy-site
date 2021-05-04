@@ -7,10 +7,11 @@ title: TS DS 4 Fonction Exponentielle
 # Devoir surveillé 4
 
 ## Exercice 1 Fonction exponentielle 12 points
+
 **Partie A**
 
 Soit $g$ la fonction définie et dérivable sur $\R$ telle que,
- pour tout réel $x$, $g(x) = - 2x^3 + x^2 - 1.$
+pour tout réel $x$, $g(x) = - 2x^3 + x^2 - 1.$
 
 1.
 
@@ -24,7 +25,7 @@ $g'(x)=-6x^2+2x = 2x(-3x+1)$
 ![Image](./figure1.svg)
 
 Donc la fonction $g$ est strictement décroissante sur $\left ] -\infty\,,\,0\right ]$, strictement croissante sur $\left [ 0\,,\, \frac{1}{3}\right ]$,
- et strictement décroissante sur $\left [ \frac{1}{3}\,,\,+\infty\right [$.
+et strictement décroissante sur $\left [ \frac{1}{3}\,,\,+\infty\right [$.
 </Solution>
 
 b) Déterminer les limites de la fonction $g$ en $- \infty$ et en $+ \infty$.
@@ -71,7 +72,7 @@ On déduit également du tableau que $g(x)>0$ sur $\left] -\infty\,,\,\alpha\rig
 **Partie B**
 
 Soit $f$ la fonction définie et dérivable sur $\R$ telle que,
- pour tout réel $x$,$f(x) = \left(1 + x + x^2 + x^3\right)\text{e}^{-2x + 1}.$
+pour tout réel $x$,$f(x) = \left(1 + x + x^2 + x^3\right)\text{e}^{-2x + 1}.$
 
 On note $f'$ la fonction dérivée de la fonction $f$ sur $\R$.
 
@@ -125,8 +126,8 @@ Vérifier que, pour tout réel $x$,\: $4x^3\text{e}^{-2x + 1} = \dfrac{\text{e}}
 
 
 <ClientOnly><Solution>
-
 $$
+
 \begin{matrix}
 e^{-2x+1} = e^{-2x} \times e^{1} = e e^{-2x}\\
 4x^3 = \dfrac{8x^3}{2} = \dfrac{1}{2} \left (2x\right )^3
@@ -134,9 +135,10 @@ e^{-2x+1} = e^{-2x} \times e^{1} = e e^{-2x}\\
 \right\rbrace
 \implies
 4x^3e^{-2x + 1} = \dfrac{e}{2} (2x)^3e^{-2x}
-$$
 
 $$
+$$
+
 \begin{matrix}
 \displaystyle\lim*{x\to +\infty} 2x = +\infty\\
 \text{On pose } X = 2x\\
@@ -147,6 +149,7 @@ $$
 \displaystyle\lim*{x\to +\infty} (2x)^3 e^{-2x} = 0
 \iff
 \displaystyle\lim*{x\to +\infty} 4x^3 e^{-2x+1} = 0
+
 $$
 </Solution>
 
@@ -222,13 +225,16 @@ $p(\text{E}) = 1 - p\left(\overline{E}\right) = \dfrac{1}{4}$.
 
 Sur les 225 personnes empruntant l'ascenseur la répartition 50, 75, 100 suivant les étages conduit à :
 $$
-p_{\overline{E}}\left(N_{1}\right) = \dfrac{50}{225} = \dfrac{2}{9}, \quad p_{\overline{E}}\left(N_{2}\right) = \dfrac{75}{225} = \dfrac{3}{9}, \quad p_{\overline{E}}\left(N_{3}\right) = \dfrac{100}{225} = \dfrac{4}{9}
+
+p*{\overline{E}}\left(N*{1}\right) = \dfrac{50}{225} = \dfrac{2}{9}, \quad p*{\overline{E}}\left(N*{2}\right) = \dfrac{75}{225} = \dfrac{3}{9}, \quad p*{\overline{E}}\left(N*{3}\right) = \dfrac{100}{225} = \dfrac{4}{9}
+
 $$
 Sur les 75 personnes empruntant l'escalier, on obtient de même :
 $$
-p_{E}\left(N_{1}\right) = \dfrac{1}{3}, \quad p_{E}\left(N_{2}\right) = \dfrac{2}{3}, \quad p_{E}\left(N_{3}\right) = \dfrac{0}{3}
-$$
 
+p*{E}\left(N*{1}\right) = \dfrac{1}{3}, \quad p*{E}\left(N*{2}\right) = \dfrac{2}{3}, \quad p*{E}\left(N*{3}\right) = \dfrac{0}{3}
+
+$$
 ![Image](./figure3.svg)
 
 </Solution>
@@ -387,5 +393,4 @@ Eventuellement : L'algo 1 donne la solution:12
 
 Conclusion : sur 12 personnes, au moins une va au niveau 2 avec une probabilité supérieure ou égale à $0,99$.
 </Solution>
-
-
+$$

@@ -15,6 +15,7 @@ Nous allons commencer par générer les icones et le manifeste.
 ## Générer le manifeste
 
 Déjà, il nous faut une image (ou icone) pour l'installation. Là c'est un peu comme vous voulez:
+
 - Paint c'est pas mal
 - Pour ma part j'ai utilisé [editor.method.ac](https://editor.method.ac/). Très basique..
 
@@ -23,7 +24,6 @@ Ensuite, il nous faut convertir cette image (ou icone) en plein de formats diff�
 Convertisseur d'images en icones d'installation: [FaviconConverter](https://favicon.io/favicon-converter/)
 
 Ce site permet en plus d'avoir un fichier manifeste qu'il ne reste plus qu'à configurer un peu !
-
 
 ```json
 {
@@ -54,7 +54,7 @@ Nous allons voir que faire de tous ces fichiers !
 
 ### Installer le plugin PWA
 
-Il faut d'abord installer le plugin  @vuepress/plugin-pwa
+Il faut d'abord installer le plugin @vuepress/plugin-pwa
 
 ```bash
 yarn add  @vuepress/plugin-pwa -D
@@ -63,7 +63,6 @@ yarn add  @vuepress/plugin-pwa -D
 ### Installer le manifeste et les icones
 
 Les fichiers `manifest.json` et `favicon.ico` sont à placer dans le dossier `.vuepress/public/`
-
 
 Ensuite il faut créer un dossier `.vuepress/public/images/icons` dans lequel vous allez mettre les différentes icones générées.
 
@@ -77,32 +76,24 @@ Dans le fichier `config.js` du dossier `.vuepress`:
 
 ```js
 module.exports = {
-  
   head: [
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
-  ],  
-      
-  plugins: [
-    ['@vuepress/pwa', {
-      serviceWorker: true,
-      updatePopup: true
-    }],
-    ['sitemap', { hostname: 'https://www.monsite.fr/' },],
-    
+    ["link", { rel: "manifest", href: "/manifest.json" }],
+    ["link", { rel: "icon", href: "/favicon.ico" }]
   ],
-  
-}
+
+  plugins: [
+    [
+      "@vuepress/pwa",
+      {
+        serviceWorker: true,
+        updatePopup: true
+      }
+    ],
+    ["sitemap", { hostname: "https://www.monsite.fr/" }]
+  ]
+};
 ```
 
 ### Tester
 
 Déployer le site, puis l'ouvrir avec Google Chrome. Normalement, il devrait être possible de l'installer !
-
-
-
-
-
-
-
-

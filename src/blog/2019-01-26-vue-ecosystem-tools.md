@@ -5,17 +5,16 @@ post: true
 title: Vue ecosystem Tools
 description: Tools for Vue, Vuepress, Nuxt, Gridsome
 tags:
-- gridsome
-- nuxt
-- vuepress
-- vue
-image: ''
+  - gridsome
+  - nuxt
+  - vuepress
+  - vue
+image: ""
 sidebar: auto
-
----
-## Cli
+---## Cli
 
 ### Vue CLI 3
+
 [Vue CLI 3](https://cli.vuejs.org/)
 
 ```bash
@@ -29,11 +28,13 @@ vue ui
 ```
 
 Creating project:
+
 ```bash
 vue create hello-world
 ```
 
-Commands: 
+Commands:
+
 ```bash
 vue serve
 vue build
@@ -52,12 +53,10 @@ gridsome create my-gridsome-site
 ```
 
 Issue: if process stop at etape 3:
+
 1. CTRL+C
 2. `cd my-gridsome-site`
 3. `yarn upgrade --latest`
-
-
-
 
 ```bash
 gridsome develop
@@ -67,9 +66,9 @@ gridsome build
 [Quick Start Guide](https://lobotuerto.com/blog/quickstart-guide-for-a-new-gridsome-project/)
 [Building a Blog](https://alligator.io/vuejs/gridsome-list-posts/)
 
-
 Issue with Python 3.x installed:
-``` bash
+
+```bash
 C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node
 "" rebuild )
 gyp info it worked if it ends with ok
@@ -108,15 +107,15 @@ npm install -g vuepress
 
 [Nuxt.js](https://nuxtjs.org/guide/installation)
 
-``` bash
+```bash
 npx create-nuxt-app <project-name>
 ```
 
 ## VSCode extensions
 
-+ Vetur
-+ Material Icon Theme
+- Vetur
+- Material Icon Theme
 
 ## Yarn and Lerna
 
-+ [Monorepo with Yan and Lerna](https://medium.com/trabe/monorepo-setup-with-lerna-and-yarn-workspaces-5d747d7c0e91)
+- [Monorepo with Yan and Lerna](https://medium.com/trabe/monorepo-setup-with-lerna-and-yarn-workspaces-5d747d7c0e91)

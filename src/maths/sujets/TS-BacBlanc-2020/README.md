@@ -6,7 +6,7 @@ title: TS Bac Blanc 2020
 
 ## Exercice 1: Commun à tous les candidats /5 points
 
-*Pour chacune des cinq affirmations suivantes, indiquer si elle est vraie ou fausse, en justifiant la réponse.Une réponse non justifiée n'est pas prise en compte.*
+_Pour chacune des cinq affirmations suivantes, indiquer si elle est vraie ou fausse, en justifiant la réponse.Une réponse non justifiée n'est pas prise en compte._
 
 **1.** On considère le nombre complexe $z = 1 + \text{i}\sqrt{3}$.
 
@@ -173,7 +173,7 @@ sur $\R$. Pour tout nombre réel $x$, on a :
 $$f'(x)=1-\dfrac{2x}{x^2+1}=\dfrac{x^2+1-2x}{x^2+1}=\dfrac{(x-1)^2}{x^2+1}$$
 
 La fonction $f$ est dérivable sur $\R$ et sa fonction dérivée est
-strictement positive sur $\R$, *sauf pour $x=1$* : on en déduit que $f$
+strictement positive sur $\R$, _sauf pour $x=1$_ : on en déduit que $f$
 est strictement croissante sur $\R$.
 
 $\bullet\;$Montrons $\lim_{x\to -\infty}f(x)=-\infty$ :
@@ -264,7 +264,7 @@ $u_n\in[0,1]$.
 
 $\bullet\;$ Puisque $u_0=1$, $\mathcal{P}_0$ est vraie.
 
-$\bullet\;$ Supposons vraie la propriété $\mathcal{P}_n$ pour *un* entier
+$\bullet\;$ Supposons vraie la propriété $\mathcal{P}_n$ pour _un_ entier
 naturel $n$ quelconque.
 
 On a alors : $u_n \in [0~;~1]$.
@@ -274,11 +274,13 @@ D'après la troisième question de la partie A, on en déduit :
 $$
 f(u_n)\in[0~;~1]
 $$
+
 soit :
 
 $$
 u_{n+1}\in[0~;~1]
 $$
+
 On a prouvé :
 
 $$
@@ -321,6 +323,7 @@ Par suite :
 $$
 u_n^2+1\in[1~;~2]
 $$
+
 La fonction $\ln$ est croissante sur $[1~;~+\infty[$ :
 
 De $u_n^2+1\geqslant 1$, on déduit
@@ -329,7 +332,7 @@ $\ln \left(u_n^2+1\right)\geqslant 0$.
 
 Puisque $u_{n+1} -  u_n = -\ln(u_n^2+1)\leqslant 0$, alors
 
-$$\text{La suite $u$ est décroissante }$$
+\$$\text{La suite $u$ est décroissante }$\$
 
 </Solution>
 
@@ -498,7 +501,7 @@ sécantes.
 
 ## Exercice 4: Pour les candidats n'ayant pas suivi l'enseignement de spécialité /5 points
 
-*Les parties A et B de cet exercice sont indépendantes.*
+_Les parties A et B de cet exercice sont indépendantes._
 
 Le virus de la grippe atteint chaque année, en période hivernale, une
 partie de la population d'une ville.
@@ -517,22 +520,18 @@ qui circulent. Il est donc possible de contracter la grippe tout en
 Une étude menée dans la population de la ville à l'issue de la période
 hivernale a permis de constater que :
 
--   40 % de la population est vaccinée ;
+- 40 % de la population est vaccinée ;
 
--   8 % des personnes vaccinées ont contracté la grippe ;
+- 8 % des personnes vaccinées ont contracté la grippe ;
 
--   20 % de la population a contracté la grippe.
+- 20 % de la population a contracté la grippe.
 
 On choisit une personne au hasard dans la population de la ville et on
 considère les évènements :
 
- 
+: $V$ : \<\< la personne est vaccinée contre la grippe \>\> ;
 
-:   $V$ : \<\< la personne est vaccinée contre la grippe \>\> ;
-
- 
-
-:   $G$ : \<\< la personne a contracté la grippe \>\>.
+: $G$ : \<\< la personne a contracté la grippe \>\>.
 
 **1.**
 
@@ -587,8 +586,8 @@ La probabilité qu'une personne non vaccinée ait contracté la grippe est
 
 **Partie B**
 
-*Dans cette partie, les probabilités demandées seront données à
-$10^{-3}$ près.*
+_Dans cette partie, les probabilités demandées seront données à
+$10^{-3}$ près._
 
 Un laboratoire pharmaceutique mène une étude sur la vaccination contre
 la grippe dans cette ville.
@@ -667,19 +666,21 @@ la loi de probabilité de $Z$.
 
 <ClientOnly><Solution points="/0.5">
 
--   $P(Z=0) = P(\overline{V} \cap \overline{G})= 0,432$
+- $P(Z=0) = P(\overline{V} \cap \overline{G})= 0,432$
 
--   $P(Z=30)= P(V \cap \overline{G})=0,368$
+- $P(Z=30)= P(V \cap \overline{G})=0,368$
 
--   $P(Z=120)= P(\overline{V} \cap G)=0,168$
+- $P(Z=120)= P(\overline{V} \cap G)=0,168$
 
--   $P(Z=150)= P(V \cap G)=0,032$
+- $P(Z=150)= P(V \cap G)=0,032$
 
 D'où la loi de probabilité de $Z$:
 
-   $z_i$     0      30      120     150
-  ------- ------- ------- ------- -------
-   $p_i$   0,432   0.368   0.168   0.032
+$z_i$ 0 30 120 150
+
+---
+
+$p_i$ 0,432 0.368 0.168 0.032
 
 </Solution>
 
@@ -750,8 +751,8 @@ $1 \leqslant u \leqslant 1000$ et $1 \leqslant v \leqslant 1000$.
 
 ```
 Pour u allant de 1 à ...faire
-Pour ... 
-Si ... 
+Pour ...
+Si ...
 Afficher u et v
 Fin Si
 Fin Pour
@@ -770,7 +771,7 @@ Algorithme :
   Afficher u et v                   12
   Fin Si                            70
   Fin Pour                          408
-  Fin Pour                            
+  Fin Pour
   ----------------------------------- ----------------------------
 ```
 
@@ -869,13 +870,12 @@ l'équation $(E)$.
 $$
 AX=
 \begin{pmatrix} 3&2\\ 4&3 \end{pmatrix}
-\times 
+\times
 \begin{pmatrix} u\\ v
 \end{pmatrix}
 =
 \begin{pmatrix} 3u+2v\\ 4u+3v\end{pmatrix}
 $$
-
 
 On a :
 $(4u+3v)^2-2(3u+2v)^2=16u^2+24uv+9v^2-18u^2-24uv-8v^2=v^2-2u^2=1$.
@@ -893,20 +893,20 @@ une solution de l'équation $(E)$.
 Montrons par récurrence que pour tout entier naturel $n$, $A^nX$ est une
 solution de l'équation $(E)$.
 
--   Initialisation : $n=0$.
+- Initialisation : $n=0$.
 
-    $A^0X=I_2X=X$. Et $X$ est solution de $(E)$. L'affirmation est donc
-    vraie pour $n=0$.
+  $A^0X=I_2X=X$. Et $X$ est solution de $(E)$. L'affirmation est donc
+  vraie pour $n=0$.
 
--   Soit $n \geqslant 0$ quelconque tel que $A^nX$ est une solution de
-    $(E)$.
+- Soit $n \geqslant 0$ quelconque tel que $A^nX$ est une solution de
+  $(E)$.
 
-    $A^{n+1}X=A \times A^nX$ est une solution de $(E)$ d'après la
-    question précédente.
+  $A^{n+1}X=A \times A^nX$ est une solution de $(E)$ d'après la
+  question précédente.
 
--   Conclusion : la propriété est vraie pour $n=0$ et est héréditaire
-    pour tout $n\geqslant 0$. D'après le raisonnement par récurrence, la
-    propriété est vraie pour tout $n\geqslant 0$.
+- Conclusion : la propriété est vraie pour $n=0$ et est héréditaire
+  pour tout $n\geqslant 0$. D'après le raisonnement par récurrence, la
+  propriété est vraie pour tout $n\geqslant 0$.
 
 On a donc démontré que, si $X$ est une solution de $(E)$, alors, pour
 tout entier naturel $n$, $A^nX$ est aussi une solution de $(E)$.

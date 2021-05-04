@@ -4,9 +4,8 @@ title: Vuepress bâtir un site de A à Z
 metaTitle: Les bases de l'installation de Vuepress, NodeJS, Yarn, Visual Studio Code
 lang: fr-FR
 ---
+
 # Vuepress batir un site de A à Z
-
-
 
 La documentation officielle est ici: [VuePress](https://vuepress.vuejs.org/)
 
@@ -23,10 +22,11 @@ Nous avons besoin de:
 
 1. Télécharger la dernière version de NodeJS sur le site officiel: [NodeJS](https://nodejs.org/en/)
 2. Lancer l'installation
-::: warning Attention
+   ::: warning Attention
+
 - L'installation prend du temps. Après une partie graphique, elle passe en ligne de commande. Ne pas avoir peur :)
 - L'installation nécessite un redémarrage sous Windows 10
-:::
+  :::
 
 ### Installation de yarn
 
@@ -38,7 +38,7 @@ La documentation officielle: [yarn](https://yarnpkg.com/fr/)
 
 Le plus simple est de l'installer en ligne de commande, avec privilèges administrateur:
 
-``` bash
+```bash
 choco install yarn
 ```
 
@@ -51,10 +51,6 @@ Site officiel: [Visual Studio Code](https://code.visualstudio.com/)
 
 En ligne de commande:
 
-``` sh
+```sh
 yarn global add vuepress@next
 ```
-
-
-
-

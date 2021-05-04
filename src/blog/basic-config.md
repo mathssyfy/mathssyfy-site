@@ -1,7 +1,7 @@
 ---
 title: Vuepress Basic Config
 date: 2019-06-24
-description: 'Basic config'
+description: "Basic config"
 post: true
 ---
 
@@ -22,11 +22,11 @@ Without any configuration, the page is pretty minimal, and the user has no way t
 
 The essential file for configuring a VuePress site is `.vuepress/config.js`, which should export a JavaScript object:
 
-``` js
+```js
 module.exports = {
-  title: 'Hello VuePress',
-  description: 'Just playing around'
-}
+  title: "Hello VuePress",
+  description: "Just playing around"
+};
 ```
 
 If you've got the dev server running, you should see the page now has a header with the title and a search box. VuePress comes with built-in headers-based search - it automatically builds a simple search index from the title, `h2` and `h3` headers from all the pages.
@@ -47,7 +47,7 @@ If you wish to develop a custom theme, see [Writing a theme](../theme/writing-a-
 
 Since the VuePress app is a standard Vue app, you can apply app-level enhancements by creating a file `.vuepress/enhanceApp.js`, which will be imported into the app if it is present. The file should `export default` a hook function which will receive an object containing some app-level values. You can use this hook to install additional Vue plugins, register global components, or add additional router hooks:
 
-``` js
+```js
 export default ({
   Vue, // the version of Vue being used in the VuePress app
   options, // the options for the root Vue instance
@@ -55,7 +55,7 @@ export default ({
   siteData // site metadata
 }) => {
   // ...apply enhancements to the app
-}
+};
 ```
 
 **Related:**

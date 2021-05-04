@@ -4,9 +4,7 @@ author: Karine Le Moal
 title: C9 Variables Aléatoires
 ---
 
-
 ## Activité
-
 
 ![image](./1S-VA-cours-0.jpg)
 
@@ -37,8 +35,8 @@ un joueur à ce jeu.
 **3\. b)** Recopier et compléter le tableau.
 
 | Événement         | $\left( {X = - 2}\right)$ | $\left( {X = - 1} \right)$ | $\left( {X = 1}\right)$ | $\left( {X = 2} \right)$ |
-|-------------------|---------------------------|----------------------------|-------------------------|--------------------------|
-| Issues favorables |                           |                            |                         |                          |                                                     
+| ----------------- | ------------------------- | -------------------------- | ----------------------- | ------------------------ |
+| Issues favorables |                           |                            |                         |                          |
 
 **3\. c)** Calculer la probabilité, notée $P\left( {X
 = - 2} \right)$, que le joueur perde 2 euros.
@@ -72,7 +70,6 @@ connaissance de cause.
 Dans ce cours, on va formaliser tout ceci :
 
 ## Notion de variable aléatoire réelle
-
 
 :::tip Remarque
 
@@ -114,16 +111,14 @@ L'évènement $(X \leq 0)$ est réalisé lorsque le gain est négatif
 
 ## Loi de probabilité d'une variable aléatoire réelle
 
-
 :::tip Remarque
 
 La loi de probabilité d'une variable aléatoire se présente à l'aide d'un
 tableau.
 
-| ${x_i}$                       | ${x_1}$ |  ${x_2}$  | ...  | ${x_n}$  |
-|-------------------------------|---------|-----------|------|----------|
-| $P\left( {X = {x_i}} \right)$ | ${p_1}$ |  ${p_2}$  | ...  | ${p_n}$  |
-
+| ${x_i}$                       | ${x_1}$ | ${x_2}$ | ... | ${x_n}$ |
+| ----------------------------- | ------- | ------- | --- | ------- |
+| $P\left( {X = {x_i}} \right)$ | ${p_1}$ | ${p_2}$ | ... | ${p_n}$ |
 
 On a $P\left( {X = {x_1}} \right) + P\left( {X = {x_2}} \right) +
 ... + P\left( {X = {x_n}} \right) = 1$.
@@ -136,16 +131,15 @@ On a $P\left( {X = {x_1}} \right) + P\left( {X = {x_2}} \right) +
 
 :::exercice Exercice 1:
 
-Une urne contient cinq jetons indiscernables au toucher numérotés de 1 à
-5.
+Une urne contient cinq jetons indiscernables au toucher numérotés de 1 à 5.
 
 Un joueur participe à la loterie en payant 2 €, ce qui lui donne le
 droit de prélever au hasard un jeton dans l'urne.
 
--   Si le numéro est pair, il gagne en euros le double de la valeur
-    indiquée par le jeton.
+- Si le numéro est pair, il gagne en euros le double de la valeur
+  indiquée par le jeton.
 
--   Si le numéro est impair, il perd sa mise.
+- Si le numéro est impair, il perd sa mise.
 
 Soit $X$ la variable aléatoire égale au \"gain algébrique\".
 
@@ -179,7 +173,7 @@ $P\left( {X = 6} \right) = \dfrac{1}{5}$.
 
 On présente la **loi de probabilité** de $X$ dans un tableau.
 
-| ${x_i}$                       | $- 2$          |              2 |              6 |
+| ${x_i}$                       | $- 2$          | 2              | 6              |
 | ----------------------------- | -------------- | -------------- | -------------- |
 | $P\left( {X = {x_i}} \right)$ | $\dfrac{3}{5}$ | $\dfrac{1}{5}$ | $\dfrac{1}{5}$ |
 
@@ -187,13 +181,11 @@ On présente la **loi de probabilité** de $X$ dans un tableau.
 
 ## Espérance, variance et écart-type
 
-
 Dans cette partie, $X$ est une variable aléatoire réelle définie sur un
 univers $\Omega$ prenant les valeurs $x_1$​, $x_2$​, \..., $x_r$​ avec
 les probabilités respectives $p_1$​, $p_2$​, \..., $p_r$​.
 
 ### Espérance d'une variable aléatoire
-
 
 :::tip Remarque
 
@@ -208,11 +200,9 @@ fois.
 La loi de probabilité d'une variable aléatoire $X$ est donnée ci-dessous
 :
 
-| ${x_i}$                       | $-2$          |              1  | 4              |
-|-------------------------------|---------------|-----------------|----------------|
-| $P\left( {X = {x_i}} \right)$ | $\frac{1}{6}$ |  $\frac{1}{2}$  | $\frac{1}{3}​$  |
-
-
+| ${x_i}$                       | $-2$          | 1             | 4              |
+| ----------------------------- | ------------- | ------------- | -------------- |
+| $P\left( {X = {x_i}} \right)$ | $\frac{1}{6}$ | $\frac{1}{2}$ | $\frac{1}{3}​$ |
 
 On a
 $E(X)=−2 \times \frac{1}{6}​+1 \times \frac{1}{2}​+4 \times \frac{1}{3}​=\frac{3}{2}​$.
@@ -222,7 +212,7 @@ $\frac{3}{2}$​.
 
 :::tip Remarque
 
-*Démonstration à faire plus tard*
+_Démonstration à faire plus tard_
 
 :::
 
@@ -233,10 +223,9 @@ $\frac{3}{2}$​.
 Soit X une variable aléatoire dont on donne la loi de probabilité dans
 le tableau suivant. Calculer et interpréter $E(X)$.
 
-| ${x_i}$                       | $-2$          |              1  | 4              |
-|-------------------------------|---------------|-----------------|----------------|
-| $P\left( {X = {x_i}} \right)$ | 0,2           |  0,5            | 0,3            |
-
+| ${x_i}$                       | $-2$ | 1   | 4   |
+| ----------------------------- | ---- | --- | --- |
+| $P\left( {X = {x_i}} \right)$ | 0,2  | 0,5 | 0,3 |
 
 :::
 
@@ -260,7 +249,6 @@ la valeur moyenne de $X$ est $1,3$.
 </Solution>
 
 ### Variance et écart-type d'une variable aléatoire
-
 
 :::tip Remarque
 
@@ -289,20 +277,20 @@ Soit $X$ une variable aléatoire dont on donne la loi de probabilité dans
 le tableau suivant. Calculer la variance et l'écart-type de la variable
 aléatoire $X$.
 
-| ${x_i}$                       | $-2$          |              1  | 4              |
-|-------------------------------|---------------|-----------------|----------------|
-| $P\left( {X = {x_i}} \right)$ | 0,2           |  0,5            | 0,3            |
+| ${x_i}$                       | $-2$ | 1   | 4   |
+| ----------------------------- | ---- | --- | --- |
+| $P\left( {X = {x_i}} \right)$ | 0,2  | 0,5 | 0,3 |
 
 :::
 
 **Méthode:**
 
--   On applique la formule du cours en remplaçant les $x_i$​ par les
-    valeurs prises par la variable aléatoire $X$ et les $p_i$​ par les
-    probabilités correspondantes.
+- On applique la formule du cours en remplaçant les $x_i$​ par les
+  valeurs prises par la variable aléatoire $X$ et les $p_i$​ par les
+  probabilités correspondantes.
 
--   L'écart-type s'obtient simplement en calculant la racine carrée de
-    la variance
+- L'écart-type s'obtient simplement en calculant la racine carrée de
+  la variance
 
 <ClientOnly><Solution>
 
@@ -317,7 +305,6 @@ D'où $\sigma(X)=\sqrt{V(X)}=\sqrt{4,41}=2,1$
 </Solution>
 
 ## Simulation d'une variable aléatoire
-
 
 Un jeu consiste à lancer $n$ fois deux dés parfaitement équilibrés.
 
@@ -348,30 +335,30 @@ Que constate-t-on ?
 
 **2\.** Recopier et compléter le tableau à double entrée.
 
-|   | 1  | 2    | 3 | 4 | 5 | 6 |
-|---|----|------|---|---|---|---|
-| 1 | +5 | $-1$ |   |   |   |   |
-| 2 |    |      |   |   |   |   |
-| 3 |    |      |   |   |   |   |
-| 4 |    |      |   |   |   |   |
-| 5 |    |      |   |   |   |   |
-| 6 |    |      |   |   |   |   |
+|     | 1   | 2    | 3   | 4   | 5   | 6   |
+| --- | --- | ---- | --- | --- | --- | --- |
+| 1   | +5  | $-1$ |     |     |     |     |
+| 2   |     |      |     |     |     |     |
+| 3   |     |      |     |     |     |     |
+| 4   |     |      |     |     |     |     |
+| 5   |     |      |     |     |     |     |
+| 6   |     |      |     |     |     |     |
 
 **3\.** Calculer la probabilité $p$ de perdre 1 euro, puis la probabilité
 $q$ de gagner 5 euros à ce jeu.
 
 **4\.** Soit $X$ la variable aléatoire correspondant au gain de ce jeu.
 
--   Quelles sont les valeurs prises par $X$ ?
+- Quelles sont les valeurs prises par $X$ ?
 
--   Donner le tableau de loi de la variable aléatoire $X$ (vous pouvez
-    vous aider de la question précédente)
+- Donner le tableau de loi de la variable aléatoire $X$ (vous pouvez
+  vous aider de la question précédente)
 
--   Calculer l'espérance de $X$
+- Calculer l'espérance de $X$
 
--   Que pensez-vous du gain moyen que peut espérer le joueur sur un
-    grand nombre de parties ? Ce jeu favorise-t-il le joueur ou
-    l'organisateur ?
+- Que pensez-vous du gain moyen que peut espérer le joueur sur un
+  grand nombre de parties ? Ce jeu favorise-t-il le joueur ou
+  l'organisateur ?
 
 <ClientOnly><Solution>
 
@@ -385,9 +372,9 @@ $P(X=-1)=\frac{\text{cas favorables}}{\text{cas possibles}}=\frac{30}{36}=\frac{
 
 Loi de probabilité :
 
-|   $x_i$     |       5       |      $-1$ |
-| ------------ | --------------- | --------------- |
-|  $P(X=x_i)$ |  $\frac{1}{6}$ |  $\frac{5}{6}$ |
+| $x_i$      | 5             | $-1$          |
+| ---------- | ------------- | ------------- |
+| $P(X=x_i)$ | $\frac{1}{6}$ | $\frac{5}{6}$ |
 
 Calcul de l'espérance :
 

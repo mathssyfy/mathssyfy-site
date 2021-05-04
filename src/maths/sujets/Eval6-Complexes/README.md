@@ -65,7 +65,7 @@ On a donc $z_3 = 4\text{e}^{\frac{7\pi}{6}}$.
 D'autre part
 $z_1^2 \times z_2 = \left(\sqrt{2}\text{e}^{\text{i}\frac{\pi}{4}}\right)^2\times 2\text{e}^{\text{i}\frac{2\pi}{3}} = 2\text{e}^{\text{i}\frac{\pi}{2}}\times 2\text{e}^{\frac{2\pi}{3}} = 4 \text{e}^{\text{i}\left(\frac{\pi}{2} + \frac{2\pi}{3}\right)} = 4\text{e}{\text{i}\left(\frac{3\pi}{6}  + \frac{4\pi}{6}\right)} = 4\text{e}^{\text{i}\frac{7\pi}{6}}$.
 
-On a donc $z_3 = z_1^2 \times z_2$. 
+On a donc $z_3 = z_1^2 \times z_2$.
 </Solution>
 
 4\. Le plan complexe est muni d'un repère orthonormé
@@ -123,4 +123,3 @@ Donc $u$ a pour module $2^{3030}$ et argument $\pi$. Donc $u=-2^{3030}$
 On a alors: $\overline{u}^{2020}=\overline{u^{2020}}=-2^{3030}$ et donc
 $u^{2020}+\bar{u}^{2020} = 2\times\left(-2^{3030}\right)= -2^{3031}$
 </Solution>
-
