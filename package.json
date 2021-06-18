@@ -19,7 +19,7 @@
     "markdown-it-container": "^3.0.0",
     "markdown-it-katex-newcommand": "^1.1.1",
     "moment": "^2.27.0",
-    "tailwindcss": "^1.8.3",
+    "tailwindcss": "^2.2.0",
     "vuepress": "^1.5.4",
     "vuepress-plugin-container": "^2.1.5",
     "vuepress-plugin-reading-time": "^0.1.1",
