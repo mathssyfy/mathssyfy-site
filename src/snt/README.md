@@ -44,7 +44,7 @@ Les réseaux sociaux sont des applications basées sur les technologies du Web q
 de mise en relation d'internautes pour ainsi développer des communautés d'intérêts.
 :::
 
-<a href="https://fr.statista.com/infographie/18995/temps-moyen-passe-sur-les-reseaux-sociaux-par-pays/" title="Infographie: Où passe-t-on le plus de temps sur les réseaux sociaux ? | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_18995_temps_moyen_passe_sur_les_reseaux_sociaux_par_pays_n.jpg" alt="Infographie: Où passe-t-on le plus de temps sur les réseaux sociaux ? | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> Vous trouverez plus d'infographie sur <a href="https://fr.statista.com/graphique-du-jour/">Statista</a>
+<a href="https://fr.statista.com/infographie/18995/temps-moyen-passe-sur-les-reseaux-sociaux-par-pays/" title="Infographie: Où passe-t-on le plus de temps sur les réseaux sociaux ? | Statista"><img src="https://cdn.statcdn.com/Infographic/images/normal/18995.jpeg" alt="Infographie: Où passe-t-on le plus de temps sur les réseaux sociaux ? | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> Vous trouverez plus d'infographie sur <a href="https://fr.statista.com/graphique-du-jour/">Statista</a>
 
 ## Les données structurées et leur traitement
 
@@ -55,7 +55,7 @@ Les structurer correctement garantit que l'on puisse les exploiter facilement po
 Cependant, les données non structurées euvent aussi être exploitées, par exemple par les moteurs de recherche.
 :::
 
-<a href="https://fr.statista.com/infographie/17793/quantite-de-donnees-numeriques-creees-dans-le-monde/" title="Infographie: La totalité des données créées dans le monde équivaut à... | Statista"><img src="https://infographic.statista.com/normal/chartoftheday_17793_quantite_de_donnees_numeriques_creees_dans_le_monde_n.jpg" alt="Infographie: La totalité des données créées dans le monde équivaut à... | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> Vous trouverez plus d'infographie sur <a href="https://fr.statista.com/graphique-du-jour/">Statista</a>
+<a href="https://fr.statista.com/infographie/25402/nombre-de-donnees-generees-sur-internet-par-minute/" title="Infographie: Une minute sur Internet en 2021 | Statista"><img src="https://cdn.statcdn.com/Infographic/images/normal/25402.jpeg" alt="Infographie: Une minute sur Internet en 2021 | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:960px;-ms-interpolation-mode: bicubic;"/></a> Vous trouverez plus d'infographie sur <a href="https://fr.statista.com/graphique-du-jour/">Statista</a>
 
 ## Localisation, cartographie et mobilité
 
